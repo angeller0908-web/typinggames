@@ -1,6 +1,6 @@
 /*
   X-Frame-Options: SAMEORIGIN
-  Content-Security-Policy: default-src 'self'; img-src 'self' data: blob:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' https://plausible.io https://pagead2.googlesyndication.com; frame-src 'self' https://html5.gamedistribution.com https://*.itch.io; font-src 'self' data:; connect-src 'self' https://plausible.io
+  Content-Security-Policy: default-src 'self'; img-src 'self' data: blob:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://pagead2.googlesyndication.com; frame-src 'self' https://html5.gamedistribution.com https://*.itch.io; font-src 'self' data:; connect-src 'self' https://www.google-analytics.com https://analytics.google.com https://region1.google-analytics.com
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: interest-cohort=()
   X-Content-Type-Options: nosniff
