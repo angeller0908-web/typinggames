@@ -1,0 +1,22 @@
+{
+  "fruit-typing": ["typing-food", "banana-typing", "chicken-typing", "typing-rain", "typing-frog", "keyboard-zoo"],
+  "truck-typer": ["typing-money", "typing-99", "typing-jets", "typing-food", "typing-swimmer", "mavis-beacon-typing"],
+  "typing-food": ["fruit-typing", "banana-typing", "typing-money", "truck-typer", "typing-swimmer", "chicken-typing"],
+  "chicken-typing": ["keyboard-zoo", "kangaroo-typing", "typing-frog", "fruit-typing", "typing-food", "banana-typing"],
+  "typing-99": ["typing-rain", "mavis-beacon-typing", "dance-mat-typing", "typing-bomb", "truck-typer", "typing-money"],
+  "typing-alien": ["typing-rocket", "asteroid-typing", "typing-of-the-ghosts", "typing-rain", "typing-bomb", "typing-99"],
+  "typing-money": ["truck-typer", "typing-99", "typing-food", "mavis-beacon-typing", "dance-mat-typing", "typing-swimmer"],
+  "banana-typing": ["fruit-typing", "typing-food", "keyboard-zoo", "chicken-typing", "mavis-beacon-typing", "dance-mat-typing"],
+  "keyboard-zoo": ["chicken-typing", "kangaroo-typing", "typing-frog", "banana-typing", "fruit-typing", "typing-food"],
+  "typing-rocket": ["asteroid-typing", "typing-alien", "typing-rain", "typing-of-the-ghosts", "typing-jets", "typing-bomb"],
+  "typing-rain": ["typing-alien", "typing-rocket", "asteroid-typing", "typing-99", "typing-bomb", "typing-of-the-ghosts"],
+  "typing-jets": ["truck-typer", "typing-rocket", "typing-alien", "asteroid-typing", "kangaroo-typing", "chicken-typing"],
+  "kangaroo-typing": ["keyboard-zoo", "chicken-typing", "typing-frog", "typing-jets", "fruit-typing", "typing-swimmer"],
+  "typing-swimmer": ["truck-typer", "typing-food", "typing-money", "typing-jets", "kangaroo-typing", "typing-99"],
+  "mavis-beacon-typing": ["dance-mat-typing", "typing-99", "typing-rain", "banana-typing", "keyboard-zoo", "typing-bomb"],
+  "asteroid-typing": ["typing-rocket", "typing-alien", "typing-of-the-ghosts", "typing-rain", "typing-bomb", "typing-99"],
+  "dance-mat-typing": ["mavis-beacon-typing", "banana-typing", "keyboard-zoo", "typing-99", "typing-rain", "typing-bomb"],
+  "typing-bomb": ["typing-alien", "typing-rain", "typing-of-the-ghosts", "asteroid-typing", "typing-99", "typing-rocket"],
+  "typing-frog": ["chicken-typing", "keyboard-zoo", "kangaroo-typing", "fruit-typing", "banana-typing", "typing-food"],
+  "typing-of-the-ghosts": ["typing-bomb", "typing-alien", "asteroid-typing", "typing-rain", "typing-rocket", "typing-99"]
+}

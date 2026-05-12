@@ -1,0 +1,17 @@
+{
+  "id": "animals",
+  "label": "Animals",
+  "description": "General animal kingdom vocabulary for Typing Frog.",
+  "words": [
+    "frog", "toad", "tadpole", "turtle", "tortoise", "snake", "lizard", "gecko", "iguana", "salamander",
+    "fish", "shark", "whale", "dolphin", "seal", "otter", "beaver", "platypus", "crab", "lobster",
+    "shrimp", "octopus", "squid", "jellyfish", "starfish", "cat", "kitten", "dog", "puppy", "rabbit",
+    "hamster", "guinea", "ferret", "mouse", "rat", "squirrel", "chipmunk", "raccoon", "skunk", "porcupine",
+    "horse", "pony", "donkey", "zebra", "giraffe", "elephant", "rhino", "hippo", "bear", "panda",
+    "lion", "tiger", "leopard", "cheetah", "jaguar", "panther", "wolf", "fox", "coyote", "hyena",
+    "monkey", "gorilla", "chimp", "orangutan", "baboon", "lemur", "sloth", "deer", "moose", "elk",
+    "cow", "bull", "pig", "sheep", "goat", "chicken", "rooster", "duck", "goose", "swan",
+    "eagle", "hawk", "owl", "parrot", "pigeon", "sparrow", "robin", "crow", "raven", "penguin",
+    "butterfly", "bee", "wasp", "ant", "beetle", "spider", "scorpion", "snail", "worm", "centipede"
+  ]
+}

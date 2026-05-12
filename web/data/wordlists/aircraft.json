@@ -1,0 +1,15 @@
+{
+  "id": "aircraft",
+  "label": "Aircraft",
+  "description": "Jets, planes, and aviation vocabulary for Typing Jets.",
+  "words": [
+    "jet", "plane", "airplane", "aircraft", "biplane", "monoplane", "glider", "seaplane", "amphibian", "helicopter",
+    "chopper", "tiltrotor", "drone", "uav", "blimp", "zeppelin", "airship", "balloon", "kite", "rocket",
+    "fighter", "bomber", "interceptor", "trainer", "transport", "airliner", "cargo", "freighter", "tanker", "awacs",
+    "stealth", "supersonic", "subsonic", "hypersonic", "afterburner", "thrust", "wing", "aileron", "elevator", "rudder",
+    "flap", "slat", "spoiler", "cockpit", "canopy", "fuselage", "tailfin", "stabilizer", "propeller", "rotor",
+    "turbine", "engine", "intake", "exhaust", "nozzle", "landing", "gear", "takeoff", "approach", "runway",
+    "taxiway", "hangar", "tarmac", "tower", "control", "radar", "transponder", "altimeter", "compass", "horizon",
+    "pilot", "copilot", "captain", "navigator", "engineer", "crew", "cabin", "galley", "lavatory", "seatbelt"
+  ]
+}

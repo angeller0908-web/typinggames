@@ -1,0 +1,15 @@
+{
+  "id": "zoo-animals",
+  "label": "Zoo Animals",
+  "description": "Common zoo animals for Keyboard Zoo.",
+  "words": [
+    "lion", "tiger", "leopard", "cheetah", "jaguar", "panther", "puma", "lynx", "cougar", "ocelot",
+    "elephant", "rhino", "hippo", "giraffe", "zebra", "antelope", "gazelle", "buffalo", "bison", "yak",
+    "monkey", "ape", "gorilla", "chimp", "orangutan", "baboon", "lemur", "gibbon", "macaque", "marmoset",
+    "bear", "polar", "panda", "grizzly", "black", "brown", "sloth", "wolf", "fox", "coyote",
+    "jackal", "hyena", "raccoon", "otter", "weasel", "badger", "ferret", "skunk", "beaver", "porcupine",
+    "snake", "python", "cobra", "viper", "boa", "anaconda", "iguana", "lizard", "gecko", "chameleon",
+    "turtle", "tortoise", "alligator", "crocodile", "frog", "toad", "salamander", "newt", "axolotl", "shark",
+    "dolphin", "whale", "seal", "walrus", "penguin", "ostrich", "emu", "peacock", "flamingo", "toucan"
+  ]
+}

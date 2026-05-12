@@ -1,0 +1,16 @@
+{
+  "id": "horror",
+  "label": "Horror",
+  "description": "Spooky vocabulary for Typing of the Ghosts. Cartoon-spooky, not graphic.",
+  "words": [
+    "ghost", "spirit", "spook", "specter", "phantom", "wraith", "apparition", "haunt", "haunting", "haunted",
+    "vampire", "werewolf", "zombie", "mummy", "skeleton", "skull", "bone", "grave", "tomb", "crypt",
+    "coffin", "casket", "cemetery", "graveyard", "mausoleum", "cobweb", "spider", "bat", "owl", "raven",
+    "crow", "black", "cat", "broom", "witch", "warlock", "wizard", "spell", "curse", "potion",
+    "cauldron", "scary", "creepy", "eerie", "mystery", "midnight", "shadow", "moonlight", "twilight", "dusk",
+    "dawn", "fog", "mist", "rain", "storm", "thunder", "lightning", "wind", "howl", "scream",
+    "shriek", "whisper", "creak", "shiver", "tremble", "chill", "spine", "spook", "fright", "fear",
+    "panic", "dread", "doom", "hex", "voodoo", "ritual", "seance", "ouija", "mirror", "candle",
+    "lantern", "fireplace", "attic", "basement", "cellar", "manor", "mansion", "castle", "fortress", "dungeon"
+  ]
+}

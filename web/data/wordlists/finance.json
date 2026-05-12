@@ -1,0 +1,19 @@
+{
+  "id": "finance",
+  "label": "Finance",
+  "description": "Personal finance and money vocabulary for Typing Money.",
+  "words": [
+    "money", "cash", "coin", "bill", "dollar", "cent", "penny", "nickel", "dime", "quarter",
+    "wallet", "purse", "savings", "checking", "account", "bank", "credit", "debit", "card", "loan",
+    "mortgage", "interest", "rate", "principal", "balance", "deposit", "withdraw", "transfer", "payment", "invoice",
+    "receipt", "bill", "budget", "expense", "income", "salary", "wage", "tip", "commission", "bonus",
+    "tax", "refund", "audit", "ledger", "balance", "sheet", "asset", "liability", "equity", "stock",
+    "bond", "fund", "portfolio", "index", "share", "dividend", "yield", "return", "capital", "gain",
+    "loss", "broker", "trader", "investor", "market", "bull", "bear", "rally", "crash", "correction",
+    "inflation", "deflation", "recession", "growth", "economy", "currency", "forex", "exchange", "crypto", "bitcoin",
+    "ethereum", "wallet", "ledger", "blockchain", "mining", "staking", "trading", "holding", "lending", "borrowing",
+    "insurance", "premium", "policy", "claim", "deductible", "coverage", "annuity", "pension", "retirement", "ira",
+    "401k", "roth", "trust", "estate", "will", "heir", "inheritance", "donate", "charity", "donor",
+    "philanthropy", "endowment", "scholarship", "grant", "subsidy", "rebate", "discount", "coupon", "sale", "offer"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "space",
+  "label": "Space",
+  "description": "Space, astronomy, and cosmos vocabulary for Typing Rocket / Asteroid Typing.",
+  "words": [
+    "rocket", "shuttle", "capsule", "module", "lander", "rover", "probe", "satellite", "telescope", "antenna",
+    "orbit", "gravity", "thrust", "fuel", "booster", "stage", "payload", "launch", "liftoff", "splashdown",
+    "astronaut", "cosmonaut", "spacewalk", "tether", "airlock", "habitat", "cupola", "module", "station", "iss",
+    "planet", "moon", "asteroid", "comet", "meteor", "meteorite", "starlight", "starshine", "nebula", "galaxy",
+    "cluster", "quasar", "pulsar", "blackhole", "supernova", "nova", "redgiant", "whitedwarf", "neutronstar", "binary",
+    "sun", "mercury", "venus", "earth", "mars", "jupiter", "saturn", "uranus", "neptune", "pluto",
+    "phobos", "deimos", "europa", "titan", "enceladus", "ganymede", "callisto", "io", "triton", "charon",
+    "lightyear", "parsec", "auunit", "lightspeed", "redshift", "blueshift", "wormhole", "horizon", "singularity", "darkmatter",
+    "darkenergy", "exoplanet", "habitable", "telescope", "observatory", "spectrum", "infrared", "ultraviolet", "xray", "gamma",
+    "cosmos", "universe", "multiverse", "ether", "vacuum", "void", "stellar", "lunar", "solar", "celestial"
+  ]
+}

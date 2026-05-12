@@ -1,0 +1,15 @@
+{
+  "id": "water-sports",
+  "label": "Water Sports",
+  "description": "Swimming and water-sport vocabulary for Typing Swimmer.",
+  "words": [
+    "swim", "swimmer", "stroke", "freestyle", "backstroke", "breaststroke", "butterfly", "sidestroke", "doggy", "paddle",
+    "kick", "flutter", "dolphin", "scissor", "frog", "glide", "streamline", "turn", "flip", "touch",
+    "lane", "lap", "length", "pool", "deep", "shallow", "diving", "board", "platform", "springboard",
+    "starting", "block", "race", "relay", "medley", "individual", "team", "heat", "final", "podium",
+    "goggles", "cap", "trunks", "swimsuit", "wetsuit", "fins", "snorkel", "mask", "kickboard", "pullbuoy",
+    "paddle", "tube", "noodle", "lifejacket", "lifeguard", "whistle", "stopwatch", "clock", "record", "personal",
+    "best", "split", "pace", "rhythm", "breath", "exhale", "inhale", "rotation", "catch", "pull",
+    "push", "recovery", "entry", "extension", "kickoff", "wall", "deck", "gutter", "marker", "buoy"
+  ]
+}

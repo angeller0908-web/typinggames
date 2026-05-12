@@ -1,0 +1,712 @@
+[
+  {
+    "slug": "fruit-typing",
+    "title": "Fruit Typing",
+    "keyword": "fruit typing",
+    "searchVolume": 9900,
+    "category": "food-fruit",
+    "difficulty": "beginner",
+    "embed": {
+      "kind": "engine",
+      "mode": "falling-words",
+      "wordlistIds": ["fruits"],
+      "config": {
+        "durationSec": 90,
+        "spawnRateMs": 1400,
+        "fallSpeedPxSec": 55,
+        "livesAllowed": 3,
+        "scoreUnit": "score",
+        "variant": "fruit"
+      }
+    },
+    "hero": { "tagline": "Type fruit names as they fall before they hit the basket.", "emoji": "🍎" },
+    "theme": {
+      "palette": "fruit",
+      "accent": "#e11d48",
+      "accent2": "#16a34a",
+      "surface": "#fff7ed",
+      "sprites": "fruit-typing"
+    },
+    "faq": [
+      { "q": "Is Fruit Typing free?", "a": "Yes. It runs in your browser with no signup or download." },
+      { "q": "How many fruits will I type?", "a": "Each 90-second round spawns 40–60 fruit words from a hand-picked list of 120." },
+      { "q": "Can children play it?", "a": "Yes. The word list uses common fruit names from grade-school vocabulary." }
+    ],
+    "related": ["typing-food", "banana-typing", "chicken-typing", "typing-rain", "typing-frog", "keyboard-zoo"],
+    "publishedAt": "2026-05-12",
+    "updatedAt": "2026-05-12"
+  },
+  {
+    "slug": "truck-typer",
+    "title": "Truck Typer",
+    "keyword": "truck typer",
+    "searchVolume": 3600,
+    "category": "vehicles",
+    "difficulty": "intermediate",
+    "embed": {
+      "kind": "engine",
+      "mode": "classic-time",
+      "wordlistIds": ["vehicles"],
+      "config": {
+        "durationSec": 60,
+        "scoreUnit": "kph",
+        "variant": "kph-truck"
+      }
+    },
+    "hero": { "tagline": "Type truck and vehicle words while watching your KPH like a real dispatcher.", "emoji": "🚚" },
+    "theme": {
+      "palette": "truck",
+      "accent": "#b45309",
+      "accent2": "#1d4ed8",
+      "surface": "#fef3c7",
+      "sprites": "truck-typer"
+    },
+    "faq": [
+      { "q": "What is KPH?", "a": "Keystrokes Per Hour. Call-center and data-entry jobs measure it instead of WPM because it counts numbers and symbols." },
+      { "q": "How does KPH convert to WPM?", "a": "Rough rule: 60 WPM ≈ 12,000–15,000 KPH for ordinary English text." },
+      { "q": "Is this realistic for dispatcher practice?", "a": "It uses logistics vocabulary, but real dispatching also requires numbers and codes — practice those separately." }
+    ],
+    "related": ["typing-money", "typing-99", "typing-jets", "typing-food", "typing-swimmer", "mavis-beacon-typing"],
+    "publishedAt": "2026-05-12",
+    "updatedAt": "2026-05-12"
+  },
+  {
+    "slug": "typing-food",
+    "title": "Typing Food",
+    "keyword": "typing food",
+    "searchVolume": 3600,
+    "category": "food-fruit",
+    "difficulty": "beginner",
+    "embed": {
+      "kind": "engine",
+      "mode": "classic-time",
+      "wordlistIds": ["foods"],
+      "config": {
+        "durationSec": 60,
+        "scoreUnit": "wpm",
+        "variant": "food-deliver"
+      }
+    },
+    "hero": { "tagline": "Each word you type delivers a dish. Beat the dinner rush.", "emoji": "🍜" },
+    "theme": {
+      "palette": "food",
+      "accent": "#dc2626",
+      "accent2": "#fbbf24",
+      "surface": "#fff7ed",
+      "sprites": "typing-food"
+    },
+    "faq": [
+      { "q": "Is the word list international?", "a": "Yes — sushi, tacos, pasta, biryani and more, 130 dishes total." },
+      { "q": "How long is a round?", "a": "60 seconds. You can replay instantly." },
+      { "q": "Does it teach spelling?", "a": "It helps with food-word spelling muscle memory but is not a structured spelling course." }
+    ],
+    "related": ["fruit-typing", "banana-typing", "typing-money", "truck-typer", "typing-swimmer", "chicken-typing"],
+    "publishedAt": "2026-05-12",
+    "updatedAt": "2026-05-12"
+  },
+  {
+    "slug": "chicken-typing",
+    "title": "Chicken Typing",
+    "keyword": "chicken typing",
+    "searchVolume": 1300,
+    "category": "animals",
+    "difficulty": "beginner",
+    "embed": {
+      "kind": "engine",
+      "mode": "spawn-targets",
+      "wordlistIds": ["farm-animals"],
+      "config": {
+        "durationSec": 75,
+        "spawnRateMs": 1800,
+        "livesAllowed": 3,
+        "scoreUnit": "score",
+        "variant": "chicken"
+      }
+    },
+    "hero": { "tagline": "Chickens wander around the yard. Click one to lock on, then type its name.", "emoji": "🐔" },
+    "theme": {
+      "palette": "chicken",
+      "accent": "#a16207",
+      "accent2": "#dc2626",
+      "surface": "#fef9c3",
+      "sprites": "chicken-typing"
+    },
+    "faq": [
+      { "q": "Why do I have to click first?", "a": "Locking a target makes the game work on phones and rewards fast eye-to-finger handoff." },
+      { "q": "Are the words just chicken names?", "a": "No — barn, coop, rooster, hatchling, and 80 more farm-yard words." },
+      { "q": "Good for kids?", "a": "Yes, especially 6–10. The pace is forgiving." }
+    ],
+    "related": ["keyboard-zoo", "kangaroo-typing", "typing-frog", "fruit-typing", "typing-food", "banana-typing"],
+    "publishedAt": "2026-05-12",
+    "updatedAt": "2026-05-12"
+  },
+  {
+    "slug": "typing-99",
+    "title": "Typing 99",
+    "keyword": "typing 99",
+    "searchVolume": 1300,
+    "category": "speed-test",
+    "difficulty": "advanced",
+    "embed": {
+      "kind": "engine",
+      "mode": "classic-words",
+      "wordlistIds": ["common-en"],
+      "config": {
+        "wordCount": 99,
+        "scoreUnit": "wpm",
+        "variant": "endurance-99"
+      }
+    },
+    "hero": { "tagline": "Exactly 99 words. No timer pressure — just endurance and accuracy.", "emoji": "💯" },
+    "theme": {
+      "palette": "minimal",
+      "accent": "#0f172a",
+      "accent2": "#6366f1",
+      "surface": "#ffffff",
+      "sprites": "typing-99"
+    },
+    "faq": [
+      { "q": "Why 99 words?", "a": "Long enough to expose fatigue and bad habits; short enough to retry in 90 seconds." },
+      { "q": "Does it save my best?", "a": "Your personal best is stored locally in your browser." },
+      { "q": "Can I change the word list?", "a": "Not in v1. It uses a fixed 1,000-word common-English list to keep scores comparable." }
+    ],
+    "related": ["typing-rain", "mavis-beacon-typing", "dance-mat-typing", "typing-bomb", "truck-typer", "typing-money"],
+    "publishedAt": "2026-05-12",
+    "updatedAt": "2026-05-12"
+  },
+  {
+    "slug": "typing-alien",
+    "title": "Typing Alien",
+    "keyword": "typing alien",
+    "searchVolume": 1000,
+    "category": "space",
+    "difficulty": "intermediate",
+    "embed": {
+      "kind": "engine",
+      "mode": "falling-words",
+      "wordlistIds": ["space", "sci-fi"],
+      "config": {
+        "durationSec": 120,
+        "spawnRateMs": 1100,
+        "fallSpeedPxSec": 70,
+        "livesAllowed": 3,
+        "scoreUnit": "score",
+        "variant": "alien"
+      }
+    },
+    "hero": { "tagline": "Alien waves invade in 5 stages — each stage faster than the last, with a boss long-word at the end.", "emoji": "👾" },
+    "theme": {
+      "palette": "space",
+      "accent": "#22d3ee",
+      "accent2": "#a78bfa",
+      "surface": "#0b1020",
+      "sprites": "typing-alien"
+    },
+    "faq": [
+      { "q": "How many stages?", "a": "Five. The boss word is at least 12 letters long." },
+      { "q": "What is the difference vs Typing Rocket?", "a": "Rocket goes upward and unlocks levels. Alien spawns downward with multi-wave timing." },
+      { "q": "Is there an end?", "a": "Beat all five stages and you get a final score; otherwise lives run out." }
+    ],
+    "related": ["typing-rocket", "asteroid-typing", "typing-of-the-ghosts", "typing-rain", "typing-bomb", "typing-99"],
+    "publishedAt": "2026-05-12",
+    "updatedAt": "2026-05-12"
+  },
+  {
+    "slug": "typing-money",
+    "title": "Typing Money",
+    "keyword": "typing money",
+    "searchVolume": 1000,
+    "category": "money-pro",
+    "difficulty": "intermediate",
+    "embed": {
+      "kind": "engine",
+      "mode": "classic-time",
+      "wordlistIds": ["finance"],
+      "config": {
+        "durationSec": 60,
+        "scoreUnit": "money",
+        "variant": "money-counter"
+      }
+    },
+    "hero": { "tagline": "Every correct word adds $ to your running total. Type fast, earn more.", "emoji": "💰" },
+    "theme": {
+      "palette": "money",
+      "accent": "#16a34a",
+      "accent2": "#facc15",
+      "surface": "#f0fdf4",
+      "sprites": "typing-money"
+    },
+    "faq": [
+      { "q": "What is the dollar value per word?", "a": "Word length × 10 cents. Longer words pay more." },
+      { "q": "Is this a real finance simulation?", "a": "No. It uses finance vocabulary but the cash counter is purely for fun and motivation." },
+      { "q": "Where does the word list come from?", "a": "Common finance and personal-budget terms — 120 words covering banking, investing, and everyday money." }
+    ],
+    "related": ["truck-typer", "typing-99", "typing-food", "mavis-beacon-typing", "dance-mat-typing", "typing-swimmer"],
+    "publishedAt": "2026-05-12",
+    "updatedAt": "2026-05-12"
+  },
+  {
+    "slug": "banana-typing",
+    "title": "Banana Typing",
+    "keyword": "banana typing",
+    "searchVolume": 1000,
+    "category": "food-fruit",
+    "difficulty": "beginner",
+    "embed": {
+      "kind": "engine",
+      "mode": "classic-words",
+      "wordlistIds": ["fruits", "common-en"],
+      "config": {
+        "wordCount": 40,
+        "scoreUnit": "wpm",
+        "variant": "banana-letters"
+      }
+    },
+    "hero": { "tagline": "Every word starts with B. Perfect for absolute beginners.", "emoji": "🍌" },
+    "theme": {
+      "palette": "banana",
+      "accent": "#facc15",
+      "accent2": "#65a30d",
+      "surface": "#fefce8",
+      "sprites": "banana-typing"
+    },
+    "faq": [
+      { "q": "Why only B-words?", "a": "Single-letter focus drills muscle memory for one finger group before mixing keys." },
+      { "q": "How many B-words are there?", "a": "Over 200 in the pool — banana, bridge, bottle, balance, butter, branch and many more." },
+      { "q": "Is this for kids only?", "a": "It is friendly to kids but adults learning touch typing benefit too." }
+    ],
+    "related": ["fruit-typing", "typing-food", "keyboard-zoo", "chicken-typing", "mavis-beacon-typing", "dance-mat-typing"],
+    "publishedAt": "2026-05-12",
+    "updatedAt": "2026-05-12"
+  },
+  {
+    "slug": "keyboard-zoo",
+    "title": "Keyboard Zoo",
+    "keyword": "keyboard zoo",
+    "searchVolume": 1000,
+    "category": "animals",
+    "difficulty": "beginner",
+    "embed": {
+      "kind": "engine",
+      "mode": "spawn-targets",
+      "wordlistIds": ["zoo-animals"],
+      "config": {
+        "durationSec": 75,
+        "spawnRateMs": 1600,
+        "livesAllowed": 3,
+        "scoreUnit": "score",
+        "variant": "zoo"
+      }
+    },
+    "hero": { "tagline": "Animals pop up at zoo enclosures. Type the single letter shown to feed each one.", "emoji": "🦁" },
+    "theme": {
+      "palette": "zoo",
+      "accent": "#15803d",
+      "accent2": "#f97316",
+      "surface": "#ecfccb",
+      "sprites": "keyboard-zoo"
+    },
+    "faq": [
+      { "q": "Is Keyboard Zoo single-letter only?", "a": "Yes — it teaches one key at a time, ideal for kids and absolute beginners." },
+      { "q": "Does it teach correct finger placement?", "a": "The on-screen keyboard highlights which finger to use for each letter." },
+      { "q": "Suitable for which age?", "a": "Ages 4–10 work well; older kids may want Chicken Typing or Banana Typing instead." }
+    ],
+    "related": ["chicken-typing", "kangaroo-typing", "typing-frog", "banana-typing", "fruit-typing", "typing-food"],
+    "publishedAt": "2026-05-12",
+    "updatedAt": "2026-05-12"
+  },
+  {
+    "slug": "typing-rocket",
+    "title": "Typing Rocket",
+    "keyword": "typing rocket",
+    "searchVolume": 720,
+    "category": "space",
+    "difficulty": "intermediate",
+    "embed": {
+      "kind": "engine",
+      "mode": "falling-words",
+      "wordlistIds": ["space"],
+      "config": {
+        "durationSec": 90,
+        "spawnRateMs": 1300,
+        "fallSpeedPxSec": 60,
+        "livesAllowed": 3,
+        "scoreUnit": "score",
+        "variant": "rocket"
+      }
+    },
+    "hero": { "tagline": "Your rocket flies upward — type the target word to clear each altitude.", "emoji": "🚀" },
+    "theme": {
+      "palette": "rocket",
+      "accent": "#f97316",
+      "accent2": "#0ea5e9",
+      "surface": "#0c1426",
+      "sprites": "typing-rocket"
+    },
+    "faq": [
+      { "q": "Why is this upward and not falling?", "a": "Reverse motion adds visual contrast and matches the rocket metaphor — same skill, different feel." },
+      { "q": "Does it have levels?", "a": "Yes — each cleared word unlocks the next altitude with slightly faster spawn." },
+      { "q": "Will I see the same word twice?", "a": "Rarely. The pool is 110 space-themed words." }
+    ],
+    "related": ["asteroid-typing", "typing-alien", "typing-rain", "typing-of-the-ghosts", "typing-jets", "typing-bomb"],
+    "publishedAt": "2026-05-12",
+    "updatedAt": "2026-05-12"
+  },
+  {
+    "slug": "typing-rain",
+    "title": "Typing Rain",
+    "keyword": "typing rain",
+    "searchVolume": 720,
+    "category": "speed-test",
+    "difficulty": "advanced",
+    "embed": {
+      "kind": "engine",
+      "mode": "falling-words",
+      "wordlistIds": ["common-en"],
+      "config": {
+        "durationSec": 90,
+        "spawnRateMs": 900,
+        "fallSpeedPxSec": 75,
+        "livesAllowed": 5,
+        "scoreUnit": "score",
+        "variant": "rain"
+      }
+    },
+    "hero": { "tagline": "Dense word-rain. One typo and the whole word resets — perfectionists only.", "emoji": "🌧️" },
+    "theme": {
+      "palette": "rain",
+      "accent": "#2563eb",
+      "accent2": "#0ea5e9",
+      "surface": "#eff6ff",
+      "sprites": "typing-rain"
+    },
+    "faq": [
+      { "q": "Why does the word reset on a typo?", "a": "It enforces accuracy. Pure speed without accuracy is useless in real typing tasks." },
+      { "q": "Is it harder than Typing Alien?", "a": "Yes. Higher word density and zero forgiveness." },
+      { "q": "Can I slow it down?", "a": "Not yet — pace is fixed in v1. We may add difficulty selectors later." }
+    ],
+    "related": ["typing-alien", "typing-rocket", "asteroid-typing", "typing-99", "typing-bomb", "typing-of-the-ghosts"],
+    "publishedAt": "2026-05-12",
+    "updatedAt": "2026-05-12"
+  },
+  {
+    "slug": "typing-jets",
+    "title": "Typing Jets",
+    "keyword": "typing jets",
+    "searchVolume": 590,
+    "category": "vehicles",
+    "difficulty": "intermediate",
+    "embed": {
+      "kind": "engine",
+      "mode": "spawn-targets",
+      "wordlistIds": ["aircraft"],
+      "config": {
+        "durationSec": 90,
+        "spawnRateMs": 1500,
+        "livesAllowed": 4,
+        "scoreUnit": "score",
+        "variant": "jets"
+      }
+    },
+    "hero": { "tagline": "Jets streak across the sky. Tap one to lock, then type its callsign.", "emoji": "✈️" },
+    "theme": {
+      "palette": "jets",
+      "accent": "#0369a1",
+      "accent2": "#94a3b8",
+      "surface": "#e0f2fe",
+      "sprites": "typing-jets"
+    },
+    "faq": [
+      { "q": "How long until I see a jet?", "a": "First spawn is within 2 seconds. Average rate is one jet every 1.5 seconds." },
+      { "q": "Are the callsigns realistic?", "a": "They are short, easy-to-spell jet and aviation words rather than radio callsigns." },
+      { "q": "How is this different from Truck Typer?", "a": "Jets move across the screen — you must aim. Truck Typer is a focus-on-one-word classic test." }
+    ],
+    "related": ["truck-typer", "typing-rocket", "typing-alien", "asteroid-typing", "kangaroo-typing", "chicken-typing"],
+    "publishedAt": "2026-05-12",
+    "updatedAt": "2026-05-12"
+  },
+  {
+    "slug": "kangaroo-typing",
+    "title": "Kangaroo Typing",
+    "keyword": "kangaroo typing",
+    "searchVolume": 590,
+    "category": "animals",
+    "difficulty": "intermediate",
+    "embed": {
+      "kind": "engine",
+      "mode": "spawn-targets",
+      "wordlistIds": ["australian-animals"],
+      "config": {
+        "durationSec": 90,
+        "spawnRateMs": 1500,
+        "livesAllowed": 3,
+        "scoreUnit": "score",
+        "variant": "kangaroo"
+      }
+    },
+    "hero": { "tagline": "Kangaroos hop across the outback in rhythm. Lock one between hops to type its word.", "emoji": "🦘" },
+    "theme": {
+      "palette": "kangaroo",
+      "accent": "#b45309",
+      "accent2": "#f97316",
+      "surface": "#fefce8",
+      "sprites": "kangaroo-typing"
+    },
+    "faq": [
+      { "q": "What is the Australian word list?", "a": "Marsupials, outback features, and Aussie nature words — 90 total." },
+      { "q": "Why the rhythm?", "a": "The hop cadence rewards finger-timing — like Dance Mat Typing but spatial." },
+      { "q": "How does it differ from Keyboard Zoo?", "a": "Zoo is single-letter and stationary. Kangaroo is full words plus motion." }
+    ],
+    "related": ["keyboard-zoo", "chicken-typing", "typing-frog", "typing-jets", "fruit-typing", "typing-swimmer"],
+    "publishedAt": "2026-05-12",
+    "updatedAt": "2026-05-12"
+  },
+  {
+    "slug": "typing-swimmer",
+    "title": "Typing Swimmer",
+    "keyword": "typing swimmer",
+    "searchVolume": 590,
+    "category": "sports",
+    "difficulty": "intermediate",
+    "embed": {
+      "kind": "engine",
+      "mode": "classic-time",
+      "wordlistIds": ["water-sports"],
+      "config": {
+        "durationSec": 60,
+        "scoreUnit": "wpm",
+        "variant": "swim-lane"
+      }
+    },
+    "hero": { "tagline": "Each word stroke moves your swimmer forward. Beat the pool record.", "emoji": "🏊" },
+    "theme": {
+      "palette": "swim",
+      "accent": "#0284c7",
+      "accent2": "#06b6d4",
+      "surface": "#e0f2fe",
+      "sprites": "typing-swimmer"
+    },
+    "faq": [
+      { "q": "Is it like a racing game?", "a": "Yes — your typing speed translates to swimmer progress along the lane." },
+      { "q": "Solo or vs?", "a": "Solo with a ghost record of your best run." },
+      { "q": "Word list?", "a": "80 water-sports words: breaststroke, butterfly, freestyle, kickboard, lane, lap, and more." }
+    ],
+    "related": ["truck-typer", "typing-food", "typing-money", "typing-jets", "kangaroo-typing", "typing-99"],
+    "publishedAt": "2026-05-12",
+    "updatedAt": "2026-05-12"
+  },
+  {
+    "slug": "mavis-beacon-typing",
+    "title": "Mavis Beacon Typing",
+    "keyword": "mavis beacon typing",
+    "searchVolume": 320,
+    "category": "speed-test",
+    "difficulty": "beginner",
+    "embed": {
+      "kind": "engine",
+      "mode": "classic-time",
+      "wordlistIds": ["common-en"],
+      "config": {
+        "durationSec": 60,
+        "scoreUnit": "wpm",
+        "variant": "mavis-staged"
+      }
+    },
+    "hero": { "tagline": "A modern, ad-free homage to the classic Mavis Beacon lesson format — staged finger drills.", "emoji": "⌨️" },
+    "theme": {
+      "palette": "mavis",
+      "accent": "#0f172a",
+      "accent2": "#7c3aed",
+      "surface": "#f8fafc",
+      "sprites": "mavis-beacon-typing"
+    },
+    "faq": [
+      { "q": "Is this the real Mavis Beacon?", "a": "No. It is an inspired browser-only experience. The original Mavis Beacon software is owned by Software MacKiev." },
+      { "q": "What does staged mean?", "a": "Each round focuses on a finger group: home row first, then upper, then numbers." },
+      { "q": "Does it track progress?", "a": "Your last 10 scores are saved locally." }
+    ],
+    "related": ["dance-mat-typing", "typing-99", "typing-rain", "banana-typing", "keyboard-zoo", "typing-bomb"],
+    "publishedAt": "2026-05-12",
+    "updatedAt": "2026-05-12"
+  },
+  {
+    "slug": "asteroid-typing",
+    "title": "Asteroid Typing",
+    "keyword": "asteroid typing",
+    "searchVolume": 260,
+    "category": "space",
+    "difficulty": "advanced",
+    "embed": {
+      "kind": "engine",
+      "mode": "falling-words",
+      "wordlistIds": ["space"],
+      "config": {
+        "durationSec": 90,
+        "spawnRateMs": 1500,
+        "fallSpeedPxSec": 65,
+        "livesAllowed": 3,
+        "scoreUnit": "score",
+        "variant": "asteroid"
+      }
+    },
+    "hero": { "tagline": "Asteroids split on impact. Type a long word and it shatters into two shorter ones.", "emoji": "☄️" },
+    "theme": {
+      "palette": "asteroid",
+      "accent": "#94a3b8",
+      "accent2": "#f59e0b",
+      "surface": "#0c1426",
+      "sprites": "asteroid-typing"
+    },
+    "faq": [
+      { "q": "What is the splitting rule?", "a": "Words 8+ letters break into two roughly half-sized words on first kill." },
+      { "q": "Can splits split again?", "a": "No — second-generation asteroids vanish on a single correct word." },
+      { "q": "Why is this in Space?", "a": "Asteroids belong to the space theme and share the sci-fi word pool with Typing Alien and Typing Rocket." }
+    ],
+    "related": ["typing-rocket", "typing-alien", "typing-of-the-ghosts", "typing-rain", "typing-bomb", "typing-99"],
+    "publishedAt": "2026-05-12",
+    "updatedAt": "2026-05-12"
+  },
+  {
+    "slug": "dance-mat-typing",
+    "title": "Dance Mat Typing",
+    "keyword": "dance mat typing",
+    "searchVolume": 260,
+    "category": "speed-test",
+    "difficulty": "beginner",
+    "embed": {
+      "kind": "engine",
+      "mode": "classic-time",
+      "wordlistIds": ["common-en"],
+      "config": {
+        "durationSec": 90,
+        "scoreUnit": "wpm",
+        "variant": "dance-staged"
+      }
+    },
+    "hero": { "tagline": "A BBC Dance Mat-style staged tutor — A/S first, then ASDF, then the full keyboard.", "emoji": "💃" },
+    "theme": {
+      "palette": "dance",
+      "accent": "#db2777",
+      "accent2": "#22d3ee",
+      "surface": "#fdf2f8",
+      "sprites": "dance-mat-typing"
+    },
+    "faq": [
+      { "q": "Is the original BBC site gone?", "a": "BBC discontinued the original Dance Mat Typing Flash game in 2020. This is a spiritual successor." },
+      { "q": "How many stages?", "a": "Three: home-row keys, upper-row, then full." },
+      { "q": "Good for total beginners?", "a": "Yes — it is the gentlest curve we offer." }
+    ],
+    "related": ["mavis-beacon-typing", "banana-typing", "keyboard-zoo", "typing-99", "typing-rain", "typing-bomb"],
+    "publishedAt": "2026-05-12",
+    "updatedAt": "2026-05-12"
+  },
+  {
+    "slug": "typing-bomb",
+    "title": "Typing Bomb",
+    "keyword": "typing bomb",
+    "searchVolume": 170,
+    "category": "spooky",
+    "difficulty": "intermediate",
+    "embed": {
+      "kind": "engine",
+      "mode": "countdown-defuse",
+      "wordlistIds": ["common-en"],
+      "config": {
+        "durationSec": 60,
+        "spawnRateMs": 2200,
+        "livesAllowed": 1,
+        "scoreUnit": "score",
+        "variant": "bomb"
+      }
+    },
+    "hero": { "tagline": "Multiple bombs tick down at once. Type the defuse code on each before zero.", "emoji": "💣" },
+    "theme": {
+      "palette": "bomb",
+      "accent": "#dc2626",
+      "accent2": "#facc15",
+      "surface": "#0f172a",
+      "sprites": "typing-bomb"
+    },
+    "faq": [
+      { "q": "How is this different from a normal time-attack?", "a": "Each on-screen bomb has its own countdown. You pick which to defuse first." },
+      { "q": "What happens at zero?", "a": "Game over — single life, single mistake fatal." },
+      { "q": "Is the violence cartoonish?", "a": "Yes. Visual style is comic — no realistic depiction." }
+    ],
+    "related": ["typing-alien", "typing-rain", "typing-of-the-ghosts", "asteroid-typing", "typing-99", "typing-rocket"],
+    "publishedAt": "2026-05-12",
+    "updatedAt": "2026-05-12"
+  },
+  {
+    "slug": "typing-frog",
+    "title": "Typing Frog",
+    "keyword": "typing frog",
+    "searchVolume": 140,
+    "category": "animals",
+    "difficulty": "beginner",
+    "embed": {
+      "kind": "engine",
+      "mode": "spawn-targets",
+      "wordlistIds": ["animals"],
+      "config": {
+        "durationSec": 60,
+        "spawnRateMs": 2000,
+        "livesAllowed": 5,
+        "scoreUnit": "score",
+        "variant": "frog"
+      }
+    },
+    "hero": { "tagline": "A patient frog. Targets sit still until you lock and type — pure focus, no panic.", "emoji": "🐸" },
+    "theme": {
+      "palette": "frog",
+      "accent": "#16a34a",
+      "accent2": "#f59e0b",
+      "surface": "#f0fdf4",
+      "sprites": "typing-frog"
+    },
+    "faq": [
+      { "q": "Why are the targets stationary?", "a": "To remove time pressure for kids and beginners — typing-only difficulty." },
+      { "q": "Is the frog animated?", "a": "Yes — a tongue-flick animation plays when you finish each word." },
+      { "q": "Can I speed it up?", "a": "Not yet. It is intentionally the calmest game in the catalog." }
+    ],
+    "related": ["chicken-typing", "keyboard-zoo", "kangaroo-typing", "fruit-typing", "banana-typing", "typing-food"],
+    "publishedAt": "2026-05-12",
+    "updatedAt": "2026-05-12"
+  },
+  {
+    "slug": "typing-of-the-ghosts",
+    "title": "Typing of the Ghosts",
+    "keyword": "typing of the ghosts",
+    "searchVolume": 140,
+    "category": "spooky",
+    "difficulty": "advanced",
+    "embed": {
+      "kind": "engine",
+      "mode": "falling-words",
+      "wordlistIds": ["horror"],
+      "config": {
+        "durationSec": 90,
+        "spawnRateMs": 1200,
+        "fallSpeedPxSec": 50,
+        "livesAllowed": 3,
+        "scoreUnit": "score",
+        "variant": "ghosts"
+      }
+    },
+    "hero": { "tagline": "Ghosts drift toward you and accelerate as your fear meter rises. Type to banish.", "emoji": "👻" },
+    "theme": {
+      "palette": "ghosts",
+      "accent": "#7c3aed",
+      "accent2": "#22d3ee",
+      "surface": "#0b0d1f",
+      "sprites": "typing-of-the-ghosts"
+    },
+    "faq": [
+      { "q": "What is the fear meter?", "a": "Every uncleared ghost above the threshold speeds up the rest. Stay accurate to keep it low." },
+      { "q": "Is this scary?", "a": "Spooky-cute. Cartoon ghosts, no jumpscares." },
+      { "q": "Is it inspired by Typing of the Dead?", "a": "Loosely. The Sega arcade classic inspired the genre — this is a free spiritual nod." }
+    ],
+    "related": ["typing-bomb", "typing-alien", "asteroid-typing", "typing-rain", "typing-rocket", "typing-99"],
+    "publishedAt": "2026-05-12",
+    "updatedAt": "2026-05-12"
+  }
+]

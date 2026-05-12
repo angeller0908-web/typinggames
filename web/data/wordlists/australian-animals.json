@@ -1,0 +1,15 @@
+{
+  "id": "australian-animals",
+  "label": "Australian Animals",
+  "description": "Outback wildlife and Aussie nature vocabulary for Kangaroo Typing.",
+  "words": [
+    "kangaroo", "wallaby", "wombat", "koala", "platypus", "echidna", "dingo", "emu", "kookaburra", "cockatoo",
+    "galah", "kiwi", "quokka", "bilby", "bandicoot", "possum", "sugar", "glider", "numbat", "tasmanian",
+    "devil", "cassowary", "magpie", "rosella", "lorikeet", "wedgetail", "eagle", "currawong", "lyrebird", "bowerbird",
+    "frilled", "lizard", "goanna", "skink", "thorny", "dragon", "carpet", "python", "redback", "funnelweb",
+    "blue", "ringed", "octopus", "stonefish", "barramundi", "great", "white", "shark", "stingray", "saltwater",
+    "crocodile", "freshwater", "reef", "coral", "outback", "bush", "billabong", "creek", "gully", "ridge",
+    "eucalyptus", "wattle", "banksia", "gumtree", "boomerang", "didgeridoo", "dreamtime", "aboriginal", "sydney", "perth",
+    "darwin", "uluru", "barossa", "kimberley", "tasmania", "victoria", "outback", "tropical", "desert", "rainforest"
+  ]
+}

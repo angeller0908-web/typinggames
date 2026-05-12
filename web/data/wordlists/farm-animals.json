@@ -1,0 +1,15 @@
+{
+  "id": "farm-animals",
+  "label": "Farm Animals",
+  "description": "Farm and barnyard vocabulary for Chicken Typing.",
+  "words": [
+    "chicken", "rooster", "hen", "chick", "duck", "drake", "duckling", "goose", "gander", "gosling",
+    "cow", "calf", "bull", "ox", "heifer", "steer", "pig", "sow", "boar", "piglet",
+    "sheep", "ram", "ewe", "lamb", "goat", "kid", "billy", "nanny", "horse", "mare",
+    "stallion", "foal", "colt", "filly", "pony", "donkey", "mule", "rabbit", "bunny", "cat",
+    "kitten", "dog", "puppy", "barn", "coop", "stable", "pen", "fence", "gate", "paddock",
+    "pasture", "field", "hay", "straw", "feed", "trough", "saddle", "bridle", "harness", "halter",
+    "milk", "egg", "wool", "fleece", "udder", "beak", "comb", "wattle", "hoof", "snout",
+    "tail", "mane", "fur", "feather", "shed", "loft", "silo", "tractor", "plow", "harvest"
+  ]
+}

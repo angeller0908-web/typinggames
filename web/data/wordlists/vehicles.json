@@ -1,0 +1,16 @@
+{
+  "id": "vehicles",
+  "label": "Vehicles",
+  "description": "Trucks and ground vehicles, biased toward dispatcher and logistics vocabulary.",
+  "words": [
+    "truck", "trailer", "lorry", "semi", "rig", "tractor", "haul", "cargo", "freight", "fleet",
+    "delivery", "shipment", "dispatch", "depot", "warehouse", "loading", "unloading", "pallet", "crate", "box",
+    "axle", "brake", "clutch", "engine", "diesel", "exhaust", "tire", "wheel", "chassis", "cabin",
+    "cab", "sleeper", "bunk", "hood", "bumper", "headlight", "taillight", "mirror", "windshield", "dashboard",
+    "highway", "freeway", "interstate", "route", "exit", "ramp", "merge", "lane", "shoulder", "median",
+    "rest", "weigh", "station", "scale", "permit", "license", "logbook", "manifest", "bill", "ticket",
+    "convoy", "caravan", "tow", "winch", "ramp", "container", "tanker", "flatbed", "dump", "refrigerated",
+    "reefer", "boxtruck", "pickup", "van", "minivan", "shuttle", "bus", "coach", "motorcoach", "rv",
+    "camper", "wagon", "carrier", "transporter", "hauler", "carrier", "lowboy", "logger", "stake", "panel"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "foods",
+  "label": "Foods",
+  "description": "International dishes and everyday foods for the Typing Food delivery game.",
+  "words": [
+    "pizza", "burger", "fries", "salad", "soup", "pasta", "spaghetti", "lasagna", "ravioli", "noodles",
+    "ramen", "udon", "soba", "pho", "curry", "biryani", "kebab", "shawarma", "falafel", "hummus",
+    "taco", "burrito", "quesadilla", "enchilada", "nachos", "guacamole", "salsa", "sushi", "sashimi", "tempura",
+    "teriyaki", "miso", "donburi", "bento", "onigiri", "dumpling", "wonton", "spring", "roll", "potsticker",
+    "stirfry", "kimchi", "bibimbap", "bulgogi", "gimbap", "tteokbokki", "samosa", "naan", "tikka", "masala",
+    "vindaloo", "korma", "biriyani", "paneer", "pakora", "chutney", "raita", "pakora", "lassi", "chai",
+    "steak", "chicken", "fish", "shrimp", "lobster", "crab", "oyster", "clam", "scallop", "mussel",
+    "salmon", "tuna", "trout", "cod", "tilapia", "bass", "pork", "lamb", "duck", "turkey",
+    "rice", "bread", "toast", "bagel", "muffin", "croissant", "donut", "scone", "biscuit", "pancake",
+    "waffle", "omelette", "frittata", "quiche", "porridge", "cereal", "oatmeal", "granola", "yogurt", "cheese",
+    "butter", "jam", "honey", "syrup", "sugar", "salt", "pepper", "garlic", "ginger", "onion",
+    "carrot", "potato", "tomato", "broccoli", "spinach", "lettuce", "cucumber", "celery", "mushroom", "pumpkin",
+    "icecream", "gelato", "sorbet", "cake", "pie", "tart", "cookie", "brownie", "pudding", "mousse"
+  ]
+}

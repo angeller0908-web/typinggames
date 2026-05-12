@@ -1,0 +1,17 @@
+{
+  "id": "fruits",
+  "label": "Fruits",
+  "description": "Common fruit names from around the world, suitable for kids and adults.",
+  "words": [
+    "apple", "banana", "cherry", "grape", "lemon", "lime", "mango", "melon", "orange", "papaya",
+    "peach", "pear", "plum", "berry", "kiwi", "guava", "lychee", "fig", "date", "raisin",
+    "apricot", "avocado", "blackberry", "blueberry", "cantaloupe", "coconut", "cranberry", "currant", "dragonfruit", "durian",
+    "elderberry", "gooseberry", "grapefruit", "honeydew", "jackfruit", "kumquat", "mandarin", "mulberry", "nectarine", "olive",
+    "passionfruit", "persimmon", "pineapple", "pomegranate", "quince", "raspberry", "starfruit", "strawberry", "tangerine", "tomato",
+    "watermelon", "boysenberry", "loganberry", "rambutan", "soursop", "tamarind", "ackee", "breadfruit", "cherimoya", "feijoa",
+    "jujube", "longan", "mangosteen", "medlar", "miraclefruit", "physalis", "plantain", "salak", "sapodilla", "ugli",
+    "yuzu", "blackcurrant", "redcurrant", "whitecurrant", "cloudberry", "dewberry", "huckleberry", "lingonberry", "salmonberry", "serviceberry",
+    "yam", "rhubarb", "carambola", "pawpaw", "loquat", "horned", "cupuacu", "santol", "marula", "akebia",
+    "cempedak", "marang", "yangmei", "buddha", "longgan", "kiwano", "noni", "cocoplum", "atemoya", "guarana"
+  ]
+}

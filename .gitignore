@@ -49,8 +49,11 @@ next-env.d.ts
 
 # Local data
 data/local/
+keyword-research/
 *.sqlite
 *.db
+CLAUDE.md
+
 
 # Vercel
 .vercel

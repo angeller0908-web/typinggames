@@ -1,0 +1,15 @@
+{
+  "id": "sci-fi",
+  "label": "Sci-Fi",
+  "description": "Sci-fi vocabulary blended with space for Typing Alien.",
+  "words": [
+    "alien", "invader", "mothership", "saucer", "ufo", "extraterrestrial", "android", "robot", "cyborg", "drone",
+    "laser", "blaster", "phaser", "plasma", "ion", "beam", "shield", "deflector", "warp", "hyperdrive",
+    "wormhole", "portal", "stargate", "teleport", "hologram", "scanner", "tricorder", "console", "viewscreen", "bridge",
+    "captain", "ensign", "commander", "engineer", "pilot", "navigator", "science", "officer", "communicator", "transponder",
+    "cloak", "stealth", "intercept", "evasive", "maneuver", "starfighter", "battlecruiser", "destroyer", "frigate", "carrier",
+    "colony", "outpost", "settlement", "terraform", "habitat", "biosphere", "dyson", "sphere", "ringworld", "megastructure",
+    "quantum", "neutrino", "antimatter", "tachyon", "graviton", "photon", "phaseshift", "subspace", "hyperspace", "etherweb",
+    "telepath", "psionic", "esper", "mutant", "clone", "replica", "synth", "bioform", "xenoform", "lifeform"
+  ]
+}
