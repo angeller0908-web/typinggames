@@ -4,6 +4,7 @@ import { SITE } from "@/lib/site";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { ConsentBanner } from "@/components/layout/ConsentBanner";
+import { GoogleAnalytics } from "@/components/analytics/GoogleAnalytics";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
@@ -26,6 +27,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Header />
         <main className="mx-auto max-w-site px-4 sm:px-6 lg:px-8 min-h-[60vh]">{children}</main>
         <Footer />
+        <GoogleAnalytics />
         <ConsentBanner />
       </body>
     </html>
