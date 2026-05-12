@@ -1,13 +1,9 @@
 import type { Metadata } from "next";
-import { Inter, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import { SITE } from "@/lib/site";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { ConsentBanner } from "@/components/layout/ConsentBanner";
-
-const inter = Inter({ subsets: ["latin"], display: "swap", variable: "--font-sans" });
-const mono = JetBrains_Mono({ subsets: ["latin"], display: "swap", variable: "--font-mono" });
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
@@ -25,7 +21,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${inter.variable} ${mono.variable}`}>
+    <html lang="en">
       <body>
         <Header />
         <main className="mx-auto max-w-site px-4 sm:px-6 lg:px-8 min-h-[60vh]">{children}</main>
