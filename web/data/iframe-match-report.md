@@ -1,6 +1,6 @@
-# Iframe Match Report: GameMonetize
+# Iframe Match Report: GamePix
 
-Feed records: 33
+Feed records: 46
 Candidates: 84
 
 ## High (0)
@@ -11,18 +11,11 @@ Candidates: 84
 | Keyword | Current slug | Best score | Best feed title | Embed URL |
 |---|---|---:|---|---|
 
-## Low (7)
+## Low (0)
 | Keyword | Current slug | Best score | Best feed title | Embed URL |
 |---|---|---:|---|---|
-| russian typing practice | `/game/cyrillic-snow-typer/` | 57 | Hidden Word Puzzle | https://html5.gamemonetize.co/60ugltw0ffycu97l5f742t58a57mckpf/ |
-| art of typing | `/game/typing-gallery/` | 57 | Diy Keyboard Game | https://html5.gamemonetize.co/7bn6wcfjuk3deuetqel6cp6keecskrwj/ |
-| what is considered a fast typing speed | `/game/fast-speed-ladder/` | 60 | Word Match 3D | https://html5.gamemonetize.co/m27uyguq2k1men8en9f2hckdoytglv9g/ |
-| best typing games for kids | `/game/kids-typing-playground/` | 60 | Christmas Capital Letters | https://html5.gamemonetize.co/x3nwi19s3d4bfflzgwzkso9lqopade4a/ |
-| alphabet typing test | `/game/alphabet-rocket/` | 60 | Merge Letters ; Merge Alphabet | https://html5.gamemonetize.co/6yq9ylwfrf0iw31agpef39qdt1vkm7k4/ |
-| space typing game | `/game/space-patrol-typer/` | 65 | Word Safari | https://html5.gamemonetize.co/0njrzkkitzt7u8o1i78yekyatxkgtmev/ |
-| best typing games | `/game/typing-game-arcade/` | 57 | 3D Racing Typing Game | https://html5.gamemonetize.co/wtmy1hk5nob7j0znq0ypwoz9tricgilg/ |
 
-## None (77)
+## None (84)
 | Keyword | Current slug | Best score | Best feed title | Embed URL |
 |---|---|---:|---|---|
 | typing practice books | `/game/book-stack-typer/` | 0 |  |  |
@@ -54,6 +47,7 @@ Candidates: 84
 | what letter does pokemon games start with when typing | `/game/pocket-letter-guess/` | 0 |  |  |
 | medical scribe typing test | `/game/scribe-shift/` | 0 |  |  |
 | finger exerciser | `/game/finger-gym/` | 0 |  |  |
+| russian typing practice | `/game/cyrillic-snow-typer/` | 0 |  |  |
 | typing of the ghosts game | `/game/ghost-hall-typer/` | 0 |  |  |
 | what is a 10 key | `/game/10-key-trainer/` | 0 |  |  |
 | custom typing test | `/game/custom-boss-typing/` | 0 |  |  |
@@ -79,7 +73,9 @@ Candidates: 84
 | typing speed test in 10 minutes | `/game/10-minute-endurance-run/` | 0 |  |  |
 | space typing game 2000s | `/game/retro-space-typer/` | 0 |  |  |
 | spanish typewriter | `/game/spanish-typewriter-desk/` | 0 |  |  |
+| art of typing | `/game/typing-gallery/` | 0 |  |  |
 | dvorak key layout | `/game/dvorak-switch-quest/` | 0 |  |  |
+| what is considered a fast typing speed | `/game/fast-speed-ladder/` | 0 |  |  |
 | dr typing | `/game/doctor-typing-clinic/` | 0 |  |  |
 | 10 key test | `/game/10-key-cashier/` | 0 |  |  |
 | tutor monster | `/game/tutor-monster-battle/` | 0 |  |  |
@@ -98,7 +94,11 @@ Candidates: 84
 | mavis beacon teaches typing online game | `/game/beacon-online-challenge/` | 0 |  |  |
 | typing and data entry test | `/game/data-entry-warehouse/` | 0 |  |  |
 | good typing wpm | `/game/good-wpm-ladder/` | 0 |  |  |
+| best typing games for kids | `/game/kids-typing-playground/` | 0 |  |  |
 | korean typing practice | `/game/korean-practice-garden/` | 0 |  |  |
+| alphabet typing test | `/game/alphabet-rocket/` | 0 |  |  |
 | typing games for 2nd graders | `/game/2nd-grade-word-park/` | 0 |  |  |
 | games like nitro type | `/game/nitro-like-race/` | 0 |  |  |
+| space typing game | `/game/space-patrol-typer/` | 0 |  |  |
 | hindi typing test | `/game/hindi-script-sprint/` | 0 |  |  |
+| best typing games | `/game/typing-game-arcade/` | 0 |  |  |

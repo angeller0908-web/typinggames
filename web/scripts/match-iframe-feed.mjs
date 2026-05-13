@@ -315,10 +315,16 @@ function extractIframeSrc(html) {
 }
 
 function providerUrlAsEmbed(url, provider) {
-  if (!url || !/gamemonetize/i.test(provider)) return undefined;
+  if (!url) return undefined;
   try {
     const parsed = new URL(url);
-    if (parsed.hostname === "html5.gamemonetize.co" || parsed.hostname === "html5.gamemonetize.com") {
+    if (
+      /gamemonetize/i.test(provider) &&
+      (parsed.hostname === "html5.gamemonetize.co" || parsed.hostname === "html5.gamemonetize.com")
+    ) {
+      return parsed.toString();
+    }
+    if (/gamepix/i.test(provider) && parsed.hostname === "play.gamepix.com" && parsed.pathname.endsWith("/embed")) {
       return parsed.toString();
     }
   } catch {

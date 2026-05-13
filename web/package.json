@@ -5,12 +5,14 @@
   "scripts": {
     "dev": "next dev",
     "build:og": "node scripts/build-og.mjs",
+    "build:ads": "node scripts/update-ads-txt.mjs",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
     "match:iframes": "node scripts/match-iframe-feed.mjs",
     "fetch:gamemonetize": "node scripts/fetch-gamemonetize-feed.mjs",
+    "fetch:gamepix": "node scripts/fetch-gamepix-feed.mjs",
     "scan:iframes": "node scripts/fetch-gamemonetize-feed.mjs --strategy discover --num 100 --threshold 55"
   },
   "dependencies": {

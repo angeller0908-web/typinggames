@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-05-13T07:26:41.160Z",
-  "provider": "GameMonetize",
-  "feed": "data/provider-feeds/gamemonetize-discover.json",
+  "generatedAt": "2026-05-13T12:43:14.194Z",
+  "provider": "GamePix",
+  "feed": "data/provider-feeds/gamepix-word.json",
   "totalCandidates": 84,
-  "totalFeedRecords": 33,
+  "totalFeedRecords": 46,
   "threshold": 55,
   "apply": false,
   "buckets": {
     "high": 0,
     "medium": 0,
-    "low": 7,
-    "none": 77
+    "low": 0,
+    "none": 84
   },
   "matches": [
     {
@@ -18,7 +18,7 @@
       "slug": "book-stack-typer",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Book Stack Typer",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -27,7 +27,7 @@
       "slug": "911-dispatch-rush",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "911 Dispatch Rush",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -36,7 +36,7 @@
       "slug": "asteroid-splitter",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Asteroid Splitter",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -45,7 +45,7 @@
       "slug": "kana-lane-typing",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Kana Lane Typing",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -54,7 +54,7 @@
       "slug": "dispatcher-call-queue",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Dispatcher Call Queue",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -63,7 +63,7 @@
       "slug": "muscle-memory-maze",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Muscle Memory Maze",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -72,7 +72,7 @@
       "slug": "pangram-sprint",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Pangram Sprint",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -81,7 +81,7 @@
       "slug": "kph-cargo-terminal",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "KPH Cargo Terminal",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -90,7 +90,7 @@
       "slug": "code-crate-sort",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Code Crate Sort",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -99,7 +99,7 @@
       "slug": "radio-code-typer",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Radio Code Typer",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -108,7 +108,7 @@
       "slug": "page-turner-typing",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Page Turner Typing",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -117,7 +117,7 @@
       "slug": "test-center-dash",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Test Center Dash",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -126,7 +126,7 @@
       "slug": "certificate-challenge",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Certificate Challenge",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -135,7 +135,7 @@
       "slug": "60-wpm-gate",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "60 WPM Gate",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -144,7 +144,7 @@
       "slug": "location-clerk-typer",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Location Clerk Typer",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -153,7 +153,7 @@
       "slug": "custom-arena",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Custom Arena",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -162,7 +162,7 @@
       "slug": "urdu-script-sprint",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Urdu Script Sprint",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -171,7 +171,7 @@
       "slug": "fair-race-typer",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Fair Race Typer",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -180,7 +180,7 @@
       "slug": "library-typing-quest",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Library Typing Quest",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -189,7 +189,7 @@
       "slug": "layout-quest",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Layout Quest",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -198,7 +198,7 @@
       "slug": "beginner-keyboard-builder",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Beginner Keyboard Builder",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -207,7 +207,7 @@
       "slug": "wrist-rest-balance",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Wrist Rest Balance",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -216,7 +216,7 @@
       "slug": "clinic-transcript-typer",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Clinic Transcript Typer",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -225,7 +225,7 @@
       "slug": "right-hand-rescue",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Right Hand Rescue",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -234,7 +234,7 @@
       "slug": "rule-builder-typing",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Rule Builder Typing",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -243,7 +243,7 @@
       "slug": "spanish-fiesta-typer",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Spanish Fiesta Typer",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -252,7 +252,7 @@
       "slug": "pocket-letter-guess",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Pocket Letter Guess",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -261,7 +261,7 @@
       "slug": "scribe-shift",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Scribe Shift",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -270,7 +270,7 @@
       "slug": "finger-gym",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Finger Gym",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -279,34 +279,16 @@
       "slug": "cyrillic-snow-typer",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Cyrillic Snow Typer",
-      "provider": "GameMonetize",
-      "bestScore": 57,
-      "matches": [
-        {
-          "score": 57,
-          "title": "Hidden Word Puzzle",
-          "embedUrl": "https://html5.gamemonetize.co/60ugltw0ffycu97l5f742t58a57mckpf/",
-          "playUrl": "https://html5.gamemonetize.co/60ugltw0ffycu97l5f742t58a57mckpf/",
-          "thumbnail": "https://img.gamemonetize.com/60ugltw0ffycu97l5f742t58a57mckpf/512x384.jpg",
-          "categories": [
-            "Puzzle"
-          ],
-          "tags": [
-            "1 Player",
-            "2025 games",
-            "Best Games",
-            "Puzzle"
-          ],
-          "legalStatus": "provider-html5-url"
-        }
-      ]
+      "provider": "GamePix",
+      "bestScore": 0,
+      "matches": []
     },
     {
       "keyword": "typing of the ghosts game",
       "slug": "ghost-hall-typer",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Ghost Hall Typer",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -315,7 +297,7 @@
       "slug": "10-key-trainer",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "10-Key Trainer",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -324,7 +306,7 @@
       "slug": "custom-boss-typing",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Custom Boss Typing",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -333,7 +315,7 @@
       "slug": "khmer-glyph-drop",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Khmer Glyph Drop",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -342,7 +324,7 @@
       "slug": "certificate-speed-trial",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Certificate Speed Trial",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -351,7 +333,7 @@
       "slug": "undersea-fry-typer",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Undersea Fry Typer",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -360,7 +342,7 @@
       "slug": "medical-audio-queue",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Medical Audio Queue",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -369,7 +351,7 @@
       "slug": "ghost-chase-typing",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Ghost Chase Typing",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -378,7 +360,7 @@
       "slug": "beacon-lesson-sprint",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Beacon Lesson Sprint",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -387,7 +369,7 @@
       "slug": "minimal-sprint-arena",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Minimal Sprint Arena",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -396,7 +378,7 @@
       "slug": "crew-task-typer",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Crew Task Typer",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -405,7 +387,7 @@
       "slug": "keyboard-museum-typer",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Keyboard Museum Typer",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -414,7 +396,7 @@
       "slug": "clean-text-sprint",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Clean Text Sprint",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -423,7 +405,7 @@
       "slug": "hangul-combo-typer",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Hangul Combo Typer",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -432,7 +414,7 @@
       "slug": "beat-key-typer",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Beat Key Typer",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -441,7 +423,7 @@
       "slug": "typewriter-ribbon-rally",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Typewriter Ribbon Rally",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -450,7 +432,7 @@
       "slug": "spanish-accent-sprint",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Spanish Accent Sprint",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -459,7 +441,7 @@
       "slug": "right-hand-lane",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Right-Hand Lane",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -468,7 +450,7 @@
       "slug": "iceberg-word-slide",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Iceberg Word Slide",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -477,7 +459,7 @@
       "slug": "hangul-practice-path",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Hangul Practice Path",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -486,7 +468,7 @@
       "slug": "lyric-beat-typer",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Lyric Beat Typer",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -495,7 +477,7 @@
       "slug": "support-desk-typer",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Support Desk Typer",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -504,7 +486,7 @@
       "slug": "10-minute-endurance-run",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "10-Minute Endurance Run",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -513,7 +495,7 @@
       "slug": "retro-space-typer",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Retro Space Typer",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -522,7 +504,7 @@
       "slug": "spanish-typewriter-desk",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Spanish Typewriter Desk",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -531,56 +513,16 @@
       "slug": "typing-gallery",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Typing Gallery",
-      "provider": "GameMonetize",
-      "bestScore": 57,
-      "matches": [
-        {
-          "score": 57,
-          "title": "Diy Keyboard Game",
-          "embedUrl": "https://html5.gamemonetize.co/7bn6wcfjuk3deuetqel6cp6keecskrwj/",
-          "playUrl": "https://html5.gamemonetize.co/7bn6wcfjuk3deuetqel6cp6keecskrwj/",
-          "thumbnail": "https://img.gamemonetize.com/7bn6wcfjuk3deuetqel6cp6keecskrwj/512x384.jpg",
-          "categories": [],
-          "tags": [
-            "Boys",
-            "Cute",
-            "Girls",
-            "Kids",
-            "Puzzle"
-          ],
-          "legalStatus": "provider-html5-url"
-        },
-        {
-          "score": 57,
-          "title": "Diy Keyboard",
-          "embedUrl": "https://html5.gamemonetize.co/s0pug74ggzw4v964s3t1owuqea4hdjjy/",
-          "playUrl": "https://html5.gamemonetize.co/s0pug74ggzw4v964s3t1owuqea4hdjjy/",
-          "thumbnail": "https://img.gamemonetize.com/s0pug74ggzw4v964s3t1owuqea4hdjjy/512x384.jpg",
-          "categories": [
-            "Girls"
-          ],
-          "tags": [
-            "Coloring",
-            "Creation",
-            "Cute",
-            "Design",
-            "Drawing",
-            "Fun",
-            "Girls",
-            "HTML5",
-            "Kids",
-            "Mobile"
-          ],
-          "legalStatus": "provider-html5-url"
-        }
-      ]
+      "provider": "GamePix",
+      "bestScore": 0,
+      "matches": []
     },
     {
       "keyword": "dvorak key layout",
       "slug": "dvorak-switch-quest",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Dvorak Switch Quest",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -589,39 +531,16 @@
       "slug": "fast-speed-ladder",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Fast Speed Ladder",
-      "provider": "GameMonetize",
-      "bestScore": 60,
-      "matches": [
-        {
-          "score": 60,
-          "title": "Word Match 3D",
-          "embedUrl": "https://html5.gamemonetize.co/m27uyguq2k1men8en9f2hckdoytglv9g/",
-          "playUrl": "https://html5.gamemonetize.co/m27uyguq2k1men8en9f2hckdoytglv9g/",
-          "thumbnail": "https://img.gamemonetize.com/m27uyguq2k1men8en9f2hckdoytglv9g/512x384.jpg",
-          "categories": [
-            "Puzzle"
-          ],
-          "tags": [
-            "3D",
-            "Brain",
-            "Educational",
-            "Letters",
-            "Logic",
-            "Management",
-            "Matching",
-            "Puzzle",
-            "Word"
-          ],
-          "legalStatus": "provider-html5-url"
-        }
-      ]
+      "provider": "GamePix",
+      "bestScore": 0,
+      "matches": []
     },
     {
       "keyword": "dr typing",
       "slug": "doctor-typing-clinic",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Doctor Typing Clinic",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -630,7 +549,7 @@
       "slug": "10-key-cashier",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "10-Key Cashier",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -639,7 +558,7 @@
       "slug": "tutor-monster-battle",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Tutor Monster Battle",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -648,7 +567,7 @@
       "slug": "certified-trial",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Certified Trial",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -657,7 +576,7 @@
       "slug": "punjabi-word-sprint",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Punjabi Word Sprint",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -666,7 +585,7 @@
       "slug": "sound-desk-typer",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Sound Desk Typer",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -675,7 +594,7 @@
       "slug": "blindfold-typing-quest",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Blindfold Typing Quest",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -684,7 +603,7 @@
       "slug": "nepali-script-climb",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Nepali Script Climb",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -693,7 +612,7 @@
       "slug": "2000s-arcade-typer",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "2000s Arcade Typer",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -702,7 +621,7 @@
       "slug": "medical-ward-typer",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Medical Ward Typer",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -711,7 +630,7 @@
       "slug": "horror-hallway-typer",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Horror Hallway Typer",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -720,7 +639,7 @@
       "slug": "ipad-keyboard-dock",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "iPad Keyboard Dock",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -729,7 +648,7 @@
       "slug": "touch-type-trainer",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Touch Type Trainer",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -738,7 +657,7 @@
       "slug": "home-row-journey",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Home Row Journey",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -747,7 +666,7 @@
       "slug": "garage-theme-typer",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Garage Theme Typer",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -756,7 +675,7 @@
       "slug": "beacon-online-challenge",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Beacon Online Challenge",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -765,7 +684,7 @@
       "slug": "data-entry-warehouse",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Data Entry Warehouse",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -774,7 +693,7 @@
       "slug": "good-wpm-ladder",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Good WPM Ladder",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -783,35 +702,16 @@
       "slug": "kids-typing-playground",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Kids Typing Playground",
-      "provider": "GameMonetize",
-      "bestScore": 60,
-      "matches": [
-        {
-          "score": 60,
-          "title": "Christmas Capital Letters",
-          "embedUrl": "https://html5.gamemonetize.co/x3nwi19s3d4bfflzgwzkso9lqopade4a/",
-          "playUrl": "https://html5.gamemonetize.co/x3nwi19s3d4bfflzgwzkso9lqopade4a/",
-          "thumbnail": "https://img.gamemonetize.com/x3nwi19s3d4bfflzgwzkso9lqopade4a/512x384.jpg",
-          "categories": [
-            "Puzzle"
-          ],
-          "tags": [
-            "Christmas",
-            "HTML5",
-            "Kids",
-            "Letters",
-            "Puzzle"
-          ],
-          "legalStatus": "provider-html5-url"
-        }
-      ]
+      "provider": "GamePix",
+      "bestScore": 0,
+      "matches": []
     },
     {
       "keyword": "korean typing practice",
       "slug": "korean-practice-garden",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Korean Practice Garden",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -820,42 +720,16 @@
       "slug": "alphabet-rocket",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Alphabet Rocket",
-      "provider": "GameMonetize",
-      "bestScore": 60,
-      "matches": [
-        {
-          "score": 60,
-          "title": "Merge Letters ; Merge Alphabet",
-          "embedUrl": "https://html5.gamemonetize.co/6yq9ylwfrf0iw31agpef39qdt1vkm7k4/",
-          "playUrl": "https://html5.gamemonetize.co/6yq9ylwfrf0iw31agpef39qdt1vkm7k4/",
-          "thumbnail": "https://img.gamemonetize.com/6yq9ylwfrf0iw31agpef39qdt1vkm7k4/512x384.jpg",
-          "categories": [
-            "Adventure"
-          ],
-          "tags": [
-            "Cars",
-            "Cartoon",
-            "Cartoon Network",
-            "Jumping",
-            "Race",
-            "Racing",
-            "Simulation",
-            "Simulator",
-            "Street Fighting",
-            "Stunts",
-            "Supercars",
-            "War"
-          ],
-          "legalStatus": "provider-html5-url"
-        }
-      ]
+      "provider": "GamePix",
+      "bestScore": 0,
+      "matches": []
     },
     {
       "keyword": "typing games for 2nd graders",
       "slug": "2nd-grade-word-park",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "2nd Grade Word Park",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -864,7 +738,7 @@
       "slug": "nitro-like-race",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Nitro-Like Race",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -873,38 +747,16 @@
       "slug": "space-patrol-typer",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Space Patrol Typer",
-      "provider": "GameMonetize",
-      "bestScore": 65,
-      "matches": [
-        {
-          "score": 65,
-          "title": "Word Safari",
-          "embedUrl": "https://html5.gamemonetize.co/0njrzkkitzt7u8o1i78yekyatxkgtmev/",
-          "playUrl": "https://html5.gamemonetize.co/0njrzkkitzt7u8o1i78yekyatxkgtmev/",
-          "thumbnail": "https://img.gamemonetize.com/0njrzkkitzt7u8o1i78yekyatxkgtmev/512x384.jpg",
-          "categories": [
-            "Puzzle"
-          ],
-          "tags": [
-            "Ai Games",
-            "Brain",
-            "Family",
-            "free html5 games for your website",
-            "Kids",
-            "Letters",
-            "mapi games",
-            "Word"
-          ],
-          "legalStatus": "provider-html5-url"
-        }
-      ]
+      "provider": "GamePix",
+      "bestScore": 0,
+      "matches": []
     },
     {
       "keyword": "hindi typing test",
       "slug": "hindi-script-sprint",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Hindi Script Sprint",
-      "provider": "GameMonetize",
+      "provider": "GamePix",
       "bestScore": 0,
       "matches": []
     },
@@ -913,77 +765,9 @@
       "slug": "typing-game-arcade",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Typing Game Arcade",
-      "provider": "GameMonetize",
-      "bestScore": 57,
-      "matches": [
-        {
-          "score": 57,
-          "title": "3D Racing Typing Game",
-          "embedUrl": "https://html5.gamemonetize.co/wtmy1hk5nob7j0znq0ypwoz9tricgilg/",
-          "playUrl": "https://html5.gamemonetize.co/wtmy1hk5nob7j0znq0ypwoz9tricgilg/",
-          "thumbnail": "https://img.gamemonetize.com/wtmy1hk5nob7j0znq0ypwoz9tricgilg/512x384.jpg",
-          "categories": [
-            "Racing"
-          ],
-          "tags": [
-            "1 Player",
-            "3D",
-            "3D Games",
-            "Best",
-            "Best Games",
-            "Car",
-            "car tuning",
-            "Cars",
-            "Cartoon",
-            "drift",
-            "Driving",
-            "Supercars",
-            "Typing",
-            "vehicle"
-          ],
-          "legalStatus": "provider-html5-url"
-        },
-        {
-          "score": 57,
-          "title": "Hidden Word Puzzle",
-          "embedUrl": "https://html5.gamemonetize.co/60ugltw0ffycu97l5f742t58a57mckpf/",
-          "playUrl": "https://html5.gamemonetize.co/60ugltw0ffycu97l5f742t58a57mckpf/",
-          "thumbnail": "https://img.gamemonetize.com/60ugltw0ffycu97l5f742t58a57mckpf/512x384.jpg",
-          "categories": [
-            "Puzzle"
-          ],
-          "tags": [
-            "1 Player",
-            "2025 games",
-            "Best Games",
-            "Puzzle"
-          ],
-          "legalStatus": "provider-html5-url"
-        },
-        {
-          "score": 57,
-          "title": "Word Cooking Puzzle",
-          "embedUrl": "https://html5.gamemonetize.co/m4v93ivuc6mqm509elql01q8nbqd7qo8/",
-          "playUrl": "https://html5.gamemonetize.co/m4v93ivuc6mqm509elql01q8nbqd7qo8/",
-          "thumbnail": "https://img.gamemonetize.com/m4v93ivuc6mqm509elql01q8nbqd7qo8/512x384.jpg",
-          "categories": [
-            "Puzzle"
-          ],
-          "tags": [
-            "3D Games",
-            "Best Games",
-            "Brain",
-            "Casual",
-            "Cook",
-            "Cooking",
-            "Educational",
-            "Letters",
-            "Puzzle",
-            "Word"
-          ],
-          "legalStatus": "provider-html5-url"
-        }
-      ]
+      "provider": "GamePix",
+      "bestScore": 0,
+      "matches": []
     }
   ]
 }
