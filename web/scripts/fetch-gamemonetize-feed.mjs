@@ -13,7 +13,8 @@ const maxRetryAfterMs = Number(args["max-retry-after-ms"] ?? 5000);
 const strategy = args.strategy ?? (args.query ? "query" : "discover");
 const candidateSearch = strategy === "exhaustive" || args["candidate-search"] === true || args["candidate-search"] === "true";
 const pages = Number(args.pages ?? (strategy === "latest" ? 20 : 1));
-const num = Number(args.num ?? 100);
+const allMode = args.all === true || args.all === "true" || String(args.num ?? "").toLowerCase() === "all";
+const num = allMode ? undefined : Number(args.num ?? 100);
 const queryParam = args["query-param"] ?? "name";
 const candidatesPath = args.candidates ?? "data/iframe-candidates.json";
 const maxQueries = args["max-queries"] ? Number(args["max-queries"]) : undefined;
@@ -48,6 +49,7 @@ let fetchIndex = 0;
 console.log(`Queries: ${queries.length}`);
 console.log(`Strategy: ${strategy}`);
 console.log(`Pages per query: ${pages}`);
+console.log(`Games per page: ${allMode ? "All" : num}`);
 console.log(`Delay: ${delayMs}ms`);
 
 for (const query of queries) {
@@ -75,6 +77,10 @@ for (const query of queries) {
       }
       console.log(`${rows.length} rows, ${added} new`);
       if (rows.length === 0) break;
+      if (added === 0) {
+        console.log(`No new games on ${label}; stopping this query.`);
+        break;
+      }
     } catch (error) {
       console.log(`failed: ${error.message}`);
     }
@@ -105,7 +111,7 @@ if (match) {
 function feedUrl({ page, num, query, queryParam }) {
   const url = new URL("https://gamemonetize.com/feed.php");
   url.searchParams.set("format", "0");
-  url.searchParams.set("num", String(num));
+  if (num !== undefined) url.searchParams.set("num", String(num));
   url.searchParams.set("page", String(page));
   if (query) url.searchParams.set(queryParam, query);
   return url.toString();

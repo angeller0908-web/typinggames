@@ -5,13 +5,13 @@ import { spawnSync } from "node:child_process";
 
 const ROOT = process.cwd();
 const args = parseArgs(process.argv.slice(2));
-const category = args.category ?? "word";
+const category = args.category === "all" ? undefined : args.category;
 const order = args.order ?? "quality";
-const pages = Number(args.pages ?? 4);
-const pagination = Number(args.pagination ?? 12);
-const sid = String(args.sid ?? 1);
+const pages = Number(args.pages ?? 100);
+const pagination = Number(args.pagination ?? 96);
+const sid = String(args.sid ?? 77187);
 const delayMs = Number(args["delay-ms"] ?? 500);
-const out = args.out ?? "data/provider-feeds/gamepix-word.json";
+const out = args.out ?? (category ? `data/provider-feeds/gamepix-${category}.json` : "data/provider-feeds/gamepix-all.json");
 const match = args.match !== false && args.match !== "false";
 
 await fs.mkdir(path.dirname(path.resolve(ROOT, out)), { recursive: true });
@@ -23,7 +23,7 @@ let nextUrl = feedUrl({ page: 1, pagination, category, order, sid });
 
 for (let page = 1; page <= pages && nextUrl; page += 1) {
   const url = nextUrl;
-  process.stdout.write(`Fetching GamePix ${category} page ${page}/${pages}... `);
+  process.stdout.write(`Fetching GamePix ${category ?? "all"} page ${page}/${pages}... `);
   try {
     const res = await fetch(url, {
       headers: {
@@ -43,7 +43,7 @@ for (let page = 1; page <= pages && nextUrl; page += 1) {
       const key = stableKey(row);
       if (seen.has(key)) continue;
       seen.add(key);
-      all.push({ ...row, _typingrallyCategory: category });
+      all.push({ ...row, _typingrallyCategory: category ?? row.category ?? "all" });
       added += 1;
     }
     console.log(`${rows.length} rows, ${added} new`);
@@ -79,7 +79,7 @@ function feedUrl({ page, pagination, category, order, sid }) {
   const url = new URL("https://feeds.gamepix.com/v2/json");
   url.searchParams.set("page", String(page));
   url.searchParams.set("pagination", String(pagination));
-  url.searchParams.set("category", category);
+  if (category) url.searchParams.set("category", category);
   url.searchParams.set("order", order);
   url.searchParams.set("sid", sid);
   return url.toString();

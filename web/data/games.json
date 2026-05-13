@@ -5404,18 +5404,10 @@
     "category": "kids",
     "difficulty": "beginner",
     "embed": {
-      "kind": "engine",
-      "mode": "spawn-targets",
-      "wordlistIds": [
-        "kids"
-      ],
-      "config": {
-        "durationSec": 75,
-        "scoreUnit": "score",
-        "variant": "kids-playground",
-        "spawnRateMs": 1500,
-        "livesAllowed": 3
-      }
+      "kind": "iframe",
+      "url": "https://html5.gamemonetize.co/pbal5qyjmn4ltptheseal1m5ugifly04/",
+      "provider": "GameMonetize",
+      "aspectRatio": "16:9"
     },
     "hero": {
       "tagline": "A gentle, colorful best typing games for kids game with short words and quick wins.",

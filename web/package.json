@@ -12,7 +12,9 @@
     "typecheck": "tsc --noEmit",
     "match:iframes": "node scripts/match-iframe-feed.mjs",
     "fetch:gamemonetize": "node scripts/fetch-gamemonetize-feed.mjs",
+    "fetch:gamemonetize:all": "node scripts/fetch-gamemonetize-feed.mjs --strategy latest --all --pages 10 --delay-ms 3000 --out data/provider-feeds/gamemonetize-all.json",
     "fetch:gamepix": "node scripts/fetch-gamepix-feed.mjs",
+    "review:gamepix": "node scripts/review-gamepix-candidates.mjs",
     "scan:iframes": "node scripts/fetch-gamemonetize-feed.mjs --strategy discover --num 100 --threshold 55"
   },
   "dependencies": {

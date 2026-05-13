@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-05-13T12:43:14.194Z",
-  "provider": "GamePix",
-  "feed": "data/provider-feeds/gamepix-word.json",
+  "generatedAt": "2026-05-13T14:18:29.476Z",
+  "provider": "GameMonetize",
+  "feed": "data/provider-feeds/gamemonetize-all.json",
   "totalCandidates": 84,
-  "totalFeedRecords": 46,
+  "totalFeedRecords": 16000,
   "threshold": 55,
   "apply": false,
   "buckets": {
     "high": 0,
-    "medium": 0,
-    "low": 0,
-    "none": 84
+    "medium": 1,
+    "low": 17,
+    "none": 66
   },
   "matches": [
     {
@@ -18,7 +18,7 @@
       "slug": "book-stack-typer",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Book Stack Typer",
-      "provider": "GamePix",
+      "provider": "GameMonetize",
       "bestScore": 0,
       "matches": []
     },
@@ -27,7 +27,7 @@
       "slug": "911-dispatch-rush",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "911 Dispatch Rush",
-      "provider": "GamePix",
+      "provider": "GameMonetize",
       "bestScore": 0,
       "matches": []
     },
@@ -36,16 +36,37 @@
       "slug": "asteroid-splitter",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Asteroid Splitter",
-      "provider": "GamePix",
-      "bestScore": 0,
-      "matches": []
+      "provider": "GameMonetize",
+      "bestScore": 60,
+      "matches": [
+        {
+          "score": 60,
+          "title": "mySolar - Build your Planets",
+          "embedUrl": "https://html5.gamemonetize.co/2cpve2jafk68sp04y5uq2yzpoa4x1oae/",
+          "playUrl": "https://html5.gamemonetize.co/2cpve2jafk68sp04y5uq2yzpoa4x1oae/",
+          "thumbnail": "https://img.gamemonetize.com/2cpve2jafk68sp04y5uq2yzpoa4x1oae/512x384.jpg",
+          "categories": [
+            "Shooting"
+          ],
+          "tags": [
+            "Hypercasual",
+            "Physics",
+            "Planet",
+            "Sandbox",
+            "Simulation",
+            "Space",
+            "Unity3D"
+          ],
+          "legalStatus": "provider-html5-url"
+        }
+      ]
     },
     {
       "keyword": "japanese typing practice",
       "slug": "kana-lane-typing",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Kana Lane Typing",
-      "provider": "GamePix",
+      "provider": "GameMonetize",
       "bestScore": 0,
       "matches": []
     },
@@ -54,7 +75,7 @@
       "slug": "dispatcher-call-queue",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Dispatcher Call Queue",
-      "provider": "GamePix",
+      "provider": "GameMonetize",
       "bestScore": 0,
       "matches": []
     },
@@ -63,16 +84,50 @@
       "slug": "muscle-memory-maze",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Muscle Memory Maze",
-      "provider": "GamePix",
-      "bestScore": 0,
-      "matches": []
+      "provider": "GameMonetize",
+      "bestScore": 64,
+      "matches": [
+        {
+          "score": 64,
+          "title": "Lowercase Loops",
+          "embedUrl": "https://html5.gamemonetize.co/r1uxbjssy1w3s1g8zywmkgupxpdkw26k/",
+          "playUrl": "https://html5.gamemonetize.co/r1uxbjssy1w3s1g8zywmkgupxpdkw26k/",
+          "thumbnail": "https://img.gamemonetize.com/r1uxbjssy1w3s1g8zywmkgupxpdkw26k/512x384.jpg",
+          "categories": [
+            "Clicker"
+          ],
+          "tags": [
+            "Brain",
+            "Educational",
+            "Skill"
+          ],
+          "legalStatus": "provider-html5-url"
+        },
+        {
+          "score": 55,
+          "title": "Driving Car City",
+          "embedUrl": "https://html5.gamemonetize.co/3igbjj8kdsikxic6q3adpvza5l441e6h/",
+          "playUrl": "https://html5.gamemonetize.co/3igbjj8kdsikxic6q3adpvza5l441e6h/",
+          "thumbnail": "https://img.gamemonetize.com/3igbjj8kdsikxic6q3adpvza5l441e6h/512x384.jpg",
+          "categories": [
+            "Racing"
+          ],
+          "tags": [
+            "Car",
+            "Casual",
+            "Hypercasual",
+            "Racing"
+          ],
+          "legalStatus": "provider-html5-url"
+        }
+      ]
     },
     {
       "keyword": "the quick brown fox typing test",
       "slug": "pangram-sprint",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Pangram Sprint",
-      "provider": "GamePix",
+      "provider": "GameMonetize",
       "bestScore": 0,
       "matches": []
     },
@@ -81,7 +136,7 @@
       "slug": "kph-cargo-terminal",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "KPH Cargo Terminal",
-      "provider": "GamePix",
+      "provider": "GameMonetize",
       "bestScore": 0,
       "matches": []
     },
@@ -90,7 +145,7 @@
       "slug": "code-crate-sort",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Code Crate Sort",
-      "provider": "GamePix",
+      "provider": "GameMonetize",
       "bestScore": 0,
       "matches": []
     },
@@ -99,7 +154,7 @@
       "slug": "radio-code-typer",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Radio Code Typer",
-      "provider": "GamePix",
+      "provider": "GameMonetize",
       "bestScore": 0,
       "matches": []
     },
@@ -108,7 +163,7 @@
       "slug": "page-turner-typing",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Page Turner Typing",
-      "provider": "GamePix",
+      "provider": "GameMonetize",
       "bestScore": 0,
       "matches": []
     },
@@ -117,7 +172,7 @@
       "slug": "test-center-dash",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Test Center Dash",
-      "provider": "GamePix",
+      "provider": "GameMonetize",
       "bestScore": 0,
       "matches": []
     },
@@ -126,7 +181,7 @@
       "slug": "certificate-challenge",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Certificate Challenge",
-      "provider": "GamePix",
+      "provider": "GameMonetize",
       "bestScore": 0,
       "matches": []
     },
@@ -135,7 +190,7 @@
       "slug": "60-wpm-gate",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "60 WPM Gate",
-      "provider": "GamePix",
+      "provider": "GameMonetize",
       "bestScore": 0,
       "matches": []
     },
@@ -144,7 +199,7 @@
       "slug": "location-clerk-typer",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Location Clerk Typer",
-      "provider": "GamePix",
+      "provider": "GameMonetize",
       "bestScore": 0,
       "matches": []
     },
@@ -153,7 +208,7 @@
       "slug": "custom-arena",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Custom Arena",
-      "provider": "GamePix",
+      "provider": "GameMonetize",
       "bestScore": 0,
       "matches": []
     },
@@ -162,7 +217,7 @@
       "slug": "urdu-script-sprint",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Urdu Script Sprint",
-      "provider": "GamePix",
+      "provider": "GameMonetize",
       "bestScore": 0,
       "matches": []
     },
@@ -171,7 +226,7 @@
       "slug": "fair-race-typer",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Fair Race Typer",
-      "provider": "GamePix",
+      "provider": "GameMonetize",
       "bestScore": 0,
       "matches": []
     },
@@ -180,7 +235,7 @@
       "slug": "library-typing-quest",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Library Typing Quest",
-      "provider": "GamePix",
+      "provider": "GameMonetize",
       "bestScore": 0,
       "matches": []
     },
@@ -189,7 +244,7 @@
       "slug": "layout-quest",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Layout Quest",
-      "provider": "GamePix",
+      "provider": "GameMonetize",
       "bestScore": 0,
       "matches": []
     },
@@ -198,7 +253,7 @@
       "slug": "beginner-keyboard-builder",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Beginner Keyboard Builder",
-      "provider": "GamePix",
+      "provider": "GameMonetize",
       "bestScore": 0,
       "matches": []
     },
@@ -207,7 +262,7 @@
       "slug": "wrist-rest-balance",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Wrist Rest Balance",
-      "provider": "GamePix",
+      "provider": "GameMonetize",
       "bestScore": 0,
       "matches": []
     },
@@ -216,7 +271,7 @@
       "slug": "clinic-transcript-typer",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Clinic Transcript Typer",
-      "provider": "GamePix",
+      "provider": "GameMonetize",
       "bestScore": 0,
       "matches": []
     },
@@ -225,7 +280,7 @@
       "slug": "right-hand-rescue",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Right Hand Rescue",
-      "provider": "GamePix",
+      "provider": "GameMonetize",
       "bestScore": 0,
       "matches": []
     },
@@ -234,25 +289,60 @@
       "slug": "rule-builder-typing",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Rule Builder Typing",
-      "provider": "GamePix",
-      "bestScore": 0,
-      "matches": []
+      "provider": "GameMonetize",
+      "bestScore": 60,
+      "matches": [
+        {
+          "score": 60,
+          "title": "Kart Strop Challenge",
+          "embedUrl": "https://html5.gamemonetize.co/2gqo2x7rbrrv8pw2oa5m09667265lzwq/",
+          "playUrl": "https://html5.gamemonetize.co/2gqo2x7rbrrv8pw2oa5m09667265lzwq/",
+          "thumbnail": "https://img.gamemonetize.com/2gqo2x7rbrrv8pw2oa5m09667265lzwq/512x384.jpg",
+          "categories": [
+            "Clicker"
+          ],
+          "tags": [
+            "Color",
+            "Kart",
+            "Racing"
+          ],
+          "legalStatus": "provider-html5-url"
+        }
+      ]
     },
     {
       "keyword": "spanish typing games",
       "slug": "spanish-fiesta-typer",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Spanish Fiesta Typer",
-      "provider": "GamePix",
-      "bestScore": 0,
-      "matches": []
+      "provider": "GameMonetize",
+      "bestScore": 55,
+      "matches": [
+        {
+          "score": 55,
+          "title": "Minions",
+          "embedUrl": "https://html5.gamemonetize.co/e8vtms061fkbw42sf2m6cq1xz2kvj0sq/",
+          "playUrl": "https://html5.gamemonetize.co/e8vtms061fkbw42sf2m6cq1xz2kvj0sq/",
+          "thumbnail": "https://img.gamemonetize.com/e8vtms061fkbw42sf2m6cq1xz2kvj0sq/512x384.jpg",
+          "categories": [
+            "Puzzle"
+          ],
+          "tags": [
+            "Brain",
+            "Card",
+            "Memory",
+            "Puzzle"
+          ],
+          "legalStatus": "provider-html5-url"
+        }
+      ]
     },
     {
       "keyword": "what letter does pokemon games start with when typing",
       "slug": "pocket-letter-guess",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Pocket Letter Guess",
-      "provider": "GamePix",
+      "provider": "GameMonetize",
       "bestScore": 0,
       "matches": []
     },
@@ -261,7 +351,7 @@
       "slug": "scribe-shift",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Scribe Shift",
-      "provider": "GamePix",
+      "provider": "GameMonetize",
       "bestScore": 0,
       "matches": []
     },
@@ -270,25 +360,68 @@
       "slug": "finger-gym",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Finger Gym",
-      "provider": "GamePix",
-      "bestScore": 0,
-      "matches": []
+      "provider": "GameMonetize",
+      "bestScore": 60,
+      "matches": [
+        {
+          "score": 60,
+          "title": "Rolling The Ball 2022",
+          "embedUrl": "https://html5.gamemonetize.co/b3moimqef7qxccb13ukncjuxta5bv0nw/",
+          "playUrl": "https://html5.gamemonetize.co/b3moimqef7qxccb13ukncjuxta5bv0nw/",
+          "thumbnail": "https://img.gamemonetize.com/b3moimqef7qxccb13ukncjuxta5bv0nw/512x384.jpg",
+          "categories": [
+            "Action"
+          ],
+          "tags": [
+            "1 Player",
+            "3D Games",
+            "Action",
+            "Android",
+            "Arcade",
+            "Ball",
+            "HTML",
+            "HTML5",
+            "Mobile",
+            "Skill",
+            "Unity3D"
+          ],
+          "legalStatus": "provider-html5-url"
+        }
+      ]
     },
     {
       "keyword": "russian typing practice",
       "slug": "cyrillic-snow-typer",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Cyrillic Snow Typer",
-      "provider": "GamePix",
-      "bestScore": 0,
-      "matches": []
+      "provider": "GameMonetize",
+      "bestScore": 57,
+      "matches": [
+        {
+          "score": 57,
+          "title": "Hidden Word Puzzle",
+          "embedUrl": "https://html5.gamemonetize.co/60ugltw0ffycu97l5f742t58a57mckpf/",
+          "playUrl": "https://html5.gamemonetize.co/60ugltw0ffycu97l5f742t58a57mckpf/",
+          "thumbnail": "https://img.gamemonetize.com/60ugltw0ffycu97l5f742t58a57mckpf/512x384.jpg",
+          "categories": [
+            "Puzzle"
+          ],
+          "tags": [
+            "1 Player",
+            "2025 games",
+            "Best Games",
+            "Puzzle"
+          ],
+          "legalStatus": "provider-html5-url"
+        }
+      ]
     },
     {
       "keyword": "typing of the ghosts game",
       "slug": "ghost-hall-typer",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Ghost Hall Typer",
-      "provider": "GamePix",
+      "provider": "GameMonetize",
       "bestScore": 0,
       "matches": []
     },
@@ -297,16 +430,108 @@
       "slug": "10-key-trainer",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "10-Key Trainer",
-      "provider": "GamePix",
-      "bestScore": 0,
-      "matches": []
+      "provider": "GameMonetize",
+      "bestScore": 64,
+      "matches": [
+        {
+          "score": 64,
+          "title": "Bijoy 71 hearts of heroes: War Action Shooting Gam",
+          "embedUrl": "https://html5.gamemonetize.co/m9glwvysvuzm27mmz14na647iokjpsz6/",
+          "playUrl": "https://html5.gamemonetize.co/m9glwvysvuzm27mmz14na647iokjpsz6/",
+          "thumbnail": "https://img.gamemonetize.com/m9glwvysvuzm27mmz14na647iokjpsz6/512x384.jpg",
+          "categories": [
+            "Shooting"
+          ],
+          "tags": [
+            "Action",
+            "Android",
+            "Arcade",
+            "Shoot",
+            "Shooter",
+            "Shooting",
+            "War",
+            "weapons"
+          ],
+          "legalStatus": "provider-html5-url"
+        },
+        {
+          "score": 55,
+          "title": "Kids Math   Easy",
+          "embedUrl": "https://html5.gamemonetize.co/wkwjwbe39rsko3156aqcej0025lvkcxr/",
+          "playUrl": "https://html5.gamemonetize.co/wkwjwbe39rsko3156aqcej0025lvkcxr/",
+          "thumbnail": "https://img.gamemonetize.com/wkwjwbe39rsko3156aqcej0025lvkcxr/512x384.jpg",
+          "categories": [
+            "Puzzle"
+          ],
+          "tags": [
+            "Math",
+            "Puzzle",
+            "Quiz",
+            "Science"
+          ],
+          "legalStatus": "provider-html5-url"
+        },
+        {
+          "score": 55,
+          "title": "Escape Maze Rush",
+          "embedUrl": "https://html5.gamemonetize.co/zyxc23mt9r9xxujgkxw76rpvp2odve9p/",
+          "playUrl": "https://html5.gamemonetize.co/zyxc23mt9r9xxujgkxw76rpvp2odve9p/",
+          "thumbnail": "https://img.gamemonetize.com/zyxc23mt9r9xxujgkxw76rpvp2odve9p/512x384.jpg",
+          "categories": [
+            "Puzzle"
+          ],
+          "tags": [
+            "2D",
+            "Adventure",
+            "Cute",
+            "Kids",
+            "Maze"
+          ],
+          "legalStatus": "provider-html5-url"
+        },
+        {
+          "score": 55,
+          "title": "Simple Fruit Memory",
+          "embedUrl": "https://html5.gamemonetize.co/seqzl58f171fmac9s05qqr5ffhd4dk9g/",
+          "playUrl": "https://html5.gamemonetize.co/seqzl58f171fmac9s05qqr5ffhd4dk9g/",
+          "thumbnail": "https://img.gamemonetize.com/seqzl58f171fmac9s05qqr5ffhd4dk9g/512x384.jpg",
+          "categories": [
+            "Puzzle"
+          ],
+          "tags": [
+            "Fruit",
+            "Memory",
+            "Skill"
+          ],
+          "legalStatus": "provider-html5-url"
+        },
+        {
+          "score": 55,
+          "title": "Bomber Battle Arena",
+          "embedUrl": "https://html5.gamemonetize.co/h4p3svlovf9v52pumpdz0on40ks078fc/",
+          "playUrl": "https://html5.gamemonetize.co/h4p3svlovf9v52pumpdz0on40ks078fc/",
+          "thumbnail": "https://img.gamemonetize.com/h4p3svlovf9v52pumpdz0on40ks078fc/512x384.jpg",
+          "categories": [
+            "Puzzle"
+          ],
+          "tags": [
+            "Arena",
+            "Battle",
+            "Bomb",
+            "Collecting",
+            "Maze",
+            "Monster"
+          ],
+          "legalStatus": "provider-html5-url"
+        }
+      ]
     },
     {
       "keyword": "custom typing test",
       "slug": "custom-boss-typing",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Custom Boss Typing",
-      "provider": "GamePix",
+      "provider": "GameMonetize",
       "bestScore": 0,
       "matches": []
     },
@@ -315,7 +540,7 @@
       "slug": "khmer-glyph-drop",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Khmer Glyph Drop",
-      "provider": "GamePix",
+      "provider": "GameMonetize",
       "bestScore": 0,
       "matches": []
     },
@@ -324,7 +549,7 @@
       "slug": "certificate-speed-trial",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Certificate Speed Trial",
-      "provider": "GamePix",
+      "provider": "GameMonetize",
       "bestScore": 0,
       "matches": []
     },
@@ -333,7 +558,7 @@
       "slug": "undersea-fry-typer",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Undersea Fry Typer",
-      "provider": "GamePix",
+      "provider": "GameMonetize",
       "bestScore": 0,
       "matches": []
     },
@@ -342,7 +567,7 @@
       "slug": "medical-audio-queue",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Medical Audio Queue",
-      "provider": "GamePix",
+      "provider": "GameMonetize",
       "bestScore": 0,
       "matches": []
     },
@@ -351,7 +576,7 @@
       "slug": "ghost-chase-typing",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Ghost Chase Typing",
-      "provider": "GamePix",
+      "provider": "GameMonetize",
       "bestScore": 0,
       "matches": []
     },
@@ -360,7 +585,7 @@
       "slug": "beacon-lesson-sprint",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Beacon Lesson Sprint",
-      "provider": "GamePix",
+      "provider": "GameMonetize",
       "bestScore": 0,
       "matches": []
     },
@@ -369,7 +594,7 @@
       "slug": "minimal-sprint-arena",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Minimal Sprint Arena",
-      "provider": "GamePix",
+      "provider": "GameMonetize",
       "bestScore": 0,
       "matches": []
     },
@@ -378,25 +603,69 @@
       "slug": "crew-task-typer",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Crew Task Typer",
-      "provider": "GamePix",
-      "bestScore": 0,
-      "matches": []
+      "provider": "GameMonetize",
+      "bestScore": 55,
+      "matches": [
+        {
+          "score": 55,
+          "title": "Dr. Tractor Farming",
+          "embedUrl": "https://html5.gamemonetize.co/jfig9z1czqvr1s7jivivs3odgtdmg6zg/",
+          "playUrl": "https://html5.gamemonetize.co/jfig9z1czqvr1s7jivivs3odgtdmg6zg/",
+          "thumbnail": "https://img.gamemonetize.com/jfig9z1czqvr1s7jivivs3odgtdmg6zg/512x384.jpg",
+          "categories": [
+            "Hypercasual"
+          ],
+          "tags": [
+            "3D Games",
+            "Action",
+            "Adventure",
+            "Casual",
+            "Crazy",
+            "Farm",
+            "Fun",
+            "Funny",
+            "Game",
+            "Multiplayer",
+            "New",
+            "Strategy",
+            "Unity3D"
+          ],
+          "legalStatus": "provider-html5-url"
+        }
+      ]
     },
     {
       "keyword": "types of keyboard",
       "slug": "keyboard-museum-typer",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Keyboard Museum Typer",
-      "provider": "GamePix",
-      "bestScore": 0,
-      "matches": []
+      "provider": "GameMonetize",
+      "bestScore": 55,
+      "matches": [
+        {
+          "score": 55,
+          "title": "Airplane Battle9",
+          "embedUrl": "https://html5.gamemonetize.co/az33r2vbdm7bi4ky7g6uihbs1qq2a2u7/",
+          "playUrl": "https://html5.gamemonetize.co/az33r2vbdm7bi4ky7g6uihbs1qq2a2u7/",
+          "thumbnail": "https://img.gamemonetize.com/az33r2vbdm7bi4ky7g6uihbs1qq2a2u7/512x384.jpg",
+          "categories": [
+            "Girls"
+          ],
+          "tags": [
+            "2D",
+            "blocky",
+            "Hypercasual"
+          ],
+          "legalStatus": "provider-html5-url"
+        }
+      ]
     },
     {
       "keyword": "typing test without punctuation",
       "slug": "clean-text-sprint",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Clean Text Sprint",
-      "provider": "GamePix",
+      "provider": "GameMonetize",
       "bestScore": 0,
       "matches": []
     },
@@ -405,7 +674,7 @@
       "slug": "hangul-combo-typer",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Hangul Combo Typer",
-      "provider": "GamePix",
+      "provider": "GameMonetize",
       "bestScore": 0,
       "matches": []
     },
@@ -414,7 +683,7 @@
       "slug": "beat-key-typer",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Beat Key Typer",
-      "provider": "GamePix",
+      "provider": "GameMonetize",
       "bestScore": 0,
       "matches": []
     },
@@ -423,7 +692,7 @@
       "slug": "typewriter-ribbon-rally",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Typewriter Ribbon Rally",
-      "provider": "GamePix",
+      "provider": "GameMonetize",
       "bestScore": 0,
       "matches": []
     },
@@ -432,16 +701,34 @@
       "slug": "spanish-accent-sprint",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Spanish Accent Sprint",
-      "provider": "GamePix",
-      "bestScore": 0,
-      "matches": []
+      "provider": "GameMonetize",
+      "bestScore": 55,
+      "matches": [
+        {
+          "score": 55,
+          "title": "Minions",
+          "embedUrl": "https://html5.gamemonetize.co/e8vtms061fkbw42sf2m6cq1xz2kvj0sq/",
+          "playUrl": "https://html5.gamemonetize.co/e8vtms061fkbw42sf2m6cq1xz2kvj0sq/",
+          "thumbnail": "https://img.gamemonetize.com/e8vtms061fkbw42sf2m6cq1xz2kvj0sq/512x384.jpg",
+          "categories": [
+            "Puzzle"
+          ],
+          "tags": [
+            "Brain",
+            "Card",
+            "Memory",
+            "Puzzle"
+          ],
+          "legalStatus": "provider-html5-url"
+        }
+      ]
     },
     {
       "keyword": "right hand typing practice",
       "slug": "right-hand-lane",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Right-Hand Lane",
-      "provider": "GamePix",
+      "provider": "GameMonetize",
       "bestScore": 0,
       "matches": []
     },
@@ -450,7 +737,7 @@
       "slug": "iceberg-word-slide",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Iceberg Word Slide",
-      "provider": "GamePix",
+      "provider": "GameMonetize",
       "bestScore": 0,
       "matches": []
     },
@@ -459,7 +746,7 @@
       "slug": "hangul-practice-path",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Hangul Practice Path",
-      "provider": "GamePix",
+      "provider": "GameMonetize",
       "bestScore": 0,
       "matches": []
     },
@@ -468,7 +755,7 @@
       "slug": "lyric-beat-typer",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Lyric Beat Typer",
-      "provider": "GamePix",
+      "provider": "GameMonetize",
       "bestScore": 0,
       "matches": []
     },
@@ -477,7 +764,7 @@
       "slug": "support-desk-typer",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Support Desk Typer",
-      "provider": "GamePix",
+      "provider": "GameMonetize",
       "bestScore": 0,
       "matches": []
     },
@@ -486,7 +773,7 @@
       "slug": "10-minute-endurance-run",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "10-Minute Endurance Run",
-      "provider": "GamePix",
+      "provider": "GameMonetize",
       "bestScore": 0,
       "matches": []
     },
@@ -495,7 +782,7 @@
       "slug": "retro-space-typer",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Retro Space Typer",
-      "provider": "GamePix",
+      "provider": "GameMonetize",
       "bestScore": 0,
       "matches": []
     },
@@ -504,7 +791,7 @@
       "slug": "spanish-typewriter-desk",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Spanish Typewriter Desk",
-      "provider": "GamePix",
+      "provider": "GameMonetize",
       "bestScore": 0,
       "matches": []
     },
@@ -513,16 +800,74 @@
       "slug": "typing-gallery",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Typing Gallery",
-      "provider": "GamePix",
-      "bestScore": 0,
-      "matches": []
+      "provider": "GameMonetize",
+      "bestScore": 57,
+      "matches": [
+        {
+          "score": 57,
+          "title": "Word Picture Guesser",
+          "embedUrl": "https://html5.gamemonetize.co/7g01u7rx3gqhfgicvvsnd1pvl3rfhgti/",
+          "playUrl": "https://html5.gamemonetize.co/7g01u7rx3gqhfgicvvsnd1pvl3rfhgti/",
+          "thumbnail": "https://img.gamemonetize.com/7g01u7rx3gqhfgicvvsnd1pvl3rfhgti/512x384.jpg",
+          "categories": [
+            "Arcade"
+          ],
+          "tags": [
+            "Arcade",
+            "Guessing",
+            "Unity3D",
+            "WebGL",
+            "Word"
+          ],
+          "legalStatus": "provider-html5-url"
+        },
+        {
+          "score": 57,
+          "title": "Diy Keyboard Game",
+          "embedUrl": "https://html5.gamemonetize.co/7bn6wcfjuk3deuetqel6cp6keecskrwj/",
+          "playUrl": "https://html5.gamemonetize.co/7bn6wcfjuk3deuetqel6cp6keecskrwj/",
+          "thumbnail": "https://img.gamemonetize.com/7bn6wcfjuk3deuetqel6cp6keecskrwj/512x384.jpg",
+          "categories": [],
+          "tags": [
+            "Boys",
+            "Cute",
+            "Girls",
+            "Kids",
+            "Puzzle"
+          ],
+          "legalStatus": "provider-html5-url"
+        },
+        {
+          "score": 57,
+          "title": "Diy Keyboard",
+          "embedUrl": "https://html5.gamemonetize.co/s0pug74ggzw4v964s3t1owuqea4hdjjy/",
+          "playUrl": "https://html5.gamemonetize.co/s0pug74ggzw4v964s3t1owuqea4hdjjy/",
+          "thumbnail": "https://img.gamemonetize.com/s0pug74ggzw4v964s3t1owuqea4hdjjy/512x384.jpg",
+          "categories": [
+            "Girls"
+          ],
+          "tags": [
+            "Coloring",
+            "Creation",
+            "Cute",
+            "Design",
+            "Drawing",
+            "Fun",
+            "Girls",
+            "HTML5",
+            "Kids",
+            "Mobile"
+          ],
+          "legalStatus": "provider-html5-url"
+        }
+      ]
     },
     {
       "keyword": "dvorak key layout",
       "slug": "dvorak-switch-quest",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Dvorak Switch Quest",
-      "provider": "GamePix",
+      "provider": "GameMonetize",
       "bestScore": 0,
       "matches": []
     },
@@ -531,16 +876,63 @@
       "slug": "fast-speed-ladder",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Fast Speed Ladder",
-      "provider": "GamePix",
-      "bestScore": 0,
-      "matches": []
+      "provider": "GameMonetize",
+      "bestScore": 60,
+      "matches": [
+        {
+          "score": 60,
+          "title": "Word Match 3D",
+          "embedUrl": "https://html5.gamemonetize.co/m27uyguq2k1men8en9f2hckdoytglv9g/",
+          "playUrl": "https://html5.gamemonetize.co/m27uyguq2k1men8en9f2hckdoytglv9g/",
+          "thumbnail": "https://img.gamemonetize.com/m27uyguq2k1men8en9f2hckdoytglv9g/512x384.jpg",
+          "categories": [
+            "Puzzle"
+          ],
+          "tags": [
+            "3D",
+            "Brain",
+            "Educational",
+            "Letters",
+            "Logic",
+            "Management",
+            "Matching",
+            "Puzzle",
+            "Word"
+          ],
+          "legalStatus": "provider-html5-url"
+        },
+        {
+          "score": 57,
+          "title": "tom & jerry jumping",
+          "embedUrl": "https://html5.gamemonetize.co/240zp7xi1w96iabs3vmxynb8zgfv0xt8/",
+          "playUrl": "https://html5.gamemonetize.co/240zp7xi1w96iabs3vmxynb8zgfv0xt8/",
+          "thumbnail": "https://img.gamemonetize.com/240zp7xi1w96iabs3vmxynb8zgfv0xt8/512x384.jpg",
+          "categories": [
+            "Arcade"
+          ],
+          "tags": [
+            ".io Games",
+            "1 Player",
+            "2 Player Games",
+            "2D",
+            "Action",
+            "Adventure",
+            "Arcade",
+            "Batman",
+            "Ben 10",
+            "Cartoon",
+            "Cartoon Network"
+          ],
+          "legalStatus": "provider-html5-url"
+        }
+      ]
     },
     {
       "keyword": "dr typing",
       "slug": "doctor-typing-clinic",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Doctor Typing Clinic",
-      "provider": "GamePix",
+      "provider": "GameMonetize",
       "bestScore": 0,
       "matches": []
     },
@@ -549,16 +941,107 @@
       "slug": "10-key-cashier",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "10-Key Cashier",
-      "provider": "GamePix",
-      "bestScore": 0,
-      "matches": []
+      "provider": "GameMonetize",
+      "bestScore": 64,
+      "matches": [
+        {
+          "score": 64,
+          "title": "Kids Math   Easy",
+          "embedUrl": "https://html5.gamemonetize.co/wkwjwbe39rsko3156aqcej0025lvkcxr/",
+          "playUrl": "https://html5.gamemonetize.co/wkwjwbe39rsko3156aqcej0025lvkcxr/",
+          "thumbnail": "https://img.gamemonetize.com/wkwjwbe39rsko3156aqcej0025lvkcxr/512x384.jpg",
+          "categories": [
+            "Puzzle"
+          ],
+          "tags": [
+            "Math",
+            "Puzzle",
+            "Quiz",
+            "Science"
+          ],
+          "legalStatus": "provider-html5-url"
+        },
+        {
+          "score": 64,
+          "title": "Escape Maze Rush",
+          "embedUrl": "https://html5.gamemonetize.co/zyxc23mt9r9xxujgkxw76rpvp2odve9p/",
+          "playUrl": "https://html5.gamemonetize.co/zyxc23mt9r9xxujgkxw76rpvp2odve9p/",
+          "thumbnail": "https://img.gamemonetize.com/zyxc23mt9r9xxujgkxw76rpvp2odve9p/512x384.jpg",
+          "categories": [
+            "Puzzle"
+          ],
+          "tags": [
+            "2D",
+            "Adventure",
+            "Cute",
+            "Kids",
+            "Maze"
+          ],
+          "legalStatus": "provider-html5-url"
+        },
+        {
+          "score": 64,
+          "title": "Simple Fruit Memory",
+          "embedUrl": "https://html5.gamemonetize.co/seqzl58f171fmac9s05qqr5ffhd4dk9g/",
+          "playUrl": "https://html5.gamemonetize.co/seqzl58f171fmac9s05qqr5ffhd4dk9g/",
+          "thumbnail": "https://img.gamemonetize.com/seqzl58f171fmac9s05qqr5ffhd4dk9g/512x384.jpg",
+          "categories": [
+            "Puzzle"
+          ],
+          "tags": [
+            "Fruit",
+            "Memory",
+            "Skill"
+          ],
+          "legalStatus": "provider-html5-url"
+        },
+        {
+          "score": 64,
+          "title": "Cool Man Adventure",
+          "embedUrl": "https://html5.gamemonetize.co/l97eqobidhids1gdhpa2tnc2qr49azof/",
+          "playUrl": "https://html5.gamemonetize.co/l97eqobidhids1gdhpa2tnc2qr49azof/",
+          "thumbnail": "https://img.gamemonetize.com/l97eqobidhids1gdhpa2tnc2qr49azof/512x384.jpg",
+          "categories": [
+            "Adventure"
+          ],
+          "tags": [
+            "1 Player",
+            "Adventure",
+            "amazing",
+            "Arcade",
+            "Best Games",
+            "html5 games",
+            "Kids"
+          ],
+          "legalStatus": "provider-html5-url"
+        },
+        {
+          "score": 64,
+          "title": "Bomber Battle Arena",
+          "embedUrl": "https://html5.gamemonetize.co/h4p3svlovf9v52pumpdz0on40ks078fc/",
+          "playUrl": "https://html5.gamemonetize.co/h4p3svlovf9v52pumpdz0on40ks078fc/",
+          "thumbnail": "https://img.gamemonetize.com/h4p3svlovf9v52pumpdz0on40ks078fc/512x384.jpg",
+          "categories": [
+            "Puzzle"
+          ],
+          "tags": [
+            "Arena",
+            "Battle",
+            "Bomb",
+            "Collecting",
+            "Maze",
+            "Monster"
+          ],
+          "legalStatus": "provider-html5-url"
+        }
+      ]
     },
     {
       "keyword": "tutor monster",
       "slug": "tutor-monster-battle",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Tutor Monster Battle",
-      "provider": "GamePix",
+      "provider": "GameMonetize",
       "bestScore": 0,
       "matches": []
     },
@@ -567,7 +1050,7 @@
       "slug": "certified-trial",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Certified Trial",
-      "provider": "GamePix",
+      "provider": "GameMonetize",
       "bestScore": 0,
       "matches": []
     },
@@ -576,7 +1059,7 @@
       "slug": "punjabi-word-sprint",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Punjabi Word Sprint",
-      "provider": "GamePix",
+      "provider": "GameMonetize",
       "bestScore": 0,
       "matches": []
     },
@@ -585,7 +1068,7 @@
       "slug": "sound-desk-typer",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Sound Desk Typer",
-      "provider": "GamePix",
+      "provider": "GameMonetize",
       "bestScore": 0,
       "matches": []
     },
@@ -594,7 +1077,7 @@
       "slug": "blindfold-typing-quest",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Blindfold Typing Quest",
-      "provider": "GamePix",
+      "provider": "GameMonetize",
       "bestScore": 0,
       "matches": []
     },
@@ -603,7 +1086,7 @@
       "slug": "nepali-script-climb",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Nepali Script Climb",
-      "provider": "GamePix",
+      "provider": "GameMonetize",
       "bestScore": 0,
       "matches": []
     },
@@ -612,7 +1095,7 @@
       "slug": "2000s-arcade-typer",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "2000s Arcade Typer",
-      "provider": "GamePix",
+      "provider": "GameMonetize",
       "bestScore": 0,
       "matches": []
     },
@@ -621,7 +1104,7 @@
       "slug": "medical-ward-typer",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Medical Ward Typer",
-      "provider": "GamePix",
+      "provider": "GameMonetize",
       "bestScore": 0,
       "matches": []
     },
@@ -630,16 +1113,33 @@
       "slug": "horror-hallway-typer",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Horror Hallway Typer",
-      "provider": "GamePix",
-      "bestScore": 0,
-      "matches": []
+      "provider": "GameMonetize",
+      "bestScore": 55,
+      "matches": [
+        {
+          "score": 55,
+          "title": "Poppy Playtime Full Game",
+          "embedUrl": "https://html5.gamemonetize.co/j4gqfocp3wk3roclpb24wy0ugklge9jg/",
+          "playUrl": "https://html5.gamemonetize.co/j4gqfocp3wk3roclpb24wy0ugklge9jg/",
+          "thumbnail": "https://img.gamemonetize.com/j4gqfocp3wk3roclpb24wy0ugklge9jg/512x384.jpg",
+          "categories": [
+            "Adventure"
+          ],
+          "tags": [
+            "Action",
+            "Adventure",
+            "H5"
+          ],
+          "legalStatus": "provider-html5-url"
+        }
+      ]
     },
     {
       "keyword": "ipad typewriter keyboard",
       "slug": "ipad-keyboard-dock",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "iPad Keyboard Dock",
-      "provider": "GamePix",
+      "provider": "GameMonetize",
       "bestScore": 0,
       "matches": []
     },
@@ -648,16 +1148,32 @@
       "slug": "touch-type-trainer",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Touch Type Trainer",
-      "provider": "GamePix",
-      "bestScore": 0,
-      "matches": []
+      "provider": "GameMonetize",
+      "bestScore": 60,
+      "matches": [
+        {
+          "score": 60,
+          "title": "Piano simulator online",
+          "embedUrl": "https://html5.gamemonetize.co/5f9qej2bjoo8fz7adojidf7vu0rdaqrb/",
+          "playUrl": "https://html5.gamemonetize.co/5f9qej2bjoo8fz7adojidf7vu0rdaqrb/",
+          "thumbnail": "https://img.gamemonetize.com/5f9qej2bjoo8fz7adojidf7vu0rdaqrb/512x384.jpg",
+          "categories": [
+            "Hypercasual"
+          ],
+          "tags": [
+            "1 Player",
+            "Typing"
+          ],
+          "legalStatus": "provider-html5-url"
+        }
+      ]
     },
     {
       "keyword": "how do i learn to touch type",
       "slug": "home-row-journey",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Home Row Journey",
-      "provider": "GamePix",
+      "provider": "GameMonetize",
       "bestScore": 0,
       "matches": []
     },
@@ -666,7 +1182,7 @@
       "slug": "garage-theme-typer",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Garage Theme Typer",
-      "provider": "GamePix",
+      "provider": "GameMonetize",
       "bestScore": 0,
       "matches": []
     },
@@ -675,7 +1191,7 @@
       "slug": "beacon-online-challenge",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Beacon Online Challenge",
-      "provider": "GamePix",
+      "provider": "GameMonetize",
       "bestScore": 0,
       "matches": []
     },
@@ -684,7 +1200,7 @@
       "slug": "data-entry-warehouse",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Data Entry Warehouse",
-      "provider": "GamePix",
+      "provider": "GameMonetize",
       "bestScore": 0,
       "matches": []
     },
@@ -693,7 +1209,7 @@
       "slug": "good-wpm-ladder",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Good WPM Ladder",
-      "provider": "GamePix",
+      "provider": "GameMonetize",
       "bestScore": 0,
       "matches": []
     },
@@ -702,16 +1218,132 @@
       "slug": "kids-typing-playground",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Kids Typing Playground",
-      "provider": "GamePix",
-      "bestScore": 0,
-      "matches": []
+      "provider": "GameMonetize",
+      "bestScore": 70,
+      "matches": [
+        {
+          "score": 70,
+          "title": "Word Challenge",
+          "embedUrl": "https://html5.gamemonetize.co/pbal5qyjmn4ltptheseal1m5ugifly04/",
+          "playUrl": "https://html5.gamemonetize.co/pbal5qyjmn4ltptheseal1m5ugifly04/",
+          "thumbnail": "https://img.gamemonetize.com/pbal5qyjmn4ltptheseal1m5ugifly04/512x384.jpg",
+          "categories": [
+            "Puzzle"
+          ],
+          "tags": [
+            "Best",
+            "Educational",
+            "Fun",
+            "Funny",
+            "HTML5",
+            "Kids",
+            "Letters",
+            "Mobile",
+            "School",
+            "Skill",
+            "Word"
+          ],
+          "legalStatus": "provider-html5-url"
+        },
+        {
+          "score": 70,
+          "title": "Guess the Word",
+          "embedUrl": "https://html5.gamemonetize.co/3085v7qf5dc9n4cp0swdimtb7piopx4h/",
+          "playUrl": "https://html5.gamemonetize.co/3085v7qf5dc9n4cp0swdimtb7piopx4h/",
+          "thumbnail": "https://img.gamemonetize.com/3085v7qf5dc9n4cp0swdimtb7piopx4h/512x384.jpg",
+          "categories": [
+            "Puzzle"
+          ],
+          "tags": [
+            "1 Player",
+            "Best",
+            "Casual",
+            "Fun",
+            "Funny",
+            "Hypercasual",
+            "Kids",
+            "Logic",
+            "Mobile",
+            "Quiz",
+            "Skill",
+            "Word"
+          ],
+          "legalStatus": "provider-html5-url"
+        },
+        {
+          "score": 60,
+          "title": "Ninja Toy Match",
+          "embedUrl": "https://html5.gamemonetize.co/9hjfnixf1o13sen4cnfhzo98yygce81t/",
+          "playUrl": "https://html5.gamemonetize.co/9hjfnixf1o13sen4cnfhzo98yygce81t/",
+          "thumbnail": "https://img.gamemonetize.com/9hjfnixf1o13sen4cnfhzo98yygce81t/512x384.jpg",
+          "categories": [
+            "Puzzle"
+          ],
+          "tags": [
+            "Best Games",
+            "Kids",
+            "Match 3",
+            "Puzzle"
+          ],
+          "legalStatus": "provider-html5-url"
+        },
+        {
+          "score": 60,
+          "title": "Trace: Learn",
+          "embedUrl": "https://html5.gamemonetize.co/a31tnko716tw1v89mmgb514t2c9233vx/",
+          "playUrl": "https://html5.gamemonetize.co/a31tnko716tw1v89mmgb514t2c9233vx/",
+          "thumbnail": "https://img.gamemonetize.com/a31tnko716tw1v89mmgb514t2c9233vx/512x384.jpg",
+          "categories": [
+            "Puzzle"
+          ],
+          "tags": [
+            "2026 games",
+            "amazing",
+            "Best",
+            "Best Games",
+            "Brain",
+            "Design",
+            "Draw",
+            "Games",
+            "Hypercasual",
+            "Letters",
+            "Online",
+            "unity games"
+          ],
+          "legalStatus": "provider-html5-url"
+        },
+        {
+          "score": 60,
+          "title": "Alphabet Count Rush",
+          "embedUrl": "https://html5.gamemonetize.co/hbvt6ecfxfrtu62sm0km7c1gs23be5c2/",
+          "playUrl": "https://html5.gamemonetize.co/hbvt6ecfxfrtu62sm0km7c1gs23be5c2/",
+          "thumbnail": "https://img.gamemonetize.com/hbvt6ecfxfrtu62sm0km7c1gs23be5c2/512x384.jpg",
+          "categories": [
+            "Puzzle"
+          ],
+          "tags": [
+            "2026 games",
+            "Arcade",
+            "Brain",
+            "Educational",
+            "Fun",
+            "Game",
+            "Kids",
+            "Letters",
+            "Number",
+            "Puzzle",
+            "School"
+          ],
+          "legalStatus": "provider-html5-url"
+        }
+      ]
     },
     {
       "keyword": "korean typing practice",
       "slug": "korean-practice-garden",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Korean Practice Garden",
-      "provider": "GamePix",
+      "provider": "GameMonetize",
       "bestScore": 0,
       "matches": []
     },
@@ -720,7 +1352,7 @@
       "slug": "alphabet-rocket",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Alphabet Rocket",
-      "provider": "GamePix",
+      "provider": "GameMonetize",
       "bestScore": 0,
       "matches": []
     },
@@ -729,7 +1361,7 @@
       "slug": "2nd-grade-word-park",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "2nd Grade Word Park",
-      "provider": "GamePix",
+      "provider": "GameMonetize",
       "bestScore": 0,
       "matches": []
     },
@@ -738,7 +1370,7 @@
       "slug": "nitro-like-race",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Nitro-Like Race",
-      "provider": "GamePix",
+      "provider": "GameMonetize",
       "bestScore": 0,
       "matches": []
     },
@@ -747,25 +1379,133 @@
       "slug": "space-patrol-typer",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Space Patrol Typer",
-      "provider": "GamePix",
-      "bestScore": 0,
-      "matches": []
+      "provider": "GameMonetize",
+      "bestScore": 65,
+      "matches": [
+        {
+          "score": 65,
+          "title": "Word Safari",
+          "embedUrl": "https://html5.gamemonetize.co/0njrzkkitzt7u8o1i78yekyatxkgtmev/",
+          "playUrl": "https://html5.gamemonetize.co/0njrzkkitzt7u8o1i78yekyatxkgtmev/",
+          "thumbnail": "https://img.gamemonetize.com/0njrzkkitzt7u8o1i78yekyatxkgtmev/512x384.jpg",
+          "categories": [
+            "Puzzle"
+          ],
+          "tags": [
+            "Ai Games",
+            "Brain",
+            "Family",
+            "free html5 games for your website",
+            "Kids",
+            "Letters",
+            "mapi games",
+            "Word"
+          ],
+          "legalStatus": "provider-html5-url"
+        },
+        {
+          "score": 55,
+          "title": "Merge Brick",
+          "embedUrl": "https://html5.gamemonetize.co/2nhifhovjiz29sa1hc72sutnmr04z3qp/",
+          "playUrl": "https://html5.gamemonetize.co/2nhifhovjiz29sa1hc72sutnmr04z3qp/",
+          "thumbnail": "https://img.gamemonetize.com/2nhifhovjiz29sa1hc72sutnmr04z3qp/512x384.jpg",
+          "categories": [
+            "Puzzle"
+          ],
+          "tags": [
+            "Block",
+            "Casual",
+            "Logic",
+            "swipe"
+          ],
+          "legalStatus": "provider-html5-url"
+        },
+        {
+          "score": 55,
+          "title": "GapGlide",
+          "embedUrl": "https://html5.gamemonetize.co/tsom3b6wdxfkcrrss8svauqzue8bjyny/",
+          "playUrl": "https://html5.gamemonetize.co/tsom3b6wdxfkcrrss8svauqzue8bjyny/",
+          "thumbnail": "https://img.gamemonetize.com/tsom3b6wdxfkcrrss8svauqzue8bjyny/512x384.jpg",
+          "categories": [
+            "Puzzle"
+          ],
+          "tags": [
+            "Ball",
+            "Casual",
+            "Science",
+            "Space"
+          ],
+          "legalStatus": "provider-html5-url"
+        },
+        {
+          "score": 55,
+          "title": "Cosmic Hunt",
+          "embedUrl": "https://html5.gamemonetize.co/g9f69pf62argkjqg6gp1bj2vngru9nvp/",
+          "playUrl": "https://html5.gamemonetize.co/g9f69pf62argkjqg6gp1bj2vngru9nvp/",
+          "thumbnail": "https://img.gamemonetize.com/g9f69pf62argkjqg6gp1bj2vngru9nvp/512x384.jpg",
+          "categories": [
+            "Puzzle"
+          ],
+          "tags": [
+            "Ai Games",
+            "Brain",
+            "Family",
+            "mapi games",
+            "Word"
+          ],
+          "legalStatus": "provider-html5-url"
+        },
+        {
+          "score": 55,
+          "title": "Spatial puzzle",
+          "embedUrl": "https://html5.gamemonetize.co/5ptho1y7arlo1f24n62lpjjm7y65mbge/",
+          "playUrl": "https://html5.gamemonetize.co/5ptho1y7arlo1f24n62lpjjm7y65mbge/",
+          "thumbnail": "https://img.gamemonetize.com/5ptho1y7arlo1f24n62lpjjm7y65mbge/512x384.jpg",
+          "categories": [
+            "Puzzle"
+          ],
+          "tags": [
+            "Matching",
+            "Math",
+            "Puzzle"
+          ],
+          "legalStatus": "provider-html5-url"
+        }
+      ]
     },
     {
       "keyword": "hindi typing test",
       "slug": "hindi-script-sprint",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Hindi Script Sprint",
-      "provider": "GamePix",
-      "bestScore": 0,
-      "matches": []
+      "provider": "GameMonetize",
+      "bestScore": 55,
+      "matches": [
+        {
+          "score": 55,
+          "title": "Minions",
+          "embedUrl": "https://html5.gamemonetize.co/e8vtms061fkbw42sf2m6cq1xz2kvj0sq/",
+          "playUrl": "https://html5.gamemonetize.co/e8vtms061fkbw42sf2m6cq1xz2kvj0sq/",
+          "thumbnail": "https://img.gamemonetize.com/e8vtms061fkbw42sf2m6cq1xz2kvj0sq/512x384.jpg",
+          "categories": [
+            "Puzzle"
+          ],
+          "tags": [
+            "Brain",
+            "Card",
+            "Memory",
+            "Puzzle"
+          ],
+          "legalStatus": "provider-html5-url"
+        }
+      ]
     },
     {
       "keyword": "best typing games",
       "slug": "typing-game-arcade",
       "currentEmbed": "engine",
       "fallbackEngineDesign": "Typing Game Arcade",
-      "provider": "GamePix",
+      "provider": "GameMonetize",
       "bestScore": 0,
       "matches": []
     }
