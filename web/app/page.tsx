@@ -7,7 +7,7 @@ import { FaqJsonLd } from "@/components/seo/FaqJsonLd";
 export const metadata = {
   title: "Free Typing Games — Boost Your WPM, No Download",
   description:
-    "20 hand-crafted typing games. Fruit, racing, space, ghosts, food delivery. No signup. No download. Free forever.",
+    "A growing catalog of hand-crafted typing games. Fruit, racing, space, ghosts, jobs, languages, and more. No signup. No download.",
   alternates: { canonical: SITE.url + "/" },
 };
 
@@ -92,9 +92,10 @@ export default function HomePage() {
           </p>
         </div>
         <div>
-          <h3 className="font-bold mb-1">Original engine</h3>
+          <h3 className="font-bold mb-1">Playable rounds</h3>
           <p className="text-sm text-ink/70">
-            We wrote our own typing engine — no laggy embedded iframes.
+            Most pages use our own typing engine. Legal publisher iframes can be added when
+            a feed provides them.
           </p>
         </div>
       </section>

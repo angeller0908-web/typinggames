@@ -9,7 +9,9 @@
     "embed": {
       "kind": "engine",
       "mode": "falling-words",
-      "wordlistIds": ["fruits"],
+      "wordlistIds": [
+        "fruits"
+      ],
       "config": {
         "durationSec": 90,
         "spawnRateMs": 1400,
@@ -19,7 +21,10 @@
         "variant": "fruit"
       }
     },
-    "hero": { "tagline": "Type fruit names as they fall before they hit the basket.", "emoji": "🍎" },
+    "hero": {
+      "tagline": "Type fruit names as they fall before they hit the basket.",
+      "emoji": "🍎"
+    },
     "theme": {
       "palette": "fruit",
       "accent": "#e11d48",
@@ -28,11 +33,27 @@
       "sprites": "fruit-typing"
     },
     "faq": [
-      { "q": "Is Fruit Typing free?", "a": "Yes. It runs in your browser with no signup or download." },
-      { "q": "How many fruits will I type?", "a": "Each 90-second round spawns 40–60 fruit words from a hand-picked list of 120." },
-      { "q": "Can children play it?", "a": "Yes. The word list uses common fruit names from grade-school vocabulary." }
+      {
+        "q": "Is Fruit Typing free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "How many fruits will I type?",
+        "a": "Each 90-second round spawns 40–60 fruit words from a hand-picked list of 120."
+      },
+      {
+        "q": "Can children play it?",
+        "a": "Yes. The word list uses common fruit names from grade-school vocabulary."
+      }
     ],
-    "related": ["typing-food", "banana-typing", "chicken-typing", "typing-rain", "typing-frog", "keyboard-zoo"],
+    "related": [
+      "typing-food",
+      "banana-typing",
+      "truck-typer",
+      "chicken-typing",
+      "typing-99",
+      "typing-alien"
+    ],
     "publishedAt": "2026-05-12",
     "updatedAt": "2026-05-12"
   },
@@ -46,14 +67,19 @@
     "embed": {
       "kind": "engine",
       "mode": "classic-time",
-      "wordlistIds": ["vehicles"],
+      "wordlistIds": [
+        "vehicles"
+      ],
       "config": {
         "durationSec": 60,
         "scoreUnit": "kph",
         "variant": "kph-truck"
       }
     },
-    "hero": { "tagline": "Type truck and vehicle words while watching your KPH like a real dispatcher.", "emoji": "🚚" },
+    "hero": {
+      "tagline": "Type truck and vehicle words while watching your KPH like a real dispatcher.",
+      "emoji": "🚚"
+    },
     "theme": {
       "palette": "truck",
       "accent": "#b45309",
@@ -62,11 +88,27 @@
       "sprites": "truck-typer"
     },
     "faq": [
-      { "q": "What is KPH?", "a": "Keystrokes Per Hour. Call-center and data-entry jobs measure it instead of WPM because it counts numbers and symbols." },
-      { "q": "How does KPH convert to WPM?", "a": "Rough rule: 60 WPM ≈ 12,000–15,000 KPH for ordinary English text." },
-      { "q": "Is this realistic for dispatcher practice?", "a": "It uses logistics vocabulary, but real dispatching also requires numbers and codes — practice those separately." }
+      {
+        "q": "What is KPH?",
+        "a": "Keystrokes Per Hour. Call-center and data-entry jobs measure it instead of WPM because it counts numbers and symbols."
+      },
+      {
+        "q": "How does KPH convert to WPM?",
+        "a": "Rough rule: 60 WPM ≈ 12,000–15,000 KPH for ordinary English text."
+      },
+      {
+        "q": "Is this realistic for dispatcher practice?",
+        "a": "It uses logistics vocabulary, but real dispatching also requires numbers and codes — practice those separately."
+      }
     ],
-    "related": ["typing-money", "typing-99", "typing-jets", "typing-food", "typing-swimmer", "mavis-beacon-typing"],
+    "related": [
+      "typing-jets",
+      "fair-race-typer",
+      "garage-theme-typer",
+      "nitro-like-race",
+      "fruit-typing",
+      "typing-food"
+    ],
     "publishedAt": "2026-05-12",
     "updatedAt": "2026-05-12"
   },
@@ -80,14 +122,19 @@
     "embed": {
       "kind": "engine",
       "mode": "classic-time",
-      "wordlistIds": ["foods"],
+      "wordlistIds": [
+        "foods"
+      ],
       "config": {
         "durationSec": 60,
         "scoreUnit": "wpm",
         "variant": "food-deliver"
       }
     },
-    "hero": { "tagline": "Each word you type delivers a dish. Beat the dinner rush.", "emoji": "🍜" },
+    "hero": {
+      "tagline": "Each word you type delivers a dish. Beat the dinner rush.",
+      "emoji": "🍜"
+    },
     "theme": {
       "palette": "food",
       "accent": "#dc2626",
@@ -96,11 +143,27 @@
       "sprites": "typing-food"
     },
     "faq": [
-      { "q": "Is the word list international?", "a": "Yes — sushi, tacos, pasta, biryani and more, 130 dishes total." },
-      { "q": "How long is a round?", "a": "60 seconds. You can replay instantly." },
-      { "q": "Does it teach spelling?", "a": "It helps with food-word spelling muscle memory but is not a structured spelling course." }
+      {
+        "q": "Is the word list international?",
+        "a": "Yes — sushi, tacos, pasta, biryani and more, 130 dishes total."
+      },
+      {
+        "q": "How long is a round?",
+        "a": "60 seconds. You can replay instantly."
+      },
+      {
+        "q": "Does it teach spelling?",
+        "a": "It helps with food-word spelling muscle memory but is not a structured spelling course."
+      }
     ],
-    "related": ["fruit-typing", "banana-typing", "typing-money", "truck-typer", "typing-swimmer", "chicken-typing"],
+    "related": [
+      "fruit-typing",
+      "banana-typing",
+      "truck-typer",
+      "chicken-typing",
+      "typing-99",
+      "typing-alien"
+    ],
     "publishedAt": "2026-05-12",
     "updatedAt": "2026-05-12"
   },
@@ -114,7 +177,9 @@
     "embed": {
       "kind": "engine",
       "mode": "spawn-targets",
-      "wordlistIds": ["farm-animals"],
+      "wordlistIds": [
+        "farm-animals"
+      ],
       "config": {
         "durationSec": 75,
         "spawnRateMs": 1800,
@@ -123,7 +188,10 @@
         "variant": "chicken"
       }
     },
-    "hero": { "tagline": "Chickens wander around the yard. Click one to lock on, then type its name.", "emoji": "🐔" },
+    "hero": {
+      "tagline": "Chickens wander around the yard. Click one to lock on, then type its name.",
+      "emoji": "🐔"
+    },
     "theme": {
       "palette": "chicken",
       "accent": "#a16207",
@@ -132,11 +200,27 @@
       "sprites": "chicken-typing"
     },
     "faq": [
-      { "q": "Why do I have to click first?", "a": "Locking a target makes the game work on phones and rewards fast eye-to-finger handoff." },
-      { "q": "Are the words just chicken names?", "a": "No — barn, coop, rooster, hatchling, and 80 more farm-yard words." },
-      { "q": "Good for kids?", "a": "Yes, especially 6–10. The pace is forgiving." }
+      {
+        "q": "Why do I have to click first?",
+        "a": "Locking a target makes the game work on phones and rewards fast eye-to-finger handoff."
+      },
+      {
+        "q": "Are the words just chicken names?",
+        "a": "No — barn, coop, rooster, hatchling, and 80 more farm-yard words."
+      },
+      {
+        "q": "Good for kids?",
+        "a": "Yes, especially 6–10. The pace is forgiving."
+      }
     ],
-    "related": ["keyboard-zoo", "kangaroo-typing", "typing-frog", "fruit-typing", "typing-food", "banana-typing"],
+    "related": [
+      "keyboard-zoo",
+      "kangaroo-typing",
+      "typing-frog",
+      "fruit-typing",
+      "truck-typer",
+      "typing-food"
+    ],
     "publishedAt": "2026-05-12",
     "updatedAt": "2026-05-12"
   },
@@ -150,14 +234,19 @@
     "embed": {
       "kind": "engine",
       "mode": "classic-words",
-      "wordlistIds": ["common-en"],
+      "wordlistIds": [
+        "common-en"
+      ],
       "config": {
         "wordCount": 99,
         "scoreUnit": "wpm",
         "variant": "endurance-99"
       }
     },
-    "hero": { "tagline": "Exactly 99 words. No timer pressure — just endurance and accuracy.", "emoji": "💯" },
+    "hero": {
+      "tagline": "Exactly 99 words. No timer pressure — just endurance and accuracy.",
+      "emoji": "💯"
+    },
     "theme": {
       "palette": "minimal",
       "accent": "#0f172a",
@@ -166,11 +255,27 @@
       "sprites": "typing-99"
     },
     "faq": [
-      { "q": "Why 99 words?", "a": "Long enough to expose fatigue and bad habits; short enough to retry in 90 seconds." },
-      { "q": "Does it save my best?", "a": "Your personal best is stored locally in your browser." },
-      { "q": "Can I change the word list?", "a": "Not in v1. It uses a fixed 1,000-word common-English list to keep scores comparable." }
+      {
+        "q": "Why 99 words?",
+        "a": "Long enough to expose fatigue and bad habits; short enough to retry in 90 seconds."
+      },
+      {
+        "q": "Does it save my best?",
+        "a": "Your personal best is stored locally in your browser."
+      },
+      {
+        "q": "Can I change the word list?",
+        "a": "Not in v1. It uses a fixed 1,000-word common-English list to keep scores comparable."
+      }
     ],
-    "related": ["typing-rain", "mavis-beacon-typing", "dance-mat-typing", "typing-bomb", "truck-typer", "typing-money"],
+    "related": [
+      "typing-rain",
+      "mavis-beacon-typing",
+      "dance-mat-typing",
+      "pangram-sprint",
+      "certificate-challenge",
+      "60-wpm-gate"
+    ],
     "publishedAt": "2026-05-12",
     "updatedAt": "2026-05-12"
   },
@@ -184,7 +289,10 @@
     "embed": {
       "kind": "engine",
       "mode": "falling-words",
-      "wordlistIds": ["space", "sci-fi"],
+      "wordlistIds": [
+        "space",
+        "sci-fi"
+      ],
       "config": {
         "durationSec": 120,
         "spawnRateMs": 1100,
@@ -194,7 +302,10 @@
         "variant": "alien"
       }
     },
-    "hero": { "tagline": "Alien waves invade in 5 stages — each stage faster than the last, with a boss long-word at the end.", "emoji": "👾" },
+    "hero": {
+      "tagline": "Alien waves invade in 5 stages — each stage faster than the last, with a boss long-word at the end.",
+      "emoji": "👾"
+    },
     "theme": {
       "palette": "space",
       "accent": "#22d3ee",
@@ -203,11 +314,27 @@
       "sprites": "typing-alien"
     },
     "faq": [
-      { "q": "How many stages?", "a": "Five. The boss word is at least 12 letters long." },
-      { "q": "What is the difference vs Typing Rocket?", "a": "Rocket goes upward and unlocks levels. Alien spawns downward with multi-wave timing." },
-      { "q": "Is there an end?", "a": "Beat all five stages and you get a final score; otherwise lives run out." }
+      {
+        "q": "How many stages?",
+        "a": "Five. The boss word is at least 12 letters long."
+      },
+      {
+        "q": "What is the difference vs Typing Rocket?",
+        "a": "Rocket goes upward and unlocks levels. Alien spawns downward with multi-wave timing."
+      },
+      {
+        "q": "Is there an end?",
+        "a": "Beat all five stages and you get a final score; otherwise lives run out."
+      }
     ],
-    "related": ["typing-rocket", "asteroid-typing", "typing-of-the-ghosts", "typing-rain", "typing-bomb", "typing-99"],
+    "related": [
+      "typing-rocket",
+      "asteroid-typing",
+      "asteroid-splitter",
+      "retro-space-typer",
+      "space-patrol-typer",
+      "fruit-typing"
+    ],
     "publishedAt": "2026-05-12",
     "updatedAt": "2026-05-12"
   },
@@ -221,14 +348,19 @@
     "embed": {
       "kind": "engine",
       "mode": "classic-time",
-      "wordlistIds": ["finance"],
+      "wordlistIds": [
+        "finance"
+      ],
       "config": {
         "durationSec": 60,
         "scoreUnit": "money",
         "variant": "money-counter"
       }
     },
-    "hero": { "tagline": "Every correct word adds $ to your running total. Type fast, earn more.", "emoji": "💰" },
+    "hero": {
+      "tagline": "Every correct word adds $ to your running total. Type fast, earn more.",
+      "emoji": "💰"
+    },
     "theme": {
       "palette": "money",
       "accent": "#16a34a",
@@ -237,11 +369,27 @@
       "sprites": "typing-money"
     },
     "faq": [
-      { "q": "What is the dollar value per word?", "a": "Word length × 10 cents. Longer words pay more." },
-      { "q": "Is this a real finance simulation?", "a": "No. It uses finance vocabulary but the cash counter is purely for fun and motivation." },
-      { "q": "Where does the word list come from?", "a": "Common finance and personal-budget terms — 120 words covering banking, investing, and everyday money." }
+      {
+        "q": "What is the dollar value per word?",
+        "a": "Word length × 10 cents. Longer words pay more."
+      },
+      {
+        "q": "Is this a real finance simulation?",
+        "a": "No. It uses finance vocabulary but the cash counter is purely for fun and motivation."
+      },
+      {
+        "q": "Where does the word list come from?",
+        "a": "Common finance and personal-budget terms — 120 words covering banking, investing, and everyday money."
+      }
     ],
-    "related": ["truck-typer", "typing-99", "typing-food", "mavis-beacon-typing", "dance-mat-typing", "typing-swimmer"],
+    "related": [
+      "fruit-typing",
+      "truck-typer",
+      "typing-food",
+      "chicken-typing",
+      "typing-99",
+      "typing-alien"
+    ],
     "publishedAt": "2026-05-12",
     "updatedAt": "2026-05-12"
   },
@@ -255,14 +403,20 @@
     "embed": {
       "kind": "engine",
       "mode": "classic-words",
-      "wordlistIds": ["fruits", "common-en"],
+      "wordlistIds": [
+        "fruits",
+        "common-en"
+      ],
       "config": {
         "wordCount": 40,
         "scoreUnit": "wpm",
         "variant": "banana-letters"
       }
     },
-    "hero": { "tagline": "Every word starts with B. Perfect for absolute beginners.", "emoji": "🍌" },
+    "hero": {
+      "tagline": "Every word starts with B. Perfect for absolute beginners.",
+      "emoji": "🍌"
+    },
     "theme": {
       "palette": "banana",
       "accent": "#facc15",
@@ -271,11 +425,27 @@
       "sprites": "banana-typing"
     },
     "faq": [
-      { "q": "Why only B-words?", "a": "Single-letter focus drills muscle memory for one finger group before mixing keys." },
-      { "q": "How many B-words are there?", "a": "Over 200 in the pool — banana, bridge, bottle, balance, butter, branch and many more." },
-      { "q": "Is this for kids only?", "a": "It is friendly to kids but adults learning touch typing benefit too." }
+      {
+        "q": "Why only B-words?",
+        "a": "Single-letter focus drills muscle memory for one finger group before mixing keys."
+      },
+      {
+        "q": "How many B-words are there?",
+        "a": "Over 200 in the pool — banana, bridge, bottle, balance, butter, branch and many more."
+      },
+      {
+        "q": "Is this for kids only?",
+        "a": "It is friendly to kids but adults learning touch typing benefit too."
+      }
     ],
-    "related": ["fruit-typing", "typing-food", "keyboard-zoo", "chicken-typing", "mavis-beacon-typing", "dance-mat-typing"],
+    "related": [
+      "fruit-typing",
+      "typing-food",
+      "truck-typer",
+      "chicken-typing",
+      "typing-99",
+      "typing-alien"
+    ],
     "publishedAt": "2026-05-12",
     "updatedAt": "2026-05-12"
   },
@@ -289,7 +459,9 @@
     "embed": {
       "kind": "engine",
       "mode": "spawn-targets",
-      "wordlistIds": ["zoo-animals"],
+      "wordlistIds": [
+        "zoo-animals"
+      ],
       "config": {
         "durationSec": 75,
         "spawnRateMs": 1600,
@@ -298,7 +470,10 @@
         "variant": "zoo"
       }
     },
-    "hero": { "tagline": "Animals pop up at zoo enclosures. Type the single letter shown to feed each one.", "emoji": "🦁" },
+    "hero": {
+      "tagline": "Animals pop up at zoo enclosures. Type the single letter shown to feed each one.",
+      "emoji": "🦁"
+    },
     "theme": {
       "palette": "zoo",
       "accent": "#15803d",
@@ -307,11 +482,27 @@
       "sprites": "keyboard-zoo"
     },
     "faq": [
-      { "q": "Is Keyboard Zoo single-letter only?", "a": "Yes — it teaches one key at a time, ideal for kids and absolute beginners." },
-      { "q": "Does it teach correct finger placement?", "a": "The on-screen keyboard highlights which finger to use for each letter." },
-      { "q": "Suitable for which age?", "a": "Ages 4–10 work well; older kids may want Chicken Typing or Banana Typing instead." }
+      {
+        "q": "Is Keyboard Zoo single-letter only?",
+        "a": "Yes — it teaches one key at a time, ideal for kids and absolute beginners."
+      },
+      {
+        "q": "Does it teach correct finger placement?",
+        "a": "The on-screen keyboard highlights which finger to use for each letter."
+      },
+      {
+        "q": "Suitable for which age?",
+        "a": "Ages 4–10 work well; older kids may want Chicken Typing or Banana Typing instead."
+      }
     ],
-    "related": ["chicken-typing", "kangaroo-typing", "typing-frog", "banana-typing", "fruit-typing", "typing-food"],
+    "related": [
+      "chicken-typing",
+      "kangaroo-typing",
+      "typing-frog",
+      "fruit-typing",
+      "truck-typer",
+      "typing-food"
+    ],
     "publishedAt": "2026-05-12",
     "updatedAt": "2026-05-12"
   },
@@ -325,7 +516,9 @@
     "embed": {
       "kind": "engine",
       "mode": "falling-words",
-      "wordlistIds": ["space"],
+      "wordlistIds": [
+        "space"
+      ],
       "config": {
         "durationSec": 90,
         "spawnRateMs": 1300,
@@ -335,7 +528,10 @@
         "variant": "rocket"
       }
     },
-    "hero": { "tagline": "Your rocket flies upward — type the target word to clear each altitude.", "emoji": "🚀" },
+    "hero": {
+      "tagline": "Your rocket flies upward — type the target word to clear each altitude.",
+      "emoji": "🚀"
+    },
     "theme": {
       "palette": "rocket",
       "accent": "#f97316",
@@ -344,11 +540,27 @@
       "sprites": "typing-rocket"
     },
     "faq": [
-      { "q": "Why is this upward and not falling?", "a": "Reverse motion adds visual contrast and matches the rocket metaphor — same skill, different feel." },
-      { "q": "Does it have levels?", "a": "Yes — each cleared word unlocks the next altitude with slightly faster spawn." },
-      { "q": "Will I see the same word twice?", "a": "Rarely. The pool is 110 space-themed words." }
+      {
+        "q": "Why is this upward and not falling?",
+        "a": "Reverse motion adds visual contrast and matches the rocket metaphor — same skill, different feel."
+      },
+      {
+        "q": "Does it have levels?",
+        "a": "Yes — each cleared word unlocks the next altitude with slightly faster spawn."
+      },
+      {
+        "q": "Will I see the same word twice?",
+        "a": "Rarely. The pool is 110 space-themed words."
+      }
     ],
-    "related": ["asteroid-typing", "typing-alien", "typing-rain", "typing-of-the-ghosts", "typing-jets", "typing-bomb"],
+    "related": [
+      "typing-alien",
+      "asteroid-typing",
+      "asteroid-splitter",
+      "retro-space-typer",
+      "space-patrol-typer",
+      "fruit-typing"
+    ],
     "publishedAt": "2026-05-12",
     "updatedAt": "2026-05-12"
   },
@@ -362,7 +574,9 @@
     "embed": {
       "kind": "engine",
       "mode": "falling-words",
-      "wordlistIds": ["common-en"],
+      "wordlistIds": [
+        "common-en"
+      ],
       "config": {
         "durationSec": 90,
         "spawnRateMs": 900,
@@ -372,7 +586,10 @@
         "variant": "rain"
       }
     },
-    "hero": { "tagline": "Dense word-rain. One typo and the whole word resets — perfectionists only.", "emoji": "🌧️" },
+    "hero": {
+      "tagline": "Dense word-rain. One typo and the whole word resets — perfectionists only.",
+      "emoji": "🌧️"
+    },
     "theme": {
       "palette": "rain",
       "accent": "#2563eb",
@@ -381,11 +598,27 @@
       "sprites": "typing-rain"
     },
     "faq": [
-      { "q": "Why does the word reset on a typo?", "a": "It enforces accuracy. Pure speed without accuracy is useless in real typing tasks." },
-      { "q": "Is it harder than Typing Alien?", "a": "Yes. Higher word density and zero forgiveness." },
-      { "q": "Can I slow it down?", "a": "Not yet — pace is fixed in v1. We may add difficulty selectors later." }
+      {
+        "q": "Why does the word reset on a typo?",
+        "a": "It enforces accuracy. Pure speed without accuracy is useless in real typing tasks."
+      },
+      {
+        "q": "Is it harder than Typing Alien?",
+        "a": "Yes. Higher word density and zero forgiveness."
+      },
+      {
+        "q": "Can I slow it down?",
+        "a": "Not yet — pace is fixed in v1. We may add difficulty selectors later."
+      }
     ],
-    "related": ["typing-alien", "typing-rocket", "asteroid-typing", "typing-99", "typing-bomb", "typing-of-the-ghosts"],
+    "related": [
+      "typing-99",
+      "mavis-beacon-typing",
+      "dance-mat-typing",
+      "pangram-sprint",
+      "certificate-challenge",
+      "60-wpm-gate"
+    ],
     "publishedAt": "2026-05-12",
     "updatedAt": "2026-05-12"
   },
@@ -399,7 +632,9 @@
     "embed": {
       "kind": "engine",
       "mode": "spawn-targets",
-      "wordlistIds": ["aircraft"],
+      "wordlistIds": [
+        "aircraft"
+      ],
       "config": {
         "durationSec": 90,
         "spawnRateMs": 1500,
@@ -408,7 +643,10 @@
         "variant": "jets"
       }
     },
-    "hero": { "tagline": "Jets streak across the sky. Tap one to lock, then type its callsign.", "emoji": "✈️" },
+    "hero": {
+      "tagline": "Jets streak across the sky. Tap one to lock, then type its callsign.",
+      "emoji": "✈️"
+    },
     "theme": {
       "palette": "jets",
       "accent": "#0369a1",
@@ -417,11 +655,27 @@
       "sprites": "typing-jets"
     },
     "faq": [
-      { "q": "How long until I see a jet?", "a": "First spawn is within 2 seconds. Average rate is one jet every 1.5 seconds." },
-      { "q": "Are the callsigns realistic?", "a": "They are short, easy-to-spell jet and aviation words rather than radio callsigns." },
-      { "q": "How is this different from Truck Typer?", "a": "Jets move across the screen — you must aim. Truck Typer is a focus-on-one-word classic test." }
+      {
+        "q": "How long until I see a jet?",
+        "a": "First spawn is within 2 seconds. Average rate is one jet every 1.5 seconds."
+      },
+      {
+        "q": "Are the callsigns realistic?",
+        "a": "They are short, easy-to-spell jet and aviation words rather than radio callsigns."
+      },
+      {
+        "q": "How is this different from Truck Typer?",
+        "a": "Jets move across the screen — you must aim. Truck Typer is a focus-on-one-word classic test."
+      }
     ],
-    "related": ["truck-typer", "typing-rocket", "typing-alien", "asteroid-typing", "kangaroo-typing", "chicken-typing"],
+    "related": [
+      "truck-typer",
+      "fair-race-typer",
+      "garage-theme-typer",
+      "nitro-like-race",
+      "fruit-typing",
+      "typing-food"
+    ],
     "publishedAt": "2026-05-12",
     "updatedAt": "2026-05-12"
   },
@@ -435,7 +689,9 @@
     "embed": {
       "kind": "engine",
       "mode": "spawn-targets",
-      "wordlistIds": ["australian-animals"],
+      "wordlistIds": [
+        "australian-animals"
+      ],
       "config": {
         "durationSec": 90,
         "spawnRateMs": 1500,
@@ -444,7 +700,10 @@
         "variant": "kangaroo"
       }
     },
-    "hero": { "tagline": "Kangaroos hop across the outback in rhythm. Lock one between hops to type its word.", "emoji": "🦘" },
+    "hero": {
+      "tagline": "Kangaroos hop across the outback in rhythm. Lock one between hops to type its word.",
+      "emoji": "🦘"
+    },
     "theme": {
       "palette": "kangaroo",
       "accent": "#b45309",
@@ -453,11 +712,27 @@
       "sprites": "kangaroo-typing"
     },
     "faq": [
-      { "q": "What is the Australian word list?", "a": "Marsupials, outback features, and Aussie nature words — 90 total." },
-      { "q": "Why the rhythm?", "a": "The hop cadence rewards finger-timing — like Dance Mat Typing but spatial." },
-      { "q": "How does it differ from Keyboard Zoo?", "a": "Zoo is single-letter and stationary. Kangaroo is full words plus motion." }
+      {
+        "q": "What is the Australian word list?",
+        "a": "Marsupials, outback features, and Aussie nature words — 90 total."
+      },
+      {
+        "q": "Why the rhythm?",
+        "a": "The hop cadence rewards finger-timing — like Dance Mat Typing but spatial."
+      },
+      {
+        "q": "How does it differ from Keyboard Zoo?",
+        "a": "Zoo is single-letter and stationary. Kangaroo is full words plus motion."
+      }
     ],
-    "related": ["keyboard-zoo", "chicken-typing", "typing-frog", "typing-jets", "fruit-typing", "typing-swimmer"],
+    "related": [
+      "chicken-typing",
+      "keyboard-zoo",
+      "typing-frog",
+      "fruit-typing",
+      "truck-typer",
+      "typing-food"
+    ],
     "publishedAt": "2026-05-12",
     "updatedAt": "2026-05-12"
   },
@@ -471,14 +746,19 @@
     "embed": {
       "kind": "engine",
       "mode": "classic-time",
-      "wordlistIds": ["water-sports"],
+      "wordlistIds": [
+        "water-sports"
+      ],
       "config": {
         "durationSec": 60,
         "scoreUnit": "wpm",
         "variant": "swim-lane"
       }
     },
-    "hero": { "tagline": "Each word stroke moves your swimmer forward. Beat the pool record.", "emoji": "🏊" },
+    "hero": {
+      "tagline": "Each word stroke moves your swimmer forward. Beat the pool record.",
+      "emoji": "🏊"
+    },
     "theme": {
       "palette": "swim",
       "accent": "#0284c7",
@@ -487,11 +767,27 @@
       "sprites": "typing-swimmer"
     },
     "faq": [
-      { "q": "Is it like a racing game?", "a": "Yes — your typing speed translates to swimmer progress along the lane." },
-      { "q": "Solo or vs?", "a": "Solo with a ghost record of your best run." },
-      { "q": "Word list?", "a": "80 water-sports words: breaststroke, butterfly, freestyle, kickboard, lane, lap, and more." }
+      {
+        "q": "Is it like a racing game?",
+        "a": "Yes — your typing speed translates to swimmer progress along the lane."
+      },
+      {
+        "q": "Solo or vs?",
+        "a": "Solo with a ghost record of your best run."
+      },
+      {
+        "q": "Word list?",
+        "a": "80 water-sports words: breaststroke, butterfly, freestyle, kickboard, lane, lap, and more."
+      }
     ],
-    "related": ["truck-typer", "typing-food", "typing-money", "typing-jets", "kangaroo-typing", "typing-99"],
+    "related": [
+      "fruit-typing",
+      "truck-typer",
+      "typing-food",
+      "chicken-typing",
+      "typing-99",
+      "typing-alien"
+    ],
     "publishedAt": "2026-05-12",
     "updatedAt": "2026-05-12"
   },
@@ -505,14 +801,19 @@
     "embed": {
       "kind": "engine",
       "mode": "classic-time",
-      "wordlistIds": ["common-en"],
+      "wordlistIds": [
+        "common-en"
+      ],
       "config": {
         "durationSec": 60,
         "scoreUnit": "wpm",
         "variant": "mavis-staged"
       }
     },
-    "hero": { "tagline": "A modern, ad-free homage to the classic Mavis Beacon lesson format — staged finger drills.", "emoji": "⌨️" },
+    "hero": {
+      "tagline": "A modern, ad-free homage to the classic Mavis Beacon lesson format — staged finger drills.",
+      "emoji": "🏫"
+    },
     "theme": {
       "palette": "mavis",
       "accent": "#0f172a",
@@ -521,11 +822,27 @@
       "sprites": "mavis-beacon-typing"
     },
     "faq": [
-      { "q": "Is this the real Mavis Beacon?", "a": "No. It is an inspired browser-only experience. The original Mavis Beacon software is owned by Software MacKiev." },
-      { "q": "What does staged mean?", "a": "Each round focuses on a finger group: home row first, then upper, then numbers." },
-      { "q": "Does it track progress?", "a": "Your last 10 scores are saved locally." }
+      {
+        "q": "Is this the real Mavis Beacon?",
+        "a": "No. It is an inspired browser-only experience. The original Mavis Beacon software is owned by Software MacKiev."
+      },
+      {
+        "q": "What does staged mean?",
+        "a": "Each round focuses on a finger group: home row first, then upper, then numbers."
+      },
+      {
+        "q": "Does it track progress?",
+        "a": "Your last 10 scores are saved locally."
+      }
     ],
-    "related": ["dance-mat-typing", "typing-99", "typing-rain", "banana-typing", "keyboard-zoo", "typing-bomb"],
+    "related": [
+      "typing-99",
+      "typing-rain",
+      "dance-mat-typing",
+      "pangram-sprint",
+      "certificate-challenge",
+      "60-wpm-gate"
+    ],
     "publishedAt": "2026-05-12",
     "updatedAt": "2026-05-12"
   },
@@ -539,7 +856,9 @@
     "embed": {
       "kind": "engine",
       "mode": "falling-words",
-      "wordlistIds": ["space"],
+      "wordlistIds": [
+        "space"
+      ],
       "config": {
         "durationSec": 90,
         "spawnRateMs": 1500,
@@ -549,7 +868,10 @@
         "variant": "asteroid"
       }
     },
-    "hero": { "tagline": "Asteroids split on impact. Type a long word and it shatters into two shorter ones.", "emoji": "☄️" },
+    "hero": {
+      "tagline": "Asteroids split on impact. Type a long word and it shatters into two shorter ones.",
+      "emoji": "☄️"
+    },
     "theme": {
       "palette": "asteroid",
       "accent": "#94a3b8",
@@ -558,11 +880,27 @@
       "sprites": "asteroid-typing"
     },
     "faq": [
-      { "q": "What is the splitting rule?", "a": "Words 8+ letters break into two roughly half-sized words on first kill." },
-      { "q": "Can splits split again?", "a": "No — second-generation asteroids vanish on a single correct word." },
-      { "q": "Why is this in Space?", "a": "Asteroids belong to the space theme and share the sci-fi word pool with Typing Alien and Typing Rocket." }
+      {
+        "q": "What is the splitting rule?",
+        "a": "Words 8+ letters break into two roughly half-sized words on first kill."
+      },
+      {
+        "q": "Can splits split again?",
+        "a": "No — second-generation asteroids vanish on a single correct word."
+      },
+      {
+        "q": "Why is this in Space?",
+        "a": "Asteroids belong to the space theme and share the sci-fi word pool with Typing Alien and Typing Rocket."
+      }
     ],
-    "related": ["typing-rocket", "typing-alien", "typing-of-the-ghosts", "typing-rain", "typing-bomb", "typing-99"],
+    "related": [
+      "typing-alien",
+      "typing-rocket",
+      "asteroid-splitter",
+      "retro-space-typer",
+      "space-patrol-typer",
+      "fruit-typing"
+    ],
     "publishedAt": "2026-05-12",
     "updatedAt": "2026-05-12"
   },
@@ -576,14 +914,19 @@
     "embed": {
       "kind": "engine",
       "mode": "classic-time",
-      "wordlistIds": ["common-en"],
+      "wordlistIds": [
+        "common-en"
+      ],
       "config": {
         "durationSec": 90,
         "scoreUnit": "wpm",
         "variant": "dance-staged"
       }
     },
-    "hero": { "tagline": "A BBC Dance Mat-style staged tutor — A/S first, then ASDF, then the full keyboard.", "emoji": "💃" },
+    "hero": {
+      "tagline": "A BBC Dance Mat-style staged tutor — A/S first, then ASDF, then the full keyboard.",
+      "emoji": "💃"
+    },
     "theme": {
       "palette": "dance",
       "accent": "#db2777",
@@ -592,11 +935,27 @@
       "sprites": "dance-mat-typing"
     },
     "faq": [
-      { "q": "Is the original BBC site gone?", "a": "BBC discontinued the original Dance Mat Typing Flash game in 2020. This is a spiritual successor." },
-      { "q": "How many stages?", "a": "Three: home-row keys, upper-row, then full." },
-      { "q": "Good for total beginners?", "a": "Yes — it is the gentlest curve we offer." }
+      {
+        "q": "Is the original BBC site gone?",
+        "a": "BBC discontinued the original Dance Mat Typing Flash game in 2020. This is a spiritual successor."
+      },
+      {
+        "q": "How many stages?",
+        "a": "Three: home-row keys, upper-row, then full."
+      },
+      {
+        "q": "Good for total beginners?",
+        "a": "Yes — it is the gentlest curve we offer."
+      }
     ],
-    "related": ["mavis-beacon-typing", "banana-typing", "keyboard-zoo", "typing-99", "typing-rain", "typing-bomb"],
+    "related": [
+      "typing-99",
+      "typing-rain",
+      "mavis-beacon-typing",
+      "pangram-sprint",
+      "certificate-challenge",
+      "60-wpm-gate"
+    ],
     "publishedAt": "2026-05-12",
     "updatedAt": "2026-05-12"
   },
@@ -610,7 +969,9 @@
     "embed": {
       "kind": "engine",
       "mode": "countdown-defuse",
-      "wordlistIds": ["common-en"],
+      "wordlistIds": [
+        "common-en"
+      ],
       "config": {
         "durationSec": 60,
         "spawnRateMs": 2200,
@@ -619,7 +980,10 @@
         "variant": "bomb"
       }
     },
-    "hero": { "tagline": "Multiple bombs tick down at once. Type the defuse code on each before zero.", "emoji": "💣" },
+    "hero": {
+      "tagline": "Multiple bombs tick down at once. Type the defuse code on each before zero.",
+      "emoji": "💣"
+    },
     "theme": {
       "palette": "bomb",
       "accent": "#dc2626",
@@ -628,11 +992,27 @@
       "sprites": "typing-bomb"
     },
     "faq": [
-      { "q": "How is this different from a normal time-attack?", "a": "Each on-screen bomb has its own countdown. You pick which to defuse first." },
-      { "q": "What happens at zero?", "a": "Game over — single life, single mistake fatal." },
-      { "q": "Is the violence cartoonish?", "a": "Yes. Visual style is comic — no realistic depiction." }
+      {
+        "q": "How is this different from a normal time-attack?",
+        "a": "Each on-screen bomb has its own countdown. You pick which to defuse first."
+      },
+      {
+        "q": "What happens at zero?",
+        "a": "Game over — single life, single mistake fatal."
+      },
+      {
+        "q": "Is the violence cartoonish?",
+        "a": "Yes. Visual style is comic — no realistic depiction."
+      }
     ],
-    "related": ["typing-alien", "typing-rain", "typing-of-the-ghosts", "asteroid-typing", "typing-99", "typing-rocket"],
+    "related": [
+      "typing-of-the-ghosts",
+      "ghost-hall-typer",
+      "ghost-chase-typing",
+      "horror-hallway-typer",
+      "fruit-typing",
+      "truck-typer"
+    ],
     "publishedAt": "2026-05-12",
     "updatedAt": "2026-05-12"
   },
@@ -646,7 +1026,9 @@
     "embed": {
       "kind": "engine",
       "mode": "spawn-targets",
-      "wordlistIds": ["animals"],
+      "wordlistIds": [
+        "animals"
+      ],
       "config": {
         "durationSec": 60,
         "spawnRateMs": 2000,
@@ -655,7 +1037,10 @@
         "variant": "frog"
       }
     },
-    "hero": { "tagline": "A patient frog. Targets sit still until you lock and type — pure focus, no panic.", "emoji": "🐸" },
+    "hero": {
+      "tagline": "A patient frog. Targets sit still until you lock and type — pure focus, no panic.",
+      "emoji": "🐸"
+    },
     "theme": {
       "palette": "frog",
       "accent": "#16a34a",
@@ -664,11 +1049,27 @@
       "sprites": "typing-frog"
     },
     "faq": [
-      { "q": "Why are the targets stationary?", "a": "To remove time pressure for kids and beginners — typing-only difficulty." },
-      { "q": "Is the frog animated?", "a": "Yes — a tongue-flick animation plays when you finish each word." },
-      { "q": "Can I speed it up?", "a": "Not yet. It is intentionally the calmest game in the catalog." }
+      {
+        "q": "Why are the targets stationary?",
+        "a": "To remove time pressure for kids and beginners — typing-only difficulty."
+      },
+      {
+        "q": "Is the frog animated?",
+        "a": "Yes — a tongue-flick animation plays when you finish each word."
+      },
+      {
+        "q": "Can I speed it up?",
+        "a": "Not yet. It is intentionally the calmest game in the catalog."
+      }
     ],
-    "related": ["chicken-typing", "keyboard-zoo", "kangaroo-typing", "fruit-typing", "banana-typing", "typing-food"],
+    "related": [
+      "chicken-typing",
+      "keyboard-zoo",
+      "kangaroo-typing",
+      "fruit-typing",
+      "truck-typer",
+      "typing-food"
+    ],
     "publishedAt": "2026-05-12",
     "updatedAt": "2026-05-12"
   },
@@ -682,7 +1083,9 @@
     "embed": {
       "kind": "engine",
       "mode": "falling-words",
-      "wordlistIds": ["horror"],
+      "wordlistIds": [
+        "horror"
+      ],
       "config": {
         "durationSec": 90,
         "spawnRateMs": 1200,
@@ -692,7 +1095,10 @@
         "variant": "ghosts"
       }
     },
-    "hero": { "tagline": "Ghosts drift toward you and accelerate as your fear meter rises. Type to banish.", "emoji": "👻" },
+    "hero": {
+      "tagline": "Ghosts drift toward you and accelerate as your fear meter rises. Type to banish.",
+      "emoji": "👻"
+    },
     "theme": {
       "palette": "ghosts",
       "accent": "#7c3aed",
@@ -701,12 +1107,4747 @@
       "sprites": "typing-of-the-ghosts"
     },
     "faq": [
-      { "q": "What is the fear meter?", "a": "Every uncleared ghost above the threshold speeds up the rest. Stay accurate to keep it low." },
-      { "q": "Is this scary?", "a": "Spooky-cute. Cartoon ghosts, no jumpscares." },
-      { "q": "Is it inspired by Typing of the Dead?", "a": "Loosely. The Sega arcade classic inspired the genre — this is a free spiritual nod." }
+      {
+        "q": "What is the fear meter?",
+        "a": "Every uncleared ghost above the threshold speeds up the rest. Stay accurate to keep it low."
+      },
+      {
+        "q": "Is this scary?",
+        "a": "Spooky-cute. Cartoon ghosts, no jumpscares."
+      },
+      {
+        "q": "Is it inspired by Typing of the Dead?",
+        "a": "Loosely. The Sega arcade classic inspired the genre — this is a free spiritual nod."
+      }
     ],
-    "related": ["typing-bomb", "typing-alien", "asteroid-typing", "typing-rain", "typing-rocket", "typing-99"],
+    "related": [
+      "typing-bomb",
+      "ghost-hall-typer",
+      "ghost-chase-typing",
+      "horror-hallway-typer",
+      "fruit-typing",
+      "truck-typer"
+    ],
     "publishedAt": "2026-05-12",
     "updatedAt": "2026-05-12"
+  },
+  {
+    "slug": "book-stack-typer",
+    "title": "Book Stack Typer",
+    "keyword": "typing practice books",
+    "searchVolume": 260,
+    "category": "shop-gear",
+    "difficulty": "intermediate",
+    "embed": {
+      "kind": "engine",
+      "mode": "falling-words",
+      "wordlistIds": [
+        "shop"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "score",
+        "variant": "shop-stack",
+        "spawnRateMs": 1500,
+        "livesAllowed": 3,
+        "fallSpeedPxSec": 60
+      }
+    },
+    "hero": {
+      "tagline": "Sort themed gear and word cards in this typing practice books typing game.",
+      "emoji": "📚"
+    },
+    "theme": {
+      "palette": "shop",
+      "accent": "#b45309",
+      "accent2": "#2563eb",
+      "surface": "#fff7ed",
+      "sprites": "book-stack-typer"
+    },
+    "faq": [
+      {
+        "q": "Is Book Stack Typer free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "page-turner-typing",
+      "library-typing-quest",
+      "wrist-rest-balance",
+      "fruit-typing",
+      "truck-typer",
+      "typing-food"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "911-dispatch-rush",
+    "title": "911 Dispatch Rush",
+    "keyword": "typing test for 911 operator",
+    "searchVolume": 140,
+    "category": "jobs-data",
+    "difficulty": "intermediate",
+    "embed": {
+      "kind": "engine",
+      "mode": "classic-time",
+      "wordlistIds": [
+        "professional"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "kph",
+        "variant": "profession-sim"
+      }
+    },
+    "hero": {
+      "tagline": "Type live typing test for 911 operator prompts before the queue backs up.",
+      "emoji": "🚨"
+    },
+    "theme": {
+      "palette": "profession",
+      "accent": "#2563eb",
+      "accent2": "#f97316",
+      "surface": "#eff6ff",
+      "sprites": "911-dispatch-rush"
+    },
+    "faq": [
+      {
+        "q": "Is 911 Dispatch Rush free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "dispatcher-call-queue",
+      "kph-cargo-terminal",
+      "radio-code-typer",
+      "test-center-dash",
+      "location-clerk-typer",
+      "support-desk-typer"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "asteroid-splitter",
+    "title": "Asteroid Splitter",
+    "keyword": "asteroid typing game",
+    "searchVolume": 260,
+    "category": "space",
+    "difficulty": "intermediate",
+    "embed": {
+      "kind": "engine",
+      "mode": "falling-words",
+      "wordlistIds": [
+        "space"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "score",
+        "variant": "space-patrol",
+        "spawnRateMs": 1500,
+        "livesAllowed": 3,
+        "fallSpeedPxSec": 60
+      }
+    },
+    "hero": {
+      "tagline": "Blast through space words in this asteroid typing game arcade round.",
+      "emoji": "🪨"
+    },
+    "theme": {
+      "palette": "space",
+      "accent": "#22d3ee",
+      "accent2": "#a78bfa",
+      "surface": "#0b1020",
+      "sprites": "asteroid-splitter"
+    },
+    "faq": [
+      {
+        "q": "Is Asteroid Splitter free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "typing-alien",
+      "typing-rocket",
+      "asteroid-typing",
+      "retro-space-typer",
+      "space-patrol-typer",
+      "fruit-typing"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "kana-lane-typing",
+    "title": "Kana Lane Typing",
+    "keyword": "japanese typing practice",
+    "searchVolume": 110,
+    "category": "languages",
+    "difficulty": "beginner",
+    "embed": {
+      "kind": "engine",
+      "mode": "classic-time",
+      "wordlistIds": [
+        "japanese-romaji"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "wpm",
+        "variant": "language-sprint"
+      }
+    },
+    "hero": {
+      "tagline": "Practice japanese typing practice with short script and vocabulary bursts.",
+      "emoji": "🗾"
+    },
+    "theme": {
+      "palette": "language",
+      "accent": "#7c3aed",
+      "accent2": "#06b6d4",
+      "surface": "#f5f3ff",
+      "sprites": "kana-lane-typing"
+    },
+    "faq": [
+      {
+        "q": "Is Kana Lane Typing free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "urdu-script-sprint",
+      "spanish-fiesta-typer",
+      "cyrillic-snow-typer",
+      "khmer-glyph-drop",
+      "hangul-combo-typer",
+      "spanish-accent-sprint"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "dispatcher-call-queue",
+    "title": "Dispatcher Call Queue",
+    "keyword": "911 dispatcher typing test",
+    "searchVolume": 320,
+    "category": "jobs-data",
+    "difficulty": "intermediate",
+    "embed": {
+      "kind": "engine",
+      "mode": "classic-time",
+      "wordlistIds": [
+        "professional"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "kph",
+        "variant": "profession-sim"
+      }
+    },
+    "hero": {
+      "tagline": "Type live 911 dispatcher typing test prompts before the queue backs up.",
+      "emoji": "📞"
+    },
+    "theme": {
+      "palette": "profession",
+      "accent": "#2563eb",
+      "accent2": "#f97316",
+      "surface": "#eff6ff",
+      "sprites": "dispatcher-call-queue"
+    },
+    "faq": [
+      {
+        "q": "Is Dispatcher Call Queue free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "911-dispatch-rush",
+      "kph-cargo-terminal",
+      "radio-code-typer",
+      "test-center-dash",
+      "location-clerk-typer",
+      "support-desk-typer"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "muscle-memory-maze",
+    "title": "Muscle Memory Maze",
+    "keyword": "typing muscle",
+    "searchVolume": 1000,
+    "category": "keyboard-layout",
+    "difficulty": "intermediate",
+    "embed": {
+      "kind": "engine",
+      "mode": "spawn-targets",
+      "wordlistIds": [
+        "keyboard"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "score",
+        "variant": "layout-map",
+        "spawnRateMs": 1500,
+        "livesAllowed": 3
+      }
+    },
+    "hero": {
+      "tagline": "Train the exact keys behind typing muscle through target-based play.",
+      "emoji": "🧠"
+    },
+    "theme": {
+      "palette": "keyboard",
+      "accent": "#4338ca",
+      "accent2": "#16a34a",
+      "surface": "#eef2ff",
+      "sprites": "muscle-memory-maze"
+    },
+    "faq": [
+      {
+        "q": "Is Muscle Memory Maze free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "layout-quest",
+      "beginner-keyboard-builder",
+      "right-hand-rescue",
+      "finger-gym",
+      "keyboard-museum-typer",
+      "right-hand-lane"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "pangram-sprint",
+    "title": "Pangram Sprint",
+    "keyword": "the quick brown fox typing test",
+    "searchVolume": 720,
+    "category": "speed-test",
+    "difficulty": "intermediate",
+    "embed": {
+      "kind": "engine",
+      "mode": "classic-time",
+      "wordlistIds": [
+        "speed"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "wpm",
+        "variant": "speed-ladder"
+      }
+    },
+    "hero": {
+      "tagline": "Climb a speed ladder built around the quick brown fox typing test.",
+      "emoji": "🦊"
+    },
+    "theme": {
+      "palette": "speed",
+      "accent": "#111827",
+      "accent2": "#ef4444",
+      "surface": "#ffffff",
+      "sprites": "pangram-sprint"
+    },
+    "faq": [
+      {
+        "q": "Is Pangram Sprint free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "typing-99",
+      "typing-rain",
+      "mavis-beacon-typing",
+      "dance-mat-typing",
+      "certificate-challenge",
+      "60-wpm-gate"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "kph-cargo-terminal",
+    "title": "KPH Cargo Terminal",
+    "keyword": "keystrokes per hour",
+    "searchVolume": 1600,
+    "category": "jobs-data",
+    "difficulty": "intermediate",
+    "embed": {
+      "kind": "engine",
+      "mode": "classic-time",
+      "wordlistIds": [
+        "professional"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "kph",
+        "variant": "profession-sim"
+      }
+    },
+    "hero": {
+      "tagline": "Type live keystrokes per hour prompts before the queue backs up.",
+      "emoji": "🏗️"
+    },
+    "theme": {
+      "palette": "profession",
+      "accent": "#2563eb",
+      "accent2": "#f97316",
+      "surface": "#eff6ff",
+      "sprites": "kph-cargo-terminal"
+    },
+    "faq": [
+      {
+        "q": "Is KPH Cargo Terminal free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "911-dispatch-rush",
+      "dispatcher-call-queue",
+      "radio-code-typer",
+      "test-center-dash",
+      "location-clerk-typer",
+      "support-desk-typer"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "code-crate-sort",
+    "title": "Code Crate Sort",
+    "keyword": "alphanumeric typing test",
+    "searchVolume": 110,
+    "category": "numbers",
+    "difficulty": "advanced",
+    "embed": {
+      "kind": "engine",
+      "mode": "countdown-defuse",
+      "wordlistIds": [
+        "numbers"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "kph",
+        "variant": "number-pad",
+        "spawnRateMs": 1150,
+        "livesAllowed": 3
+      }
+    },
+    "hero": {
+      "tagline": "Clear number and code targets in a fast alphanumeric typing test challenge.",
+      "emoji": "📦"
+    },
+    "theme": {
+      "palette": "number",
+      "accent": "#4f46e5",
+      "accent2": "#f59e0b",
+      "surface": "#eef2ff",
+      "sprites": "code-crate-sort"
+    },
+    "faq": [
+      {
+        "q": "Is Code Crate Sort free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "10-key-trainer",
+      "10-key-cashier",
+      "fruit-typing",
+      "truck-typer",
+      "typing-food",
+      "chicken-typing"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "radio-code-typer",
+    "title": "Radio Code Typer",
+    "keyword": "dispatcher typing test",
+    "searchVolume": 210,
+    "category": "jobs-data",
+    "difficulty": "intermediate",
+    "embed": {
+      "kind": "engine",
+      "mode": "classic-time",
+      "wordlistIds": [
+        "professional"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "kph",
+        "variant": "profession-sim"
+      }
+    },
+    "hero": {
+      "tagline": "Type live dispatcher typing test prompts before the queue backs up.",
+      "emoji": "📻"
+    },
+    "theme": {
+      "palette": "profession",
+      "accent": "#2563eb",
+      "accent2": "#f97316",
+      "surface": "#eff6ff",
+      "sprites": "radio-code-typer"
+    },
+    "faq": [
+      {
+        "q": "Is Radio Code Typer free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "911-dispatch-rush",
+      "dispatcher-call-queue",
+      "kph-cargo-terminal",
+      "test-center-dash",
+      "location-clerk-typer",
+      "support-desk-typer"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "page-turner-typing",
+    "title": "Page Turner Typing",
+    "keyword": "typing practice book",
+    "searchVolume": 320,
+    "category": "shop-gear",
+    "difficulty": "intermediate",
+    "embed": {
+      "kind": "engine",
+      "mode": "falling-words",
+      "wordlistIds": [
+        "shop"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "score",
+        "variant": "shop-stack",
+        "spawnRateMs": 1500,
+        "livesAllowed": 3,
+        "fallSpeedPxSec": 60
+      }
+    },
+    "hero": {
+      "tagline": "Sort themed gear and word cards in this typing practice book typing game.",
+      "emoji": "📖"
+    },
+    "theme": {
+      "palette": "shop",
+      "accent": "#b45309",
+      "accent2": "#2563eb",
+      "surface": "#fff7ed",
+      "sprites": "page-turner-typing"
+    },
+    "faq": [
+      {
+        "q": "Is Page Turner Typing free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "book-stack-typer",
+      "library-typing-quest",
+      "wrist-rest-balance",
+      "fruit-typing",
+      "truck-typer",
+      "typing-food"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "test-center-dash",
+    "title": "Test Center Dash",
+    "keyword": "typing test near me",
+    "searchVolume": 390,
+    "category": "jobs-data",
+    "difficulty": "intermediate",
+    "embed": {
+      "kind": "engine",
+      "mode": "classic-time",
+      "wordlistIds": [
+        "office"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "wpm",
+        "variant": "office-dash"
+      }
+    },
+    "hero": {
+      "tagline": "Handle local desk prompts in a focused typing test near me mini-game.",
+      "emoji": "🏢"
+    },
+    "theme": {
+      "palette": "office",
+      "accent": "#0369a1",
+      "accent2": "#84cc16",
+      "surface": "#f0f9ff",
+      "sprites": "test-center-dash"
+    },
+    "faq": [
+      {
+        "q": "Is Test Center Dash free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "911-dispatch-rush",
+      "dispatcher-call-queue",
+      "kph-cargo-terminal",
+      "radio-code-typer",
+      "location-clerk-typer",
+      "support-desk-typer"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "certificate-challenge",
+    "title": "Certificate Challenge",
+    "keyword": "typing certificate near me",
+    "searchVolume": 720,
+    "category": "speed-test",
+    "difficulty": "beginner",
+    "embed": {
+      "kind": "engine",
+      "mode": "classic-time",
+      "wordlistIds": [
+        "certificate"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "wpm",
+        "variant": "certificate-ladder"
+      }
+    },
+    "hero": {
+      "tagline": "Beat the accuracy gate and finish a clean typing certificate near me round.",
+      "emoji": "🏅"
+    },
+    "theme": {
+      "palette": "certificate",
+      "accent": "#0f172a",
+      "accent2": "#22c55e",
+      "surface": "#ffffff",
+      "sprites": "certificate-challenge"
+    },
+    "faq": [
+      {
+        "q": "Is Certificate Challenge free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "typing-99",
+      "typing-rain",
+      "mavis-beacon-typing",
+      "dance-mat-typing",
+      "pangram-sprint",
+      "60-wpm-gate"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "60-wpm-gate",
+    "title": "60 WPM Gate",
+    "keyword": "is 60 wpm good",
+    "searchVolume": 590,
+    "category": "speed-test",
+    "difficulty": "intermediate",
+    "embed": {
+      "kind": "engine",
+      "mode": "classic-time",
+      "wordlistIds": [
+        "speed"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "wpm",
+        "variant": "speed-ladder"
+      }
+    },
+    "hero": {
+      "tagline": "Climb a speed ladder built around is 60 wpm good.",
+      "emoji": "🚪"
+    },
+    "theme": {
+      "palette": "speed",
+      "accent": "#111827",
+      "accent2": "#ef4444",
+      "surface": "#ffffff",
+      "sprites": "60-wpm-gate"
+    },
+    "faq": [
+      {
+        "q": "Is 60 WPM Gate free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "typing-99",
+      "typing-rain",
+      "mavis-beacon-typing",
+      "dance-mat-typing",
+      "pangram-sprint",
+      "certificate-challenge"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "location-clerk-typer",
+    "title": "Location Clerk Typer",
+    "keyword": "typing test locations near me",
+    "searchVolume": 320,
+    "category": "jobs-data",
+    "difficulty": "intermediate",
+    "embed": {
+      "kind": "engine",
+      "mode": "classic-time",
+      "wordlistIds": [
+        "office"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "wpm",
+        "variant": "office-dash"
+      }
+    },
+    "hero": {
+      "tagline": "Handle local desk prompts in a focused typing test locations near me mini-game.",
+      "emoji": "📍"
+    },
+    "theme": {
+      "palette": "office",
+      "accent": "#0369a1",
+      "accent2": "#84cc16",
+      "surface": "#f0f9ff",
+      "sprites": "location-clerk-typer"
+    },
+    "faq": [
+      {
+        "q": "Is Location Clerk Typer free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "911-dispatch-rush",
+      "dispatcher-call-queue",
+      "kph-cargo-terminal",
+      "radio-code-typer",
+      "test-center-dash",
+      "support-desk-typer"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "custom-arena",
+    "title": "Custom Arena",
+    "keyword": "create your own typing test",
+    "searchVolume": 110,
+    "category": "custom-tools",
+    "difficulty": "intermediate",
+    "embed": {
+      "kind": "engine",
+      "mode": "classic-words",
+      "wordlistIds": [
+        "custom"
+      ],
+      "config": {
+        "wordCount": 60,
+        "scoreUnit": "wpm",
+        "variant": "custom-arena"
+      }
+    },
+    "hero": {
+      "tagline": "Turn custom prompts into a playable create your own typing test arena.",
+      "emoji": "🧩"
+    },
+    "theme": {
+      "palette": "custom",
+      "accent": "#475569",
+      "accent2": "#10b981",
+      "surface": "#f8fafc",
+      "sprites": "custom-arena"
+    },
+    "faq": [
+      {
+        "q": "Is Custom Arena free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "rule-builder-typing",
+      "custom-boss-typing",
+      "fruit-typing",
+      "truck-typer",
+      "typing-food",
+      "chicken-typing"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "urdu-script-sprint",
+    "title": "Urdu Script Sprint",
+    "keyword": "urdu typing test",
+    "searchVolume": 210,
+    "category": "languages",
+    "difficulty": "beginner",
+    "embed": {
+      "kind": "engine",
+      "mode": "falling-words",
+      "wordlistIds": [
+        "urdu"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "wpm",
+        "variant": "language-sprint",
+        "spawnRateMs": 1500,
+        "livesAllowed": 3,
+        "fallSpeedPxSec": 60
+      }
+    },
+    "hero": {
+      "tagline": "Practice urdu typing test with short script and vocabulary bursts.",
+      "emoji": "🕌"
+    },
+    "theme": {
+      "palette": "language",
+      "accent": "#7c3aed",
+      "accent2": "#06b6d4",
+      "surface": "#f5f3ff",
+      "sprites": "urdu-script-sprint"
+    },
+    "faq": [
+      {
+        "q": "Is Urdu Script Sprint free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "kana-lane-typing",
+      "spanish-fiesta-typer",
+      "cyrillic-snow-typer",
+      "khmer-glyph-drop",
+      "hangul-combo-typer",
+      "spanish-accent-sprint"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "fair-race-typer",
+    "title": "Fair Race Typer",
+    "keyword": "auto typer for nitro type",
+    "searchVolume": 1300,
+    "category": "vehicles",
+    "difficulty": "advanced",
+    "embed": {
+      "kind": "engine",
+      "mode": "classic-time",
+      "wordlistIds": [
+        "race"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "wpm",
+        "variant": "race-typing"
+      }
+    },
+    "hero": {
+      "tagline": "Race clean typing lines in a fair-play auto typer for nitro type challenge.",
+      "emoji": "🏁"
+    },
+    "theme": {
+      "palette": "race",
+      "accent": "#dc2626",
+      "accent2": "#2563eb",
+      "surface": "#fff1f2",
+      "sprites": "fair-race-typer"
+    },
+    "faq": [
+      {
+        "q": "Is Fair Race Typer free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "No. Branded or competitor-inspired pages are unofficial typing challenges and do not use official assets."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "truck-typer",
+      "typing-jets",
+      "garage-theme-typer",
+      "nitro-like-race",
+      "fruit-typing",
+      "typing-food"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "library-typing-quest",
+    "title": "Library Typing Quest",
+    "keyword": "typing books",
+    "searchVolume": 1600,
+    "category": "shop-gear",
+    "difficulty": "intermediate",
+    "embed": {
+      "kind": "engine",
+      "mode": "falling-words",
+      "wordlistIds": [
+        "shop"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "score",
+        "variant": "shop-stack",
+        "spawnRateMs": 1500,
+        "livesAllowed": 3,
+        "fallSpeedPxSec": 60
+      }
+    },
+    "hero": {
+      "tagline": "Sort themed gear and word cards in this typing books typing game.",
+      "emoji": "🏛️"
+    },
+    "theme": {
+      "palette": "shop",
+      "accent": "#b45309",
+      "accent2": "#2563eb",
+      "surface": "#fff7ed",
+      "sprites": "library-typing-quest"
+    },
+    "faq": [
+      {
+        "q": "Is Library Typing Quest free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "book-stack-typer",
+      "page-turner-typing",
+      "wrist-rest-balance",
+      "fruit-typing",
+      "truck-typer",
+      "typing-food"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "layout-quest",
+    "title": "Layout Quest",
+    "keyword": "touch typing keyboard layout",
+    "searchVolume": 1300,
+    "category": "keyboard-layout",
+    "difficulty": "intermediate",
+    "embed": {
+      "kind": "engine",
+      "mode": "spawn-targets",
+      "wordlistIds": [
+        "keyboard"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "score",
+        "variant": "layout-map",
+        "spawnRateMs": 1500,
+        "livesAllowed": 3
+      }
+    },
+    "hero": {
+      "tagline": "Train the exact keys behind touch typing keyboard layout through target-based play.",
+      "emoji": "🗺️"
+    },
+    "theme": {
+      "palette": "keyboard",
+      "accent": "#4338ca",
+      "accent2": "#16a34a",
+      "surface": "#eef2ff",
+      "sprites": "layout-quest"
+    },
+    "faq": [
+      {
+        "q": "Is Layout Quest free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "muscle-memory-maze",
+      "beginner-keyboard-builder",
+      "right-hand-rescue",
+      "finger-gym",
+      "keyboard-museum-typer",
+      "right-hand-lane"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "beginner-keyboard-builder",
+    "title": "Beginner Keyboard Builder",
+    "keyword": "great keyboard for beginners",
+    "searchVolume": 1000,
+    "category": "keyboard-layout",
+    "difficulty": "intermediate",
+    "embed": {
+      "kind": "engine",
+      "mode": "spawn-targets",
+      "wordlistIds": [
+        "keyboard"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "score",
+        "variant": "layout-map",
+        "spawnRateMs": 1500,
+        "livesAllowed": 3
+      }
+    },
+    "hero": {
+      "tagline": "Train the exact keys behind great keyboard for beginners through target-based play.",
+      "emoji": "🔰"
+    },
+    "theme": {
+      "palette": "keyboard",
+      "accent": "#4338ca",
+      "accent2": "#16a34a",
+      "surface": "#eef2ff",
+      "sprites": "beginner-keyboard-builder"
+    },
+    "faq": [
+      {
+        "q": "Is Beginner Keyboard Builder free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "muscle-memory-maze",
+      "layout-quest",
+      "right-hand-rescue",
+      "finger-gym",
+      "keyboard-museum-typer",
+      "right-hand-lane"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "wrist-rest-balance",
+    "title": "Wrist Rest Balance",
+    "keyword": "do you need wrist rest when typing",
+    "searchVolume": 720,
+    "category": "shop-gear",
+    "difficulty": "intermediate",
+    "embed": {
+      "kind": "engine",
+      "mode": "falling-words",
+      "wordlistIds": [
+        "shop"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "score",
+        "variant": "shop-stack",
+        "spawnRateMs": 1500,
+        "livesAllowed": 3,
+        "fallSpeedPxSec": 60
+      }
+    },
+    "hero": {
+      "tagline": "Sort themed gear and word cards in this do you need wrist rest when typing typing game.",
+      "emoji": "🤲"
+    },
+    "theme": {
+      "palette": "shop",
+      "accent": "#b45309",
+      "accent2": "#2563eb",
+      "surface": "#fff7ed",
+      "sprites": "wrist-rest-balance"
+    },
+    "faq": [
+      {
+        "q": "Is Wrist Rest Balance free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "book-stack-typer",
+      "page-turner-typing",
+      "library-typing-quest",
+      "fruit-typing",
+      "truck-typer",
+      "typing-food"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "clinic-transcript-typer",
+    "title": "Clinic Transcript Typer",
+    "keyword": "transcription practice",
+    "searchVolume": 590,
+    "category": "medical",
+    "difficulty": "intermediate",
+    "embed": {
+      "kind": "engine",
+      "mode": "classic-time",
+      "wordlistIds": [
+        "medical"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "wpm",
+        "variant": "medical-sim"
+      }
+    },
+    "hero": {
+      "tagline": "Practice transcription practice with chart notes, terms, and clean accuracy goals.",
+      "emoji": "📝"
+    },
+    "theme": {
+      "palette": "medical",
+      "accent": "#0d9488",
+      "accent2": "#14b8a6",
+      "surface": "#ecfeff",
+      "sprites": "clinic-transcript-typer"
+    },
+    "faq": [
+      {
+        "q": "Is Clinic Transcript Typer free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "scribe-shift",
+      "medical-audio-queue",
+      "doctor-typing-clinic",
+      "medical-ward-typer",
+      "fruit-typing",
+      "truck-typer"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "right-hand-rescue",
+    "title": "Right Hand Rescue",
+    "keyword": "typing right hand practice",
+    "searchVolume": 170,
+    "category": "keyboard-layout",
+    "difficulty": "intermediate",
+    "embed": {
+      "kind": "engine",
+      "mode": "spawn-targets",
+      "wordlistIds": [
+        "keyboard"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "score",
+        "variant": "layout-map",
+        "spawnRateMs": 1500,
+        "livesAllowed": 3
+      }
+    },
+    "hero": {
+      "tagline": "Train the exact keys behind typing right hand practice through target-based play.",
+      "emoji": "🤚"
+    },
+    "theme": {
+      "palette": "keyboard",
+      "accent": "#4338ca",
+      "accent2": "#16a34a",
+      "surface": "#eef2ff",
+      "sprites": "right-hand-rescue"
+    },
+    "faq": [
+      {
+        "q": "Is Right Hand Rescue free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "muscle-memory-maze",
+      "layout-quest",
+      "beginner-keyboard-builder",
+      "finger-gym",
+      "keyboard-museum-typer",
+      "right-hand-lane"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "rule-builder-typing",
+    "title": "Rule Builder Typing",
+    "keyword": "customizable typing test",
+    "searchVolume": 140,
+    "category": "custom-tools",
+    "difficulty": "intermediate",
+    "embed": {
+      "kind": "engine",
+      "mode": "classic-words",
+      "wordlistIds": [
+        "custom"
+      ],
+      "config": {
+        "wordCount": 60,
+        "scoreUnit": "wpm",
+        "variant": "custom-arena"
+      }
+    },
+    "hero": {
+      "tagline": "Turn custom prompts into a playable customizable typing test arena.",
+      "emoji": "🛠️"
+    },
+    "theme": {
+      "palette": "custom",
+      "accent": "#475569",
+      "accent2": "#10b981",
+      "surface": "#f8fafc",
+      "sprites": "rule-builder-typing"
+    },
+    "faq": [
+      {
+        "q": "Is Rule Builder Typing free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "custom-arena",
+      "custom-boss-typing",
+      "fruit-typing",
+      "truck-typer",
+      "typing-food",
+      "chicken-typing"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "spanish-fiesta-typer",
+    "title": "Spanish Fiesta Typer",
+    "keyword": "spanish typing games",
+    "searchVolume": 110,
+    "category": "languages",
+    "difficulty": "beginner",
+    "embed": {
+      "kind": "engine",
+      "mode": "classic-time",
+      "wordlistIds": [
+        "spanish"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "wpm",
+        "variant": "language-sprint"
+      }
+    },
+    "hero": {
+      "tagline": "Practice spanish typing games with short script and vocabulary bursts.",
+      "emoji": "🎉"
+    },
+    "theme": {
+      "palette": "language",
+      "accent": "#7c3aed",
+      "accent2": "#06b6d4",
+      "surface": "#f5f3ff",
+      "sprites": "spanish-fiesta-typer"
+    },
+    "faq": [
+      {
+        "q": "Is Spanish Fiesta Typer free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "kana-lane-typing",
+      "urdu-script-sprint",
+      "cyrillic-snow-typer",
+      "khmer-glyph-drop",
+      "hangul-combo-typer",
+      "spanish-accent-sprint"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "pocket-letter-guess",
+    "title": "Pocket Letter Guess",
+    "keyword": "what letter does pokemon games start with when typing",
+    "searchVolume": 390,
+    "category": "branded-inspired",
+    "difficulty": "intermediate",
+    "embed": {
+      "kind": "engine",
+      "mode": "spawn-targets",
+      "wordlistIds": [
+        "branded"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "score",
+        "variant": "inspired-arcade",
+        "spawnRateMs": 1500,
+        "livesAllowed": 3
+      }
+    },
+    "hero": {
+      "tagline": "An unofficial inspired typing challenge for what letter does pokemon games start with when typing.",
+      "emoji": "🔤"
+    },
+    "theme": {
+      "palette": "branded",
+      "accent": "#0891b2",
+      "accent2": "#f59e0b",
+      "surface": "#ecfeff",
+      "sprites": "pocket-letter-guess"
+    },
+    "faq": [
+      {
+        "q": "Is Pocket Letter Guess free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "No. Branded or competitor-inspired pages are unofficial typing challenges and do not use official assets."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "undersea-fry-typer",
+      "crew-task-typer",
+      "iceberg-word-slide",
+      "fruit-typing",
+      "truck-typer",
+      "typing-food"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "scribe-shift",
+    "title": "Scribe Shift",
+    "keyword": "medical scribe typing test",
+    "searchVolume": 210,
+    "category": "medical",
+    "difficulty": "intermediate",
+    "embed": {
+      "kind": "engine",
+      "mode": "classic-time",
+      "wordlistIds": [
+        "medical"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "wpm",
+        "variant": "medical-sim"
+      }
+    },
+    "hero": {
+      "tagline": "Practice medical scribe typing test with chart notes, terms, and clean accuracy goals.",
+      "emoji": "🩺"
+    },
+    "theme": {
+      "palette": "medical",
+      "accent": "#0d9488",
+      "accent2": "#14b8a6",
+      "surface": "#ecfeff",
+      "sprites": "scribe-shift"
+    },
+    "faq": [
+      {
+        "q": "Is Scribe Shift free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "clinic-transcript-typer",
+      "medical-audio-queue",
+      "doctor-typing-clinic",
+      "medical-ward-typer",
+      "fruit-typing",
+      "truck-typer"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "finger-gym",
+    "title": "Finger Gym",
+    "keyword": "finger exerciser",
+    "searchVolume": 1000,
+    "category": "keyboard-layout",
+    "difficulty": "intermediate",
+    "embed": {
+      "kind": "engine",
+      "mode": "spawn-targets",
+      "wordlistIds": [
+        "keyboard"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "score",
+        "variant": "layout-map",
+        "spawnRateMs": 1500,
+        "livesAllowed": 3
+      }
+    },
+    "hero": {
+      "tagline": "Train the exact keys behind finger exerciser through target-based play.",
+      "emoji": "💪"
+    },
+    "theme": {
+      "palette": "keyboard",
+      "accent": "#4338ca",
+      "accent2": "#16a34a",
+      "surface": "#eef2ff",
+      "sprites": "finger-gym"
+    },
+    "faq": [
+      {
+        "q": "Is Finger Gym free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "muscle-memory-maze",
+      "layout-quest",
+      "beginner-keyboard-builder",
+      "right-hand-rescue",
+      "keyboard-museum-typer",
+      "right-hand-lane"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "cyrillic-snow-typer",
+    "title": "Cyrillic Snow Typer",
+    "keyword": "russian typing practice",
+    "searchVolume": 140,
+    "category": "languages",
+    "difficulty": "beginner",
+    "embed": {
+      "kind": "engine",
+      "mode": "classic-time",
+      "wordlistIds": [
+        "russian"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "wpm",
+        "variant": "language-sprint"
+      }
+    },
+    "hero": {
+      "tagline": "Practice russian typing practice with short script and vocabulary bursts.",
+      "emoji": "❄️"
+    },
+    "theme": {
+      "palette": "language",
+      "accent": "#7c3aed",
+      "accent2": "#06b6d4",
+      "surface": "#f5f3ff",
+      "sprites": "cyrillic-snow-typer"
+    },
+    "faq": [
+      {
+        "q": "Is Cyrillic Snow Typer free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "kana-lane-typing",
+      "urdu-script-sprint",
+      "spanish-fiesta-typer",
+      "khmer-glyph-drop",
+      "hangul-combo-typer",
+      "spanish-accent-sprint"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "ghost-hall-typer",
+    "title": "Ghost Hall Typer",
+    "keyword": "typing of the ghosts game",
+    "searchVolume": 140,
+    "category": "spooky",
+    "difficulty": "advanced",
+    "embed": {
+      "kind": "engine",
+      "mode": "falling-words",
+      "wordlistIds": [
+        "horror"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "score",
+        "variant": "spooky-chase",
+        "spawnRateMs": 1150,
+        "livesAllowed": 3,
+        "fallSpeedPxSec": 75
+      }
+    },
+    "hero": {
+      "tagline": "Keep the lights on by typing through a typing of the ghosts game chase.",
+      "emoji": "🏚️"
+    },
+    "theme": {
+      "palette": "spooky",
+      "accent": "#7f1d1d",
+      "accent2": "#a855f7",
+      "surface": "#1f1024",
+      "sprites": "ghost-hall-typer"
+    },
+    "faq": [
+      {
+        "q": "Is Ghost Hall Typer free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "typing-bomb",
+      "typing-of-the-ghosts",
+      "ghost-chase-typing",
+      "horror-hallway-typer",
+      "fruit-typing",
+      "truck-typer"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "10-key-trainer",
+    "title": "10-Key Trainer",
+    "keyword": "what is a 10 key",
+    "searchVolume": 590,
+    "category": "numbers",
+    "difficulty": "advanced",
+    "embed": {
+      "kind": "engine",
+      "mode": "countdown-defuse",
+      "wordlistIds": [
+        "numbers"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "kph",
+        "variant": "number-pad",
+        "spawnRateMs": 1150,
+        "livesAllowed": 3
+      }
+    },
+    "hero": {
+      "tagline": "Clear number and code targets in a fast what is a 10 key challenge.",
+      "emoji": "🔢"
+    },
+    "theme": {
+      "palette": "number",
+      "accent": "#4f46e5",
+      "accent2": "#f59e0b",
+      "surface": "#eef2ff",
+      "sprites": "10-key-trainer"
+    },
+    "faq": [
+      {
+        "q": "Is 10-Key Trainer free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "code-crate-sort",
+      "10-key-cashier",
+      "fruit-typing",
+      "truck-typer",
+      "typing-food",
+      "chicken-typing"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "custom-boss-typing",
+    "title": "Custom Boss Typing",
+    "keyword": "custom typing test",
+    "searchVolume": 390,
+    "category": "custom-tools",
+    "difficulty": "intermediate",
+    "embed": {
+      "kind": "engine",
+      "mode": "classic-words",
+      "wordlistIds": [
+        "custom"
+      ],
+      "config": {
+        "wordCount": 60,
+        "scoreUnit": "wpm",
+        "variant": "custom-arena"
+      }
+    },
+    "hero": {
+      "tagline": "Turn custom prompts into a playable custom typing test arena.",
+      "emoji": "🐉"
+    },
+    "theme": {
+      "palette": "custom",
+      "accent": "#475569",
+      "accent2": "#10b981",
+      "surface": "#f8fafc",
+      "sprites": "custom-boss-typing"
+    },
+    "faq": [
+      {
+        "q": "Is Custom Boss Typing free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "custom-arena",
+      "rule-builder-typing",
+      "fruit-typing",
+      "truck-typer",
+      "typing-food",
+      "chicken-typing"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "khmer-glyph-drop",
+    "title": "Khmer Glyph Drop",
+    "keyword": "typing test khmer",
+    "searchVolume": 140,
+    "category": "languages",
+    "difficulty": "beginner",
+    "embed": {
+      "kind": "engine",
+      "mode": "falling-words",
+      "wordlistIds": [
+        "khmer"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "wpm",
+        "variant": "language-sprint",
+        "spawnRateMs": 1500,
+        "livesAllowed": 3,
+        "fallSpeedPxSec": 60
+      }
+    },
+    "hero": {
+      "tagline": "Practice typing test khmer with short script and vocabulary bursts.",
+      "emoji": "🔶"
+    },
+    "theme": {
+      "palette": "language",
+      "accent": "#7c3aed",
+      "accent2": "#06b6d4",
+      "surface": "#f5f3ff",
+      "sprites": "khmer-glyph-drop"
+    },
+    "faq": [
+      {
+        "q": "Is Khmer Glyph Drop free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "kana-lane-typing",
+      "urdu-script-sprint",
+      "spanish-fiesta-typer",
+      "cyrillic-snow-typer",
+      "hangul-combo-typer",
+      "spanish-accent-sprint"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "certificate-speed-trial",
+    "title": "Certificate Speed Trial",
+    "keyword": "typing test certificate",
+    "searchVolume": 720,
+    "category": "speed-test",
+    "difficulty": "beginner",
+    "embed": {
+      "kind": "engine",
+      "mode": "classic-time",
+      "wordlistIds": [
+        "certificate"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "wpm",
+        "variant": "certificate-ladder"
+      }
+    },
+    "hero": {
+      "tagline": "Beat the accuracy gate and finish a clean typing test certificate round.",
+      "emoji": "📜"
+    },
+    "theme": {
+      "palette": "certificate",
+      "accent": "#0f172a",
+      "accent2": "#22c55e",
+      "surface": "#ffffff",
+      "sprites": "certificate-speed-trial"
+    },
+    "faq": [
+      {
+        "q": "Is Certificate Speed Trial free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "typing-99",
+      "typing-rain",
+      "mavis-beacon-typing",
+      "dance-mat-typing",
+      "pangram-sprint",
+      "certificate-challenge"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "undersea-fry-typer",
+    "title": "Undersea Fry Typer",
+    "keyword": "spongebob typing game",
+    "searchVolume": 390,
+    "category": "branded-inspired",
+    "difficulty": "intermediate",
+    "embed": {
+      "kind": "engine",
+      "mode": "spawn-targets",
+      "wordlistIds": [
+        "branded"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "score",
+        "variant": "inspired-arcade",
+        "spawnRateMs": 1500,
+        "livesAllowed": 3
+      }
+    },
+    "hero": {
+      "tagline": "An unofficial inspired typing challenge for spongebob typing game.",
+      "emoji": "🍟"
+    },
+    "theme": {
+      "palette": "branded",
+      "accent": "#0891b2",
+      "accent2": "#f59e0b",
+      "surface": "#ecfeff",
+      "sprites": "undersea-fry-typer"
+    },
+    "faq": [
+      {
+        "q": "Is Undersea Fry Typer free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "No. Branded or competitor-inspired pages are unofficial typing challenges and do not use official assets."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "pocket-letter-guess",
+      "crew-task-typer",
+      "iceberg-word-slide",
+      "fruit-typing",
+      "truck-typer",
+      "typing-food"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "medical-audio-queue",
+    "title": "Medical Audio Queue",
+    "keyword": "medical transcription typing test",
+    "searchVolume": 210,
+    "category": "medical",
+    "difficulty": "intermediate",
+    "embed": {
+      "kind": "engine",
+      "mode": "classic-time",
+      "wordlistIds": [
+        "medical"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "wpm",
+        "variant": "medical-sim"
+      }
+    },
+    "hero": {
+      "tagline": "Practice medical transcription typing test with chart notes, terms, and clean accuracy goals.",
+      "emoji": "🎧"
+    },
+    "theme": {
+      "palette": "medical",
+      "accent": "#0d9488",
+      "accent2": "#14b8a6",
+      "surface": "#ecfeff",
+      "sprites": "medical-audio-queue"
+    },
+    "faq": [
+      {
+        "q": "Is Medical Audio Queue free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "clinic-transcript-typer",
+      "scribe-shift",
+      "doctor-typing-clinic",
+      "medical-ward-typer",
+      "fruit-typing",
+      "truck-typer"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "ghost-chase-typing",
+    "title": "Ghost Chase Typing",
+    "keyword": "ghost typing game",
+    "searchVolume": 170,
+    "category": "spooky",
+    "difficulty": "advanced",
+    "embed": {
+      "kind": "engine",
+      "mode": "falling-words",
+      "wordlistIds": [
+        "horror"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "score",
+        "variant": "spooky-chase",
+        "spawnRateMs": 1150,
+        "livesAllowed": 3,
+        "fallSpeedPxSec": 75
+      }
+    },
+    "hero": {
+      "tagline": "Keep the lights on by typing through a ghost typing game chase.",
+      "emoji": "🔦"
+    },
+    "theme": {
+      "palette": "spooky",
+      "accent": "#7f1d1d",
+      "accent2": "#a855f7",
+      "surface": "#1f1024",
+      "sprites": "ghost-chase-typing"
+    },
+    "faq": [
+      {
+        "q": "Is Ghost Chase Typing free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "typing-bomb",
+      "typing-of-the-ghosts",
+      "ghost-hall-typer",
+      "horror-hallway-typer",
+      "fruit-typing",
+      "truck-typer"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "beacon-lesson-sprint",
+    "title": "Beacon Lesson Sprint",
+    "keyword": "mavis beacon teaches typing test",
+    "searchVolume": 170,
+    "category": "retro-arcade",
+    "difficulty": "intermediate",
+    "embed": {
+      "kind": "engine",
+      "mode": "classic-time",
+      "wordlistIds": [
+        "retro"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "wpm",
+        "variant": "retro-arcade"
+      }
+    },
+    "hero": {
+      "tagline": "A retro arcade typing round inspired by mavis beacon teaches typing test.",
+      "emoji": "💡"
+    },
+    "theme": {
+      "palette": "retro",
+      "accent": "#6d28d9",
+      "accent2": "#f97316",
+      "surface": "#faf5ff",
+      "sprites": "beacon-lesson-sprint"
+    },
+    "faq": [
+      {
+        "q": "Is Beacon Lesson Sprint free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "No. Branded or competitor-inspired pages are unofficial typing challenges and do not use official assets."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "clean-text-sprint",
+      "typewriter-ribbon-rally",
+      "sound-desk-typer",
+      "2000s-arcade-typer",
+      "beacon-online-challenge",
+      "typing-game-arcade"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "minimal-sprint-arena",
+    "title": "Minimal Sprint Arena",
+    "keyword": "monkeytype alternatives",
+    "searchVolume": 70,
+    "category": "speed-test",
+    "difficulty": "intermediate",
+    "embed": {
+      "kind": "engine",
+      "mode": "classic-time",
+      "wordlistIds": [
+        "speed"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "wpm",
+        "variant": "speed-ladder"
+      }
+    },
+    "hero": {
+      "tagline": "Climb a speed ladder built around monkeytype alternatives.",
+      "emoji": "⚡"
+    },
+    "theme": {
+      "palette": "speed",
+      "accent": "#111827",
+      "accent2": "#ef4444",
+      "surface": "#ffffff",
+      "sprites": "minimal-sprint-arena"
+    },
+    "faq": [
+      {
+        "q": "Is Minimal Sprint Arena free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "No. Branded or competitor-inspired pages are unofficial typing challenges and do not use official assets."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "typing-99",
+      "typing-rain",
+      "mavis-beacon-typing",
+      "dance-mat-typing",
+      "pangram-sprint",
+      "certificate-challenge"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "crew-task-typer",
+    "title": "Crew Task Typer",
+    "keyword": "among us typing games",
+    "searchVolume": 140,
+    "category": "branded-inspired",
+    "difficulty": "intermediate",
+    "embed": {
+      "kind": "engine",
+      "mode": "spawn-targets",
+      "wordlistIds": [
+        "branded"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "score",
+        "variant": "inspired-arcade",
+        "spawnRateMs": 1500,
+        "livesAllowed": 3
+      }
+    },
+    "hero": {
+      "tagline": "An unofficial inspired typing challenge for among us typing games.",
+      "emoji": "🛸"
+    },
+    "theme": {
+      "palette": "branded",
+      "accent": "#0891b2",
+      "accent2": "#f59e0b",
+      "surface": "#ecfeff",
+      "sprites": "crew-task-typer"
+    },
+    "faq": [
+      {
+        "q": "Is Crew Task Typer free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "No. Branded or competitor-inspired pages are unofficial typing challenges and do not use official assets."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "pocket-letter-guess",
+      "undersea-fry-typer",
+      "iceberg-word-slide",
+      "fruit-typing",
+      "truck-typer",
+      "typing-food"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "keyboard-museum-typer",
+    "title": "Keyboard Museum Typer",
+    "keyword": "types of keyboard",
+    "searchVolume": 880,
+    "category": "keyboard-layout",
+    "difficulty": "intermediate",
+    "embed": {
+      "kind": "engine",
+      "mode": "spawn-targets",
+      "wordlistIds": [
+        "keyboard"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "score",
+        "variant": "layout-map",
+        "spawnRateMs": 1500,
+        "livesAllowed": 3
+      }
+    },
+    "hero": {
+      "tagline": "Train the exact keys behind types of keyboard through target-based play.",
+      "emoji": "🗝️"
+    },
+    "theme": {
+      "palette": "keyboard",
+      "accent": "#4338ca",
+      "accent2": "#16a34a",
+      "surface": "#eef2ff",
+      "sprites": "keyboard-museum-typer"
+    },
+    "faq": [
+      {
+        "q": "Is Keyboard Museum Typer free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "muscle-memory-maze",
+      "layout-quest",
+      "beginner-keyboard-builder",
+      "right-hand-rescue",
+      "finger-gym",
+      "right-hand-lane"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "clean-text-sprint",
+    "title": "Clean Text Sprint",
+    "keyword": "typing test without punctuation",
+    "searchVolume": 210,
+    "category": "retro-arcade",
+    "difficulty": "intermediate",
+    "embed": {
+      "kind": "engine",
+      "mode": "spawn-targets",
+      "wordlistIds": [
+        "common-en"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "score",
+        "variant": "typing-arcade",
+        "spawnRateMs": 1500,
+        "livesAllowed": 3
+      }
+    },
+    "hero": {
+      "tagline": "A mixed arcade typing game built for typing test without punctuation.",
+      "emoji": "🧼"
+    },
+    "theme": {
+      "palette": "arcade",
+      "accent": "#4f46e5",
+      "accent2": "#ec4899",
+      "surface": "#f8fafc",
+      "sprites": "clean-text-sprint"
+    },
+    "faq": [
+      {
+        "q": "Is Clean Text Sprint free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "beacon-lesson-sprint",
+      "typewriter-ribbon-rally",
+      "sound-desk-typer",
+      "2000s-arcade-typer",
+      "beacon-online-challenge",
+      "typing-game-arcade"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "hangul-combo-typer",
+    "title": "Hangul Combo Typer",
+    "keyword": "korean typing test",
+    "searchVolume": 210,
+    "category": "languages",
+    "difficulty": "beginner",
+    "embed": {
+      "kind": "engine",
+      "mode": "classic-time",
+      "wordlistIds": [
+        "korean"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "wpm",
+        "variant": "language-sprint"
+      }
+    },
+    "hero": {
+      "tagline": "Practice korean typing test with short script and vocabulary bursts.",
+      "emoji": "🇰🇷"
+    },
+    "theme": {
+      "palette": "language",
+      "accent": "#7c3aed",
+      "accent2": "#06b6d4",
+      "surface": "#f5f3ff",
+      "sprites": "hangul-combo-typer"
+    },
+    "faq": [
+      {
+        "q": "Is Hangul Combo Typer free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "kana-lane-typing",
+      "urdu-script-sprint",
+      "spanish-fiesta-typer",
+      "cyrillic-snow-typer",
+      "khmer-glyph-drop",
+      "spanish-accent-sprint"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "beat-key-typer",
+    "title": "Beat Key Typer",
+    "keyword": "typing rhythm game",
+    "searchVolume": 170,
+    "category": "rhythm",
+    "difficulty": "advanced",
+    "embed": {
+      "kind": "engine",
+      "mode": "countdown-defuse",
+      "wordlistIds": [
+        "rhythm"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "score",
+        "variant": "rhythm-lane",
+        "spawnRateMs": 1150,
+        "livesAllowed": 3
+      }
+    },
+    "hero": {
+      "tagline": "Hit words on the beat in this typing rhythm game rhythm lane.",
+      "emoji": "🥁"
+    },
+    "theme": {
+      "palette": "rhythm",
+      "accent": "#be185d",
+      "accent2": "#06b6d4",
+      "surface": "#fdf2f8",
+      "sprites": "beat-key-typer"
+    },
+    "faq": [
+      {
+        "q": "Is Beat Key Typer free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "lyric-beat-typer",
+      "fruit-typing",
+      "truck-typer",
+      "typing-food",
+      "chicken-typing",
+      "typing-99"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "typewriter-ribbon-rally",
+    "title": "Typewriter Ribbon Rally",
+    "keyword": "manual typewriters",
+    "searchVolume": 880,
+    "category": "retro-arcade",
+    "difficulty": "intermediate",
+    "embed": {
+      "kind": "engine",
+      "mode": "classic-time",
+      "wordlistIds": [
+        "retro"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "wpm",
+        "variant": "retro-arcade"
+      }
+    },
+    "hero": {
+      "tagline": "A retro arcade typing round inspired by manual typewriters.",
+      "emoji": "🎞️"
+    },
+    "theme": {
+      "palette": "retro",
+      "accent": "#6d28d9",
+      "accent2": "#f97316",
+      "surface": "#faf5ff",
+      "sprites": "typewriter-ribbon-rally"
+    },
+    "faq": [
+      {
+        "q": "Is Typewriter Ribbon Rally free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "beacon-lesson-sprint",
+      "clean-text-sprint",
+      "sound-desk-typer",
+      "2000s-arcade-typer",
+      "beacon-online-challenge",
+      "typing-game-arcade"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "spanish-accent-sprint",
+    "title": "Spanish Accent Sprint",
+    "keyword": "spanish typing test",
+    "searchVolume": 480,
+    "category": "languages",
+    "difficulty": "beginner",
+    "embed": {
+      "kind": "engine",
+      "mode": "classic-time",
+      "wordlistIds": [
+        "spanish"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "wpm",
+        "variant": "language-sprint"
+      }
+    },
+    "hero": {
+      "tagline": "Practice spanish typing test with short script and vocabulary bursts.",
+      "emoji": "á"
+    },
+    "theme": {
+      "palette": "language",
+      "accent": "#7c3aed",
+      "accent2": "#06b6d4",
+      "surface": "#f5f3ff",
+      "sprites": "spanish-accent-sprint"
+    },
+    "faq": [
+      {
+        "q": "Is Spanish Accent Sprint free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "kana-lane-typing",
+      "urdu-script-sprint",
+      "spanish-fiesta-typer",
+      "cyrillic-snow-typer",
+      "khmer-glyph-drop",
+      "hangul-combo-typer"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "right-hand-lane",
+    "title": "Right-Hand Lane",
+    "keyword": "right hand typing practice",
+    "searchVolume": 390,
+    "category": "keyboard-layout",
+    "difficulty": "intermediate",
+    "embed": {
+      "kind": "engine",
+      "mode": "spawn-targets",
+      "wordlistIds": [
+        "keyboard"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "score",
+        "variant": "layout-map",
+        "spawnRateMs": 1500,
+        "livesAllowed": 3
+      }
+    },
+    "hero": {
+      "tagline": "Train the exact keys behind right hand typing practice through target-based play.",
+      "emoji": "➡️"
+    },
+    "theme": {
+      "palette": "keyboard",
+      "accent": "#4338ca",
+      "accent2": "#16a34a",
+      "surface": "#eef2ff",
+      "sprites": "right-hand-lane"
+    },
+    "faq": [
+      {
+        "q": "Is Right-Hand Lane free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "muscle-memory-maze",
+      "layout-quest",
+      "beginner-keyboard-builder",
+      "right-hand-rescue",
+      "finger-gym",
+      "keyboard-museum-typer"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "iceberg-word-slide",
+    "title": "Iceberg Word Slide",
+    "keyword": "club penguin typing game",
+    "searchVolume": 210,
+    "category": "branded-inspired",
+    "difficulty": "intermediate",
+    "embed": {
+      "kind": "engine",
+      "mode": "spawn-targets",
+      "wordlistIds": [
+        "branded"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "score",
+        "variant": "inspired-arcade",
+        "spawnRateMs": 1500,
+        "livesAllowed": 3
+      }
+    },
+    "hero": {
+      "tagline": "An unofficial inspired typing challenge for club penguin typing game.",
+      "emoji": "🧊"
+    },
+    "theme": {
+      "palette": "branded",
+      "accent": "#0891b2",
+      "accent2": "#f59e0b",
+      "surface": "#ecfeff",
+      "sprites": "iceberg-word-slide"
+    },
+    "faq": [
+      {
+        "q": "Is Iceberg Word Slide free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "No. Branded or competitor-inspired pages are unofficial typing challenges and do not use official assets."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "pocket-letter-guess",
+      "undersea-fry-typer",
+      "crew-task-typer",
+      "fruit-typing",
+      "truck-typer",
+      "typing-food"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "hangul-practice-path",
+    "title": "Hangul Practice Path",
+    "keyword": "practice typing korean",
+    "searchVolume": 210,
+    "category": "languages",
+    "difficulty": "beginner",
+    "embed": {
+      "kind": "engine",
+      "mode": "classic-time",
+      "wordlistIds": [
+        "korean"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "wpm",
+        "variant": "language-sprint"
+      }
+    },
+    "hero": {
+      "tagline": "Practice practice typing korean with short script and vocabulary bursts.",
+      "emoji": "한"
+    },
+    "theme": {
+      "palette": "language",
+      "accent": "#7c3aed",
+      "accent2": "#06b6d4",
+      "surface": "#f5f3ff",
+      "sprites": "hangul-practice-path"
+    },
+    "faq": [
+      {
+        "q": "Is Hangul Practice Path free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "kana-lane-typing",
+      "urdu-script-sprint",
+      "spanish-fiesta-typer",
+      "cyrillic-snow-typer",
+      "khmer-glyph-drop",
+      "hangul-combo-typer"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "lyric-beat-typer",
+    "title": "Lyric Beat Typer",
+    "keyword": "typing song lyrics game",
+    "searchVolume": 110,
+    "category": "rhythm",
+    "difficulty": "advanced",
+    "embed": {
+      "kind": "engine",
+      "mode": "countdown-defuse",
+      "wordlistIds": [
+        "rhythm"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "score",
+        "variant": "rhythm-lane",
+        "spawnRateMs": 1150,
+        "livesAllowed": 3
+      }
+    },
+    "hero": {
+      "tagline": "Hit words on the beat in this typing song lyrics game rhythm lane.",
+      "emoji": "🎼"
+    },
+    "theme": {
+      "palette": "rhythm",
+      "accent": "#be185d",
+      "accent2": "#06b6d4",
+      "surface": "#fdf2f8",
+      "sprites": "lyric-beat-typer"
+    },
+    "faq": [
+      {
+        "q": "Is Lyric Beat Typer free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "beat-key-typer",
+      "fruit-typing",
+      "truck-typer",
+      "typing-food",
+      "chicken-typing",
+      "typing-99"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "support-desk-typer",
+    "title": "Support Desk Typer",
+    "keyword": "concentrix typing test",
+    "searchVolume": 110,
+    "category": "jobs-data",
+    "difficulty": "intermediate",
+    "embed": {
+      "kind": "engine",
+      "mode": "classic-time",
+      "wordlistIds": [
+        "professional"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "kph",
+        "variant": "profession-sim"
+      }
+    },
+    "hero": {
+      "tagline": "Type live concentrix typing test prompts before the queue backs up.",
+      "emoji": "🎙️"
+    },
+    "theme": {
+      "palette": "profession",
+      "accent": "#2563eb",
+      "accent2": "#f97316",
+      "surface": "#eff6ff",
+      "sprites": "support-desk-typer"
+    },
+    "faq": [
+      {
+        "q": "Is Support Desk Typer free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "911-dispatch-rush",
+      "dispatcher-call-queue",
+      "kph-cargo-terminal",
+      "radio-code-typer",
+      "test-center-dash",
+      "location-clerk-typer"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "10-minute-endurance-run",
+    "title": "10-Minute Endurance Run",
+    "keyword": "typing speed test in 10 minutes",
+    "searchVolume": 110,
+    "category": "speed-test",
+    "difficulty": "intermediate",
+    "embed": {
+      "kind": "engine",
+      "mode": "classic-time",
+      "wordlistIds": [
+        "speed"
+      ],
+      "config": {
+        "durationSec": 120,
+        "scoreUnit": "wpm",
+        "variant": "speed-ladder"
+      }
+    },
+    "hero": {
+      "tagline": "Climb a speed ladder built around typing speed test in 10 minutes.",
+      "emoji": "⏱️"
+    },
+    "theme": {
+      "palette": "speed",
+      "accent": "#111827",
+      "accent2": "#ef4444",
+      "surface": "#ffffff",
+      "sprites": "10-minute-endurance-run"
+    },
+    "faq": [
+      {
+        "q": "Is 10-Minute Endurance Run free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "typing-99",
+      "typing-rain",
+      "mavis-beacon-typing",
+      "dance-mat-typing",
+      "pangram-sprint",
+      "certificate-challenge"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "retro-space-typer",
+    "title": "Retro Space Typer",
+    "keyword": "space typing game 2000s",
+    "searchVolume": 110,
+    "category": "space",
+    "difficulty": "intermediate",
+    "embed": {
+      "kind": "engine",
+      "mode": "falling-words",
+      "wordlistIds": [
+        "space"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "score",
+        "variant": "space-patrol",
+        "spawnRateMs": 1500,
+        "livesAllowed": 3,
+        "fallSpeedPxSec": 60
+      }
+    },
+    "hero": {
+      "tagline": "Blast through space words in this space typing game 2000s arcade round.",
+      "emoji": "🕹️"
+    },
+    "theme": {
+      "palette": "space",
+      "accent": "#22d3ee",
+      "accent2": "#a78bfa",
+      "surface": "#0b1020",
+      "sprites": "retro-space-typer"
+    },
+    "faq": [
+      {
+        "q": "Is Retro Space Typer free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "typing-alien",
+      "typing-rocket",
+      "asteroid-typing",
+      "asteroid-splitter",
+      "space-patrol-typer",
+      "fruit-typing"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "spanish-typewriter-desk",
+    "title": "Spanish Typewriter Desk",
+    "keyword": "spanish typewriter",
+    "searchVolume": 260,
+    "category": "languages",
+    "difficulty": "beginner",
+    "embed": {
+      "kind": "engine",
+      "mode": "classic-time",
+      "wordlistIds": [
+        "spanish"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "wpm",
+        "variant": "language-sprint"
+      }
+    },
+    "hero": {
+      "tagline": "Practice spanish typewriter with short script and vocabulary bursts.",
+      "emoji": "⌨️"
+    },
+    "theme": {
+      "palette": "language",
+      "accent": "#7c3aed",
+      "accent2": "#06b6d4",
+      "surface": "#f5f3ff",
+      "sprites": "spanish-typewriter-desk"
+    },
+    "faq": [
+      {
+        "q": "Is Spanish Typewriter Desk free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "kana-lane-typing",
+      "urdu-script-sprint",
+      "spanish-fiesta-typer",
+      "cyrillic-snow-typer",
+      "khmer-glyph-drop",
+      "hangul-combo-typer"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "typing-gallery",
+    "title": "Typing Gallery",
+    "keyword": "art of typing",
+    "searchVolume": 880,
+    "category": "creative",
+    "difficulty": "intermediate",
+    "embed": {
+      "kind": "engine",
+      "mode": "falling-words",
+      "wordlistIds": [
+        "creative"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "score",
+        "variant": "creative-gallery",
+        "spawnRateMs": 1500,
+        "livesAllowed": 3,
+        "fallSpeedPxSec": 60
+      }
+    },
+    "hero": {
+      "tagline": "Paint the gallery by typing through art of typing prompts.",
+      "emoji": "🖼️"
+    },
+    "theme": {
+      "palette": "creative",
+      "accent": "#c026d3",
+      "accent2": "#14b8a6",
+      "surface": "#fdf4ff",
+      "sprites": "typing-gallery"
+    },
+    "faq": [
+      {
+        "q": "Is Typing Gallery free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "fruit-typing",
+      "truck-typer",
+      "typing-food",
+      "chicken-typing",
+      "typing-99",
+      "typing-alien"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "dvorak-switch-quest",
+    "title": "Dvorak Switch Quest",
+    "keyword": "dvorak key layout",
+    "searchVolume": 880,
+    "category": "keyboard-layout",
+    "difficulty": "intermediate",
+    "embed": {
+      "kind": "engine",
+      "mode": "spawn-targets",
+      "wordlistIds": [
+        "keyboard"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "score",
+        "variant": "layout-map",
+        "spawnRateMs": 1500,
+        "livesAllowed": 3
+      }
+    },
+    "hero": {
+      "tagline": "Train the exact keys behind dvorak key layout through target-based play.",
+      "emoji": "⌘"
+    },
+    "theme": {
+      "palette": "keyboard",
+      "accent": "#4338ca",
+      "accent2": "#16a34a",
+      "surface": "#eef2ff",
+      "sprites": "dvorak-switch-quest"
+    },
+    "faq": [
+      {
+        "q": "Is Dvorak Switch Quest free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "muscle-memory-maze",
+      "layout-quest",
+      "beginner-keyboard-builder",
+      "right-hand-rescue",
+      "finger-gym",
+      "keyboard-museum-typer"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "fast-speed-ladder",
+    "title": "Fast Speed Ladder",
+    "keyword": "what is considered a fast typing speed",
+    "searchVolume": 720,
+    "category": "speed-test",
+    "difficulty": "intermediate",
+    "embed": {
+      "kind": "engine",
+      "mode": "classic-time",
+      "wordlistIds": [
+        "speed"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "wpm",
+        "variant": "speed-ladder"
+      }
+    },
+    "hero": {
+      "tagline": "Climb a speed ladder built around what is considered a fast typing speed.",
+      "emoji": "🪜"
+    },
+    "theme": {
+      "palette": "speed",
+      "accent": "#111827",
+      "accent2": "#ef4444",
+      "surface": "#ffffff",
+      "sprites": "fast-speed-ladder"
+    },
+    "faq": [
+      {
+        "q": "Is Fast Speed Ladder free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "typing-99",
+      "typing-rain",
+      "mavis-beacon-typing",
+      "dance-mat-typing",
+      "pangram-sprint",
+      "certificate-challenge"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "doctor-typing-clinic",
+    "title": "Doctor Typing Clinic",
+    "keyword": "dr typing",
+    "searchVolume": 1300,
+    "category": "medical",
+    "difficulty": "intermediate",
+    "embed": {
+      "kind": "engine",
+      "mode": "classic-time",
+      "wordlistIds": [
+        "medical"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "wpm",
+        "variant": "medical-sim"
+      }
+    },
+    "hero": {
+      "tagline": "Practice dr typing with chart notes, terms, and clean accuracy goals.",
+      "emoji": "⚕️"
+    },
+    "theme": {
+      "palette": "medical",
+      "accent": "#0d9488",
+      "accent2": "#14b8a6",
+      "surface": "#ecfeff",
+      "sprites": "doctor-typing-clinic"
+    },
+    "faq": [
+      {
+        "q": "Is Doctor Typing Clinic free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "clinic-transcript-typer",
+      "scribe-shift",
+      "medical-audio-queue",
+      "medical-ward-typer",
+      "fruit-typing",
+      "truck-typer"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "10-key-cashier",
+    "title": "10-Key Cashier",
+    "keyword": "10 key test",
+    "searchVolume": 880,
+    "category": "numbers",
+    "difficulty": "advanced",
+    "embed": {
+      "kind": "engine",
+      "mode": "countdown-defuse",
+      "wordlistIds": [
+        "numbers"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "kph",
+        "variant": "number-pad",
+        "spawnRateMs": 1150,
+        "livesAllowed": 3
+      }
+    },
+    "hero": {
+      "tagline": "Clear number and code targets in a fast 10 key test challenge.",
+      "emoji": "🧮"
+    },
+    "theme": {
+      "palette": "number",
+      "accent": "#4f46e5",
+      "accent2": "#f59e0b",
+      "surface": "#eef2ff",
+      "sprites": "10-key-cashier"
+    },
+    "faq": [
+      {
+        "q": "Is 10-Key Cashier free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "code-crate-sort",
+      "10-key-trainer",
+      "fruit-typing",
+      "truck-typer",
+      "typing-food",
+      "chicken-typing"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "tutor-monster-battle",
+    "title": "Tutor Monster Battle",
+    "keyword": "tutor monster",
+    "searchVolume": 1900,
+    "category": "kids",
+    "difficulty": "beginner",
+    "embed": {
+      "kind": "engine",
+      "mode": "spawn-targets",
+      "wordlistIds": [
+        "kids"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "score",
+        "variant": "kids-playground",
+        "spawnRateMs": 1500,
+        "livesAllowed": 3
+      }
+    },
+    "hero": {
+      "tagline": "A gentle, colorful tutor monster game with short words and quick wins.",
+      "emoji": "👹"
+    },
+    "theme": {
+      "palette": "kids",
+      "accent": "#db2777",
+      "accent2": "#facc15",
+      "surface": "#fdf2f8",
+      "sprites": "tutor-monster-battle"
+    },
+    "faq": [
+      {
+        "q": "Is Tutor Monster Battle free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "kids-typing-playground",
+      "alphabet-rocket",
+      "2nd-grade-word-park",
+      "fruit-typing",
+      "truck-typer",
+      "typing-food"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "certified-trial",
+    "title": "Certified Trial",
+    "keyword": "certified typing test",
+    "searchVolume": 320,
+    "category": "speed-test",
+    "difficulty": "beginner",
+    "embed": {
+      "kind": "engine",
+      "mode": "classic-time",
+      "wordlistIds": [
+        "certificate"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "wpm",
+        "variant": "certificate-ladder"
+      }
+    },
+    "hero": {
+      "tagline": "Beat the accuracy gate and finish a clean certified typing test round.",
+      "emoji": "✅"
+    },
+    "theme": {
+      "palette": "certificate",
+      "accent": "#0f172a",
+      "accent2": "#22c55e",
+      "surface": "#ffffff",
+      "sprites": "certified-trial"
+    },
+    "faq": [
+      {
+        "q": "Is Certified Trial free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "typing-99",
+      "typing-rain",
+      "mavis-beacon-typing",
+      "dance-mat-typing",
+      "pangram-sprint",
+      "certificate-challenge"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "punjabi-word-sprint",
+    "title": "Punjabi Word Sprint",
+    "keyword": "punjabi typing",
+    "searchVolume": 590,
+    "category": "languages",
+    "difficulty": "beginner",
+    "embed": {
+      "kind": "engine",
+      "mode": "classic-time",
+      "wordlistIds": [
+        "punjabi"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "wpm",
+        "variant": "language-sprint"
+      }
+    },
+    "hero": {
+      "tagline": "Practice punjabi typing with short script and vocabulary bursts.",
+      "emoji": "☬"
+    },
+    "theme": {
+      "palette": "language",
+      "accent": "#7c3aed",
+      "accent2": "#06b6d4",
+      "surface": "#f5f3ff",
+      "sprites": "punjabi-word-sprint"
+    },
+    "faq": [
+      {
+        "q": "Is Punjabi Word Sprint free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "kana-lane-typing",
+      "urdu-script-sprint",
+      "spanish-fiesta-typer",
+      "cyrillic-snow-typer",
+      "khmer-glyph-drop",
+      "hangul-combo-typer"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "sound-desk-typer",
+    "title": "Sound Desk Typer",
+    "keyword": "typewriter sound effect",
+    "searchVolume": 720,
+    "category": "retro-arcade",
+    "difficulty": "intermediate",
+    "embed": {
+      "kind": "engine",
+      "mode": "classic-time",
+      "wordlistIds": [
+        "retro"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "wpm",
+        "variant": "retro-arcade"
+      }
+    },
+    "hero": {
+      "tagline": "A retro arcade typing round inspired by typewriter sound effect.",
+      "emoji": "🔊"
+    },
+    "theme": {
+      "palette": "retro",
+      "accent": "#6d28d9",
+      "accent2": "#f97316",
+      "surface": "#faf5ff",
+      "sprites": "sound-desk-typer"
+    },
+    "faq": [
+      {
+        "q": "Is Sound Desk Typer free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "beacon-lesson-sprint",
+      "clean-text-sprint",
+      "typewriter-ribbon-rally",
+      "2000s-arcade-typer",
+      "beacon-online-challenge",
+      "typing-game-arcade"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "blindfold-typing-quest",
+    "title": "Blindfold Typing Quest",
+    "keyword": "how to learn to type without looking at keyboard",
+    "searchVolume": 110,
+    "category": "keyboard-layout",
+    "difficulty": "intermediate",
+    "embed": {
+      "kind": "engine",
+      "mode": "spawn-targets",
+      "wordlistIds": [
+        "keyboard"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "score",
+        "variant": "layout-map",
+        "spawnRateMs": 1500,
+        "livesAllowed": 3
+      }
+    },
+    "hero": {
+      "tagline": "Train the exact keys behind how to learn to type without looking at keyboard through target-based play.",
+      "emoji": "🙈"
+    },
+    "theme": {
+      "palette": "keyboard",
+      "accent": "#4338ca",
+      "accent2": "#16a34a",
+      "surface": "#eef2ff",
+      "sprites": "blindfold-typing-quest"
+    },
+    "faq": [
+      {
+        "q": "Is Blindfold Typing Quest free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "muscle-memory-maze",
+      "layout-quest",
+      "beginner-keyboard-builder",
+      "right-hand-rescue",
+      "finger-gym",
+      "keyboard-museum-typer"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "nepali-script-climb",
+    "title": "Nepali Script Climb",
+    "keyword": "type in nepali",
+    "searchVolume": 1900,
+    "category": "languages",
+    "difficulty": "beginner",
+    "embed": {
+      "kind": "engine",
+      "mode": "falling-words",
+      "wordlistIds": [
+        "nepali"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "wpm",
+        "variant": "language-sprint",
+        "spawnRateMs": 1500,
+        "livesAllowed": 3,
+        "fallSpeedPxSec": 60
+      }
+    },
+    "hero": {
+      "tagline": "Practice type in nepali with short script and vocabulary bursts.",
+      "emoji": "⛰️"
+    },
+    "theme": {
+      "palette": "language",
+      "accent": "#7c3aed",
+      "accent2": "#06b6d4",
+      "surface": "#f5f3ff",
+      "sprites": "nepali-script-climb"
+    },
+    "faq": [
+      {
+        "q": "Is Nepali Script Climb free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "kana-lane-typing",
+      "urdu-script-sprint",
+      "spanish-fiesta-typer",
+      "cyrillic-snow-typer",
+      "khmer-glyph-drop",
+      "hangul-combo-typer"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "2000s-arcade-typer",
+    "title": "2000s Arcade Typer",
+    "keyword": "typing games 2000s",
+    "searchVolume": 140,
+    "category": "retro-arcade",
+    "difficulty": "intermediate",
+    "embed": {
+      "kind": "engine",
+      "mode": "classic-time",
+      "wordlistIds": [
+        "retro"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "wpm",
+        "variant": "retro-arcade"
+      }
+    },
+    "hero": {
+      "tagline": "A retro arcade typing round inspired by typing games 2000s.",
+      "emoji": "💾"
+    },
+    "theme": {
+      "palette": "retro",
+      "accent": "#6d28d9",
+      "accent2": "#f97316",
+      "surface": "#faf5ff",
+      "sprites": "2000s-arcade-typer"
+    },
+    "faq": [
+      {
+        "q": "Is 2000s Arcade Typer free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "beacon-lesson-sprint",
+      "clean-text-sprint",
+      "typewriter-ribbon-rally",
+      "sound-desk-typer",
+      "beacon-online-challenge",
+      "typing-game-arcade"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "medical-ward-typer",
+    "title": "Medical Ward Typer",
+    "keyword": "medical typing test",
+    "searchVolume": 320,
+    "category": "medical",
+    "difficulty": "intermediate",
+    "embed": {
+      "kind": "engine",
+      "mode": "classic-time",
+      "wordlistIds": [
+        "medical"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "wpm",
+        "variant": "medical-sim"
+      }
+    },
+    "hero": {
+      "tagline": "Practice medical typing test with chart notes, terms, and clean accuracy goals.",
+      "emoji": "🏥"
+    },
+    "theme": {
+      "palette": "medical",
+      "accent": "#0d9488",
+      "accent2": "#14b8a6",
+      "surface": "#ecfeff",
+      "sprites": "medical-ward-typer"
+    },
+    "faq": [
+      {
+        "q": "Is Medical Ward Typer free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "clinic-transcript-typer",
+      "scribe-shift",
+      "medical-audio-queue",
+      "doctor-typing-clinic",
+      "fruit-typing",
+      "truck-typer"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "horror-hallway-typer",
+    "title": "Horror Hallway Typer",
+    "keyword": "typing horror game",
+    "searchVolume": 210,
+    "category": "spooky",
+    "difficulty": "advanced",
+    "embed": {
+      "kind": "engine",
+      "mode": "falling-words",
+      "wordlistIds": [
+        "horror"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "score",
+        "variant": "spooky-chase",
+        "spawnRateMs": 1150,
+        "livesAllowed": 3,
+        "fallSpeedPxSec": 75
+      }
+    },
+    "hero": {
+      "tagline": "Keep the lights on by typing through a typing horror game chase.",
+      "emoji": "🕯️"
+    },
+    "theme": {
+      "palette": "spooky",
+      "accent": "#7f1d1d",
+      "accent2": "#a855f7",
+      "surface": "#1f1024",
+      "sprites": "horror-hallway-typer"
+    },
+    "faq": [
+      {
+        "q": "Is Horror Hallway Typer free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "typing-bomb",
+      "typing-of-the-ghosts",
+      "ghost-hall-typer",
+      "ghost-chase-typing",
+      "fruit-typing",
+      "truck-typer"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "ipad-keyboard-dock",
+    "title": "iPad Keyboard Dock",
+    "keyword": "ipad typewriter keyboard",
+    "searchVolume": 260,
+    "category": "keyboard-layout",
+    "difficulty": "intermediate",
+    "embed": {
+      "kind": "engine",
+      "mode": "spawn-targets",
+      "wordlistIds": [
+        "keyboard"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "score",
+        "variant": "layout-map",
+        "spawnRateMs": 1500,
+        "livesAllowed": 3
+      }
+    },
+    "hero": {
+      "tagline": "Train the exact keys behind ipad typewriter keyboard through target-based play.",
+      "emoji": "📱"
+    },
+    "theme": {
+      "palette": "keyboard",
+      "accent": "#4338ca",
+      "accent2": "#16a34a",
+      "surface": "#eef2ff",
+      "sprites": "ipad-keyboard-dock"
+    },
+    "faq": [
+      {
+        "q": "Is iPad Keyboard Dock free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "muscle-memory-maze",
+      "layout-quest",
+      "beginner-keyboard-builder",
+      "right-hand-rescue",
+      "finger-gym",
+      "keyboard-museum-typer"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "touch-type-trainer",
+    "title": "Touch Type Trainer",
+    "keyword": "what's touch type",
+    "searchVolume": 480,
+    "category": "keyboard-layout",
+    "difficulty": "intermediate",
+    "embed": {
+      "kind": "engine",
+      "mode": "spawn-targets",
+      "wordlistIds": [
+        "keyboard"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "score",
+        "variant": "layout-map",
+        "spawnRateMs": 1500,
+        "livesAllowed": 3
+      }
+    },
+    "hero": {
+      "tagline": "Train the exact keys behind what's touch type through target-based play.",
+      "emoji": "👉"
+    },
+    "theme": {
+      "palette": "keyboard",
+      "accent": "#4338ca",
+      "accent2": "#16a34a",
+      "surface": "#eef2ff",
+      "sprites": "touch-type-trainer"
+    },
+    "faq": [
+      {
+        "q": "Is Touch Type Trainer free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "muscle-memory-maze",
+      "layout-quest",
+      "beginner-keyboard-builder",
+      "right-hand-rescue",
+      "finger-gym",
+      "keyboard-museum-typer"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "home-row-journey",
+    "title": "Home Row Journey",
+    "keyword": "how do i learn to touch type",
+    "searchVolume": 140,
+    "category": "keyboard-layout",
+    "difficulty": "intermediate",
+    "embed": {
+      "kind": "engine",
+      "mode": "spawn-targets",
+      "wordlistIds": [
+        "keyboard"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "score",
+        "variant": "layout-map",
+        "spawnRateMs": 1500,
+        "livesAllowed": 3
+      }
+    },
+    "hero": {
+      "tagline": "Train the exact keys behind how do i learn to touch type through target-based play.",
+      "emoji": "🏠"
+    },
+    "theme": {
+      "palette": "keyboard",
+      "accent": "#4338ca",
+      "accent2": "#16a34a",
+      "surface": "#eef2ff",
+      "sprites": "home-row-journey"
+    },
+    "faq": [
+      {
+        "q": "Is Home Row Journey free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "muscle-memory-maze",
+      "layout-quest",
+      "beginner-keyboard-builder",
+      "right-hand-rescue",
+      "finger-gym",
+      "keyboard-museum-typer"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "garage-theme-typer",
+    "title": "Garage Theme Typer",
+    "keyword": "nitrotype theme",
+    "searchVolume": 2400,
+    "category": "vehicles",
+    "difficulty": "advanced",
+    "embed": {
+      "kind": "engine",
+      "mode": "classic-time",
+      "wordlistIds": [
+        "race"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "wpm",
+        "variant": "race-typing"
+      }
+    },
+    "hero": {
+      "tagline": "Race clean typing lines in a fair-play nitrotype theme challenge.",
+      "emoji": "🎨"
+    },
+    "theme": {
+      "palette": "race",
+      "accent": "#dc2626",
+      "accent2": "#2563eb",
+      "surface": "#fff1f2",
+      "sprites": "garage-theme-typer"
+    },
+    "faq": [
+      {
+        "q": "Is Garage Theme Typer free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "No. Branded or competitor-inspired pages are unofficial typing challenges and do not use official assets."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "truck-typer",
+      "typing-jets",
+      "fair-race-typer",
+      "nitro-like-race",
+      "fruit-typing",
+      "typing-food"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "beacon-online-challenge",
+    "title": "Beacon Online Challenge",
+    "keyword": "mavis beacon teaches typing online game",
+    "searchVolume": 320,
+    "category": "retro-arcade",
+    "difficulty": "intermediate",
+    "embed": {
+      "kind": "engine",
+      "mode": "classic-time",
+      "wordlistIds": [
+        "retro"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "wpm",
+        "variant": "retro-arcade"
+      }
+    },
+    "hero": {
+      "tagline": "A retro arcade typing round inspired by mavis beacon teaches typing online game.",
+      "emoji": "📡"
+    },
+    "theme": {
+      "palette": "retro",
+      "accent": "#6d28d9",
+      "accent2": "#f97316",
+      "surface": "#faf5ff",
+      "sprites": "beacon-online-challenge"
+    },
+    "faq": [
+      {
+        "q": "Is Beacon Online Challenge free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "No. Branded or competitor-inspired pages are unofficial typing challenges and do not use official assets."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "beacon-lesson-sprint",
+      "clean-text-sprint",
+      "typewriter-ribbon-rally",
+      "sound-desk-typer",
+      "2000s-arcade-typer",
+      "typing-game-arcade"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "data-entry-warehouse",
+    "title": "Data Entry Warehouse",
+    "keyword": "typing and data entry test",
+    "searchVolume": 140,
+    "category": "jobs-data",
+    "difficulty": "intermediate",
+    "embed": {
+      "kind": "engine",
+      "mode": "classic-time",
+      "wordlistIds": [
+        "professional"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "kph",
+        "variant": "profession-sim"
+      }
+    },
+    "hero": {
+      "tagline": "Type live typing and data entry test prompts before the queue backs up.",
+      "emoji": "🏭"
+    },
+    "theme": {
+      "palette": "profession",
+      "accent": "#2563eb",
+      "accent2": "#f97316",
+      "surface": "#eff6ff",
+      "sprites": "data-entry-warehouse"
+    },
+    "faq": [
+      {
+        "q": "Is Data Entry Warehouse free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "911-dispatch-rush",
+      "dispatcher-call-queue",
+      "kph-cargo-terminal",
+      "radio-code-typer",
+      "test-center-dash",
+      "location-clerk-typer"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "good-wpm-ladder",
+    "title": "Good WPM Ladder",
+    "keyword": "good typing wpm",
+    "searchVolume": 210,
+    "category": "speed-test",
+    "difficulty": "intermediate",
+    "embed": {
+      "kind": "engine",
+      "mode": "classic-time",
+      "wordlistIds": [
+        "speed"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "wpm",
+        "variant": "speed-ladder"
+      }
+    },
+    "hero": {
+      "tagline": "Climb a speed ladder built around good typing wpm.",
+      "emoji": "📈"
+    },
+    "theme": {
+      "palette": "speed",
+      "accent": "#111827",
+      "accent2": "#ef4444",
+      "surface": "#ffffff",
+      "sprites": "good-wpm-ladder"
+    },
+    "faq": [
+      {
+        "q": "Is Good WPM Ladder free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "typing-99",
+      "typing-rain",
+      "mavis-beacon-typing",
+      "dance-mat-typing",
+      "pangram-sprint",
+      "certificate-challenge"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "kids-typing-playground",
+    "title": "Kids Typing Playground",
+    "keyword": "best typing games for kids",
+    "searchVolume": 210,
+    "category": "kids",
+    "difficulty": "beginner",
+    "embed": {
+      "kind": "engine",
+      "mode": "spawn-targets",
+      "wordlistIds": [
+        "kids"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "score",
+        "variant": "kids-playground",
+        "spawnRateMs": 1500,
+        "livesAllowed": 3
+      }
+    },
+    "hero": {
+      "tagline": "A gentle, colorful best typing games for kids game with short words and quick wins.",
+      "emoji": "🛝"
+    },
+    "theme": {
+      "palette": "kids",
+      "accent": "#db2777",
+      "accent2": "#facc15",
+      "surface": "#fdf2f8",
+      "sprites": "kids-typing-playground"
+    },
+    "faq": [
+      {
+        "q": "Is Kids Typing Playground free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "tutor-monster-battle",
+      "alphabet-rocket",
+      "2nd-grade-word-park",
+      "fruit-typing",
+      "truck-typer",
+      "typing-food"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "korean-practice-garden",
+    "title": "Korean Practice Garden",
+    "keyword": "korean typing practice",
+    "searchVolume": 590,
+    "category": "languages",
+    "difficulty": "beginner",
+    "embed": {
+      "kind": "engine",
+      "mode": "classic-time",
+      "wordlistIds": [
+        "korean"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "wpm",
+        "variant": "language-sprint"
+      }
+    },
+    "hero": {
+      "tagline": "Practice korean typing practice with short script and vocabulary bursts.",
+      "emoji": "🌱"
+    },
+    "theme": {
+      "palette": "language",
+      "accent": "#7c3aed",
+      "accent2": "#06b6d4",
+      "surface": "#f5f3ff",
+      "sprites": "korean-practice-garden"
+    },
+    "faq": [
+      {
+        "q": "Is Korean Practice Garden free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "kana-lane-typing",
+      "urdu-script-sprint",
+      "spanish-fiesta-typer",
+      "cyrillic-snow-typer",
+      "khmer-glyph-drop",
+      "hangul-combo-typer"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "alphabet-rocket",
+    "title": "Alphabet Rocket",
+    "keyword": "alphabet typing test",
+    "searchVolume": 720,
+    "category": "kids",
+    "difficulty": "beginner",
+    "embed": {
+      "kind": "engine",
+      "mode": "spawn-targets",
+      "wordlistIds": [
+        "kids"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "score",
+        "variant": "kids-playground",
+        "spawnRateMs": 1500,
+        "livesAllowed": 3
+      }
+    },
+    "hero": {
+      "tagline": "A gentle, colorful alphabet typing test game with short words and quick wins.",
+      "emoji": "🔠"
+    },
+    "theme": {
+      "palette": "kids",
+      "accent": "#db2777",
+      "accent2": "#facc15",
+      "surface": "#fdf2f8",
+      "sprites": "alphabet-rocket"
+    },
+    "faq": [
+      {
+        "q": "Is Alphabet Rocket free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "tutor-monster-battle",
+      "kids-typing-playground",
+      "2nd-grade-word-park",
+      "fruit-typing",
+      "truck-typer",
+      "typing-food"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "2nd-grade-word-park",
+    "title": "2nd Grade Word Park",
+    "keyword": "typing games for 2nd graders",
+    "searchVolume": 70,
+    "category": "kids",
+    "difficulty": "beginner",
+    "embed": {
+      "kind": "engine",
+      "mode": "spawn-targets",
+      "wordlistIds": [
+        "kids"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "score",
+        "variant": "kids-playground",
+        "spawnRateMs": 1500,
+        "livesAllowed": 3
+      }
+    },
+    "hero": {
+      "tagline": "A gentle, colorful typing games for 2nd graders game with short words and quick wins.",
+      "emoji": "🎒"
+    },
+    "theme": {
+      "palette": "kids",
+      "accent": "#db2777",
+      "accent2": "#facc15",
+      "surface": "#fdf2f8",
+      "sprites": "2nd-grade-word-park"
+    },
+    "faq": [
+      {
+        "q": "Is 2nd Grade Word Park free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "tutor-monster-battle",
+      "kids-typing-playground",
+      "alphabet-rocket",
+      "fruit-typing",
+      "truck-typer",
+      "typing-food"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "nitro-like-race",
+    "title": "Nitro-Like Race",
+    "keyword": "games like nitro type",
+    "searchVolume": 110,
+    "category": "vehicles",
+    "difficulty": "advanced",
+    "embed": {
+      "kind": "engine",
+      "mode": "classic-time",
+      "wordlistIds": [
+        "race"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "wpm",
+        "variant": "race-typing"
+      }
+    },
+    "hero": {
+      "tagline": "Race clean typing lines in a fair-play games like nitro type challenge.",
+      "emoji": "🏎️"
+    },
+    "theme": {
+      "palette": "race",
+      "accent": "#dc2626",
+      "accent2": "#2563eb",
+      "surface": "#fff1f2",
+      "sprites": "nitro-like-race"
+    },
+    "faq": [
+      {
+        "q": "Is Nitro-Like Race free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "No. Branded or competitor-inspired pages are unofficial typing challenges and do not use official assets."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "truck-typer",
+      "typing-jets",
+      "fair-race-typer",
+      "garage-theme-typer",
+      "fruit-typing",
+      "typing-food"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "space-patrol-typer",
+    "title": "Space Patrol Typer",
+    "keyword": "space typing game",
+    "searchVolume": 1000,
+    "category": "space",
+    "difficulty": "intermediate",
+    "embed": {
+      "kind": "engine",
+      "mode": "falling-words",
+      "wordlistIds": [
+        "space"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "score",
+        "variant": "space-patrol",
+        "spawnRateMs": 1500,
+        "livesAllowed": 3,
+        "fallSpeedPxSec": 60
+      }
+    },
+    "hero": {
+      "tagline": "Blast through space words in this space typing game arcade round.",
+      "emoji": "🛰️"
+    },
+    "theme": {
+      "palette": "space",
+      "accent": "#22d3ee",
+      "accent2": "#a78bfa",
+      "surface": "#0b1020",
+      "sprites": "space-patrol-typer"
+    },
+    "faq": [
+      {
+        "q": "Is Space Patrol Typer free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "typing-alien",
+      "typing-rocket",
+      "asteroid-typing",
+      "asteroid-splitter",
+      "retro-space-typer",
+      "fruit-typing"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "hindi-script-sprint",
+    "title": "Hindi Script Sprint",
+    "keyword": "hindi typing test",
+    "searchVolume": 1300,
+    "category": "languages",
+    "difficulty": "beginner",
+    "embed": {
+      "kind": "engine",
+      "mode": "falling-words",
+      "wordlistIds": [
+        "hindi"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "wpm",
+        "variant": "language-sprint",
+        "spawnRateMs": 1500,
+        "livesAllowed": 3,
+        "fallSpeedPxSec": 60
+      }
+    },
+    "hero": {
+      "tagline": "Practice hindi typing test with short script and vocabulary bursts.",
+      "emoji": "🪷"
+    },
+    "theme": {
+      "palette": "language",
+      "accent": "#7c3aed",
+      "accent2": "#06b6d4",
+      "surface": "#f5f3ff",
+      "sprites": "hindi-script-sprint"
+    },
+    "faq": [
+      {
+        "q": "Is Hindi Script Sprint free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "kana-lane-typing",
+      "urdu-script-sprint",
+      "spanish-fiesta-typer",
+      "cyrillic-snow-typer",
+      "khmer-glyph-drop",
+      "hangul-combo-typer"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
+  },
+  {
+    "slug": "typing-game-arcade",
+    "title": "Typing Game Arcade",
+    "keyword": "best typing games",
+    "searchVolume": 720,
+    "category": "retro-arcade",
+    "difficulty": "intermediate",
+    "embed": {
+      "kind": "engine",
+      "mode": "spawn-targets",
+      "wordlistIds": [
+        "common-en"
+      ],
+      "config": {
+        "durationSec": 75,
+        "scoreUnit": "score",
+        "variant": "typing-arcade",
+        "spawnRateMs": 1500,
+        "livesAllowed": 3
+      }
+    },
+    "hero": {
+      "tagline": "A mixed arcade typing game built for best typing games.",
+      "emoji": "🎮"
+    },
+    "theme": {
+      "palette": "arcade",
+      "accent": "#4f46e5",
+      "accent2": "#ec4899",
+      "surface": "#f8fafc",
+      "sprites": "typing-game-arcade"
+    },
+    "faq": [
+      {
+        "q": "Is Typing Game Arcade free?",
+        "a": "Yes. It runs in your browser with no signup or download."
+      },
+      {
+        "q": "Is this an official branded game?",
+        "a": "It is an original TypeQuest typing game built around this search topic."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes. Tap the game area to open the hidden input. A physical keyboard is still best for serious speed practice."
+      }
+    ],
+    "related": [
+      "beacon-lesson-sprint",
+      "clean-text-sprint",
+      "typewriter-ribbon-rally",
+      "sound-desk-typer",
+      "2000s-arcade-typer",
+      "beacon-online-challenge"
+    ],
+    "publishedAt": "2026-05-13",
+    "updatedAt": "2026-05-13"
   }
 ]

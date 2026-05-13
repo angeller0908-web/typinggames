@@ -1,0 +1,989 @@
+{
+  "generatedAt": "2026-05-13T07:26:41.160Z",
+  "provider": "GameMonetize",
+  "feed": "data/provider-feeds/gamemonetize-discover.json",
+  "totalCandidates": 84,
+  "totalFeedRecords": 33,
+  "threshold": 55,
+  "apply": false,
+  "buckets": {
+    "high": 0,
+    "medium": 0,
+    "low": 7,
+    "none": 77
+  },
+  "matches": [
+    {
+      "keyword": "typing practice books",
+      "slug": "book-stack-typer",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Book Stack Typer",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "typing test for 911 operator",
+      "slug": "911-dispatch-rush",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "911 Dispatch Rush",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "asteroid typing game",
+      "slug": "asteroid-splitter",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Asteroid Splitter",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "japanese typing practice",
+      "slug": "kana-lane-typing",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Kana Lane Typing",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "911 dispatcher typing test",
+      "slug": "dispatcher-call-queue",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Dispatcher Call Queue",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "typing muscle",
+      "slug": "muscle-memory-maze",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Muscle Memory Maze",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "the quick brown fox typing test",
+      "slug": "pangram-sprint",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Pangram Sprint",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "keystrokes per hour",
+      "slug": "kph-cargo-terminal",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "KPH Cargo Terminal",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "alphanumeric typing test",
+      "slug": "code-crate-sort",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Code Crate Sort",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "dispatcher typing test",
+      "slug": "radio-code-typer",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Radio Code Typer",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "typing practice book",
+      "slug": "page-turner-typing",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Page Turner Typing",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "typing test near me",
+      "slug": "test-center-dash",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Test Center Dash",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "typing certificate near me",
+      "slug": "certificate-challenge",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Certificate Challenge",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "is 60 wpm good",
+      "slug": "60-wpm-gate",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "60 WPM Gate",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "typing test locations near me",
+      "slug": "location-clerk-typer",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Location Clerk Typer",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "create your own typing test",
+      "slug": "custom-arena",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Custom Arena",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "urdu typing test",
+      "slug": "urdu-script-sprint",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Urdu Script Sprint",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "auto typer for nitro type",
+      "slug": "fair-race-typer",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Fair Race Typer",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "typing books",
+      "slug": "library-typing-quest",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Library Typing Quest",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "touch typing keyboard layout",
+      "slug": "layout-quest",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Layout Quest",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "great keyboard for beginners",
+      "slug": "beginner-keyboard-builder",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Beginner Keyboard Builder",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "do you need wrist rest when typing",
+      "slug": "wrist-rest-balance",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Wrist Rest Balance",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "transcription practice",
+      "slug": "clinic-transcript-typer",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Clinic Transcript Typer",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "typing right hand practice",
+      "slug": "right-hand-rescue",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Right Hand Rescue",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "customizable typing test",
+      "slug": "rule-builder-typing",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Rule Builder Typing",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "spanish typing games",
+      "slug": "spanish-fiesta-typer",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Spanish Fiesta Typer",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "what letter does pokemon games start with when typing",
+      "slug": "pocket-letter-guess",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Pocket Letter Guess",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "medical scribe typing test",
+      "slug": "scribe-shift",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Scribe Shift",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "finger exerciser",
+      "slug": "finger-gym",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Finger Gym",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "russian typing practice",
+      "slug": "cyrillic-snow-typer",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Cyrillic Snow Typer",
+      "provider": "GameMonetize",
+      "bestScore": 57,
+      "matches": [
+        {
+          "score": 57,
+          "title": "Hidden Word Puzzle",
+          "embedUrl": "https://html5.gamemonetize.co/60ugltw0ffycu97l5f742t58a57mckpf/",
+          "playUrl": "https://html5.gamemonetize.co/60ugltw0ffycu97l5f742t58a57mckpf/",
+          "thumbnail": "https://img.gamemonetize.com/60ugltw0ffycu97l5f742t58a57mckpf/512x384.jpg",
+          "categories": [
+            "Puzzle"
+          ],
+          "tags": [
+            "1 Player",
+            "2025 games",
+            "Best Games",
+            "Puzzle"
+          ],
+          "legalStatus": "provider-html5-url"
+        }
+      ]
+    },
+    {
+      "keyword": "typing of the ghosts game",
+      "slug": "ghost-hall-typer",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Ghost Hall Typer",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "what is a 10 key",
+      "slug": "10-key-trainer",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "10-Key Trainer",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "custom typing test",
+      "slug": "custom-boss-typing",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Custom Boss Typing",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "typing test khmer",
+      "slug": "khmer-glyph-drop",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Khmer Glyph Drop",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "typing test certificate",
+      "slug": "certificate-speed-trial",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Certificate Speed Trial",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "spongebob typing game",
+      "slug": "undersea-fry-typer",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Undersea Fry Typer",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "medical transcription typing test",
+      "slug": "medical-audio-queue",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Medical Audio Queue",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "ghost typing game",
+      "slug": "ghost-chase-typing",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Ghost Chase Typing",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "mavis beacon teaches typing test",
+      "slug": "beacon-lesson-sprint",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Beacon Lesson Sprint",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "monkeytype alternatives",
+      "slug": "minimal-sprint-arena",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Minimal Sprint Arena",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "among us typing games",
+      "slug": "crew-task-typer",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Crew Task Typer",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "types of keyboard",
+      "slug": "keyboard-museum-typer",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Keyboard Museum Typer",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "typing test without punctuation",
+      "slug": "clean-text-sprint",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Clean Text Sprint",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "korean typing test",
+      "slug": "hangul-combo-typer",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Hangul Combo Typer",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "typing rhythm game",
+      "slug": "beat-key-typer",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Beat Key Typer",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "manual typewriters",
+      "slug": "typewriter-ribbon-rally",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Typewriter Ribbon Rally",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "spanish typing test",
+      "slug": "spanish-accent-sprint",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Spanish Accent Sprint",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "right hand typing practice",
+      "slug": "right-hand-lane",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Right-Hand Lane",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "club penguin typing game",
+      "slug": "iceberg-word-slide",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Iceberg Word Slide",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "practice typing korean",
+      "slug": "hangul-practice-path",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Hangul Practice Path",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "typing song lyrics game",
+      "slug": "lyric-beat-typer",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Lyric Beat Typer",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "concentrix typing test",
+      "slug": "support-desk-typer",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Support Desk Typer",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "typing speed test in 10 minutes",
+      "slug": "10-minute-endurance-run",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "10-Minute Endurance Run",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "space typing game 2000s",
+      "slug": "retro-space-typer",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Retro Space Typer",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "spanish typewriter",
+      "slug": "spanish-typewriter-desk",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Spanish Typewriter Desk",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "art of typing",
+      "slug": "typing-gallery",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Typing Gallery",
+      "provider": "GameMonetize",
+      "bestScore": 57,
+      "matches": [
+        {
+          "score": 57,
+          "title": "Diy Keyboard Game",
+          "embedUrl": "https://html5.gamemonetize.co/7bn6wcfjuk3deuetqel6cp6keecskrwj/",
+          "playUrl": "https://html5.gamemonetize.co/7bn6wcfjuk3deuetqel6cp6keecskrwj/",
+          "thumbnail": "https://img.gamemonetize.com/7bn6wcfjuk3deuetqel6cp6keecskrwj/512x384.jpg",
+          "categories": [],
+          "tags": [
+            "Boys",
+            "Cute",
+            "Girls",
+            "Kids",
+            "Puzzle"
+          ],
+          "legalStatus": "provider-html5-url"
+        },
+        {
+          "score": 57,
+          "title": "Diy Keyboard",
+          "embedUrl": "https://html5.gamemonetize.co/s0pug74ggzw4v964s3t1owuqea4hdjjy/",
+          "playUrl": "https://html5.gamemonetize.co/s0pug74ggzw4v964s3t1owuqea4hdjjy/",
+          "thumbnail": "https://img.gamemonetize.com/s0pug74ggzw4v964s3t1owuqea4hdjjy/512x384.jpg",
+          "categories": [
+            "Girls"
+          ],
+          "tags": [
+            "Coloring",
+            "Creation",
+            "Cute",
+            "Design",
+            "Drawing",
+            "Fun",
+            "Girls",
+            "HTML5",
+            "Kids",
+            "Mobile"
+          ],
+          "legalStatus": "provider-html5-url"
+        }
+      ]
+    },
+    {
+      "keyword": "dvorak key layout",
+      "slug": "dvorak-switch-quest",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Dvorak Switch Quest",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "what is considered a fast typing speed",
+      "slug": "fast-speed-ladder",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Fast Speed Ladder",
+      "provider": "GameMonetize",
+      "bestScore": 60,
+      "matches": [
+        {
+          "score": 60,
+          "title": "Word Match 3D",
+          "embedUrl": "https://html5.gamemonetize.co/m27uyguq2k1men8en9f2hckdoytglv9g/",
+          "playUrl": "https://html5.gamemonetize.co/m27uyguq2k1men8en9f2hckdoytglv9g/",
+          "thumbnail": "https://img.gamemonetize.com/m27uyguq2k1men8en9f2hckdoytglv9g/512x384.jpg",
+          "categories": [
+            "Puzzle"
+          ],
+          "tags": [
+            "3D",
+            "Brain",
+            "Educational",
+            "Letters",
+            "Logic",
+            "Management",
+            "Matching",
+            "Puzzle",
+            "Word"
+          ],
+          "legalStatus": "provider-html5-url"
+        }
+      ]
+    },
+    {
+      "keyword": "dr typing",
+      "slug": "doctor-typing-clinic",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Doctor Typing Clinic",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "10 key test",
+      "slug": "10-key-cashier",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "10-Key Cashier",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "tutor monster",
+      "slug": "tutor-monster-battle",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Tutor Monster Battle",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "certified typing test",
+      "slug": "certified-trial",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Certified Trial",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "punjabi typing",
+      "slug": "punjabi-word-sprint",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Punjabi Word Sprint",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "typewriter sound effect",
+      "slug": "sound-desk-typer",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Sound Desk Typer",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "how to learn to type without looking at keyboard",
+      "slug": "blindfold-typing-quest",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Blindfold Typing Quest",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "type in nepali",
+      "slug": "nepali-script-climb",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Nepali Script Climb",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "typing games 2000s",
+      "slug": "2000s-arcade-typer",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "2000s Arcade Typer",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "medical typing test",
+      "slug": "medical-ward-typer",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Medical Ward Typer",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "typing horror game",
+      "slug": "horror-hallway-typer",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Horror Hallway Typer",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "ipad typewriter keyboard",
+      "slug": "ipad-keyboard-dock",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "iPad Keyboard Dock",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "what's touch type",
+      "slug": "touch-type-trainer",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Touch Type Trainer",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "how do i learn to touch type",
+      "slug": "home-row-journey",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Home Row Journey",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "nitrotype theme",
+      "slug": "garage-theme-typer",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Garage Theme Typer",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "mavis beacon teaches typing online game",
+      "slug": "beacon-online-challenge",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Beacon Online Challenge",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "typing and data entry test",
+      "slug": "data-entry-warehouse",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Data Entry Warehouse",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "good typing wpm",
+      "slug": "good-wpm-ladder",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Good WPM Ladder",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "best typing games for kids",
+      "slug": "kids-typing-playground",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Kids Typing Playground",
+      "provider": "GameMonetize",
+      "bestScore": 60,
+      "matches": [
+        {
+          "score": 60,
+          "title": "Christmas Capital Letters",
+          "embedUrl": "https://html5.gamemonetize.co/x3nwi19s3d4bfflzgwzkso9lqopade4a/",
+          "playUrl": "https://html5.gamemonetize.co/x3nwi19s3d4bfflzgwzkso9lqopade4a/",
+          "thumbnail": "https://img.gamemonetize.com/x3nwi19s3d4bfflzgwzkso9lqopade4a/512x384.jpg",
+          "categories": [
+            "Puzzle"
+          ],
+          "tags": [
+            "Christmas",
+            "HTML5",
+            "Kids",
+            "Letters",
+            "Puzzle"
+          ],
+          "legalStatus": "provider-html5-url"
+        }
+      ]
+    },
+    {
+      "keyword": "korean typing practice",
+      "slug": "korean-practice-garden",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Korean Practice Garden",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "alphabet typing test",
+      "slug": "alphabet-rocket",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Alphabet Rocket",
+      "provider": "GameMonetize",
+      "bestScore": 60,
+      "matches": [
+        {
+          "score": 60,
+          "title": "Merge Letters ; Merge Alphabet",
+          "embedUrl": "https://html5.gamemonetize.co/6yq9ylwfrf0iw31agpef39qdt1vkm7k4/",
+          "playUrl": "https://html5.gamemonetize.co/6yq9ylwfrf0iw31agpef39qdt1vkm7k4/",
+          "thumbnail": "https://img.gamemonetize.com/6yq9ylwfrf0iw31agpef39qdt1vkm7k4/512x384.jpg",
+          "categories": [
+            "Adventure"
+          ],
+          "tags": [
+            "Cars",
+            "Cartoon",
+            "Cartoon Network",
+            "Jumping",
+            "Race",
+            "Racing",
+            "Simulation",
+            "Simulator",
+            "Street Fighting",
+            "Stunts",
+            "Supercars",
+            "War"
+          ],
+          "legalStatus": "provider-html5-url"
+        }
+      ]
+    },
+    {
+      "keyword": "typing games for 2nd graders",
+      "slug": "2nd-grade-word-park",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "2nd Grade Word Park",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "games like nitro type",
+      "slug": "nitro-like-race",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Nitro-Like Race",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "space typing game",
+      "slug": "space-patrol-typer",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Space Patrol Typer",
+      "provider": "GameMonetize",
+      "bestScore": 65,
+      "matches": [
+        {
+          "score": 65,
+          "title": "Word Safari",
+          "embedUrl": "https://html5.gamemonetize.co/0njrzkkitzt7u8o1i78yekyatxkgtmev/",
+          "playUrl": "https://html5.gamemonetize.co/0njrzkkitzt7u8o1i78yekyatxkgtmev/",
+          "thumbnail": "https://img.gamemonetize.com/0njrzkkitzt7u8o1i78yekyatxkgtmev/512x384.jpg",
+          "categories": [
+            "Puzzle"
+          ],
+          "tags": [
+            "Ai Games",
+            "Brain",
+            "Family",
+            "free html5 games for your website",
+            "Kids",
+            "Letters",
+            "mapi games",
+            "Word"
+          ],
+          "legalStatus": "provider-html5-url"
+        }
+      ]
+    },
+    {
+      "keyword": "hindi typing test",
+      "slug": "hindi-script-sprint",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Hindi Script Sprint",
+      "provider": "GameMonetize",
+      "bestScore": 0,
+      "matches": []
+    },
+    {
+      "keyword": "best typing games",
+      "slug": "typing-game-arcade",
+      "currentEmbed": "engine",
+      "fallbackEngineDesign": "Typing Game Arcade",
+      "provider": "GameMonetize",
+      "bestScore": 57,
+      "matches": [
+        {
+          "score": 57,
+          "title": "3D Racing Typing Game",
+          "embedUrl": "https://html5.gamemonetize.co/wtmy1hk5nob7j0znq0ypwoz9tricgilg/",
+          "playUrl": "https://html5.gamemonetize.co/wtmy1hk5nob7j0znq0ypwoz9tricgilg/",
+          "thumbnail": "https://img.gamemonetize.com/wtmy1hk5nob7j0znq0ypwoz9tricgilg/512x384.jpg",
+          "categories": [
+            "Racing"
+          ],
+          "tags": [
+            "1 Player",
+            "3D",
+            "3D Games",
+            "Best",
+            "Best Games",
+            "Car",
+            "car tuning",
+            "Cars",
+            "Cartoon",
+            "drift",
+            "Driving",
+            "Supercars",
+            "Typing",
+            "vehicle"
+          ],
+          "legalStatus": "provider-html5-url"
+        },
+        {
+          "score": 57,
+          "title": "Hidden Word Puzzle",
+          "embedUrl": "https://html5.gamemonetize.co/60ugltw0ffycu97l5f742t58a57mckpf/",
+          "playUrl": "https://html5.gamemonetize.co/60ugltw0ffycu97l5f742t58a57mckpf/",
+          "thumbnail": "https://img.gamemonetize.com/60ugltw0ffycu97l5f742t58a57mckpf/512x384.jpg",
+          "categories": [
+            "Puzzle"
+          ],
+          "tags": [
+            "1 Player",
+            "2025 games",
+            "Best Games",
+            "Puzzle"
+          ],
+          "legalStatus": "provider-html5-url"
+        },
+        {
+          "score": 57,
+          "title": "Word Cooking Puzzle",
+          "embedUrl": "https://html5.gamemonetize.co/m4v93ivuc6mqm509elql01q8nbqd7qo8/",
+          "playUrl": "https://html5.gamemonetize.co/m4v93ivuc6mqm509elql01q8nbqd7qo8/",
+          "thumbnail": "https://img.gamemonetize.com/m4v93ivuc6mqm509elql01q8nbqd7qo8/512x384.jpg",
+          "categories": [
+            "Puzzle"
+          ],
+          "tags": [
+            "3D Games",
+            "Best Games",
+            "Brain",
+            "Casual",
+            "Cook",
+            "Cooking",
+            "Educational",
+            "Letters",
+            "Puzzle",
+            "Word"
+          ],
+          "legalStatus": "provider-html5-url"
+        }
+      ]
+    }
+  ]
+}

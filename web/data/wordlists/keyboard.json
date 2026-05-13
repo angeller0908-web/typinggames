@@ -1,0 +1,30 @@
+{
+  "id": "keyboard",
+  "label": "Keyboard",
+  "description": "keyboard terms for themed typing games.",
+  "words": [
+    "layout",
+    "home",
+    "index",
+    "middle",
+    "ring",
+    "pinky",
+    "dvorak",
+    "qwerty",
+    "row",
+    "finger",
+    "reach",
+    "right",
+    "left",
+    "touch",
+    "blindfold",
+    "muscle",
+    "memory",
+    "keycap",
+    "switch",
+    "spacebar",
+    "semicolon",
+    "return",
+    "shift"
+  ]
+}

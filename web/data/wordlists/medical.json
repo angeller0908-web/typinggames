@@ -1,0 +1,33 @@
+{
+  "id": "medical",
+  "label": "Medical",
+  "description": "medical terms for themed typing games.",
+  "words": [
+    "patient",
+    "chart",
+    "vitals",
+    "dosage",
+    "clinic",
+    "scribe",
+    "transcript",
+    "diagnosis",
+    "symptom",
+    "allergy",
+    "medication",
+    "provider",
+    "assessment",
+    "history",
+    "referral",
+    "lab",
+    "imaging",
+    "followup",
+    "intake",
+    "pulse",
+    "ward",
+    "rounds",
+    "nurse",
+    "doctor",
+    "discharge",
+    "review"
+  ]
+}

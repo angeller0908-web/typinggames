@@ -1,0 +1,28 @@
+{
+  "id": "office",
+  "label": "Office",
+  "description": "office terms for themed typing games.",
+  "words": [
+    "local",
+    "center",
+    "appointment",
+    "desk",
+    "clerk",
+    "location",
+    "office",
+    "school",
+    "form",
+    "record",
+    "city",
+    "street",
+    "zip",
+    "counter",
+    "queue",
+    "document",
+    "schedule",
+    "nearby",
+    "branch",
+    "service",
+    "window"
+  ]
+}

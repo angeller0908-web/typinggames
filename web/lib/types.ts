@@ -25,7 +25,26 @@ export type Variant =
   | "endurance-99"
   | "banana-letters"
   | "mavis-staged"
-  | "dance-staged";
+  | "dance-staged"
+  | "profession-sim"
+  | "medical-sim"
+  | "number-pad"
+  | "certificate-ladder"
+  | "office-dash"
+  | "language-sprint"
+  | "layout-map"
+  | "speed-ladder"
+  | "kids-playground"
+  | "shop-stack"
+  | "retro-arcade"
+  | "race-typing"
+  | "space-patrol"
+  | "spooky-chase"
+  | "rhythm-lane"
+  | "inspired-arcade"
+  | "custom-arena"
+  | "creative-gallery"
+  | "typing-arcade";
 
 export type ScoreUnit = "wpm" | "kph" | "score" | "money";
 

@@ -1,9 +1,9 @@
 export const SITE = {
-  name: process.env.NEXT_PUBLIC_SITE_NAME ?? "TypeQuest",
+  name: process.env.NEXT_PUBLIC_SITE_NAME ?? "typingrally",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://typingrally.com",
   description:
-    "Free typing games to boost WPM. 20 hand-crafted browser games — fruit, racing, space, ghosts, and more. No download, no signup.",
-  twitter: "@typequest",
+    "Free typing games to boost WPM. A growing catalog of browser games for speed, jobs, languages, space, ghosts, and more. No download, no signup.",
+  twitter: "@typingrally",
   locale: "en_US",
   defaultOgImage: "/og/_default.png",
 };

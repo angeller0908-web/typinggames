@@ -10,7 +10,7 @@ const ROOT = path.resolve(process.cwd());
 const OUT = path.join(ROOT, "public", "og");
 const gamesJsonPath = path.join(ROOT, "data", "games.json");
 
-const SITE_NAME = process.env.NEXT_PUBLIC_SITE_NAME ?? "TypeQuest";
+const SITE_NAME = process.env.NEXT_PUBLIC_SITE_NAME ?? "typingrally";
 
 fs.mkdirSync(OUT, { recursive: true });
 

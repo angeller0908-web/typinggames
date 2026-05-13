@@ -1,0 +1,1801 @@
+[
+  {
+    "keyword": "typing practice books",
+    "slug": "book-stack-typer",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "low",
+    "searchTier": "low-iframe-likelihood",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "typing practice books",
+      "typing practice books typing game",
+      "keyboard typing game feed"
+    ],
+    "fallbackEngineDesign": "Book Stack Typer",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "typing test for 911 operator",
+    "slug": "911-dispatch-rush",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "medium",
+    "searchTier": "professional-simulator-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "typing test for 911 operator",
+      "typing test for 911 operator typing game",
+      "data entry typing game feed",
+      "typing test game iframe"
+    ],
+    "fallbackEngineDesign": "911 Dispatch Rush",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "asteroid typing game",
+    "slug": "asteroid-splitter",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "high",
+    "searchTier": "exact-or-themed-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "asteroid typing game",
+      "asteroid typing game GameDistribution",
+      "asteroid typing game GameMonetize",
+      "asteroid typing game CrazyGames developer"
+    ],
+    "fallbackEngineDesign": "Asteroid Splitter",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "japanese typing practice",
+    "slug": "kana-lane-typing",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "high",
+    "searchTier": "exact-or-themed-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "japanese typing practice",
+      "japanese typing practice GameDistribution",
+      "japanese typing practice GameMonetize",
+      "japanese typing practice CrazyGames developer"
+    ],
+    "fallbackEngineDesign": "Kana Lane Typing",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "911 dispatcher typing test",
+    "slug": "dispatcher-call-queue",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "medium",
+    "searchTier": "professional-simulator-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "911 dispatcher typing test",
+      "911 dispatcher typing test typing game",
+      "data entry typing game feed",
+      "typing test game iframe"
+    ],
+    "fallbackEngineDesign": "Dispatcher Call Queue",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "typing muscle",
+    "slug": "muscle-memory-maze",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "medium",
+    "searchTier": "theme-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "typing muscle",
+      "typing muscle typing game",
+      "typing muscle browser game iframe"
+    ],
+    "fallbackEngineDesign": "Muscle Memory Maze",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "the quick brown fox typing test",
+    "slug": "pangram-sprint",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "medium",
+    "searchTier": "theme-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "the quick brown fox typing test",
+      "the quick brown fox typing test typing game",
+      "the quick brown fox typing test browser game iframe"
+    ],
+    "fallbackEngineDesign": "Pangram Sprint",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "keystrokes per hour",
+    "slug": "kph-cargo-terminal",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "medium",
+    "searchTier": "professional-simulator-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "keystrokes per hour",
+      "keystrokes per hour typing game",
+      "data entry typing game feed",
+      "typing test game iframe"
+    ],
+    "fallbackEngineDesign": "KPH Cargo Terminal",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "alphanumeric typing test",
+    "slug": "code-crate-sort",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "medium",
+    "searchTier": "theme-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "alphanumeric typing test",
+      "alphanumeric typing test typing game",
+      "alphanumeric typing test browser game iframe"
+    ],
+    "fallbackEngineDesign": "Code Crate Sort",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "dispatcher typing test",
+    "slug": "radio-code-typer",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "medium",
+    "searchTier": "professional-simulator-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "dispatcher typing test",
+      "dispatcher typing test typing game",
+      "data entry typing game feed",
+      "typing test game iframe"
+    ],
+    "fallbackEngineDesign": "Radio Code Typer",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "typing practice book",
+    "slug": "page-turner-typing",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "low",
+    "searchTier": "low-iframe-likelihood",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "typing practice book",
+      "typing practice book typing game",
+      "keyboard typing game feed"
+    ],
+    "fallbackEngineDesign": "Page Turner Typing",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "typing test near me",
+    "slug": "test-center-dash",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "medium",
+    "searchTier": "theme-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "typing test near me",
+      "typing test near me typing game",
+      "typing test near me browser game iframe"
+    ],
+    "fallbackEngineDesign": "Test Center Dash",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "typing certificate near me",
+    "slug": "certificate-challenge",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "medium",
+    "searchTier": "theme-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "typing certificate near me",
+      "typing certificate near me typing game",
+      "typing certificate near me browser game iframe"
+    ],
+    "fallbackEngineDesign": "Certificate Challenge",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "is 60 wpm good",
+    "slug": "60-wpm-gate",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "medium",
+    "searchTier": "theme-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "is 60 wpm good",
+      "is 60 wpm good typing game",
+      "is 60 wpm good browser game iframe"
+    ],
+    "fallbackEngineDesign": "60 WPM Gate",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "typing test locations near me",
+    "slug": "location-clerk-typer",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "medium",
+    "searchTier": "theme-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "typing test locations near me",
+      "typing test locations near me typing game",
+      "typing test locations near me browser game iframe"
+    ],
+    "fallbackEngineDesign": "Location Clerk Typer",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "create your own typing test",
+    "slug": "custom-arena",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "medium",
+    "searchTier": "theme-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "create your own typing test",
+      "create your own typing test typing game",
+      "create your own typing test browser game iframe"
+    ],
+    "fallbackEngineDesign": "Custom Arena",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "urdu typing test",
+    "slug": "urdu-script-sprint",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "high",
+    "searchTier": "exact-or-themed-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "urdu typing test",
+      "urdu typing test GameDistribution",
+      "urdu typing test GameMonetize",
+      "urdu typing test CrazyGames developer"
+    ],
+    "fallbackEngineDesign": "Urdu Script Sprint",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "auto typer for nitro type",
+    "slug": "fair-race-typer",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "high",
+    "searchTier": "exact-or-themed-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "auto typer for nitro type",
+      "auto typer for nitro type GameDistribution",
+      "auto typer for nitro type GameMonetize",
+      "auto typer for nitro type CrazyGames developer"
+    ],
+    "fallbackEngineDesign": "Fair Race Typer",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "typing books",
+    "slug": "library-typing-quest",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "low",
+    "searchTier": "low-iframe-likelihood",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "typing books",
+      "typing books typing game",
+      "keyboard typing game feed"
+    ],
+    "fallbackEngineDesign": "Library Typing Quest",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "touch typing keyboard layout",
+    "slug": "layout-quest",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "medium",
+    "searchTier": "theme-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "touch typing keyboard layout",
+      "touch typing keyboard layout typing game",
+      "touch typing keyboard layout browser game iframe"
+    ],
+    "fallbackEngineDesign": "Layout Quest",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "great keyboard for beginners",
+    "slug": "beginner-keyboard-builder",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "low",
+    "searchTier": "low-iframe-likelihood",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "great keyboard for beginners",
+      "great keyboard for beginners typing game",
+      "keyboard typing game feed"
+    ],
+    "fallbackEngineDesign": "Beginner Keyboard Builder",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "do you need wrist rest when typing",
+    "slug": "wrist-rest-balance",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "low",
+    "searchTier": "low-iframe-likelihood",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "do you need wrist rest when typing",
+      "do you need wrist rest when typing typing game",
+      "keyboard typing game feed"
+    ],
+    "fallbackEngineDesign": "Wrist Rest Balance",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "transcription practice",
+    "slug": "clinic-transcript-typer",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "medium",
+    "searchTier": "professional-simulator-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "transcription practice",
+      "transcription practice typing game",
+      "data entry typing game feed",
+      "typing test game iframe"
+    ],
+    "fallbackEngineDesign": "Clinic Transcript Typer",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "typing right hand practice",
+    "slug": "right-hand-rescue",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "medium",
+    "searchTier": "theme-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "typing right hand practice",
+      "typing right hand practice typing game",
+      "typing right hand practice browser game iframe"
+    ],
+    "fallbackEngineDesign": "Right Hand Rescue",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "customizable typing test",
+    "slug": "rule-builder-typing",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "medium",
+    "searchTier": "theme-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "customizable typing test",
+      "customizable typing test typing game",
+      "customizable typing test browser game iframe"
+    ],
+    "fallbackEngineDesign": "Rule Builder Typing",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "spanish typing games",
+    "slug": "spanish-fiesta-typer",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "high",
+    "searchTier": "exact-or-themed-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "spanish typing games",
+      "spanish typing games GameDistribution",
+      "spanish typing games GameMonetize",
+      "spanish typing games CrazyGames developer"
+    ],
+    "fallbackEngineDesign": "Spanish Fiesta Typer",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "what letter does pokemon games start with when typing",
+    "slug": "pocket-letter-guess",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "medium",
+    "searchTier": "theme-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "what letter does pokemon games start with when typing",
+      "what letter does pokemon games start with when typing typing game",
+      "what letter does pokemon games start with when typing browser game iframe"
+    ],
+    "fallbackEngineDesign": "Pocket Letter Guess",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "medical scribe typing test",
+    "slug": "scribe-shift",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "medium",
+    "searchTier": "professional-simulator-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "medical scribe typing test",
+      "medical scribe typing test typing game",
+      "data entry typing game feed",
+      "typing test game iframe"
+    ],
+    "fallbackEngineDesign": "Scribe Shift",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "finger exerciser",
+    "slug": "finger-gym",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "low",
+    "searchTier": "low-iframe-likelihood",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "finger exerciser",
+      "finger exerciser typing game",
+      "keyboard typing game feed"
+    ],
+    "fallbackEngineDesign": "Finger Gym",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "russian typing practice",
+    "slug": "cyrillic-snow-typer",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "medium",
+    "searchTier": "theme-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "russian typing practice",
+      "russian typing practice typing game",
+      "russian typing practice browser game iframe"
+    ],
+    "fallbackEngineDesign": "Cyrillic Snow Typer",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "typing of the ghosts game",
+    "slug": "ghost-hall-typer",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "high",
+    "searchTier": "exact-or-themed-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "typing of the ghosts game",
+      "typing of the ghosts game GameDistribution",
+      "typing of the ghosts game GameMonetize",
+      "typing of the ghosts game CrazyGames developer"
+    ],
+    "fallbackEngineDesign": "Ghost Hall Typer",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "what is a 10 key",
+    "slug": "10-key-trainer",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "medium",
+    "searchTier": "theme-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "what is a 10 key",
+      "what is a 10 key typing game",
+      "what is a 10 key browser game iframe"
+    ],
+    "fallbackEngineDesign": "10-Key Trainer",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "custom typing test",
+    "slug": "custom-boss-typing",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "medium",
+    "searchTier": "theme-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "custom typing test",
+      "custom typing test typing game",
+      "custom typing test browser game iframe"
+    ],
+    "fallbackEngineDesign": "Custom Boss Typing",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "typing test khmer",
+    "slug": "khmer-glyph-drop",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "medium",
+    "searchTier": "theme-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "typing test khmer",
+      "typing test khmer typing game",
+      "typing test khmer browser game iframe"
+    ],
+    "fallbackEngineDesign": "Khmer Glyph Drop",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "typing test certificate",
+    "slug": "certificate-speed-trial",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "medium",
+    "searchTier": "theme-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "typing test certificate",
+      "typing test certificate typing game",
+      "typing test certificate browser game iframe"
+    ],
+    "fallbackEngineDesign": "Certificate Speed Trial",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "spongebob typing game",
+    "slug": "undersea-fry-typer",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "high",
+    "searchTier": "exact-or-themed-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "spongebob typing game",
+      "spongebob typing game GameDistribution",
+      "spongebob typing game GameMonetize",
+      "spongebob typing game CrazyGames developer"
+    ],
+    "fallbackEngineDesign": "Undersea Fry Typer",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "medical transcription typing test",
+    "slug": "medical-audio-queue",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "medium",
+    "searchTier": "professional-simulator-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "medical transcription typing test",
+      "medical transcription typing test typing game",
+      "data entry typing game feed",
+      "typing test game iframe"
+    ],
+    "fallbackEngineDesign": "Medical Audio Queue",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "ghost typing game",
+    "slug": "ghost-chase-typing",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "medium",
+    "searchTier": "theme-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "ghost typing game",
+      "ghost typing game typing game",
+      "ghost typing game browser game iframe"
+    ],
+    "fallbackEngineDesign": "Ghost Chase Typing",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "mavis beacon teaches typing test",
+    "slug": "beacon-lesson-sprint",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "medium",
+    "searchTier": "theme-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "mavis beacon teaches typing test",
+      "mavis beacon teaches typing test typing game",
+      "mavis beacon teaches typing test browser game iframe"
+    ],
+    "fallbackEngineDesign": "Beacon Lesson Sprint",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "monkeytype alternatives",
+    "slug": "minimal-sprint-arena",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "medium",
+    "searchTier": "theme-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "monkeytype alternatives",
+      "monkeytype alternatives typing game",
+      "monkeytype alternatives browser game iframe"
+    ],
+    "fallbackEngineDesign": "Minimal Sprint Arena",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "among us typing games",
+    "slug": "crew-task-typer",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "high",
+    "searchTier": "exact-or-themed-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "among us typing games",
+      "among us typing games GameDistribution",
+      "among us typing games GameMonetize",
+      "among us typing games CrazyGames developer"
+    ],
+    "fallbackEngineDesign": "Crew Task Typer",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "types of keyboard",
+    "slug": "keyboard-museum-typer",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "medium",
+    "searchTier": "theme-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "types of keyboard",
+      "types of keyboard typing game",
+      "types of keyboard browser game iframe"
+    ],
+    "fallbackEngineDesign": "Keyboard Museum Typer",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "typing test without punctuation",
+    "slug": "clean-text-sprint",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "medium",
+    "searchTier": "theme-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "typing test without punctuation",
+      "typing test without punctuation typing game",
+      "typing test without punctuation browser game iframe"
+    ],
+    "fallbackEngineDesign": "Clean Text Sprint",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "korean typing test",
+    "slug": "hangul-combo-typer",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "high",
+    "searchTier": "exact-or-themed-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "korean typing test",
+      "korean typing test GameDistribution",
+      "korean typing test GameMonetize",
+      "korean typing test CrazyGames developer"
+    ],
+    "fallbackEngineDesign": "Hangul Combo Typer",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "typing rhythm game",
+    "slug": "beat-key-typer",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "high",
+    "searchTier": "exact-or-themed-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "typing rhythm game",
+      "typing rhythm game GameDistribution",
+      "typing rhythm game GameMonetize",
+      "typing rhythm game CrazyGames developer"
+    ],
+    "fallbackEngineDesign": "Beat Key Typer",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "manual typewriters",
+    "slug": "typewriter-ribbon-rally",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "low",
+    "searchTier": "low-iframe-likelihood",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "manual typewriters",
+      "manual typewriters typing game",
+      "keyboard typing game feed"
+    ],
+    "fallbackEngineDesign": "Typewriter Ribbon Rally",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "spanish typing test",
+    "slug": "spanish-accent-sprint",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "medium",
+    "searchTier": "theme-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "spanish typing test",
+      "spanish typing test typing game",
+      "spanish typing test browser game iframe"
+    ],
+    "fallbackEngineDesign": "Spanish Accent Sprint",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "right hand typing practice",
+    "slug": "right-hand-lane",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "medium",
+    "searchTier": "theme-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "right hand typing practice",
+      "right hand typing practice typing game",
+      "right hand typing practice browser game iframe"
+    ],
+    "fallbackEngineDesign": "Right-Hand Lane",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "club penguin typing game",
+    "slug": "iceberg-word-slide",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "high",
+    "searchTier": "exact-or-themed-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "club penguin typing game",
+      "club penguin typing game GameDistribution",
+      "club penguin typing game GameMonetize",
+      "club penguin typing game CrazyGames developer"
+    ],
+    "fallbackEngineDesign": "Iceberg Word Slide",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "practice typing korean",
+    "slug": "hangul-practice-path",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "medium",
+    "searchTier": "theme-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "practice typing korean",
+      "practice typing korean typing game",
+      "practice typing korean browser game iframe"
+    ],
+    "fallbackEngineDesign": "Hangul Practice Path",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "typing song lyrics game",
+    "slug": "lyric-beat-typer",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "high",
+    "searchTier": "exact-or-themed-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "typing song lyrics game",
+      "typing song lyrics game GameDistribution",
+      "typing song lyrics game GameMonetize",
+      "typing song lyrics game CrazyGames developer"
+    ],
+    "fallbackEngineDesign": "Lyric Beat Typer",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "concentrix typing test",
+    "slug": "support-desk-typer",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "medium",
+    "searchTier": "professional-simulator-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "concentrix typing test",
+      "concentrix typing test typing game",
+      "data entry typing game feed",
+      "typing test game iframe"
+    ],
+    "fallbackEngineDesign": "Support Desk Typer",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "typing speed test in 10 minutes",
+    "slug": "10-minute-endurance-run",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "medium",
+    "searchTier": "theme-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "typing speed test in 10 minutes",
+      "typing speed test in 10 minutes typing game",
+      "typing speed test in 10 minutes browser game iframe"
+    ],
+    "fallbackEngineDesign": "10-Minute Endurance Run",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "space typing game 2000s",
+    "slug": "retro-space-typer",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "high",
+    "searchTier": "exact-or-themed-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "space typing game 2000s",
+      "space typing game 2000s GameDistribution",
+      "space typing game 2000s GameMonetize",
+      "space typing game 2000s CrazyGames developer"
+    ],
+    "fallbackEngineDesign": "Retro Space Typer",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "spanish typewriter",
+    "slug": "spanish-typewriter-desk",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "medium",
+    "searchTier": "theme-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "spanish typewriter",
+      "spanish typewriter typing game",
+      "spanish typewriter browser game iframe"
+    ],
+    "fallbackEngineDesign": "Spanish Typewriter Desk",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "art of typing",
+    "slug": "typing-gallery",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "medium",
+    "searchTier": "theme-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "art of typing",
+      "art of typing typing game",
+      "art of typing browser game iframe"
+    ],
+    "fallbackEngineDesign": "Typing Gallery",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "dvorak key layout",
+    "slug": "dvorak-switch-quest",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "medium",
+    "searchTier": "theme-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "dvorak key layout",
+      "dvorak key layout typing game",
+      "dvorak key layout browser game iframe"
+    ],
+    "fallbackEngineDesign": "Dvorak Switch Quest",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "what is considered a fast typing speed",
+    "slug": "fast-speed-ladder",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "medium",
+    "searchTier": "theme-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "what is considered a fast typing speed",
+      "what is considered a fast typing speed typing game",
+      "what is considered a fast typing speed browser game iframe"
+    ],
+    "fallbackEngineDesign": "Fast Speed Ladder",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "dr typing",
+    "slug": "doctor-typing-clinic",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "high",
+    "searchTier": "exact-or-themed-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "dr typing",
+      "dr typing GameDistribution",
+      "dr typing GameMonetize",
+      "dr typing CrazyGames developer"
+    ],
+    "fallbackEngineDesign": "Doctor Typing Clinic",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "10 key test",
+    "slug": "10-key-cashier",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "medium",
+    "searchTier": "professional-simulator-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "10 key test",
+      "10 key test typing game",
+      "data entry typing game feed",
+      "typing test game iframe"
+    ],
+    "fallbackEngineDesign": "10-Key Cashier",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "tutor monster",
+    "slug": "tutor-monster-battle",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "high",
+    "searchTier": "exact-or-themed-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "tutor monster",
+      "tutor monster GameDistribution",
+      "tutor monster GameMonetize",
+      "tutor monster CrazyGames developer"
+    ],
+    "fallbackEngineDesign": "Tutor Monster Battle",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "certified typing test",
+    "slug": "certified-trial",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "medium",
+    "searchTier": "theme-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "certified typing test",
+      "certified typing test typing game",
+      "certified typing test browser game iframe"
+    ],
+    "fallbackEngineDesign": "Certified Trial",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "punjabi typing",
+    "slug": "punjabi-word-sprint",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "medium",
+    "searchTier": "theme-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "punjabi typing",
+      "punjabi typing typing game",
+      "punjabi typing browser game iframe"
+    ],
+    "fallbackEngineDesign": "Punjabi Word Sprint",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "typewriter sound effect",
+    "slug": "sound-desk-typer",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "medium",
+    "searchTier": "theme-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "typewriter sound effect",
+      "typewriter sound effect typing game",
+      "typewriter sound effect browser game iframe"
+    ],
+    "fallbackEngineDesign": "Sound Desk Typer",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "how to learn to type without looking at keyboard",
+    "slug": "blindfold-typing-quest",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "medium",
+    "searchTier": "theme-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "how to learn to type without looking at keyboard",
+      "how to learn to type without looking at keyboard typing game",
+      "how to learn to type without looking at keyboard browser game iframe"
+    ],
+    "fallbackEngineDesign": "Blindfold Typing Quest",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "type in nepali",
+    "slug": "nepali-script-climb",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "high",
+    "searchTier": "exact-or-themed-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "type in nepali",
+      "type in nepali GameDistribution",
+      "type in nepali GameMonetize",
+      "type in nepali CrazyGames developer"
+    ],
+    "fallbackEngineDesign": "Nepali Script Climb",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "typing games 2000s",
+    "slug": "2000s-arcade-typer",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "high",
+    "searchTier": "exact-or-themed-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "typing games 2000s",
+      "typing games 2000s GameDistribution",
+      "typing games 2000s GameMonetize",
+      "typing games 2000s CrazyGames developer"
+    ],
+    "fallbackEngineDesign": "2000s Arcade Typer",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "medical typing test",
+    "slug": "medical-ward-typer",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "medium",
+    "searchTier": "professional-simulator-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "medical typing test",
+      "medical typing test typing game",
+      "data entry typing game feed",
+      "typing test game iframe"
+    ],
+    "fallbackEngineDesign": "Medical Ward Typer",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "typing horror game",
+    "slug": "horror-hallway-typer",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "high",
+    "searchTier": "exact-or-themed-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "typing horror game",
+      "typing horror game GameDistribution",
+      "typing horror game GameMonetize",
+      "typing horror game CrazyGames developer"
+    ],
+    "fallbackEngineDesign": "Horror Hallway Typer",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "ipad typewriter keyboard",
+    "slug": "ipad-keyboard-dock",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "low",
+    "searchTier": "low-iframe-likelihood",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "ipad typewriter keyboard",
+      "ipad typewriter keyboard typing game",
+      "keyboard typing game feed"
+    ],
+    "fallbackEngineDesign": "iPad Keyboard Dock",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "what's touch type",
+    "slug": "touch-type-trainer",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "medium",
+    "searchTier": "theme-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "what's touch type",
+      "what's touch type typing game",
+      "what's touch type browser game iframe"
+    ],
+    "fallbackEngineDesign": "Touch Type Trainer",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "how do i learn to touch type",
+    "slug": "home-row-journey",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "medium",
+    "searchTier": "theme-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "how do i learn to touch type",
+      "how do i learn to touch type typing game",
+      "how do i learn to touch type browser game iframe"
+    ],
+    "fallbackEngineDesign": "Home Row Journey",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "nitrotype theme",
+    "slug": "garage-theme-typer",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "high",
+    "searchTier": "exact-or-themed-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "nitrotype theme",
+      "nitrotype theme GameDistribution",
+      "nitrotype theme GameMonetize",
+      "nitrotype theme CrazyGames developer"
+    ],
+    "fallbackEngineDesign": "Garage Theme Typer",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "mavis beacon teaches typing online game",
+    "slug": "beacon-online-challenge",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "high",
+    "searchTier": "exact-or-themed-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "mavis beacon teaches typing online game",
+      "mavis beacon teaches typing online game GameDistribution",
+      "mavis beacon teaches typing online game GameMonetize",
+      "mavis beacon teaches typing online game CrazyGames developer"
+    ],
+    "fallbackEngineDesign": "Beacon Online Challenge",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "typing and data entry test",
+    "slug": "data-entry-warehouse",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "medium",
+    "searchTier": "professional-simulator-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "typing and data entry test",
+      "typing and data entry test typing game",
+      "data entry typing game feed",
+      "typing test game iframe"
+    ],
+    "fallbackEngineDesign": "Data Entry Warehouse",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "good typing wpm",
+    "slug": "good-wpm-ladder",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "medium",
+    "searchTier": "theme-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "good typing wpm",
+      "good typing wpm typing game",
+      "good typing wpm browser game iframe"
+    ],
+    "fallbackEngineDesign": "Good WPM Ladder",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "best typing games for kids",
+    "slug": "kids-typing-playground",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "medium",
+    "searchTier": "theme-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "best typing games for kids",
+      "best typing games for kids typing game",
+      "best typing games for kids browser game iframe"
+    ],
+    "fallbackEngineDesign": "Kids Typing Playground",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "korean typing practice",
+    "slug": "korean-practice-garden",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "medium",
+    "searchTier": "theme-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "korean typing practice",
+      "korean typing practice typing game",
+      "korean typing practice browser game iframe"
+    ],
+    "fallbackEngineDesign": "Korean Practice Garden",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "alphabet typing test",
+    "slug": "alphabet-rocket",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "medium",
+    "searchTier": "theme-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "alphabet typing test",
+      "alphabet typing test typing game",
+      "alphabet typing test browser game iframe"
+    ],
+    "fallbackEngineDesign": "Alphabet Rocket",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "typing games for 2nd graders",
+    "slug": "2nd-grade-word-park",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "medium",
+    "searchTier": "theme-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "typing games for 2nd graders",
+      "typing games for 2nd graders typing game",
+      "typing games for 2nd graders browser game iframe"
+    ],
+    "fallbackEngineDesign": "2nd Grade Word Park",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "games like nitro type",
+    "slug": "nitro-like-race",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "high",
+    "searchTier": "exact-or-themed-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "games like nitro type",
+      "games like nitro type GameDistribution",
+      "games like nitro type GameMonetize",
+      "games like nitro type CrazyGames developer"
+    ],
+    "fallbackEngineDesign": "Nitro-Like Race",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "space typing game",
+    "slug": "space-patrol-typer",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "high",
+    "searchTier": "exact-or-themed-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "space typing game",
+      "space typing game GameDistribution",
+      "space typing game GameMonetize",
+      "space typing game CrazyGames developer"
+    ],
+    "fallbackEngineDesign": "Space Patrol Typer",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "hindi typing test",
+    "slug": "hindi-script-sprint",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "high",
+    "searchTier": "exact-or-themed-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "hindi typing test",
+      "hindi typing test GameDistribution",
+      "hindi typing test GameMonetize",
+      "hindi typing test CrazyGames developer"
+    ],
+    "fallbackEngineDesign": "Hindi Script Sprint",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  },
+  {
+    "keyword": "best typing games",
+    "slug": "typing-game-arcade",
+    "currentEmbed": "engine",
+    "iframeStatus": "pending-feed-review",
+    "likelihood": "high",
+    "searchTier": "exact-or-themed-feed-search",
+    "providerPriority": [
+      "GameDistribution feed",
+      "GameMonetize feed",
+      "CrazyGames developer API"
+    ],
+    "queries": [
+      "best typing games",
+      "best typing games GameDistribution",
+      "best typing games GameMonetize",
+      "best typing games CrazyGames developer"
+    ],
+    "fallbackEngineDesign": "Typing Game Arcade",
+    "decision": "Keep original engine game until a legal provider feed returns an embeddable match. Do not scrape or iframe third-party pages directly.",
+    "sourceUrl": null
+  }
+]

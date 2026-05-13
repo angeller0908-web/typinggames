@@ -8,7 +8,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "match:iframes": "node scripts/match-iframe-feed.mjs",
+    "fetch:gamemonetize": "node scripts/fetch-gamemonetize-feed.mjs",
+    "scan:iframes": "node scripts/fetch-gamemonetize-feed.mjs --strategy discover --num 100 --threshold 55"
   },
   "dependencies": {
     "@next/mdx": "^15.0.3",

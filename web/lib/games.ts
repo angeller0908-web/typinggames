@@ -51,6 +51,18 @@ export function getCategories(): { id: string; label: string; emoji: string; gam
     "money-pro": { label: "Pro & Money", emoji: "💰" },
     "speed-test": { label: "Speed Test", emoji: "⌨️" },
     sports: { label: "Sports", emoji: "🏊" },
+    "jobs-data": { label: "Jobs & Data Entry", emoji: "🧾" },
+    medical: { label: "Medical", emoji: "🩺" },
+    numbers: { label: "Numbers & Codes", emoji: "🔢" },
+    languages: { label: "Languages", emoji: "🌐" },
+    "keyboard-layout": { label: "Keyboard & Layout", emoji: "⌨️" },
+    kids: { label: "Kids", emoji: "🧒" },
+    "shop-gear": { label: "Shop & Gear", emoji: "🛒" },
+    "retro-arcade": { label: "Retro & Arcade", emoji: "🕹️" },
+    rhythm: { label: "Rhythm", emoji: "🎵" },
+    "branded-inspired": { label: "Branded Inspired", emoji: "✨" },
+    "custom-tools": { label: "Custom", emoji: "🧩" },
+    creative: { label: "Creative", emoji: "🎨" },
   };
   for (const g of games) {
     const m = meta[g.category] ?? { label: g.category, emoji: "🎮" };

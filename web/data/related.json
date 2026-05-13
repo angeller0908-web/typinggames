@@ -1,22 +1,834 @@
 {
-  "fruit-typing": ["typing-food", "banana-typing", "chicken-typing", "typing-rain", "typing-frog", "keyboard-zoo"],
-  "truck-typer": ["typing-money", "typing-99", "typing-jets", "typing-food", "typing-swimmer", "mavis-beacon-typing"],
-  "typing-food": ["fruit-typing", "banana-typing", "typing-money", "truck-typer", "typing-swimmer", "chicken-typing"],
-  "chicken-typing": ["keyboard-zoo", "kangaroo-typing", "typing-frog", "fruit-typing", "typing-food", "banana-typing"],
-  "typing-99": ["typing-rain", "mavis-beacon-typing", "dance-mat-typing", "typing-bomb", "truck-typer", "typing-money"],
-  "typing-alien": ["typing-rocket", "asteroid-typing", "typing-of-the-ghosts", "typing-rain", "typing-bomb", "typing-99"],
-  "typing-money": ["truck-typer", "typing-99", "typing-food", "mavis-beacon-typing", "dance-mat-typing", "typing-swimmer"],
-  "banana-typing": ["fruit-typing", "typing-food", "keyboard-zoo", "chicken-typing", "mavis-beacon-typing", "dance-mat-typing"],
-  "keyboard-zoo": ["chicken-typing", "kangaroo-typing", "typing-frog", "banana-typing", "fruit-typing", "typing-food"],
-  "typing-rocket": ["asteroid-typing", "typing-alien", "typing-rain", "typing-of-the-ghosts", "typing-jets", "typing-bomb"],
-  "typing-rain": ["typing-alien", "typing-rocket", "asteroid-typing", "typing-99", "typing-bomb", "typing-of-the-ghosts"],
-  "typing-jets": ["truck-typer", "typing-rocket", "typing-alien", "asteroid-typing", "kangaroo-typing", "chicken-typing"],
-  "kangaroo-typing": ["keyboard-zoo", "chicken-typing", "typing-frog", "typing-jets", "fruit-typing", "typing-swimmer"],
-  "typing-swimmer": ["truck-typer", "typing-food", "typing-money", "typing-jets", "kangaroo-typing", "typing-99"],
-  "mavis-beacon-typing": ["dance-mat-typing", "typing-99", "typing-rain", "banana-typing", "keyboard-zoo", "typing-bomb"],
-  "asteroid-typing": ["typing-rocket", "typing-alien", "typing-of-the-ghosts", "typing-rain", "typing-bomb", "typing-99"],
-  "dance-mat-typing": ["mavis-beacon-typing", "banana-typing", "keyboard-zoo", "typing-99", "typing-rain", "typing-bomb"],
-  "typing-bomb": ["typing-alien", "typing-rain", "typing-of-the-ghosts", "asteroid-typing", "typing-99", "typing-rocket"],
-  "typing-frog": ["chicken-typing", "keyboard-zoo", "kangaroo-typing", "fruit-typing", "banana-typing", "typing-food"],
-  "typing-of-the-ghosts": ["typing-bomb", "typing-alien", "asteroid-typing", "typing-rain", "typing-rocket", "typing-99"]
+  "fruit-typing": [
+    "typing-food",
+    "banana-typing",
+    "truck-typer",
+    "chicken-typing",
+    "typing-99",
+    "typing-alien"
+  ],
+  "truck-typer": [
+    "typing-jets",
+    "fair-race-typer",
+    "garage-theme-typer",
+    "nitro-like-race",
+    "fruit-typing",
+    "typing-food"
+  ],
+  "typing-food": [
+    "fruit-typing",
+    "banana-typing",
+    "truck-typer",
+    "chicken-typing",
+    "typing-99",
+    "typing-alien"
+  ],
+  "chicken-typing": [
+    "keyboard-zoo",
+    "kangaroo-typing",
+    "typing-frog",
+    "fruit-typing",
+    "truck-typer",
+    "typing-food"
+  ],
+  "typing-99": [
+    "typing-rain",
+    "mavis-beacon-typing",
+    "dance-mat-typing",
+    "pangram-sprint",
+    "certificate-challenge",
+    "60-wpm-gate"
+  ],
+  "typing-alien": [
+    "typing-rocket",
+    "asteroid-typing",
+    "asteroid-splitter",
+    "retro-space-typer",
+    "space-patrol-typer",
+    "fruit-typing"
+  ],
+  "typing-money": [
+    "fruit-typing",
+    "truck-typer",
+    "typing-food",
+    "chicken-typing",
+    "typing-99",
+    "typing-alien"
+  ],
+  "banana-typing": [
+    "fruit-typing",
+    "typing-food",
+    "truck-typer",
+    "chicken-typing",
+    "typing-99",
+    "typing-alien"
+  ],
+  "keyboard-zoo": [
+    "chicken-typing",
+    "kangaroo-typing",
+    "typing-frog",
+    "fruit-typing",
+    "truck-typer",
+    "typing-food"
+  ],
+  "typing-rocket": [
+    "typing-alien",
+    "asteroid-typing",
+    "asteroid-splitter",
+    "retro-space-typer",
+    "space-patrol-typer",
+    "fruit-typing"
+  ],
+  "typing-rain": [
+    "typing-99",
+    "mavis-beacon-typing",
+    "dance-mat-typing",
+    "pangram-sprint",
+    "certificate-challenge",
+    "60-wpm-gate"
+  ],
+  "typing-jets": [
+    "truck-typer",
+    "fair-race-typer",
+    "garage-theme-typer",
+    "nitro-like-race",
+    "fruit-typing",
+    "typing-food"
+  ],
+  "kangaroo-typing": [
+    "chicken-typing",
+    "keyboard-zoo",
+    "typing-frog",
+    "fruit-typing",
+    "truck-typer",
+    "typing-food"
+  ],
+  "typing-swimmer": [
+    "fruit-typing",
+    "truck-typer",
+    "typing-food",
+    "chicken-typing",
+    "typing-99",
+    "typing-alien"
+  ],
+  "mavis-beacon-typing": [
+    "typing-99",
+    "typing-rain",
+    "dance-mat-typing",
+    "pangram-sprint",
+    "certificate-challenge",
+    "60-wpm-gate"
+  ],
+  "asteroid-typing": [
+    "typing-alien",
+    "typing-rocket",
+    "asteroid-splitter",
+    "retro-space-typer",
+    "space-patrol-typer",
+    "fruit-typing"
+  ],
+  "dance-mat-typing": [
+    "typing-99",
+    "typing-rain",
+    "mavis-beacon-typing",
+    "pangram-sprint",
+    "certificate-challenge",
+    "60-wpm-gate"
+  ],
+  "typing-bomb": [
+    "typing-of-the-ghosts",
+    "ghost-hall-typer",
+    "ghost-chase-typing",
+    "horror-hallway-typer",
+    "fruit-typing",
+    "truck-typer"
+  ],
+  "typing-frog": [
+    "chicken-typing",
+    "keyboard-zoo",
+    "kangaroo-typing",
+    "fruit-typing",
+    "truck-typer",
+    "typing-food"
+  ],
+  "typing-of-the-ghosts": [
+    "typing-bomb",
+    "ghost-hall-typer",
+    "ghost-chase-typing",
+    "horror-hallway-typer",
+    "fruit-typing",
+    "truck-typer"
+  ],
+  "book-stack-typer": [
+    "page-turner-typing",
+    "library-typing-quest",
+    "wrist-rest-balance",
+    "fruit-typing",
+    "truck-typer",
+    "typing-food"
+  ],
+  "911-dispatch-rush": [
+    "dispatcher-call-queue",
+    "kph-cargo-terminal",
+    "radio-code-typer",
+    "test-center-dash",
+    "location-clerk-typer",
+    "support-desk-typer"
+  ],
+  "asteroid-splitter": [
+    "typing-alien",
+    "typing-rocket",
+    "asteroid-typing",
+    "retro-space-typer",
+    "space-patrol-typer",
+    "fruit-typing"
+  ],
+  "kana-lane-typing": [
+    "urdu-script-sprint",
+    "spanish-fiesta-typer",
+    "cyrillic-snow-typer",
+    "khmer-glyph-drop",
+    "hangul-combo-typer",
+    "spanish-accent-sprint"
+  ],
+  "dispatcher-call-queue": [
+    "911-dispatch-rush",
+    "kph-cargo-terminal",
+    "radio-code-typer",
+    "test-center-dash",
+    "location-clerk-typer",
+    "support-desk-typer"
+  ],
+  "muscle-memory-maze": [
+    "layout-quest",
+    "beginner-keyboard-builder",
+    "right-hand-rescue",
+    "finger-gym",
+    "keyboard-museum-typer",
+    "right-hand-lane"
+  ],
+  "pangram-sprint": [
+    "typing-99",
+    "typing-rain",
+    "mavis-beacon-typing",
+    "dance-mat-typing",
+    "certificate-challenge",
+    "60-wpm-gate"
+  ],
+  "kph-cargo-terminal": [
+    "911-dispatch-rush",
+    "dispatcher-call-queue",
+    "radio-code-typer",
+    "test-center-dash",
+    "location-clerk-typer",
+    "support-desk-typer"
+  ],
+  "code-crate-sort": [
+    "10-key-trainer",
+    "10-key-cashier",
+    "fruit-typing",
+    "truck-typer",
+    "typing-food",
+    "chicken-typing"
+  ],
+  "radio-code-typer": [
+    "911-dispatch-rush",
+    "dispatcher-call-queue",
+    "kph-cargo-terminal",
+    "test-center-dash",
+    "location-clerk-typer",
+    "support-desk-typer"
+  ],
+  "page-turner-typing": [
+    "book-stack-typer",
+    "library-typing-quest",
+    "wrist-rest-balance",
+    "fruit-typing",
+    "truck-typer",
+    "typing-food"
+  ],
+  "test-center-dash": [
+    "911-dispatch-rush",
+    "dispatcher-call-queue",
+    "kph-cargo-terminal",
+    "radio-code-typer",
+    "location-clerk-typer",
+    "support-desk-typer"
+  ],
+  "certificate-challenge": [
+    "typing-99",
+    "typing-rain",
+    "mavis-beacon-typing",
+    "dance-mat-typing",
+    "pangram-sprint",
+    "60-wpm-gate"
+  ],
+  "60-wpm-gate": [
+    "typing-99",
+    "typing-rain",
+    "mavis-beacon-typing",
+    "dance-mat-typing",
+    "pangram-sprint",
+    "certificate-challenge"
+  ],
+  "location-clerk-typer": [
+    "911-dispatch-rush",
+    "dispatcher-call-queue",
+    "kph-cargo-terminal",
+    "radio-code-typer",
+    "test-center-dash",
+    "support-desk-typer"
+  ],
+  "custom-arena": [
+    "rule-builder-typing",
+    "custom-boss-typing",
+    "fruit-typing",
+    "truck-typer",
+    "typing-food",
+    "chicken-typing"
+  ],
+  "urdu-script-sprint": [
+    "kana-lane-typing",
+    "spanish-fiesta-typer",
+    "cyrillic-snow-typer",
+    "khmer-glyph-drop",
+    "hangul-combo-typer",
+    "spanish-accent-sprint"
+  ],
+  "fair-race-typer": [
+    "truck-typer",
+    "typing-jets",
+    "garage-theme-typer",
+    "nitro-like-race",
+    "fruit-typing",
+    "typing-food"
+  ],
+  "library-typing-quest": [
+    "book-stack-typer",
+    "page-turner-typing",
+    "wrist-rest-balance",
+    "fruit-typing",
+    "truck-typer",
+    "typing-food"
+  ],
+  "layout-quest": [
+    "muscle-memory-maze",
+    "beginner-keyboard-builder",
+    "right-hand-rescue",
+    "finger-gym",
+    "keyboard-museum-typer",
+    "right-hand-lane"
+  ],
+  "beginner-keyboard-builder": [
+    "muscle-memory-maze",
+    "layout-quest",
+    "right-hand-rescue",
+    "finger-gym",
+    "keyboard-museum-typer",
+    "right-hand-lane"
+  ],
+  "wrist-rest-balance": [
+    "book-stack-typer",
+    "page-turner-typing",
+    "library-typing-quest",
+    "fruit-typing",
+    "truck-typer",
+    "typing-food"
+  ],
+  "clinic-transcript-typer": [
+    "scribe-shift",
+    "medical-audio-queue",
+    "doctor-typing-clinic",
+    "medical-ward-typer",
+    "fruit-typing",
+    "truck-typer"
+  ],
+  "right-hand-rescue": [
+    "muscle-memory-maze",
+    "layout-quest",
+    "beginner-keyboard-builder",
+    "finger-gym",
+    "keyboard-museum-typer",
+    "right-hand-lane"
+  ],
+  "rule-builder-typing": [
+    "custom-arena",
+    "custom-boss-typing",
+    "fruit-typing",
+    "truck-typer",
+    "typing-food",
+    "chicken-typing"
+  ],
+  "spanish-fiesta-typer": [
+    "kana-lane-typing",
+    "urdu-script-sprint",
+    "cyrillic-snow-typer",
+    "khmer-glyph-drop",
+    "hangul-combo-typer",
+    "spanish-accent-sprint"
+  ],
+  "pocket-letter-guess": [
+    "undersea-fry-typer",
+    "crew-task-typer",
+    "iceberg-word-slide",
+    "fruit-typing",
+    "truck-typer",
+    "typing-food"
+  ],
+  "scribe-shift": [
+    "clinic-transcript-typer",
+    "medical-audio-queue",
+    "doctor-typing-clinic",
+    "medical-ward-typer",
+    "fruit-typing",
+    "truck-typer"
+  ],
+  "finger-gym": [
+    "muscle-memory-maze",
+    "layout-quest",
+    "beginner-keyboard-builder",
+    "right-hand-rescue",
+    "keyboard-museum-typer",
+    "right-hand-lane"
+  ],
+  "cyrillic-snow-typer": [
+    "kana-lane-typing",
+    "urdu-script-sprint",
+    "spanish-fiesta-typer",
+    "khmer-glyph-drop",
+    "hangul-combo-typer",
+    "spanish-accent-sprint"
+  ],
+  "ghost-hall-typer": [
+    "typing-bomb",
+    "typing-of-the-ghosts",
+    "ghost-chase-typing",
+    "horror-hallway-typer",
+    "fruit-typing",
+    "truck-typer"
+  ],
+  "10-key-trainer": [
+    "code-crate-sort",
+    "10-key-cashier",
+    "fruit-typing",
+    "truck-typer",
+    "typing-food",
+    "chicken-typing"
+  ],
+  "custom-boss-typing": [
+    "custom-arena",
+    "rule-builder-typing",
+    "fruit-typing",
+    "truck-typer",
+    "typing-food",
+    "chicken-typing"
+  ],
+  "khmer-glyph-drop": [
+    "kana-lane-typing",
+    "urdu-script-sprint",
+    "spanish-fiesta-typer",
+    "cyrillic-snow-typer",
+    "hangul-combo-typer",
+    "spanish-accent-sprint"
+  ],
+  "certificate-speed-trial": [
+    "typing-99",
+    "typing-rain",
+    "mavis-beacon-typing",
+    "dance-mat-typing",
+    "pangram-sprint",
+    "certificate-challenge"
+  ],
+  "undersea-fry-typer": [
+    "pocket-letter-guess",
+    "crew-task-typer",
+    "iceberg-word-slide",
+    "fruit-typing",
+    "truck-typer",
+    "typing-food"
+  ],
+  "medical-audio-queue": [
+    "clinic-transcript-typer",
+    "scribe-shift",
+    "doctor-typing-clinic",
+    "medical-ward-typer",
+    "fruit-typing",
+    "truck-typer"
+  ],
+  "ghost-chase-typing": [
+    "typing-bomb",
+    "typing-of-the-ghosts",
+    "ghost-hall-typer",
+    "horror-hallway-typer",
+    "fruit-typing",
+    "truck-typer"
+  ],
+  "beacon-lesson-sprint": [
+    "clean-text-sprint",
+    "typewriter-ribbon-rally",
+    "sound-desk-typer",
+    "2000s-arcade-typer",
+    "beacon-online-challenge",
+    "typing-game-arcade"
+  ],
+  "minimal-sprint-arena": [
+    "typing-99",
+    "typing-rain",
+    "mavis-beacon-typing",
+    "dance-mat-typing",
+    "pangram-sprint",
+    "certificate-challenge"
+  ],
+  "crew-task-typer": [
+    "pocket-letter-guess",
+    "undersea-fry-typer",
+    "iceberg-word-slide",
+    "fruit-typing",
+    "truck-typer",
+    "typing-food"
+  ],
+  "keyboard-museum-typer": [
+    "muscle-memory-maze",
+    "layout-quest",
+    "beginner-keyboard-builder",
+    "right-hand-rescue",
+    "finger-gym",
+    "right-hand-lane"
+  ],
+  "clean-text-sprint": [
+    "beacon-lesson-sprint",
+    "typewriter-ribbon-rally",
+    "sound-desk-typer",
+    "2000s-arcade-typer",
+    "beacon-online-challenge",
+    "typing-game-arcade"
+  ],
+  "hangul-combo-typer": [
+    "kana-lane-typing",
+    "urdu-script-sprint",
+    "spanish-fiesta-typer",
+    "cyrillic-snow-typer",
+    "khmer-glyph-drop",
+    "spanish-accent-sprint"
+  ],
+  "beat-key-typer": [
+    "lyric-beat-typer",
+    "fruit-typing",
+    "truck-typer",
+    "typing-food",
+    "chicken-typing",
+    "typing-99"
+  ],
+  "typewriter-ribbon-rally": [
+    "beacon-lesson-sprint",
+    "clean-text-sprint",
+    "sound-desk-typer",
+    "2000s-arcade-typer",
+    "beacon-online-challenge",
+    "typing-game-arcade"
+  ],
+  "spanish-accent-sprint": [
+    "kana-lane-typing",
+    "urdu-script-sprint",
+    "spanish-fiesta-typer",
+    "cyrillic-snow-typer",
+    "khmer-glyph-drop",
+    "hangul-combo-typer"
+  ],
+  "right-hand-lane": [
+    "muscle-memory-maze",
+    "layout-quest",
+    "beginner-keyboard-builder",
+    "right-hand-rescue",
+    "finger-gym",
+    "keyboard-museum-typer"
+  ],
+  "iceberg-word-slide": [
+    "pocket-letter-guess",
+    "undersea-fry-typer",
+    "crew-task-typer",
+    "fruit-typing",
+    "truck-typer",
+    "typing-food"
+  ],
+  "hangul-practice-path": [
+    "kana-lane-typing",
+    "urdu-script-sprint",
+    "spanish-fiesta-typer",
+    "cyrillic-snow-typer",
+    "khmer-glyph-drop",
+    "hangul-combo-typer"
+  ],
+  "lyric-beat-typer": [
+    "beat-key-typer",
+    "fruit-typing",
+    "truck-typer",
+    "typing-food",
+    "chicken-typing",
+    "typing-99"
+  ],
+  "support-desk-typer": [
+    "911-dispatch-rush",
+    "dispatcher-call-queue",
+    "kph-cargo-terminal",
+    "radio-code-typer",
+    "test-center-dash",
+    "location-clerk-typer"
+  ],
+  "10-minute-endurance-run": [
+    "typing-99",
+    "typing-rain",
+    "mavis-beacon-typing",
+    "dance-mat-typing",
+    "pangram-sprint",
+    "certificate-challenge"
+  ],
+  "retro-space-typer": [
+    "typing-alien",
+    "typing-rocket",
+    "asteroid-typing",
+    "asteroid-splitter",
+    "space-patrol-typer",
+    "fruit-typing"
+  ],
+  "spanish-typewriter-desk": [
+    "kana-lane-typing",
+    "urdu-script-sprint",
+    "spanish-fiesta-typer",
+    "cyrillic-snow-typer",
+    "khmer-glyph-drop",
+    "hangul-combo-typer"
+  ],
+  "typing-gallery": [
+    "fruit-typing",
+    "truck-typer",
+    "typing-food",
+    "chicken-typing",
+    "typing-99",
+    "typing-alien"
+  ],
+  "dvorak-switch-quest": [
+    "muscle-memory-maze",
+    "layout-quest",
+    "beginner-keyboard-builder",
+    "right-hand-rescue",
+    "finger-gym",
+    "keyboard-museum-typer"
+  ],
+  "fast-speed-ladder": [
+    "typing-99",
+    "typing-rain",
+    "mavis-beacon-typing",
+    "dance-mat-typing",
+    "pangram-sprint",
+    "certificate-challenge"
+  ],
+  "doctor-typing-clinic": [
+    "clinic-transcript-typer",
+    "scribe-shift",
+    "medical-audio-queue",
+    "medical-ward-typer",
+    "fruit-typing",
+    "truck-typer"
+  ],
+  "10-key-cashier": [
+    "code-crate-sort",
+    "10-key-trainer",
+    "fruit-typing",
+    "truck-typer",
+    "typing-food",
+    "chicken-typing"
+  ],
+  "tutor-monster-battle": [
+    "kids-typing-playground",
+    "alphabet-rocket",
+    "2nd-grade-word-park",
+    "fruit-typing",
+    "truck-typer",
+    "typing-food"
+  ],
+  "certified-trial": [
+    "typing-99",
+    "typing-rain",
+    "mavis-beacon-typing",
+    "dance-mat-typing",
+    "pangram-sprint",
+    "certificate-challenge"
+  ],
+  "punjabi-word-sprint": [
+    "kana-lane-typing",
+    "urdu-script-sprint",
+    "spanish-fiesta-typer",
+    "cyrillic-snow-typer",
+    "khmer-glyph-drop",
+    "hangul-combo-typer"
+  ],
+  "sound-desk-typer": [
+    "beacon-lesson-sprint",
+    "clean-text-sprint",
+    "typewriter-ribbon-rally",
+    "2000s-arcade-typer",
+    "beacon-online-challenge",
+    "typing-game-arcade"
+  ],
+  "blindfold-typing-quest": [
+    "muscle-memory-maze",
+    "layout-quest",
+    "beginner-keyboard-builder",
+    "right-hand-rescue",
+    "finger-gym",
+    "keyboard-museum-typer"
+  ],
+  "nepali-script-climb": [
+    "kana-lane-typing",
+    "urdu-script-sprint",
+    "spanish-fiesta-typer",
+    "cyrillic-snow-typer",
+    "khmer-glyph-drop",
+    "hangul-combo-typer"
+  ],
+  "2000s-arcade-typer": [
+    "beacon-lesson-sprint",
+    "clean-text-sprint",
+    "typewriter-ribbon-rally",
+    "sound-desk-typer",
+    "beacon-online-challenge",
+    "typing-game-arcade"
+  ],
+  "medical-ward-typer": [
+    "clinic-transcript-typer",
+    "scribe-shift",
+    "medical-audio-queue",
+    "doctor-typing-clinic",
+    "fruit-typing",
+    "truck-typer"
+  ],
+  "horror-hallway-typer": [
+    "typing-bomb",
+    "typing-of-the-ghosts",
+    "ghost-hall-typer",
+    "ghost-chase-typing",
+    "fruit-typing",
+    "truck-typer"
+  ],
+  "ipad-keyboard-dock": [
+    "muscle-memory-maze",
+    "layout-quest",
+    "beginner-keyboard-builder",
+    "right-hand-rescue",
+    "finger-gym",
+    "keyboard-museum-typer"
+  ],
+  "touch-type-trainer": [
+    "muscle-memory-maze",
+    "layout-quest",
+    "beginner-keyboard-builder",
+    "right-hand-rescue",
+    "finger-gym",
+    "keyboard-museum-typer"
+  ],
+  "home-row-journey": [
+    "muscle-memory-maze",
+    "layout-quest",
+    "beginner-keyboard-builder",
+    "right-hand-rescue",
+    "finger-gym",
+    "keyboard-museum-typer"
+  ],
+  "garage-theme-typer": [
+    "truck-typer",
+    "typing-jets",
+    "fair-race-typer",
+    "nitro-like-race",
+    "fruit-typing",
+    "typing-food"
+  ],
+  "beacon-online-challenge": [
+    "beacon-lesson-sprint",
+    "clean-text-sprint",
+    "typewriter-ribbon-rally",
+    "sound-desk-typer",
+    "2000s-arcade-typer",
+    "typing-game-arcade"
+  ],
+  "data-entry-warehouse": [
+    "911-dispatch-rush",
+    "dispatcher-call-queue",
+    "kph-cargo-terminal",
+    "radio-code-typer",
+    "test-center-dash",
+    "location-clerk-typer"
+  ],
+  "good-wpm-ladder": [
+    "typing-99",
+    "typing-rain",
+    "mavis-beacon-typing",
+    "dance-mat-typing",
+    "pangram-sprint",
+    "certificate-challenge"
+  ],
+  "kids-typing-playground": [
+    "tutor-monster-battle",
+    "alphabet-rocket",
+    "2nd-grade-word-park",
+    "fruit-typing",
+    "truck-typer",
+    "typing-food"
+  ],
+  "korean-practice-garden": [
+    "kana-lane-typing",
+    "urdu-script-sprint",
+    "spanish-fiesta-typer",
+    "cyrillic-snow-typer",
+    "khmer-glyph-drop",
+    "hangul-combo-typer"
+  ],
+  "alphabet-rocket": [
+    "tutor-monster-battle",
+    "kids-typing-playground",
+    "2nd-grade-word-park",
+    "fruit-typing",
+    "truck-typer",
+    "typing-food"
+  ],
+  "2nd-grade-word-park": [
+    "tutor-monster-battle",
+    "kids-typing-playground",
+    "alphabet-rocket",
+    "fruit-typing",
+    "truck-typer",
+    "typing-food"
+  ],
+  "nitro-like-race": [
+    "truck-typer",
+    "typing-jets",
+    "fair-race-typer",
+    "garage-theme-typer",
+    "fruit-typing",
+    "typing-food"
+  ],
+  "space-patrol-typer": [
+    "typing-alien",
+    "typing-rocket",
+    "asteroid-typing",
+    "asteroid-splitter",
+    "retro-space-typer",
+    "fruit-typing"
+  ],
+  "hindi-script-sprint": [
+    "kana-lane-typing",
+    "urdu-script-sprint",
+    "spanish-fiesta-typer",
+    "cyrillic-snow-typer",
+    "khmer-glyph-drop",
+    "hangul-combo-typer"
+  ],
+  "typing-game-arcade": [
+    "beacon-lesson-sprint",
+    "clean-text-sprint",
+    "typewriter-ribbon-rally",
+    "sound-desk-typer",
+    "2000s-arcade-typer",
+    "beacon-online-challenge"
+  ]
 }

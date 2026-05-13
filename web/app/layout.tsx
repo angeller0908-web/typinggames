@@ -5,6 +5,7 @@ import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { ConsentBanner } from "@/components/layout/ConsentBanner";
 import { GoogleAnalytics } from "@/components/analytics/GoogleAnalytics";
+import { GoogleAdSense } from "@/components/ads/GoogleAdSense";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
@@ -18,11 +19,19 @@ export const metadata: Metadata = {
   },
   twitter: { card: "summary_large_image", site: SITE.twitter },
   robots: { index: true, follow: true },
+  icons: {
+    icon: "/favicon.svg",
+    shortcut: "/favicon.svg",
+    apple: "/apple-touch-icon.svg",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
+      <head>
+        <GoogleAdSense />
+      </head>
       <body>
         <Header />
         <main className="mx-auto max-w-site px-4 sm:px-6 lg:px-8 min-h-[60vh]">{children}</main>
