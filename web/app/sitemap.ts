@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { SITE } from "@/lib/site";
 import { getAllSlugs } from "@/lib/games";
+import { getAllHubs } from "@/lib/hubs";
 
 export const dynamic = "force-static";
 
@@ -15,6 +16,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }));
   const pages = [
     { url: `${base}/`, priority: 1.0 },
+    ...getAllHubs().map((hub) => ({ url: `${base}/games/${hub.slug}/`, priority: 0.7 })),
     { url: `${base}/about/`, priority: 0.4 },
     { url: `${base}/contact/`, priority: 0.3 },
     { url: `${base}/privacy/`, priority: 0.2 },

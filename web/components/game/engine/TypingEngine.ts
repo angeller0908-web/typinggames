@@ -1,8 +1,9 @@
-import type { EngineConfig, EngineMode, EngineSnapshot, Variant } from "@/lib/types";
+import type { EngineConfig, EngineMode, EngineSnapshot, GameplayTemplate, Variant } from "@/lib/types";
 
 export interface EngineInit {
   mode: EngineMode;
   variant: Variant;
+  template: GameplayTemplate;
   config: EngineConfig;
   words: string[];
   theme: { accent: string; accent2: string; surface: string };
@@ -12,6 +13,398 @@ type Listener = () => void;
 
 const SNAPSHOT_THROTTLE_MS = 100;
 const DEFAULT_DURATION = 60_000;
+
+interface RuntimeRule {
+  metricLabel: string;
+  statusLabel: string;
+  successVerb: string;
+  missVerb: string;
+  scoreBonus: number;
+  streakBonusEvery?: number;
+  timeBonusMs?: number;
+  missTimePenaltyMs?: number;
+  missScorePenalty?: number;
+  missLifeEvery?: number;
+  pressurePerScore?: number;
+  maxActiveItems?: number;
+  targetWords?: number;
+  keyboardZone?: "all" | "right" | "home" | "dvorak";
+  layoutTargeting?: boolean;
+  clickToLock?: boolean;
+  sequentialQueue?: boolean;
+  rhythmWindowMs?: number;
+  ticketTimerMs?: number;
+  movingTargets?: "bounce" | "lane" | "grid" | "chase" | "orbit";
+  textTransform?: "numbers" | "upper" | "short" | "home" | "right";
+  progressKind:
+    | "basket"
+    | "tickets"
+    | "shield"
+    | "lantern"
+    | "flashlight"
+    | "track"
+    | "cargo"
+    | "register"
+    | "warehouse"
+    | "calls"
+    | "chart"
+    | "transcript"
+    | "certificate"
+    | "ladder"
+    | "accuracy"
+    | "beat"
+    | "lyrics"
+    | "keyboard"
+    | "dvorak"
+    | "right-hand"
+    | "memory"
+    | "language"
+    | "alphabet"
+    | "playground"
+    | "monster"
+    | "custom"
+    | "scanner"
+    | "ribbon"
+    | "shop"
+    | "boss";
+}
+
+const TEMPLATE_RULES: Record<string, RuntimeRule> = {
+  "fruit-drop-typer": {
+    metricLabel: "Basket",
+    statusLabel: "Catch fruit before it drops",
+    successVerb: "caught",
+    missVerb: "dropped",
+    scoreBonus: 3,
+    streakBonusEvery: 5,
+    maxActiveItems: 5,
+    movingTargets: "lane",
+    textTransform: "short",
+    progressKind: "basket",
+  },
+  "food-rush-typer": {
+    metricLabel: "Orders",
+    statusLabel: "Kitchen rush is open",
+    successVerb: "served",
+    missVerb: "delayed",
+    scoreBonus: 4,
+    streakBonusEvery: 4,
+    timeBonusMs: 400,
+    missScorePenalty: 1,
+    sequentialQueue: true,
+    ticketTimerMs: 9000,
+    progressKind: "tickets",
+  },
+  "space-asteroid-splitter": {
+    metricLabel: "Shield",
+    statusLabel: "Asteroids entering range",
+    successVerb: "split",
+    missVerb: "impact",
+    scoreBonus: 5,
+    pressurePerScore: 0.006,
+    maxActiveItems: 6,
+    movingTargets: "chase",
+    progressKind: "shield",
+  },
+  "ghost-chase-typer": {
+    metricLabel: "Lantern",
+    statusLabel: "Ghosts are closing in",
+    successVerb: "banished",
+    missVerb: "escaped",
+    scoreBonus: 4,
+    pressurePerScore: 0.008,
+    missTimePenaltyMs: 500,
+    movingTargets: "chase",
+    progressKind: "lantern",
+  },
+  "horror-flashlight-typer": {
+    metricLabel: "Battery",
+    statusLabel: "Keep the beam alive",
+    successVerb: "lit",
+    missVerb: "dimmed",
+    scoreBonus: 4,
+    missTimePenaltyMs: 900,
+    pressurePerScore: 0.005,
+    movingTargets: "chase",
+    progressKind: "flashlight",
+  },
+  "racing-lane-typer": {
+    metricLabel: "Position",
+    statusLabel: "Clean streaks boost the car",
+    successVerb: "advanced",
+    missVerb: "skidded",
+    scoreBonus: 5,
+    streakBonusEvery: 3,
+    missScorePenalty: 2,
+    sequentialQueue: true,
+    progressKind: "track",
+  },
+  "truck-dispatch-typer": {
+    metricLabel: "Routes",
+    statusLabel: "Dispatch cargo cleanly",
+    successVerb: "routed",
+    missVerb: "misrouted",
+    scoreBonus: 4,
+    missScorePenalty: 1,
+    sequentialQueue: true,
+    progressKind: "cargo",
+  },
+  "ten-key-cashier": {
+    metricLabel: "Receipts",
+    statusLabel: "Enter tickets before timeout",
+    successVerb: "paid",
+    missVerb: "voided",
+    scoreBonus: 6,
+    timeBonusMs: 300,
+    maxActiveItems: 4,
+    textTransform: "numbers",
+    ticketTimerMs: 6500,
+    progressKind: "register",
+  },
+  "data-entry-warehouse": {
+    metricLabel: "Bins",
+    statusLabel: "Warehouse queue active",
+    successVerb: "filed",
+    missVerb: "miskeyed",
+    scoreBonus: 4,
+    missScorePenalty: 1,
+    sequentialQueue: true,
+    ticketTimerMs: 10000,
+    progressKind: "warehouse",
+  },
+  "dispatch-call-queue": {
+    metricLabel: "Calls",
+    statusLabel: "Priority calls waiting",
+    successVerb: "handled",
+    missVerb: "missed",
+    scoreBonus: 5,
+    missTimePenaltyMs: 500,
+    sequentialQueue: true,
+    ticketTimerMs: 8500,
+    progressKind: "calls",
+  },
+  "medical-scribe-shift": {
+    metricLabel: "Charts",
+    statusLabel: "Accuracy gate is strict",
+    successVerb: "charted",
+    missVerb: "corrected",
+    scoreBonus: 4,
+    missScorePenalty: 2,
+    sequentialQueue: true,
+    textTransform: "upper",
+    progressKind: "chart",
+  },
+  "transcript-repair": {
+    metricLabel: "Repairs",
+    statusLabel: "Clean fragments restore the note",
+    successVerb: "repaired",
+    missVerb: "marked",
+    scoreBonus: 4,
+    missScorePenalty: 2,
+    sequentialQueue: true,
+    progressKind: "transcript",
+  },
+  "certificate-exam": {
+    metricLabel: "Exam",
+    statusLabel: "Pass the timed gate",
+    successVerb: "approved",
+    missVerb: "flagged",
+    scoreBonus: 5,
+    targetWords: 30,
+    sequentialQueue: true,
+    progressKind: "certificate",
+  },
+  "speed-ladder": {
+    metricLabel: "Tier",
+    statusLabel: "Climb with streaks",
+    successVerb: "climbed",
+    missVerb: "slipped",
+    scoreBonus: 4,
+    streakBonusEvery: 5,
+    missScorePenalty: 2,
+    sequentialQueue: true,
+    progressKind: "ladder",
+  },
+  "accuracy-gate": {
+    metricLabel: "Gate",
+    statusLabel: "Accuracy matters most",
+    successVerb: "cleared",
+    missVerb: "failed",
+    scoreBonus: 3,
+    missScorePenalty: 3,
+    sequentialQueue: true,
+    progressKind: "accuracy",
+  },
+  "rhythm-beat-typer": {
+    metricLabel: "Beat",
+    statusLabel: "Hit prompts before the beat closes",
+    successVerb: "perfect",
+    missVerb: "miss",
+    scoreBonus: 7,
+    timeBonusMs: 200,
+    maxActiveItems: 4,
+    rhythmWindowMs: 2200,
+    ticketTimerMs: 2200,
+    progressKind: "beat",
+  },
+  "lyric-beat-typer": {
+    metricLabel: "Line",
+    statusLabel: "Keep the lyric lane moving",
+    successVerb: "sung",
+    missVerb: "offbeat",
+    scoreBonus: 6,
+    timeBonusMs: 200,
+    maxActiveItems: 4,
+    rhythmWindowMs: 2600,
+    ticketTimerMs: 2600,
+    progressKind: "lyrics",
+  },
+  "keyboard-layout-quest": {
+    metricLabel: "Keys",
+    statusLabel: "Map the keyboard zones",
+    successVerb: "mapped",
+    missVerb: "lost",
+    scoreBonus: 4,
+    maxActiveItems: 7,
+    layoutTargeting: true,
+    keyboardZone: "all",
+    movingTargets: "grid",
+    progressKind: "keyboard",
+  },
+  "dvorak-switch-quest": {
+    metricLabel: "Switches",
+    statusLabel: "Alternate layout route",
+    successVerb: "switched",
+    missVerb: "reverted",
+    scoreBonus: 5,
+    maxActiveItems: 6,
+    layoutTargeting: true,
+    keyboardZone: "dvorak",
+    movingTargets: "grid",
+    progressKind: "dvorak",
+  },
+  "right-hand-rescue": {
+    metricLabel: "Rescues",
+    statusLabel: "Right-hand zone only",
+    successVerb: "rescued",
+    missVerb: "missed",
+    scoreBonus: 5,
+    maxActiveItems: 6,
+    layoutTargeting: true,
+    keyboardZone: "right",
+    textTransform: "right",
+    movingTargets: "grid",
+    progressKind: "right-hand",
+  },
+  "blindfold-home-row": {
+    metricLabel: "Memory",
+    statusLabel: "Trust home-row memory",
+    successVerb: "remembered",
+    missVerb: "peeked",
+    scoreBonus: 5,
+    missScorePenalty: 2,
+    layoutTargeting: true,
+    keyboardZone: "home",
+    textTransform: "home",
+    movingTargets: "grid",
+    progressKind: "memory",
+  },
+  "language-script-sprint": {
+    metricLabel: "Script",
+    statusLabel: "Script sprint active",
+    successVerb: "matched",
+    missVerb: "mistranscribed",
+    scoreBonus: 4,
+    sequentialQueue: true,
+    progressKind: "language",
+  },
+  "alphabet-rocket": {
+    metricLabel: "Launches",
+    statusLabel: "Launch alphabet rockets",
+    successVerb: "launched",
+    missVerb: "scrubbed",
+    scoreBonus: 5,
+    maxActiveItems: 5,
+    movingTargets: "lane",
+    textTransform: "short",
+    progressKind: "alphabet",
+  },
+  "kids-playground": {
+    metricLabel: "Stars",
+    statusLabel: "Gentle short-word play",
+    successVerb: "starred",
+    missVerb: "bounced",
+    scoreBonus: 3,
+    maxActiveItems: 5,
+    movingTargets: "grid",
+    textTransform: "short",
+    progressKind: "playground",
+  },
+  "tutor-monster-battle": {
+    metricLabel: "HP",
+    statusLabel: "Monster HP falls with words",
+    successVerb: "hit",
+    missVerb: "blocked",
+    scoreBonus: 6,
+    targetWords: 18,
+    maxActiveItems: 5,
+    movingTargets: "chase",
+    clickToLock: true,
+    progressKind: "monster",
+  },
+  "custom-arena-builder": {
+    metricLabel: "Rules",
+    statusLabel: "Custom rule set active",
+    successVerb: "built",
+    missVerb: "reset",
+    scoreBonus: 4,
+    sequentialQueue: true,
+    progressKind: "custom",
+  },
+  "word-search-scanner": {
+    metricLabel: "Scans",
+    statusLabel: "Scanner locks on words",
+    successVerb: "scanned",
+    missVerb: "blank",
+    scoreBonus: 4,
+    maxActiveItems: 7,
+    movingTargets: "orbit",
+    clickToLock: true,
+    progressKind: "scanner",
+  },
+  "typewriter-ribbon-rally": {
+    metricLabel: "Ribbon",
+    statusLabel: "Keep the ribbon moving",
+    successVerb: "typed",
+    missVerb: "jammed",
+    scoreBonus: 4,
+    missScorePenalty: 1,
+    sequentialQueue: true,
+    progressKind: "ribbon",
+  },
+  "shop-gear-sorter": {
+    metricLabel: "Shelf",
+    statusLabel: "Sort gear before it falls",
+    successVerb: "sorted",
+    missVerb: "dropped",
+    scoreBonus: 4,
+    maxActiveItems: 6,
+    movingTargets: "lane",
+    progressKind: "shop",
+  },
+  "boss-battle-typer": {
+    metricLabel: "Boss HP",
+    statusLabel: "Attack windows are open",
+    successVerb: "struck",
+    missVerb: "countered",
+    scoreBonus: 7,
+    targetWords: 24,
+    maxActiveItems: 5,
+    movingTargets: "chase",
+    clickToLock: true,
+    progressKind: "boss",
+  },
+};
 
 interface FallingItem {
   id: number;
@@ -56,6 +449,9 @@ export class TypingEngine {
   private elapsedMs = 0;
   private remainingMs: number;
   private livesLeft: number;
+  private combo = 0;
+  private misses = 0;
+  private lastAction = "Ready";
 
   // Classic mode state
   private classicWords: string[] = [];
@@ -90,9 +486,11 @@ export class TypingEngine {
 
   // Word pool
   private wordPool: string[];
+  private rule: RuntimeRule;
 
   constructor(init: EngineInit) {
     this.init = init;
+    this.rule = TEMPLATE_RULES[init.template.id] ?? TEMPLATE_RULES["word-search-scanner"];
     this.wordPool = filterWordsForVariant(init.words, init.variant);
     this.remainingMs = (init.config.durationSec ?? 60) * 1000;
     this.livesLeft = init.config.livesAllowed ?? 3;
@@ -151,6 +549,9 @@ export class TypingEngine {
     this.totalChars = 0;
     this.wordsCompleted = 0;
     this.score = 0;
+    this.combo = 0;
+    this.misses = 0;
+    this.lastAction = "Ready";
     this.broadcast(true);
   }
 
@@ -274,10 +675,61 @@ export class TypingEngine {
   private spawnInitial() {
     if (this.init.mode === "classic-time" || this.init.mode === "classic-words") {
       const target = this.init.config.wordCount ?? 99;
-      this.classicWords = pickWords(this.wordPool, target, this.init.variant);
+      this.classicWords = Array.from({ length: target }, () => this.nextWord());
       this.classicIndex = 0;
       this.classicTyped = "";
     }
+  }
+
+  private nextWord(): string {
+    const pool = this.wordPool.length > 0 ? this.wordPool : ["typing"];
+    let word = pool[Math.floor(Math.random() * pool.length)];
+    switch (this.rule.textTransform) {
+      case "numbers":
+        return makeReceiptCode(this.wordsCompleted + this.score + this.misses);
+      case "upper":
+        return word.toUpperCase();
+      case "short":
+        word = pool.find((w) => w.length <= 6) ?? word;
+        return word;
+      case "home":
+        return pickFromAllowed(pool, "asdfjklgh".split("")) ?? word;
+      case "right":
+        return pickFromAllowed(pool, "yuiophjklbnm".split("")) ?? word;
+      default:
+        return word;
+    }
+  }
+
+  private spawnPosition(w: number, h: number, padding: number): { x: number; y: number } {
+    if (this.rule.layoutTargeting || this.rule.movingTargets === "grid") {
+      const cols = 6;
+      const rows = 3;
+      const index = this.spawnNextId % (cols * rows);
+      const col = index % cols;
+      const row = Math.floor(index / cols);
+      const x = padding + col * Math.max(68, (w - padding * 2) / Math.max(1, cols - 1));
+      const y = 92 + row * Math.max(58, (h - 180) / Math.max(1, rows - 1));
+      return { x: Math.min(w - padding, x), y: Math.min(h - 60, y) };
+    }
+    if (this.rule.movingTargets === "lane") {
+      const lane = this.spawnNextId % 4;
+      return {
+        x: padding + Math.random() * Math.max(1, w - padding * 2),
+        y: 92 + lane * Math.max(52, (h - 160) / 4),
+      };
+    }
+    if (this.rule.movingTargets === "chase") {
+      const side = this.spawnNextId % 2;
+      return {
+        x: side === 0 ? padding : w - padding,
+        y: padding + Math.random() * Math.max(1, h - padding * 2),
+      };
+    }
+    return {
+      x: padding + Math.random() * Math.max(1, w - padding * 2),
+      y: padding + Math.random() * Math.max(1, h - padding * 2),
+    };
   }
 
   private loop = () => {
@@ -316,8 +768,43 @@ export class TypingEngine {
 
   private end(_reason: "timeup" | "lives" | "win") {
     this.status = "ended";
+    this.lastAction =
+      _reason === "win" ? "Goal complete" : _reason === "lives" ? "Lives depleted" : "Time up";
     cancelAnimationFrame(this.rafId);
     this.broadcast(true);
+  }
+
+  private registerSuccess(word: string, baseScore = word.length) {
+    this.combo += 1;
+    this.wordsCompleted += 1;
+    const streakBonus =
+      this.rule.streakBonusEvery && this.combo % this.rule.streakBonusEvery === 0
+        ? this.rule.scoreBonus
+        : 0;
+    this.score += baseScore + this.rule.scoreBonus + streakBonus;
+    if (this.rule.timeBonusMs) {
+      this.remainingMs += this.rule.timeBonusMs;
+    }
+    this.lastAction = `${this.rule.successVerb}: ${word}`;
+    if (this.rule.targetWords && this.wordsCompleted >= this.rule.targetWords) {
+      this.end("win");
+    }
+  }
+
+  private registerMiss(reason: string) {
+    this.combo = 0;
+    this.misses += 1;
+    if (this.rule.missScorePenalty) {
+      this.score = Math.max(0, this.score - this.rule.missScorePenalty);
+    }
+    if (this.rule.missTimePenaltyMs) {
+      this.remainingMs = Math.max(0, this.remainingMs - this.rule.missTimePenaltyMs);
+    }
+    if (this.rule.missLifeEvery && this.misses % this.rule.missLifeEvery === 0) {
+      this.livesLeft -= 1;
+      if (this.livesLeft <= 0) this.end("lives");
+    }
+    this.lastAction = `${this.rule.missVerb}: ${reason}`;
   }
 
   // ---------------- Classic ----------------
@@ -331,10 +818,9 @@ export class TypingEngine {
     const nextChar = target[this.classicTyped.length];
     if (ch === nextChar) {
       this.classicTyped += ch;
-      this.correctChars += 1;
+        this.correctChars += 1;
       if (this.classicTyped.length === target.length) {
-        this.wordsCompleted += 1;
-        this.score += target.length;
+        this.registerSuccess(target);
         this.classicIndex += 1;
         this.classicTyped = "";
         if (
@@ -346,9 +832,11 @@ export class TypingEngine {
       }
     } else if (ch === " ") {
       // skip to next word on space — counts as miss
+      this.registerMiss(target);
       this.classicIndex += 1;
       this.classicTyped = "";
     } else {
+      this.registerMiss(target);
       // For 'rain' variant: reset whole word on typo
       if (this.init.variant === "rain") {
         this.classicTyped = "";
@@ -368,7 +856,8 @@ export class TypingEngine {
     }
     const dir = this.init.variant === "rocket" ? -1 : 1;
     const baseSpeed = cfg.fallSpeedPxSec ?? 60;
-    const speedMul = this.init.variant === "ghosts" ? 1 + this.score / 200 : 1;
+    const speedMul =
+      this.init.variant === "ghosts" ? 1 + this.score / 200 : 1 + this.score * (this.rule.pressurePerScore ?? 0);
     for (const item of this.fallItems) {
       item.y += dir * (baseSpeed * speedMul) * (dt / 1000);
     }
@@ -381,6 +870,7 @@ export class TypingEngine {
       const offTop = dir < 0 && item.y < 0;
       if (offBottom || offTop) {
         this.livesLeft -= 1;
+        this.registerMiss(item.word);
       } else {
         remaining.push(item);
       }
@@ -393,11 +883,14 @@ export class TypingEngine {
 
   private spawnFallingItem() {
     if (!this.canvas) return;
-    const word = this.wordPool[Math.floor(Math.random() * this.wordPool.length)];
+    const word = this.nextWord();
     const w = this.canvas.clientWidth;
     const dir = this.init.variant === "rocket" ? -1 : 1;
     const padding = 60;
-    const x = padding + Math.random() * Math.max(0, w - padding * 2);
+    const x =
+      this.rule.movingTargets === "lane"
+        ? padding + (this.fallNextId % 5) * Math.max(70, (w - padding * 2) / 5)
+        : padding + Math.random() * Math.max(0, w - padding * 2);
     const y = dir > 0 ? -20 : this.canvas.clientHeight + 20;
     this.fallItems.push({
       id: this.fallNextId++,
@@ -447,12 +940,12 @@ export class TypingEngine {
       this.correctChars += 1;
       if (this.fallTyped === candidate.word) {
         this.fallItems = this.fallItems.filter((f) => f.id !== candidate!.id);
-        this.score += candidate.word.length;
-        this.wordsCompleted += 1;
+        this.registerSuccess(candidate.word);
         this.fallTyped = "";
         this.fallLockedId = null;
       }
     } else {
+      this.registerMiss(candidate.word);
       this.fallTyped = "";
       this.fallLockedId = null;
     }
@@ -474,6 +967,17 @@ export class TypingEngine {
       const h = this.canvas.clientHeight;
       for (const s of this.spawnItems) {
         if (s.locked) continue;
+        if (this.rule.movingTargets === "chase") {
+          const dx = w / 2 - s.x;
+          const dy = h / 2 - s.y;
+          const dist = Math.max(1, Math.hypot(dx, dy));
+          s.vx = (dx / dist) * 55;
+          s.vy = (dy / dist) * 40;
+        } else if (this.rule.movingTargets === "orbit") {
+          const angle = (performance.now() / 800 + s.id) % (Math.PI * 2);
+          s.vx = Math.cos(angle) * 75;
+          s.vy = Math.sin(angle) * 45;
+        }
         s.x += s.vx * (dt / 1000);
         s.y += s.vy * (dt / 1000);
         if (s.x < 30 || s.x > w - 30) s.vx *= -1;
@@ -481,7 +985,7 @@ export class TypingEngine {
       }
     }
     // remove very old unhit items
-    const maxItems = 6;
+    const maxItems = this.rule.maxActiveItems ?? 6;
     while (this.spawnItems.length > maxItems) {
       this.spawnItems.shift();
     }
@@ -489,15 +993,18 @@ export class TypingEngine {
 
   private spawnSpawnItem() {
     if (!this.canvas) return;
-    const word = this.wordPool[Math.floor(Math.random() * this.wordPool.length)];
+    const word = this.nextWord();
     const w = this.canvas.clientWidth;
     const h = this.canvas.clientHeight;
     const padding = 60;
-    const x = padding + Math.random() * Math.max(1, w - padding * 2);
-    const y = padding + Math.random() * Math.max(1, h - padding * 2);
-    const stationary = this.init.variant === "frog";
-    const vx = stationary ? 0 : (Math.random() - 0.5) * 60;
-    const vy = stationary ? 0 : (Math.random() - 0.5) * 40;
+    const pos = this.spawnPosition(w, h, padding);
+    const x = pos.x;
+    const y = pos.y;
+    const stationary = this.init.variant === "frog" || this.rule.movingTargets === "grid";
+    const speed =
+      this.rule.movingTargets === "chase" ? 110 : this.rule.movingTargets === "orbit" ? 80 : 60;
+    const vx = stationary ? 0 : (Math.random() - 0.5) * speed;
+    const vy = stationary ? 0 : (Math.random() - 0.5) * speed * 0.7;
     this.spawnItems.push({
       id: this.spawnNextId++,
       word,
@@ -520,6 +1027,7 @@ export class TypingEngine {
         this.spawnItems.forEach((s) => (s.locked = s.id === match.id));
         locked = match;
       } else {
+        this.registerMiss(want);
         this.spawnTyped = "";
         return;
       }
@@ -530,11 +1038,11 @@ export class TypingEngine {
       this.correctChars += 1;
       if (this.spawnTyped === locked.word) {
         this.spawnItems = this.spawnItems.filter((s) => s.id !== locked!.id);
-        this.score += locked.word.length;
-        this.wordsCompleted += 1;
+        this.registerSuccess(locked.word);
         this.spawnTyped = "";
       }
     } else {
+      this.registerMiss(locked.word);
       this.spawnTyped = "";
       this.spawnItems.forEach((s) => (s.locked = false));
     }
@@ -555,6 +1063,7 @@ export class TypingEngine {
     const exploded = this.bombs.filter((b) => b.timerMs <= 0);
     if (exploded.length > 0) {
       this.livesLeft -= exploded.length;
+      for (const b of exploded) this.registerMiss(b.word);
       this.bombs = this.bombs.filter((b) => b.timerMs > 0);
       if (this.livesLeft <= 0) this.end("lives");
     }
@@ -562,7 +1071,7 @@ export class TypingEngine {
 
   private spawnBomb() {
     if (!this.canvas) return;
-    const word = this.wordPool[Math.floor(Math.random() * this.wordPool.length)];
+    const word = this.nextWord();
     const w = this.canvas.clientWidth;
     const h = this.canvas.clientHeight;
     const padding = 60;
@@ -571,7 +1080,7 @@ export class TypingEngine {
       word,
       x: padding + Math.random() * Math.max(1, w - padding * 2),
       y: padding + Math.random() * Math.max(1, h - padding * 2),
-      timerMs: 8000 + Math.random() * 4000,
+      timerMs: this.rule.ticketTimerMs ?? 8000 + Math.random() * 4000,
     });
   }
 
@@ -584,6 +1093,7 @@ export class TypingEngine {
       locked = this.bombs.find((b) => b.word.startsWith(want));
       if (locked) this.bombLockedId = locked.id;
       else {
+        this.registerMiss(want);
         this.bombTyped = "";
         return;
       }
@@ -594,12 +1104,12 @@ export class TypingEngine {
       this.correctChars += 1;
       if (this.bombTyped === locked.word) {
         this.bombs = this.bombs.filter((b) => b.id !== locked!.id);
-        this.score += locked.word.length;
-        this.wordsCompleted += 1;
+        this.registerSuccess(locked.word);
         this.bombTyped = "";
         this.bombLockedId = null;
       }
     } else {
+      this.registerMiss(locked.word);
       this.bombTyped = "";
       this.bombLockedId = null;
     }
@@ -658,7 +1168,48 @@ export class TypingEngine {
       score: this.score,
       currentWord,
       typedSoFar: typed,
+      combo: this.combo,
+      templateLabel: this.rule.metricLabel,
+      templateValue: this.getTemplateValue(),
+      templateStatus: this.getTemplateStatus(),
     };
+  }
+
+  private getTemplateValue(): string {
+    switch (this.rule.progressKind) {
+      case "boss":
+      case "monster": {
+        const target = this.rule.targetWords ?? 24;
+        return `${Math.max(0, target - this.wordsCompleted)} HP`;
+      }
+      case "certificate": {
+        const target = this.rule.targetWords ?? 30;
+        return `${Math.min(100, Math.round((this.wordsCompleted / target) * 100))}%`;
+      }
+      case "accuracy":
+        return `${this.snapshot?.accuracy ?? 100}%`;
+      case "flashlight":
+      case "lantern":
+      case "shield": {
+        const sec = Math.ceil(this.remainingMs / 1000);
+        return `${sec}s`;
+      }
+      case "track":
+      case "ladder":
+        return `Tier ${Math.max(1, Math.floor(this.combo / 5) + 1)}`;
+      case "beat":
+      case "lyrics":
+        return this.combo >= 5 ? "Perfect" : this.combo >= 2 ? "Good" : "Ready";
+      case "ribbon":
+        return this.combo > 0 ? `${this.combo}x flow` : "Ready";
+      default:
+        return String(this.wordsCompleted);
+    }
+  }
+
+  private getTemplateStatus(): string {
+    const combo = this.combo > 1 ? ` · ${this.combo}x combo` : "";
+    return `${this.rule.statusLabel}${combo} · ${this.lastAction}`;
   }
 
   private getCurrentWord(): string {
@@ -725,6 +1276,7 @@ export class TypingEngine {
     ctx.clearRect(0, 0, w, h);
     ctx.fillStyle = this.init.theme.surface;
     ctx.fillRect(0, 0, w, h);
+    this.renderTemplateStage(ctx, w, h);
     switch (this.init.mode) {
       case "classic-time":
       case "classic-words":
@@ -742,16 +1294,98 @@ export class TypingEngine {
     }
   }
 
+  private renderTemplateStage(ctx: CanvasRenderingContext2D, w: number, h: number) {
+    ctx.save();
+    const accent = this.init.theme.accent;
+    const accent2 = this.init.theme.accent2;
+    const kind = this.rule.progressKind;
+    const gradient = ctx.createLinearGradient(0, 0, w, h);
+    gradient.addColorStop(0, withAlpha(accent, 0.12));
+    gradient.addColorStop(1, withAlpha(accent2, 0.14));
+    ctx.fillStyle = gradient;
+    ctx.fillRect(0, 0, w, h);
+
+    ctx.globalAlpha = 0.18;
+    ctx.strokeStyle = accent;
+    ctx.lineWidth = 1;
+    if (["track", "cargo", "calls", "language", "ribbon"].includes(kind)) {
+      for (let y = 80; y < h; y += 54) {
+        ctx.beginPath();
+        ctx.moveTo(28, y);
+        ctx.lineTo(w - 28, y);
+        ctx.stroke();
+      }
+    } else if (["keyboard", "dvorak", "right-hand", "memory"].includes(kind)) {
+      const keyW = Math.max(26, (w - 120) / 12);
+      for (let row = 0; row < 3; row += 1) {
+        for (let col = 0; col < 12; col += 1) {
+          const x = 36 + col * keyW + row * 10;
+          const y = h - 138 + row * 38;
+          roundRect(ctx, x, y, keyW - 6, 28, 6);
+          ctx.stroke();
+        }
+      }
+    } else {
+      for (let i = 0; i < 9; i += 1) {
+        ctx.beginPath();
+        ctx.arc((w / 8) * i, h * 0.2 + ((i % 3) * h) / 5, 28 + i * 2, 0, Math.PI * 2);
+        ctx.stroke();
+      }
+    }
+    ctx.globalAlpha = 1;
+
+    ctx.font = "700 14px Inter, system-ui, sans-serif";
+    ctx.textAlign = "left";
+    ctx.textBaseline = "top";
+    ctx.fillStyle = "#0b0d10";
+    ctx.fillText(this.init.template.label, 18, 16);
+    ctx.font = "12px Inter, system-ui, sans-serif";
+    ctx.fillStyle = "#475569";
+    ctx.fillText(this.rule.statusLabel, 18, 38);
+
+    const progress = this.getStageProgress();
+    ctx.fillStyle = "#ffffff";
+    roundRect(ctx, 18, h - 28, w - 36, 10, 5);
+    ctx.fill();
+    ctx.fillStyle = accent;
+    roundRect(ctx, 18, h - 28, Math.max(8, (w - 36) * progress), 10, 5);
+    ctx.fill();
+
+    ctx.textAlign = "right";
+    ctx.textBaseline = "top";
+    ctx.font = "700 13px Inter, system-ui, sans-serif";
+    ctx.fillStyle = accent;
+    ctx.fillText(`${this.rule.metricLabel}: ${this.getTemplateValue()}`, w - 18, 16);
+    ctx.restore();
+  }
+
+  private getStageProgress(): number {
+    if (this.rule.targetWords) return Math.min(1, this.wordsCompleted / this.rule.targetWords);
+    if (this.init.mode === "classic-words") {
+      const target = this.init.config.wordCount ?? 40;
+      return Math.min(1, this.wordsCompleted / target);
+    }
+    const duration = (this.init.config.durationSec ?? 60) * 1000;
+    return Math.min(1, Math.max(0, this.elapsedMs / duration));
+  }
+
   private renderClassic(ctx: CanvasRenderingContext2D, w: number, h: number) {
     const word = this.classicWords[this.classicIndex] ?? "";
     const next1 = this.classicWords[this.classicIndex + 1] ?? "";
     const next2 = this.classicWords[this.classicIndex + 2] ?? "";
+    this.renderClassicTemplateChrome(ctx, w, h, word, [next1, next2]);
     ctx.textAlign = "center";
     ctx.textBaseline = "middle";
 
-    ctx.font = "bold 56px Inter, system-ui, sans-serif";
+    ctx.font =
+      this.rule.progressKind === "register" || this.rule.progressKind === "warehouse"
+        ? "bold 46px JetBrains Mono, monospace"
+        : "bold 56px Inter, system-ui, sans-serif";
     const cx = w / 2;
-    const cy = h / 2;
+    const cy =
+      ["tickets", "calls", "chart", "transcript", "register", "warehouse"].includes(this.rule.progressKind)
+        ? h / 2 + 28
+        : h / 2;
     // Typed prefix in accent
     const typed = this.classicTyped;
     ctx.fillStyle = this.init.theme.accent;
@@ -765,8 +1399,78 @@ export class TypingEngine {
 
     ctx.font = "20px Inter, system-ui, sans-serif";
     ctx.fillStyle = "#94a3b8";
-    if (next1) ctx.fillText(next1, cx, cy + 60);
-    if (next2) ctx.fillText(next2, cx, cy + 90);
+    if (next1) ctx.fillText(next1, cx, cy + 62);
+    if (next2) ctx.fillText(next2, cx, cy + 92);
+  }
+
+  private renderClassicTemplateChrome(
+    ctx: CanvasRenderingContext2D,
+    w: number,
+    h: number,
+    word: string,
+    next: string[],
+  ) {
+    const kind = this.rule.progressKind;
+    ctx.save();
+    if (["track", "ladder", "accuracy"].includes(kind)) {
+      const trackY = h / 2 - 82;
+      ctx.strokeStyle = "#cbd5e1";
+      ctx.lineWidth = 10;
+      ctx.beginPath();
+      ctx.moveTo(60, trackY);
+      ctx.lineTo(w - 60, trackY);
+      ctx.stroke();
+      const carX = 60 + (w - 120) * Math.min(1, (this.wordsCompleted + this.combo / 5) / 40);
+      ctx.fillStyle = this.init.theme.accent;
+      roundRect(ctx, carX - 22, trackY - 20, 44, 26, 8);
+      ctx.fill();
+      ctx.fillStyle = "#ffffff";
+      ctx.font = "bold 13px Inter, system-ui, sans-serif";
+      ctx.textAlign = "center";
+      ctx.fillText(kind === "accuracy" ? "OK" : "GO", carX, trackY - 7);
+    } else if (["tickets", "calls", "warehouse", "chart", "transcript", "cargo"].includes(kind)) {
+      const cards = [word, ...next.filter(Boolean)];
+      ctx.textAlign = "left";
+      for (let i = 0; i < cards.length; i += 1) {
+        const x = 42 + i * Math.min(170, (w - 100) / 3);
+        const y = 86;
+        ctx.fillStyle = i === 0 ? "#ffffff" : "rgba(255,255,255,0.65)";
+        ctx.strokeStyle = i === 0 ? this.init.theme.accent : "#cbd5e1";
+        ctx.lineWidth = i === 0 ? 3 : 1;
+        roundRect(ctx, x, y, 150, 72, 10);
+        ctx.fill();
+        ctx.stroke();
+        ctx.fillStyle = "#64748b";
+        ctx.font = "11px Inter, system-ui, sans-serif";
+        ctx.fillText(kind === "calls" ? `CALL ${i + 1}` : kind === "chart" ? `CHART ${i + 1}` : `TICKET ${i + 1}`, x + 12, y + 12);
+        ctx.fillStyle = "#0b0d10";
+        ctx.font = "bold 15px Inter, system-ui, sans-serif";
+        ctx.fillText(cards[i].slice(0, 14), x + 12, y + 38);
+      }
+    } else if (kind === "certificate") {
+      ctx.fillStyle = "#ffffff";
+      ctx.strokeStyle = this.init.theme.accent;
+      ctx.lineWidth = 2;
+      roundRect(ctx, w / 2 - 155, 74, 310, 84, 12);
+      ctx.fill();
+      ctx.stroke();
+      ctx.fillStyle = "#0b0d10";
+      ctx.font = "bold 18px Inter, system-ui, sans-serif";
+      ctx.textAlign = "center";
+      ctx.fillText("Certification Gate", w / 2, 100);
+      ctx.font = "13px Inter, system-ui, sans-serif";
+      ctx.fillText(`${this.wordsCompleted}/${this.rule.targetWords ?? 30} clean entries`, w / 2, 128);
+    } else if (kind === "ribbon") {
+      ctx.fillStyle = "#ffffff";
+      roundRect(ctx, 56, 82, w - 112, h - 150, 8);
+      ctx.fill();
+      ctx.strokeStyle = "#cbd5e1";
+      ctx.stroke();
+      ctx.fillStyle = this.init.theme.accent;
+      roundRect(ctx, 70, h / 2 - 8, w - 140, 16, 8);
+      ctx.fill();
+    }
+    ctx.restore();
   }
 
   private renderFalling(ctx: CanvasRenderingContext2D, w: number, h: number) {
@@ -802,15 +1506,31 @@ export class TypingEngine {
   }
 
   private renderSpawn(ctx: CanvasRenderingContext2D, w: number, h: number) {
+    if (["boss", "monster"].includes(this.rule.progressKind)) {
+      this.renderBossChrome(ctx, w);
+    }
     ctx.font = "bold 22px Inter, system-ui, sans-serif";
     ctx.textAlign = "center";
     ctx.textBaseline = "middle";
     for (const s of this.spawnItems) {
-      // target circle
-      ctx.beginPath();
-      ctx.arc(s.x, s.y - 22, 18, 0, Math.PI * 2);
-      ctx.fillStyle = s.locked ? this.init.theme.accent : this.init.theme.accent2;
-      ctx.fill();
+      // target marker
+      if (this.rule.layoutTargeting) {
+        this.drawKeyTarget(ctx, s);
+      } else if (["boss", "monster"].includes(this.rule.progressKind)) {
+        ctx.beginPath();
+        ctx.arc(s.x, s.y - 24, s.locked ? 24 : 18, 0, Math.PI * 2);
+        ctx.fillStyle = s.locked ? "#ef4444" : this.init.theme.accent2;
+        ctx.fill();
+        ctx.fillStyle = "#ffffff";
+        ctx.font = "bold 16px Inter, system-ui, sans-serif";
+        ctx.fillText(this.rule.progressKind === "boss" ? "!" : "HP", s.x, s.y - 24);
+        ctx.font = "bold 22px Inter, system-ui, sans-serif";
+      } else {
+        ctx.beginPath();
+        ctx.arc(s.x, s.y - 22, 18, 0, Math.PI * 2);
+        ctx.fillStyle = s.locked ? this.init.theme.accent : this.init.theme.accent2;
+        ctx.fill();
+      }
       // word pill
       const tw = ctx.measureText(s.word).width;
       ctx.fillStyle = "#ffffff";
@@ -833,6 +1553,47 @@ export class TypingEngine {
     }
   }
 
+  private drawKeyTarget(ctx: CanvasRenderingContext2D, s: SpawnItem) {
+    const tw = Math.max(52, ctx.measureText(s.word).width + 22);
+    ctx.fillStyle = s.locked ? this.init.theme.accent : "#ffffff";
+    ctx.strokeStyle = s.locked ? this.init.theme.accent : "#94a3b8";
+    ctx.lineWidth = s.locked ? 3 : 1.5;
+    roundRect(ctx, s.x - tw / 2, s.y - 38, tw, 42, 8);
+    ctx.fill();
+    ctx.stroke();
+    ctx.fillStyle = s.locked ? "#ffffff" : "#475569";
+    ctx.font = "11px Inter, system-ui, sans-serif";
+    ctx.fillText(
+      this.rule.keyboardZone === "right"
+        ? "RIGHT"
+        : this.rule.keyboardZone === "home"
+          ? "HOME"
+          : this.rule.keyboardZone === "dvorak"
+            ? "DVORAK"
+            : "KEY",
+      s.x,
+      s.y - 24,
+    );
+  }
+
+  private renderBossChrome(ctx: CanvasRenderingContext2D, w: number) {
+    const target = this.rule.targetWords ?? 24;
+    const hp = Math.max(0, target - this.wordsCompleted);
+    const pct = hp / target;
+    ctx.save();
+    ctx.fillStyle = "#111827";
+    roundRect(ctx, w / 2 - 160, 72, 320, 38, 12);
+    ctx.fill();
+    ctx.fillStyle = this.rule.progressKind === "boss" ? "#ef4444" : this.init.theme.accent;
+    roundRect(ctx, w / 2 - 152, 82, 304 * pct, 18, 9);
+    ctx.fill();
+    ctx.fillStyle = "#ffffff";
+    ctx.font = "bold 13px Inter, system-ui, sans-serif";
+    ctx.textAlign = "center";
+    ctx.fillText(`${this.rule.metricLabel}: ${hp}`, w / 2, 84);
+    ctx.restore();
+  }
+
   private renderDefuse(ctx: CanvasRenderingContext2D, w: number, h: number) {
     ctx.font = "bold 20px JetBrains Mono, monospace";
     ctx.textAlign = "center";
@@ -840,14 +1601,46 @@ export class TypingEngine {
     for (const b of this.bombs) {
       const isLocked = b.id === this.bombLockedId;
       const sec = (b.timerMs / 1000).toFixed(1);
-      // bomb body
-      ctx.beginPath();
-      ctx.arc(b.x, b.y, 26, 0, Math.PI * 2);
-      ctx.fillStyle = isLocked ? this.init.theme.accent : "#1f2937";
-      ctx.fill();
-      // timer
-      ctx.fillStyle = b.timerMs < 3000 ? "#ef4444" : "#fde047";
-      ctx.fillText(sec, b.x, b.y);
+      if (this.rule.progressKind === "register") {
+        ctx.fillStyle = isLocked ? this.init.theme.accent : "#ffffff";
+        ctx.strokeStyle = this.init.theme.accent;
+        ctx.lineWidth = isLocked ? 3 : 1.5;
+        roundRect(ctx, b.x - 56, b.y - 42, 112, 76, 8);
+        ctx.fill();
+        ctx.stroke();
+        ctx.fillStyle = isLocked ? "#ffffff" : "#475569";
+        ctx.font = "11px Inter, system-ui, sans-serif";
+        ctx.fillText("RECEIPT", b.x, b.y - 22);
+        ctx.font = "bold 18px JetBrains Mono, monospace";
+        ctx.fillText(sec, b.x, b.y + 2);
+      } else if (this.rule.progressKind === "beat" || this.rule.progressKind === "lyrics") {
+        const maxTimer = this.rule.ticketTimerMs ?? 2500;
+        const pct = Math.max(0, b.timerMs / maxTimer);
+        ctx.beginPath();
+        ctx.arc(b.x, b.y, 32, -Math.PI / 2, -Math.PI / 2 + Math.PI * 2 * pct);
+        ctx.strokeStyle = b.timerMs < 900 ? "#ef4444" : this.init.theme.accent;
+        ctx.lineWidth = 7;
+        ctx.stroke();
+        ctx.beginPath();
+        ctx.arc(b.x, b.y, 22, 0, Math.PI * 2);
+        ctx.fillStyle = isLocked ? this.init.theme.accent : "#ffffff";
+        ctx.fill();
+        ctx.strokeStyle = this.init.theme.accent2;
+        ctx.lineWidth = 2;
+        ctx.stroke();
+        ctx.fillStyle = isLocked ? "#ffffff" : "#0b0d10";
+        ctx.font = "bold 12px Inter, system-ui, sans-serif";
+        ctx.fillText(this.rule.progressKind === "lyrics" ? "LINE" : "BEAT", b.x, b.y);
+      } else {
+        // bomb body
+        ctx.beginPath();
+        ctx.arc(b.x, b.y, 26, 0, Math.PI * 2);
+        ctx.fillStyle = isLocked ? this.init.theme.accent : "#1f2937";
+        ctx.fill();
+        // timer
+        ctx.fillStyle = b.timerMs < 3000 ? "#ef4444" : "#fde047";
+        ctx.fillText(sec, b.x, b.y);
+      }
       // word below
       const tw = ctx.measureText(b.word).width;
       ctx.fillStyle = "#ffffff";
@@ -887,6 +1680,15 @@ function roundRect(
   ctx.closePath();
 }
 
+function withAlpha(hex: string, alpha: number): string {
+  const normalized = hex.replace("#", "");
+  if (normalized.length !== 6) return hex;
+  const r = Number.parseInt(normalized.slice(0, 2), 16);
+  const g = Number.parseInt(normalized.slice(2, 4), 16);
+  const b = Number.parseInt(normalized.slice(4, 6), 16);
+  return `rgba(${r}, ${g}, ${b}, ${alpha})`;
+}
+
 function filterWordsForVariant(words: string[], variant: Variant): string[] {
   if (variant === "banana-letters") {
     return words.filter((w) => w.toLowerCase().startsWith("b"));
@@ -908,4 +1710,15 @@ function pickWords(pool: string[], n: number, variant: Variant): string[] {
     out.push(filtered[Math.floor(Math.random() * filtered.length)]);
   }
   return out;
+}
+
+function makeReceiptCode(seed: number): string {
+  const dollars = 3 + ((seed * 7) % 87);
+  const cents = (seed * 13) % 100;
+  return `${dollars}.${String(cents).padStart(2, "0")}`;
+}
+
+function pickFromAllowed(pool: string[], allowed: string[]): string | undefined {
+  const set = new Set(allowed);
+  return pool.find((word) => word.length >= 2 && word.split("").every((c) => set.has(c.toLowerCase())));
 }

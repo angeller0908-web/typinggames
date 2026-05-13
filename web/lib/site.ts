@@ -10,8 +10,9 @@ export const SITE = {
 
 export const NAV = [
   { label: "Games", href: "/" },
-  { label: "Tests", href: "/tests" },
-  { label: "Learn", href: "/learn" },
+  { label: "Tests", href: "/games/typing-tests/" },
+  { label: "Jobs", href: "/games/jobs/" },
+  { label: "Kids", href: "/games/kids/" },
 ];
 
 export const FOOTER_LINKS = [

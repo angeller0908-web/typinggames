@@ -10,6 +10,8 @@ import { VideoGameJsonLd } from "@/components/seo/VideoGameJsonLd";
 import { BreadcrumbJsonLd } from "@/components/seo/BreadcrumbJsonLd";
 import { FaqJsonLd } from "@/components/seo/FaqJsonLd";
 import { getGameBody } from "@/lib/gameMdx";
+import { getKeywordOpportunity } from "@/lib/keywords";
+import { GameSeoPanel } from "@/components/game/GameSeoPanel";
 
 export const dynamicParams = false;
 
@@ -34,6 +36,7 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
   if (!game) notFound();
 
   const related = getRelated(game.slug, 6);
+  const opportunity = getKeywordOpportunity(game.slug);
   const sampleWords =
     game.embed.kind === "engine" ? previewSample(game.embed.wordlistIds, 50) : [];
   const Body = getGameBody(game.slug);
@@ -71,6 +74,8 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
       </header>
 
       <section className="max-w-3xl">{Body ? <Body /> : null}</section>
+
+      <GameSeoPanel game={game} opportunity={opportunity} />
 
       {game.faq.length > 0 && (
         <section className="my-10 max-w-3xl">

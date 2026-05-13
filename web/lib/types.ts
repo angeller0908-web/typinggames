@@ -5,6 +5,46 @@ export type EngineMode =
   | "spawn-targets"
   | "countdown-defuse";
 
+export type EngineKernel =
+  | "falling"
+  | "lane"
+  | "queue"
+  | "target"
+  | "rhythm"
+  | "form";
+
+export type GameplayTemplateId =
+  | "fruit-drop-typer"
+  | "food-rush-typer"
+  | "space-asteroid-splitter"
+  | "ghost-chase-typer"
+  | "horror-flashlight-typer"
+  | "racing-lane-typer"
+  | "truck-dispatch-typer"
+  | "ten-key-cashier"
+  | "data-entry-warehouse"
+  | "dispatch-call-queue"
+  | "medical-scribe-shift"
+  | "transcript-repair"
+  | "certificate-exam"
+  | "speed-ladder"
+  | "accuracy-gate"
+  | "rhythm-beat-typer"
+  | "lyric-beat-typer"
+  | "keyboard-layout-quest"
+  | "dvorak-switch-quest"
+  | "right-hand-rescue"
+  | "blindfold-home-row"
+  | "language-script-sprint"
+  | "alphabet-rocket"
+  | "kids-playground"
+  | "tutor-monster-battle"
+  | "custom-arena-builder"
+  | "word-search-scanner"
+  | "typewriter-ribbon-rally"
+  | "shop-gear-sorter"
+  | "boss-battle-typer";
+
 export type Variant =
   | "fruit"
   | "rain"
@@ -67,10 +107,25 @@ export type Embed =
     }
   | {
       kind: "engine";
+      templateId: GameplayTemplateId;
       mode: EngineMode;
       wordlistIds: string[];
       config: EngineConfig;
     };
+
+export interface GameplayTemplate {
+  id: GameplayTemplateId;
+  label: string;
+  kernel: EngineKernel;
+  mode: EngineMode;
+  variant: Variant;
+  defaultWordlistIds: string[];
+  defaultConfig: Omit<EngineConfig, "variant">;
+  goal: string;
+  failureRule: string;
+  scoring: ScoreUnit;
+  visualMotif: string;
+}
 
 export interface ThemeTokens {
   palette: string;
@@ -101,6 +156,20 @@ export interface Game {
   updatedAt: string;
 }
 
+export interface KeywordOpportunity {
+  rank: number;
+  priority: "P0" | "P1" | "P2" | "P3";
+  bucket: string;
+  keyword: string;
+  kd: number;
+  volume: number;
+  intent: string;
+  pageType: string;
+  originalUrlSlug: string;
+  source: string;
+  notes: string;
+}
+
 export interface Wordlist {
   id: string;
   label: string;
@@ -122,4 +191,8 @@ export interface EngineSnapshot {
   score: number;
   currentWord: string;
   typedSoFar: string;
+  combo: number;
+  templateLabel: string;
+  templateValue: string;
+  templateStatus: string;
 }

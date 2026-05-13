@@ -25,10 +25,10 @@ export default function AboutPage() {
       </p>
       <h2 className="text-xl font-bold mt-8 mb-3">How the games are built</h2>
       <p className="text-ink/80 leading-relaxed mb-4">
-        Most games use our own TypeScript typing engine. When a publisher feed provides a
-        legal iframe, the same game page shell can host it; otherwise we build an original
-        round ourselves. The engine runs in the browser's Canvas API, decoupled from React,
-        so frame rates stay smooth even on a Chromebook or older Android tablet.
+        Every current game uses our own TypeScript typing engine. Each page maps to a
+        template-specific round with its own goals, scoring pressure, and feedback. The
+        engine runs in the browser's Canvas API, decoupled from React, so frame rates stay
+        smooth even on a Chromebook or older Android tablet.
       </p>
       <h2 className="text-xl font-bold mt-8 mb-3">How we make money</h2>
       <p className="text-ink/80 leading-relaxed mb-4">

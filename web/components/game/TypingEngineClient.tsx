@@ -59,12 +59,12 @@ export default function TypingEngineClient({ init, slug }: Props) {
   };
 
   return (
-    <div className="grid md:grid-cols-[1fr_240px] gap-4">
+    <div className="grid lg:grid-cols-[minmax(0,1fr)_260px] gap-4">
       <div className="relative">
         <canvas
           ref={canvasRef}
           onClick={handleCanvasClick}
-          className="w-full aspect-video rounded-xl ring-1 ring-ink/10 bg-[var(--game-surface)]"
+          className="w-full aspect-video rounded-lg ring-1 ring-ink/10 bg-[var(--game-surface)] shadow-sm"
           aria-label={`${init.mode} typing game canvas`}
         />
         {!started && (
@@ -91,6 +91,11 @@ export default function TypingEngineClient({ init, slug }: Props) {
         {engineRef.current && (
           <Hud engine={engineRef.current} scoreUnit={init.config.scoreUnit ?? "wpm"} />
         )}
+        <div className="rounded-lg bg-white ring-1 ring-ink/10 p-3 text-xs text-ink/70 shadow-sm">
+          <div className="font-semibold text-ink">{init.template.label}</div>
+          <p className="mt-1 leading-snug">{init.template.goal}</p>
+          <p className="mt-2 leading-snug text-ink/55">{init.template.failureRule}</p>
+        </div>
         <p className="text-[11px] text-ink/50 leading-snug">
           Tip: tap the canvas to focus, then type. On mobile, your keyboard pops up automatically.
         </p>

@@ -2,6 +2,7 @@
 
 import dynamic from "next/dynamic";
 import type { Game } from "@/lib/types";
+import { getGameplayTemplate } from "@/lib/gameplayTemplates";
 import { mergeWordlists } from "@/lib/wordlists";
 import type { EngineInit } from "./engine/TypingEngine";
 
@@ -16,11 +17,19 @@ const TypingEngineClient = dynamic(() => import("./TypingEngineClient"), {
 
 export function TypingEngineHost({ game }: { game: Game }) {
   if (game.embed.kind !== "engine") return null;
-  const words = mergeWordlists(game.embed.wordlistIds);
+  const template = getGameplayTemplate(game.embed.templateId);
+  const wordlistIds = game.embed.wordlistIds.length > 0 ? game.embed.wordlistIds : template.defaultWordlistIds;
+  const config = {
+    ...template.defaultConfig,
+    ...game.embed.config,
+    variant: game.embed.config.variant ?? template.variant,
+  };
+  const words = mergeWordlists(wordlistIds);
   const init: EngineInit = {
-    mode: game.embed.mode,
-    variant: game.embed.config.variant,
-    config: game.embed.config,
+    mode: game.embed.mode ?? template.mode,
+    variant: config.variant,
+    template,
+    config,
     words,
     theme: {
       accent: game.theme.accent,

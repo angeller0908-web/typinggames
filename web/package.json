@@ -1,12 +1,12 @@
 {
-  "name": "typequest-web",
+  "name": "typingrally-web",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build:og": "node scripts/build-og.mjs",
     "build:ads": "node scripts/update-ads-txt.mjs",
-    "build": "next build",
+    "build": "npm run build:ads && npm run build:og && next build",
     "start": "next start",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",

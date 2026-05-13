@@ -3,6 +3,8 @@ import { GameCard } from "@/components/game/GameCard";
 import Link from "next/link";
 import { SITE } from "@/lib/site";
 import { FaqJsonLd } from "@/components/seo/FaqJsonLd";
+import { getAllHubs } from "@/lib/hubs";
+import { sortGamesByOpportunity } from "@/lib/keywords";
 
 export const metadata = {
   title: "Free Typing Games — Boost Your WPM, No Download",
@@ -35,8 +37,10 @@ const HOME_FAQ = [
 ];
 
 export default function HomePage() {
-  const games = getAllGames();
+  const games = sortGamesByOpportunity(getAllGames());
   const categories = getCategories();
+  const hubs = getAllHubs();
+  const featuredGames = games.slice(0, 12);
   return (
     <div className="py-8">
       <section className="text-center max-w-3xl mx-auto py-10">
@@ -46,6 +50,41 @@ export default function HomePage() {
         <p className="mt-4 text-ink/70 text-lg">
           {games.length} hand-crafted browser games. No download, no signup.
         </p>
+      </section>
+
+      <section className="my-10">
+        <div className="flex items-end justify-between gap-4 mb-4">
+          <div>
+            <h2 className="text-xl font-bold">Start with popular typing games</h2>
+            <p className="text-sm text-ink/65 mt-1">
+              High-demand rounds for speed, accuracy, jobs, kids, and everyday practice.
+            </p>
+          </div>
+          <Link href="/games/popular/" className="text-sm font-medium text-accent hover:underline">
+            View all popular games
+          </Link>
+        </div>
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+          {featuredGames.map((g) => (
+            <GameCard key={g.slug} game={g} />
+          ))}
+        </div>
+      </section>
+
+      <section className="my-12">
+        <h2 className="text-xl font-bold mb-4">Choose a practice goal</h2>
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-3">
+          {hubs.map((hub) => (
+            <Link
+              key={hub.slug}
+              href={`/games/${hub.slug}/`}
+              className="rounded-lg bg-white ring-1 ring-ink/10 p-4 hover:ring-accent hover:shadow-sm transition"
+            >
+              <div className="font-semibold">{hub.shortTitle}</div>
+              <p className="text-sm text-ink/65 mt-1 line-clamp-3">{hub.description}</p>
+            </Link>
+          ))}
+        </div>
       </section>
 
       <section className="my-10">
@@ -71,7 +110,7 @@ export default function HomePage() {
             {c.emoji} {c.label}
           </h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
-            {c.games.map((g) => (
+            {sortGamesByOpportunity(c.games).map((g) => (
               <GameCard key={g.slug} game={g} />
             ))}
           </div>
@@ -94,8 +133,8 @@ export default function HomePage() {
         <div>
           <h3 className="font-bold mb-1">Playable rounds</h3>
           <p className="text-sm text-ink/70">
-            Most pages use our own typing engine. Legal publisher iframes can be added when
-            a feed provides them.
+            Every game page runs on our own typing engine with template-specific rules,
+            goals, and score feedback.
           </p>
         </div>
       </section>

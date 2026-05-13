@@ -111,7 +111,7 @@ async function renderCard(opts) {
   // Default OG
   const def = await renderCard({
     title: SITE_NAME,
-    tagline: "20 free typing games to boost your WPM. No download, no signup.",
+    tagline: `${games.length} free typing games to boost your WPM. No download, no signup.`,
     accent: "#4f46e5",
     accent2: "#ec4899",
     emoji: "⌨️",
