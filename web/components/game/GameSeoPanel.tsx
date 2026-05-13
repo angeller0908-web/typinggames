@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Game, KeywordOpportunity } from "@/lib/types";
+import { getSecondaryKeywords } from "@/lib/secondaryKeywords";
 
 function describeIntent(opportunity: KeywordOpportunity) {
   const pageType = opportunity.pageType.toLowerCase();
@@ -87,6 +88,7 @@ export function GameSeoPanel({
   if (!opportunity) return null;
   const copy = describeIntent(opportunity);
   const badges = readableBadges(opportunity);
+  const secondary = getSecondaryKeywords(game.slug, 5);
 
   return (
     <section className="my-8 max-w-3xl rounded-lg bg-white ring-1 ring-ink/10 p-5">
@@ -113,6 +115,21 @@ export function GameSeoPanel({
         </Link>
         .
       </p>
+      {secondary.length > 0 && (
+        <div className="mt-4 border-t border-ink/10 pt-4">
+          <h3 className="text-sm font-semibold mb-2">Related practice searches</h3>
+          <div className="flex flex-wrap gap-2">
+            {secondary.map((item) => (
+              <span
+                key={item.keyword}
+                className="rounded-full bg-ink/5 px-3 py-1 text-xs text-ink/70"
+              >
+                {item.keyword}
+              </span>
+            ))}
+          </div>
+        </div>
+      )}
     </section>
   );
 }

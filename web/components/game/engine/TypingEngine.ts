@@ -487,6 +487,8 @@ export class TypingEngine {
   // Word pool
   private wordPool: string[];
   private rule: RuntimeRule;
+  private recentWords: string[] = [];
+  private wordSequence = 0;
 
   constructor(init: EngineInit) {
     this.init = init;
@@ -551,6 +553,8 @@ export class TypingEngine {
     this.score = 0;
     this.combo = 0;
     this.misses = 0;
+    this.recentWords = [];
+    this.wordSequence = 0;
     this.lastAction = "Ready";
     this.broadcast(true);
   }
@@ -683,22 +687,50 @@ export class TypingEngine {
 
   private nextWord(): string {
     const pool = this.wordPool.length > 0 ? this.wordPool : ["typing"];
-    let word = pool[Math.floor(Math.random() * pool.length)];
     switch (this.rule.textTransform) {
       case "numbers":
-        return makeReceiptCode(this.wordsCompleted + this.score + this.misses);
+        return this.rememberWord(
+          makeReceiptCode(this.wordsCompleted + this.score + this.misses + this.wordSequence++ + 1),
+        );
       case "upper":
-        return word.toUpperCase();
+        return this.pickWord(pool.map((word) => word.toUpperCase()));
       case "short":
-        word = pool.find((w) => w.length <= 6) ?? word;
-        return word;
+        return this.pickWord(pool.filter((word) => word.length <= 6), pool);
       case "home":
-        return pickFromAllowed(pool, "asdfjklgh".split("")) ?? word;
+        return this.pickWord(filterByAllowedKeys(pool, "asdfjklgh".split("")), pool);
       case "right":
-        return pickFromAllowed(pool, "yuiophjklbnm".split("")) ?? word;
+        return this.pickWord(filterByAllowedKeys(pool, "yuiophjklbnm".split("")), pool);
       default:
-        return word;
+        return this.pickWord(pool);
     }
+  }
+
+  private pickWord(candidates: string[], fallback: string[] = ["typing"]): string {
+    const uniqueCandidates = uniqueWords(candidates.length > 0 ? candidates : fallback);
+    const activeWords = this.activeWords();
+    const recent = new Set(this.recentWords);
+    const tiers = [
+      uniqueCandidates.filter((word) => !activeWords.has(word) && !recent.has(word)),
+      uniqueCandidates.filter((word) => !activeWords.has(word)),
+      uniqueCandidates.filter((word) => !recent.has(word)),
+      uniqueCandidates,
+    ];
+    const usable = tiers.find((tier) => tier.length > 0) ?? ["typing"];
+    return this.rememberWord(usable[Math.floor(Math.random() * usable.length)] ?? "typing");
+  }
+
+  private rememberWord(word: string): string {
+    this.recentWords.push(word);
+    if (this.recentWords.length > 12) this.recentWords.shift();
+    return word;
+  }
+
+  private activeWords(): Set<string> {
+    return new Set([
+      ...this.fallItems.map((item) => item.word),
+      ...this.spawnItems.map((item) => item.word),
+      ...this.bombs.map((item) => item.word),
+    ]);
   }
 
   private spawnPosition(w: number, h: number, padding: number): { x: number; y: number } {
@@ -1718,7 +1750,11 @@ function makeReceiptCode(seed: number): string {
   return `${dollars}.${String(cents).padStart(2, "0")}`;
 }
 
-function pickFromAllowed(pool: string[], allowed: string[]): string | undefined {
+function uniqueWords(pool: string[]): string[] {
+  return Array.from(new Set(pool.filter(Boolean)));
+}
+
+function filterByAllowedKeys(pool: string[], allowed: string[]): string[] {
   const set = new Set(allowed);
-  return pool.find((word) => word.length >= 2 && word.split("").every((c) => set.has(c.toLowerCase())));
+  return pool.filter((word) => word.length >= 2 && word.split("").every((c) => set.has(c.toLowerCase())));
 }

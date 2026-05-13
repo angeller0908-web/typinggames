@@ -49,9 +49,9 @@ export const GAME_HUBS: GameHub[] = [
     slug: "kids",
     title: "Typing Games for Kids",
     shortTitle: "Kids",
-    description: "Free kids typing games with short words, animals, alphabet drills, tutor monster rounds, and beginner-friendly targets.",
+    description: "Free kids typing games for children, kindergarteners, short words, animals, alphabet drills, and beginner-friendly targets.",
     intro:
-      "Kids pages should feel safe, simple, and playable. This hub groups the beginner-friendly games with short words, animal themes, alphabet practice, and forgiving target rounds.",
+      "Kids typing games should feel safe, simple, and playable. This hub groups beginner-friendly games for kids and kindergarteners with short words, animal themes, alphabet practice, and forgiving target rounds.",
     selector: (game) => game.category === "kids" || game.category === "animals",
   },
   {
@@ -67,18 +67,18 @@ export const GAME_HUBS: GameHub[] = [
     slug: "keyboard-layout",
     title: "Keyboard Layout Practice Games",
     shortTitle: "Keyboard",
-    description: "Free games for touch typing, Dvorak, right-hand practice, home row, keyboard layouts, and muscle memory.",
+    description: "Free games for touch typing, touch type keyboard layout, Dvorak, right-hand practice, home row, and muscle memory.",
     intro:
-      "Keyboard layout searches often need a practical drill. These games focus on hand placement, right-hand practice, Dvorak switching, keyboard maps, and muscle memory.",
+      "Keyboard layout and touch typing searches often need a practical drill. These games focus on hand placement, right-hand practice, Dvorak switching, keyboard maps, and muscle memory.",
     selector: (game) => game.category === "keyboard-layout" || game.category === "speed-test",
   },
   {
     slug: "speed-certificate",
     title: "Speed and Certificate Typing Games",
     shortTitle: "Speed",
-    description: "Free WPM games for 60 WPM practice, certificate-style trials, fast typing speed, endurance, and accuracy gates.",
+    description: "Free WPM games for good WPM, fastest WPM practice, 60 WPM, certificate-style trials, endurance, and accuracy gates.",
     intro:
-      "Use this hub when the goal is a measurable result. These rounds are built around WPM, accuracy gates, timed endurance, and certificate-style practice.",
+      "Use this hub when the goal is a measurable result. These rounds are built around good WPM, fastest WPM practice, accuracy gates, timed endurance, and certificate-style practice.",
     selector: (game) => {
       const o = getKeywordOpportunity(game.slug);
       return game.category === "speed-test" || Boolean(o && (o.bucket.includes("Cert") || o.bucket.includes("Pillar-Question")));
@@ -88,9 +88,9 @@ export const GAME_HUBS: GameHub[] = [
     slug: "arcade",
     title: "Arcade Typing Games",
     shortTitle: "Arcade",
-    description: "Free arcade typing games with space, ghosts, rhythm, racing, retro, branded-inspired, and boss battle themes.",
+    description: "Free arcade typing games with racing typing games, space, ghosts, rhythm, retro, branded-inspired, and boss battle themes.",
     intro:
-      "These are the most game-like pages in the catalog. Pick this hub for falling words, targets, rhythm windows, racing lanes, spooky rounds, and retro arcade sessions.",
+      "These are the most game-like pages in the catalog. Pick this hub for falling words, targets, rhythm windows, racing typing games, spooky rounds, and retro arcade sessions.",
     selector: (game) =>
       ["space", "spooky", "vehicles", "retro-arcade", "rhythm", "branded-inspired", "creative", "sports", "food-fruit"].includes(game.category),
   },
