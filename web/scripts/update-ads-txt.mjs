@@ -6,6 +6,7 @@ const ROOT = process.cwd();
 const OUT = path.join(ROOT, "public/ads.txt");
 const ADSENSE_LINE = "google.com, pub-7103013772082124, DIRECT, f08c47fec0942fa0";
 const GAMEPIX_ADS_TXT_URL = "https://www.gamepix.com/ads.txt";
+const GAMEPIX_PROPERTY_ADS_TXT = path.join(ROOT, "data/gamepix-property-77187-ads.txt");
 
 const res = await fetch(GAMEPIX_ADS_TXT_URL, {
   headers: {
@@ -19,6 +20,7 @@ if (!res.ok) {
 }
 
 const gamepixAdsTxt = (await res.text()).trim();
+const gamepixPropertyAdsTxt = (await fs.readFile(GAMEPIX_PROPERTY_ADS_TXT, "utf8")).trim();
 const content = [
   "# typingrally.com ads.txt",
   "# Updated by scripts/update-ads-txt.mjs",
@@ -26,7 +28,10 @@ const content = [
   "# Google AdSense",
   ADSENSE_LINE,
   "",
-  "# GamePix publisher requirements",
+  "# GamePix property requirements",
+  gamepixPropertyAdsTxt,
+  "",
+  "# GamePix general publisher requirements",
   gamepixAdsTxt,
   "",
 ].join("\n");
