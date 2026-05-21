@@ -16,10 +16,10 @@ export const NAV = [
 ];
 
 export const FOOTER_LINKS = [
-  { label: "About", href: "/about" },
-  { label: "Privacy", href: "/privacy" },
-  { label: "Terms", href: "/terms" },
-  { label: "Cookies", href: "/cookies" },
-  { label: "DMCA", href: "/dmca" },
-  { label: "Contact", href: "/contact" },
+  { label: "About", href: "/about/" },
+  { label: "Privacy", href: "/privacy/" },
+  { label: "Terms", href: "/terms/" },
+  { label: "Cookies", href: "/cookies/" },
+  { label: "DMCA", href: "/dmca/" },
+  { label: "Contact", href: "/contact/" },
 ];

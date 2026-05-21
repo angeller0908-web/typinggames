@@ -34,7 +34,7 @@ export function ConsentBanner() {
       <p className="mb-3 text-ink/80">
         We use a privacy-friendly analytics tool and may show ads. Accept to help us improve;
         reject to block all non-essential cookies.{" "}
-        <a href="/cookies" className="underline text-accent">
+        <a href="/cookies/" className="underline text-accent">
           Learn more
         </a>
         .

@@ -3,6 +3,7 @@ import { SITE } from "@/lib/site";
 export const metadata = {
   title: "Contact",
   description: "Get in touch — feedback, bug reports, business enquiries.",
+  alternates: { canonical: `${SITE.url}/contact/` },
 };
 
 export default function ContactPage() {
@@ -49,7 +50,7 @@ export default function ContactPage() {
               legal@typingrally.com
             </a>
             . DMCA takedowns must include the items listed on the{" "}
-            <a className="text-accent underline" href="/dmca">DMCA page</a>.
+            <a className="text-accent underline" href="/dmca/">DMCA page</a>.
           </p>
         </div>
       </div>

@@ -3,6 +3,7 @@ import { SITE } from "@/lib/site";
 export const metadata = {
   title: "About",
   description: `About ${SITE.name} — who we are and how we built our typing games.`,
+  alternates: { canonical: `${SITE.url}/about/` },
 };
 
 export default function AboutPage() {
@@ -39,7 +40,7 @@ export default function AboutPage() {
       </p>
       <h2 className="text-xl font-bold mt-8 mb-3">Contact</h2>
       <p className="text-ink/80 leading-relaxed">
-        See our <a href="/contact" className="text-accent underline">contact page</a> for
+        See our <a href="/contact/" className="text-accent underline">contact page</a> for
         feedback, bug reports, or business enquiries.
       </p>
     </article>
