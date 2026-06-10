@@ -391,6 +391,32 @@ export const GAMEPLAY_TEMPLATES: Record<GameplayTemplateId, GameplayTemplate> = 
     scoring: "score",
     visualMotif: "arcade boss arena and attack targets",
   },
+  "chicken-run": {
+    id: "chicken-run",
+    label: "Chicken Run",
+    kernel: "target",
+    mode: "spawn-targets",
+    variant: "chicken",
+    defaultWordlistIds: ["farm-animals"],
+    defaultConfig: { durationSec: 75, scoreUnit: "score", spawnRateMs: 1700, livesAllowed: 3 },
+    goal: "Type the word on each chicken before it sprints into the coop.",
+    failureRule: "A chicken that reaches the coop costs a life.",
+    scoring: "score",
+    visualMotif: "farmyard lanes, fence, and a coop danger zone on the right",
+  },
+  "kph-meter": {
+    id: "kph-meter",
+    label: "KPH Pro Test",
+    kernel: "queue",
+    mode: "classic-time",
+    variant: "profession-sim",
+    defaultWordlistIds: ["numbers"],
+    defaultConfig: { durationSec: 75, scoreUnit: "kph" },
+    goal: "Key the data-entry codes exactly as shown — your live KPH and accuracy update in real time.",
+    failureRule: "Errors lower the accuracy reading employers look for.",
+    scoring: "kph",
+    visualMotif: "clean data-entry console with a live KPH meter",
+  },
 };
 
 export function getGameplayTemplate(id: GameplayTemplateId): GameplayTemplate {

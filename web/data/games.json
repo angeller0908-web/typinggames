@@ -179,7 +179,7 @@
     "difficulty": "beginner",
     "embed": {
       "kind": "engine",
-      "templateId": "kids-playground",
+      "templateId": "chicken-run",
       "mode": "spawn-targets",
       "wordlistIds": [
         "farm-animals"
@@ -193,7 +193,7 @@
       }
     },
     "hero": {
-      "tagline": "Chickens wander around the yard. Click one to lock on, then type its name.",
+      "tagline": "Chickens sprint across the yard toward the coop. Type the word on each one to stop it in time.",
       "emoji": "🐔"
     },
     "theme": {
@@ -205,8 +205,8 @@
     },
     "faq": [
       {
-        "q": "Why do I have to click first?",
-        "a": "Locking a target makes the game work on phones and rewards fast eye-to-finger handoff."
+        "q": "How do I stop the chickens?",
+        "a": "Just type. Each chicken carries a short word — typing it makes the chicken stop and lay an egg for your score. You can also tap a chicken first on touchscreens to lock it before typing."
       },
       {
         "q": "Are the words just chicken names?",
@@ -1570,7 +1570,7 @@
     "difficulty": "intermediate",
     "embed": {
       "kind": "engine",
-      "templateId": "data-entry-warehouse",
+      "templateId": "kph-meter",
       "mode": "classic-time",
       "wordlistIds": [
         "professional"
@@ -1582,7 +1582,7 @@
       }
     },
     "hero": {
-      "tagline": "Type live keystrokes per hour prompts before the queue backs up.",
+      "tagline": "A clean keystrokes-per-hour test. Key in data-entry codes and watch your live KPH and accuracy meters.",
       "emoji": "🏗️"
     },
     "theme": {

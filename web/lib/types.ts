@@ -43,7 +43,9 @@ export type GameplayTemplateId =
   | "word-search-scanner"
   | "typewriter-ribbon-rally"
   | "shop-gear-sorter"
-  | "boss-battle-typer";
+  | "boss-battle-typer"
+  | "chicken-run"
+  | "kph-meter";
 
 export type Variant =
   | "fruit"
