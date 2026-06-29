@@ -1,2 +1,33 @@
 /tests /games/typing-tests/ 301
 /tests/ /games/typing-tests/ 301
+
+# Old /learn/* pillar URLs (pre-restructure) -> current game pages
+/learn/typing-muscle-memory/ /game/muscle-memory-maze/ 301
+/learn/typing-muscle-memory /game/muscle-memory-maze/ 301
+/learn/is-60-wpm-good/ /game/60-wpm-gate/ 301
+/learn/is-60-wpm-good /game/60-wpm-gate/ 301
+/learn/keyboard-layout/ /game/layout-quest/ 301
+/learn/keyboard-layout /game/layout-quest/ 301
+/learn/what-is-10-key/ /game/10-key-trainer/ 301
+/learn/what-is-10-key /game/10-key-trainer/ 301
+/learn/types-of-keyboard/ /game/keyboard-museum-typer/ 301
+/learn/types-of-keyboard /game/keyboard-museum-typer/ 301
+/learn/art-of-typing/ /game/typing-gallery/ 301
+/learn/art-of-typing /game/typing-gallery/ 301
+/learn/dvorak-keyboard/ /game/dvorak-switch-quest/ 301
+/learn/dvorak-keyboard /game/dvorak-switch-quest/ 301
+/learn/fast-typing-speed/ /game/fast-speed-ladder/ 301
+/learn/fast-typing-speed /game/fast-speed-ladder/ 301
+/learn/touch-typing-without-looking/ /game/blindfold-typing-quest/ 301
+/learn/touch-typing-without-looking /game/blindfold-typing-quest/ 301
+/learn/what-is-touch-typing/ /game/touch-type-trainer/ 301
+/learn/what-is-touch-typing /game/touch-type-trainer/ 301
+/learn/how-to-touch-type/ /game/home-row-journey/ 301
+/learn/how-to-touch-type /game/home-row-journey/ 301
+/learn/good-typing-wpm/ /game/good-wpm-ladder/ 301
+/learn/good-typing-wpm /game/good-wpm-ladder/ 301
+
+# Fallback for any other old /learn URL
+/learn /games/popular/ 301
+/learn/ /games/popular/ 301
+/learn/* /games/popular/ 301
