@@ -112,10 +112,10 @@
     "typing-alien"
   ],
   "mavis-beacon-typing": [
-    "typing-99",
-    "typing-rain",
+    "beacon-lesson-sprint",
+    "beacon-online-challenge",
     "dance-mat-typing",
-    "pangram-sprint",
+    "typing-99",
     "certificate-challenge",
     "60-wpm-gate"
   ],
@@ -464,11 +464,11 @@
     "truck-typer"
   ],
   "beacon-lesson-sprint": [
+    "mavis-beacon-typing",
+    "beacon-online-challenge",
     "clean-text-sprint",
     "typewriter-ribbon-rally",
-    "sound-desk-typer",
     "2000s-arcade-typer",
-    "beacon-online-challenge",
     "typing-game-arcade"
   ],
   "minimal-sprint-arena": [
@@ -744,10 +744,10 @@
     "typing-food"
   ],
   "beacon-online-challenge": [
+    "mavis-beacon-typing",
     "beacon-lesson-sprint",
     "clean-text-sprint",
     "typewriter-ribbon-rally",
-    "sound-desk-typer",
     "2000s-arcade-typer",
     "typing-game-arcade"
   ],

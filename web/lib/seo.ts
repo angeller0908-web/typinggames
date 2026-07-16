@@ -45,6 +45,10 @@ function buildIntentTitle(game: Game): string {
   if (pageType.includes("tool") || bucket.includes("tool")) {
     return `${keyword} — Free Typing Game`;
   }
+  // Avoid "Fruit Typing — Fruit Typing Online" when the keyword IS the title.
+  if (keyword.toLowerCase() === game.title.toLowerCase()) {
+    return `${game.title} — Play Free Online, No Download`;
+  }
   return `${game.title} — ${keyword} Online`;
 }
 
