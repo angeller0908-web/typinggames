@@ -140,13 +140,19 @@ export function buildVideoGameJsonLd(game: Game) {
   };
 }
 
-export function buildBreadcrumbJsonLd(game: Game) {
+export function buildBreadcrumbJsonLd(
+  game: Game,
+  hub?: { title: string; slug: string },
+) {
+  const middle = hub
+    ? { "@type": "ListItem", position: 2, name: hub.title, item: `${SITE.url}/games/${hub.slug}/` }
+    : { "@type": "ListItem", position: 2, name: "Games", item: `${SITE.url}/` };
   return {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: `${SITE.url}/` },
-      { "@type": "ListItem", position: 2, name: "Games", item: `${SITE.url}/` },
+      middle,
       {
         "@type": "ListItem",
         position: 3,

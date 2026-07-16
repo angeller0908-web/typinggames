@@ -109,3 +109,14 @@ export function getHubGames(slug: string): Game[] {
   if (!hub) return [];
   return sortGamesByOpportunity(getAllGames().filter(hub.selector));
 }
+
+export function getHubsForGame(game: Game): GameHub[] {
+  return GAME_HUBS.filter((hub) => hub.selector(game));
+}
+
+/** Preferred hub for breadcrumbs: a specific hub beats the generic "popular". */
+export function getPrimaryHub(game: Game): GameHub | undefined {
+  const hubs = getHubsForGame(game);
+  if (hubs.length === 0) return undefined;
+  return hubs.find((hub) => hub.slug !== "popular") ?? hubs[0];
+}

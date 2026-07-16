@@ -11,6 +11,7 @@ import { BreadcrumbJsonLd } from "@/components/seo/BreadcrumbJsonLd";
 import { FaqJsonLd } from "@/components/seo/FaqJsonLd";
 import { getGameBody } from "@/lib/gameMdx";
 import { getKeywordOpportunity } from "@/lib/keywords";
+import { getHubsForGame, getPrimaryHub } from "@/lib/hubs";
 import { GameSeoPanel } from "@/components/game/GameSeoPanel";
 
 export const dynamicParams = false;
@@ -37,6 +38,8 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
 
   const related = getRelated(game.slug, 6);
   const opportunity = getKeywordOpportunity(game.slug);
+  const hubs = getHubsForGame(game);
+  const primaryHub = getPrimaryHub(game);
   const sampleWords =
     game.embed.kind === "engine" ? previewSample(game.embed.wordlistIds, 50) : [];
   const Body = getGameBody(game.slug);
@@ -54,8 +57,11 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
           Home
         </Link>{" "}
         ›{" "}
-        <Link href="/" className="hover:text-accent">
-          Games
+        <Link
+          href={primaryHub ? `/games/${primaryHub.slug}/` : "/"}
+          className="hover:text-accent"
+        >
+          {primaryHub ? primaryHub.shortTitle : "Games"}
         </Link>{" "}
         › <span className="text-ink/80">{game.title}</span>
       </nav>
@@ -101,6 +107,23 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
 
       <RelatedGames games={related} />
 
+      {hubs.length > 0 && (
+        <section className="my-8 max-w-3xl">
+          <h2 className="text-xl font-bold mb-3">Browse more typing games</h2>
+          <div className="flex flex-wrap gap-2">
+            {hubs.map((hub) => (
+              <Link
+                key={hub.slug}
+                href={`/games/${hub.slug}/`}
+                className="px-3 py-1.5 rounded-full bg-white ring-1 ring-ink/10 text-sm text-ink/80 hover:text-accent hover:ring-accent/40"
+              >
+                {hub.title}
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
+
       <noscript>
         <div className="my-8 p-4 bg-yellow-50 ring-1 ring-yellow-200 rounded-lg max-w-3xl">
           <h2 className="font-bold mb-2">Enable JavaScript to play {game.title}</h2>
@@ -112,7 +135,7 @@ export default async function GamePage({ params }: { params: Promise<{ slug: str
       </noscript>
 
       <VideoGameJsonLd game={game} />
-      <BreadcrumbJsonLd game={game} />
+      <BreadcrumbJsonLd game={game} hub={primaryHub} />
       {game.faq.length > 0 && <FaqJsonLd faqs={game.faq} />}
     </article>
   );
